@@ -36,6 +36,21 @@ function App() {
   const [isSaving, setIsSaving] = useState(false);
   const [lastSaved, setLastSaved] = useState<Date | null>(null);
 
+  // Listen for hash changes to trigger admin login
+  useEffect(() => {
+    const handleHashChange = () => {
+      if (window.location.hash === '#admin' && !isAdmin) {
+        setShowLogin(true);
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    // Check on initial load
+    handleHashChange();
+
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [isAdmin]);
+
   const activeProgram = useMemo(() => 
     data.find(p => p.id === activeProgramId) || data[0], 
   [activeProgramId, data]);
@@ -515,29 +530,28 @@ function App() {
               </div>
             )}
 
-            <button 
-              onClick={() => {
-                if (isAdmin) {
+            {isAdmin && (
+              <button 
+                onClick={() => {
                   setIsAdmin(false);
-                } else {
-                  setShowLogin(true);
-                }
-              }}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px',
-                padding: '8px 16px',
-                borderRadius: '20px',
-                border: 'none',
-                backgroundColor: isAdmin ? 'var(--primary-red)' : 'var(--primary-purple)',
-                color: 'white',
-                cursor: 'pointer',
-                fontWeight: 600
-              }}
-            >
-              {isAdmin ? <><Eye size={18} /> ดูโหมดคู่มือ</> : <><Edit3 size={18} /> แก้ไข (Admin)</>}
-            </button>
+                  window.location.hash = '';
+                }}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '8px 16px',
+                  borderRadius: '20px',
+                  border: 'none',
+                  backgroundColor: 'var(--primary-red)',
+                  color: 'white',
+                  cursor: 'pointer',
+                  fontWeight: 600
+                }}
+              >
+                <Eye size={18} /> ดูโหมดคู่มือ
+              </button>
+            )}
 
             {!isAdmin && (
               <div className="search-container">
