@@ -2,8 +2,6 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import AdminLogin from './components/AdminLogin';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
 import { manualData as initialData, ProgramData, ManualSection, ProgramCategory } from './data/manualData';
 import {
   DndContext,
@@ -873,20 +871,21 @@ function SectionCard({
       {isAdmin ? (
         <div className="admin-editor-layout">
           <div className="editor-side">
-            <ReactQuill 
-              theme="snow"
+            <textarea 
               value={section.content} 
-              onChange={(content) => onUpdate({ content })}
-              modules={{
-                toolbar: [
-                  [{ 'header': [1, 2, 3, false] }],
-                  ['bold', 'italic', 'underline', 'strike', 'blockquote'],
-                  [{'list': 'ordered'}, {'list': 'bullet'}, {'indent': '-1'}, {'indent': '+1'}],
-                  ['link', 'image', 'video'],
-                  ['clean']
-                ],
+              onChange={(e) => onUpdate({ content: e.target.value })}
+              placeholder="เนื้อหา (Markdown)"
+              style={{ 
+                width: '100%', 
+                minHeight: '400px', 
+                fontFamily: 'monospace', 
+                padding: '15px',
+                border: '1px solid var(--border-color)',
+                borderRadius: '8px',
+                fontSize: '14px',
+                lineHeight: '1.6',
+                outline: 'none'
               }}
-              style={{ height: '400px', marginBottom: '50px', backgroundColor: 'white' }}
             />
           </div>
           <div className="preview-side">
