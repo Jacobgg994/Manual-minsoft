@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import AdminLogin from './components/AdminLogin';
 import { manualData as initialData, ProgramData, ManualSection, ProgramCategory } from './data/manualData';
 import { 
   Layout, 
@@ -31,6 +32,7 @@ function App() {
   const [activeCategoryId, setActiveCategoryId] = useState(data[0]?.categories[0]?.id);
   const [searchQuery, setSearchQuery] = useState('');
   const [isAdmin, setIsAdmin] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [lastSaved, setLastSaved] = useState<Date | null>(null);
 
@@ -376,6 +378,17 @@ function App() {
 
   return (
     <div className="gitbook-layout">
+      {showLogin && (
+        <AdminLogin 
+          onLogin={(success) => {
+            if (success) {
+              setIsAdmin(true);
+              setShowLogin(false);
+            }
+          }}
+          onClose={() => setShowLogin(false)}
+        />
+      )}
       {/* Sidebar */}
       <aside className="sidebar">
         <div className="sidebar-header">
@@ -503,7 +516,13 @@ function App() {
             )}
 
             <button 
-              onClick={() => setIsAdmin(!isAdmin)}
+              onClick={() => {
+                if (isAdmin) {
+                  setIsAdmin(false);
+                } else {
+                  setShowLogin(true);
+                }
+              }}
               style={{
                 display: 'flex',
                 alignItems: 'center',
