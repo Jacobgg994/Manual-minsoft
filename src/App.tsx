@@ -2,6 +2,8 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import AdminLogin from './components/AdminLogin';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 import { manualData as initialData, ProgramData, ManualSection, ProgramCategory } from './data/manualData';
 import {
   DndContext,
@@ -869,22 +871,38 @@ function SectionCard({
       )}
       
       {isAdmin ? (
-        <textarea 
-          value={section.content} 
-          onChange={(e) => onUpdate({ content: e.target.value })}
-          placeholder="เนื้อหา (Markdown)"
-          style={{ 
-            width: '100%', 
-            minHeight: '200px', 
-            fontFamily: 'monospace', 
-            padding: '15px',
-            border: '1px solid var(--border-color)',
-            borderRadius: '4px',
-            fontSize: '14px',
-            lineHeight: '1.6',
-            marginBottom: '20px'
-          }}
-        />
+        <div className="admin-editor-layout">
+          <div className="editor-side">
+            <ReactQuill 
+              theme="snow"
+              value={section.content} 
+              onChange={(content) => onUpdate({ content })}
+              modules={{
+                toolbar: [
+                  [{ 'header': [1, 2, 3, false] }],
+                  ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+                  [{'list': 'ordered'}, {'list': 'bullet'}, {'indent': '-1'}, {'indent': '+1'}],
+                  ['link', 'image', 'video'],
+                  ['clean']
+                ],
+              }}
+              style={{ height: '400px', marginBottom: '50px', backgroundColor: 'white' }}
+            />
+          </div>
+          <div className="preview-side">
+            <div style={{ padding: '20px', border: '1px solid var(--border-color)', borderRadius: '8px', minHeight: '400px', backgroundColor: '#fafafa' }}>
+              <div style={{ fontSize: '12px', color: '#999', marginBottom: '10px', textTransform: 'uppercase', fontWeight: 700 }}>ตัวอย่างการแสดงผล (Preview)</div>
+              <div className={section.layout === 'split' ? 'section-split' : ''}>
+                <div className="section-text">
+                  {renderContent()}
+                </div>
+                <div className="section-media">
+                  {renderMedia()}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       ) : (
         <div className={section.layout === 'split' ? 'section-split' : ''}>
           <div className="section-text">
