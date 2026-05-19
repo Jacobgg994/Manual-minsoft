@@ -762,14 +762,19 @@ function SectionCard({
           img: ({node, ...props}) => <img {...props} style={{ maxWidth: '100%', borderRadius: '8px', boxShadow: 'var(--shadow)', margin: '20px 0' }} loading="lazy" />
         }}
       >
-        {section.content}
+        {section.content.replace(/<p>(.*?)<\/p>/g, '$1')}
       </ReactMarkdown>
     </div>
   );
 
   const renderMedia = () => {
-    // Filter out images that are already in the markdown content to avoid duplication
-    const embeddedImages = section.content.match(/!\[.*?\]\(\/images\/(.*?)\)/g)?.map(m => m.match(/\/images\/(.*?)\)/)?.[1]) || [];
+    // Filter out images that are already in the content to avoid duplication
+    // Improved regex to catch both markdown ![alt](/path) and possible HTML <img> tags
+    const embeddedImages = [
+      ...(section.content.match(/!\[.*?\]\(\/images\/(.*?)\)/g)?.map(m => m.match(/\/images\/(.*?)\)/)?.[1]) || []),
+      ...(section.content.match(/src="\/images\/(.*?)"/g)?.map(m => m.match(/\/images\/(.*?)"/)?.[1]) || [])
+    ];
+    
     const galleryImages = (section.images || []).filter(img => !embeddedImages.includes(img));
 
     return (
