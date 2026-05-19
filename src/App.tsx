@@ -48,8 +48,8 @@ import {
 
 function App() {
   const [data, setData] = useState<ProgramData[]>(initialData);
-  const [activeProgramId, setActiveProgramId] = useState(data[0]?.id);
-  const [activeCategoryId, setActiveCategoryId] = useState(data[0]?.categories[0]?.id);
+  const [activeProgramId, setActiveProgramId] = useState(data[0]?.id || '');
+  const [activeCategoryId, setActiveCategoryId] = useState(data[0]?.categories?.[0]?.id || '');
   const [searchQuery, setSearchQuery] = useState('');
   const [isAdmin, setIsAdmin] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
@@ -74,43 +74,77 @@ function App() {
     const activeId = active.id as string;
     const overId = over.id as string;
 
-    // Case 1: Reordering Programs
+    // Case 1: Reordering Programs (Top level)
     if (data.some(p => p.id === activeId)) {
       setData((items) => {
         const oldIndex = items.findIndex((p) => p.id === activeId);
         const newIndex = items.findIndex((p) => p.id === overId);
-        return arrayMove(items, oldIndex, newIndex);
+        if (oldIndex !== -1 && newIndex !== -1) {
+          return arrayMove(items, oldIndex, newIndex);
+        }
+        return items;
       });
       return;
     }
 
-    // Case 2: Reordering Categories or Subcategories (within same parent)
+    // Case 2: Categories (could be moving between different parents)
     const newData = [...data];
-    let found = false;
+    let activeItem: ProgramCategory | null = null;
+    let activeParentList: ProgramCategory[] | null = null;
+    let activeIndex = -1;
 
-    const reorderInList = (list: ProgramCategory[]) => {
-      const oldIndex = list.findIndex(c => c.id === activeId);
-      const newIndex = list.findIndex(c => c.id === overId);
-      
-      if (oldIndex !== -1 && newIndex !== -1) {
-        const moved = arrayMove(list, oldIndex, newIndex);
-        // Mutate in place for this recursive helper
-        list.splice(0, list.length, ...moved);
-        found = true;
-        return true;
+    let overParentList: ProgramCategory[] | null = null;
+    let overIndex = -1;
+
+    // Helper to find parent list and index
+    const findItemAndParent = (list: ProgramCategory[]): boolean => {
+      const idx = list.findIndex(c => c.id === activeId);
+      if (idx !== -1) {
+        activeItem = list[idx];
+        activeParentList = list;
+        activeIndex = idx;
       }
 
+      const oIdx = list.findIndex(c => c.id === overId);
+      if (oIdx !== -1) {
+        overParentList = list;
+        overIndex = oIdx;
+      }
+
+      if (activeItem && overParentList) return true;
+
       for (const cat of list) {
-        if (cat.subCategories && reorderInList(cat.subCategories)) return true;
+        if (cat.subCategories && findItemAndParent(cat.subCategories)) return true;
       }
       return false;
     };
 
-    for (const program of newData) {
-      if (reorderInList(program.categories)) break;
+    // Find the items within the active program first for efficiency
+    const activeProgram = newData.find(p => p.id === activeProgramId);
+    if (activeProgram) {
+      findItemAndParent(activeProgram.categories);
     }
 
-    if (found) {
+    if (activeItem && overParentList && activeParentList) {
+      // Remove from old position
+      activeParentList.splice(activeIndex, 1);
+      
+      // If moving within the same list, adjustment might be needed if overIndex changed
+      // But splice handles this if we do it carefully.
+      // Actually, if same list, we can just use arrayMove
+      if (activeParentList === overParentList) {
+        // Re-inserting is handled by arrayMove logic usually, but we already spliced.
+        // Let's just use arrayMove for same-list for simplicity
+        activeParentList.splice(activeIndex, 0, activeItem); // put it back
+        const oldIdx = activeParentList.findIndex(c => c.id === activeId);
+        const newIdx = activeParentList.findIndex(c => c.id === overId);
+        const moved = arrayMove(activeParentList, oldIdx, newIdx);
+        activeParentList.splice(0, activeParentList.length, ...moved);
+      } else {
+        // Moving to a different parent list
+        overParentList.splice(overIndex, 0, activeItem);
+      }
+      
       setData(newData);
     }
   };
@@ -369,6 +403,51 @@ function App() {
       });
       return newData;
     });
+  };
+
+  const updateCategoryName = (id: string, newName: string) => {
+    const newData = [...data];
+    const pIdx = newData.findIndex(p => p.id === activeProgramId);
+    if (pIdx === -1) return;
+    const result = findCategoryWithMeta(newData[pIdx].categories, id);
+    if (result) {
+      result.cat.name = newName;
+      setData(newData);
+    }
+  };
+
+  const addSubCategory = (parentId: string) => {
+    const newData = [...data];
+    const pIdx = newData.findIndex(p => p.id === activeProgramId);
+    if (pIdx === -1) return;
+    const result = findCategoryWithMeta(newData[pIdx].categories, parentId);
+    if (result) {
+      if (!result.cat.subCategories) result.cat.subCategories = [];
+      const newId = 'cat_' + Math.random().toString(36).substr(2, 5);
+      result.cat.subCategories.push({
+        id: newId,
+        name: 'หมวดหมู่ย่อยใหม่',
+        sections: []
+      });
+      setData(newData);
+      setActiveCategoryId(newId);
+    }
+  };
+
+  const deleteCategory = (id: string) => {
+    if (!confirm('คุณแน่ใจหรือไม่ว่าต้องการลบหมวดหมู่นี้และข้อมูลย่อยทั้งหมด?')) return;
+    const newData = [...data];
+    const pIdx = newData.findIndex(p => p.id === activeProgramId);
+    if (pIdx === -1) return;
+    const result = findCategoryWithMeta(newData[pIdx].categories, id);
+    if (result) {
+      const idx = result.parentList.findIndex(c => c.id === id);
+      result.parentList.splice(idx, 1);
+      setData(newData);
+      if (activeCategoryId === id) {
+        setActiveCategoryId(newData[pIdx].categories[0]?.id || '');
+      }
+    }
   };
 
   return (
