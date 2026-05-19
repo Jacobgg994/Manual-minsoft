@@ -1,0 +1,42 @@
+
+export interface ManualSection {
+  title: string;
+  content: string | string[] | { step: string; text: string }[];
+  type: 'text' | 'list' | 'steps' | 'alert' | 'image-placeholder';
+  images?: string[];
+}
+
+export interface ProgramCategory {
+  id: string;
+  name: string;
+  sections: ManualSection[];
+}
+
+export interface ProgramData {
+  id: string;
+  name: string;
+  categories: ProgramCategory[];
+}
+
+export const manualData: ProgramData[] = [
+  {
+    "id": "general",
+    "name": "เริ่มต้นใช้งาน",
+    "categories": [
+      {
+        "id": "intro",
+        "name": "ข้อมูลทั่วไป",
+        "sections": [
+          {
+            "title": "minsoftthailand.com",
+            "type": "markdown",
+            "content": "minsoftthailand.com\n\nMinsoft-Thailand\n\nระบบสำหรับฟาร์มบัญชี มีโปรแกรมให้เลือกใช้งานหลากหลาย\n\nเตือนภัย มีผู้ประสงค์ร้ายนำโปรแกรม Maxcare นำไป Crack เพื่อขายแบบถาวร การใช้โปรแกรม Crack อาจทำให้คอมพิวเตอร์เกิดความเสียหาย ทาง Minsoft Thailland จะไม่รับผิดชอบใดๆ เกี่ยวกับความเสียหายที่เกิดจากการใช้โปรแกรม Crack ** การนำโปรแกรมไปขายโดยไม่ได้รับอนุญาต ถือเป็นความผิดการละเมิดลิขสิทธิ์ ** Minsoft Thailand เป็นผู้จัดจำหน่ายผลิตภัณฑ์ของ MINSoftware แต่เพียงผู้เดียวในประเทศไทย",
+            "images": [
+              "image529.png"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];

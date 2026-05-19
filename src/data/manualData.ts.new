@@ -1,0 +1,22 @@
+
+export interface ManualSection {
+  title: string;
+  content: string;
+  type: 'markdown';
+  images: string[];
+}
+
+export interface ProgramCategory {
+  id: string;
+  name: string;
+  sections: ManualSection[];
+  subCategories?: ProgramCategory[];
+}
+
+export interface ProgramData {
+  id: string;
+  name: string;
+  categories: ProgramCategory[];
+}
+
+export const manualData: ProgramData[] = [];
