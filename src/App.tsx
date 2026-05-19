@@ -3,6 +3,25 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import AdminLogin from './components/AdminLogin';
 import { manualData as initialData, ProgramData, ManualSection, ProgramCategory } from './data/manualData';
+import {
+  DndContext,
+  closestCenter,
+  KeyboardSensor,
+  PointerSensor,
+  useSensor,
+  useSensors,
+  DragEndEvent,
+} from '@dnd-kit/core';
+import {
+  arrayMove,
+  SortableContext,
+  sortableKeyboardCoordinates,
+  verticalListSortingStrategy,
+  useSortable,
+} from '@dnd-kit/sortable';
+import { CSS } from '@dnd-kit/utilities';
+import { restrictToVerticalAxis, restrictToWindowEdges } from '@dnd-kit/modifiers';
+
 import { 
   Layout, 
   Monitor, 
@@ -23,7 +42,8 @@ import {
   ArrowUp,
   ArrowDown,
   Youtube,
-  Columns
+  Columns,
+  GripVertical
 } from 'lucide-react';
 
 function App() {
@@ -35,6 +55,65 @@ function App() {
   const [showLogin, setShowLogin] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [lastSaved, setLastSaved] = useState<Date | null>(null);
+
+  const sensors = useSensors(
+    useSensor(PointerSensor, {
+      activationConstraint: {
+        distance: 8,
+      },
+    }),
+    useSensor(KeyboardSensor, {
+      coordinateGetter: sortableKeyboardCoordinates,
+    })
+  );
+
+  const handleDragEnd = (event: DragEndEvent) => {
+    const { active, over } = event;
+    if (!over || active.id === over.id) return;
+
+    const activeId = active.id as string;
+    const overId = over.id as string;
+
+    // Case 1: Reordering Programs
+    if (data.some(p => p.id === activeId)) {
+      setData((items) => {
+        const oldIndex = items.findIndex((p) => p.id === activeId);
+        const newIndex = items.findIndex((p) => p.id === overId);
+        return arrayMove(items, oldIndex, newIndex);
+      });
+      return;
+    }
+
+    // Case 2: Reordering Categories or Subcategories (within same parent)
+    const newData = [...data];
+    let found = false;
+
+    const reorderInList = (list: ProgramCategory[]) => {
+      const oldIndex = list.findIndex(c => c.id === activeId);
+      const newIndex = list.findIndex(c => c.id === overId);
+      
+      if (oldIndex !== -1 && newIndex !== -1) {
+        const moved = arrayMove(list, oldIndex, newIndex);
+        // Mutate in place for this recursive helper
+        list.splice(0, list.length, ...moved);
+        found = true;
+        return true;
+      }
+
+      for (const cat of list) {
+        if (cat.subCategories && reorderInList(cat.subCategories)) return true;
+      }
+      return false;
+    };
+
+    for (const program of newData) {
+      if (reorderInList(program.categories)) break;
+    }
+
+    if (found) {
+      setData(newData);
+    }
+  };
 
   // Listen for hash changes to trigger admin login
   useEffect(() => {
@@ -262,133 +341,34 @@ function App() {
     }
   };
 
-  // Recursive Navigation Component
-  const NavItem = ({ 
-    category, 
-    level = 0, 
-    activeId, 
-    onSelect, 
-    isAdmin, 
-    onUpdateName, 
-    onAddSub, 
-    onDelete 
-  }: { 
-    category: ProgramCategory, 
-    level?: number, 
-    activeId: string, 
-    onSelect: (id: string) => void,
-    isAdmin: boolean,
-    onUpdateName: (id: string, name: string) => void,
-    onAddSub: (parentId: string) => void,
-    onDelete: (id: string) => void
-  }) => {
-    const hasSubs = category.subCategories && category.subCategories.length > 0;
-    const isExpanded = activeId === category.id || (category.subCategories?.some(sc => sc.id === activeId));
-    
-    return (
-      <div className="nav-item-container" style={{ marginLeft: level > 0 ? '16px' : '0' }}>
-        <div 
-          className={`nav-sub-item ${activeId === category.id ? 'active' : ''}`}
-          onClick={() => onSelect(category.id)}
-          style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}
-        >
-          <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: '8px', overflow: 'hidden' }}>
-            {hasSubs && (
-              <ChevronRight size={14} style={{ transform: isExpanded ? 'rotate(90deg)' : 'none', transition: 'transform 0.2s', flexShrink: 0 }} />
-            )}
-            {isAdmin ? (
-              <input 
-                value={category.name} 
-                onChange={(e) => onUpdateName(category.id, e.target.value)}
-                onClick={(e) => e.stopPropagation()}
-                style={{ background: 'none', border: 'none', color: 'inherit', font: 'inherit', width: '100%', outline: 'none' }}
-              />
-            ) : <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{category.name}</span>}
-          </div>
-          {isAdmin && (
-            <div style={{ display: 'flex', gap: '4px', flexShrink: 0 }}>
-              <button 
-                onClick={(e) => { e.stopPropagation(); onAddSub(category.id); }} 
-                style={{ background: 'none', border: 'none', color: 'var(--primary-purple)', cursor: 'pointer', padding: '2px' }}
-                title="เพิ่มหมวดหมู่ย่อย"
-              >
-                <Plus size={12} />
-              </button>
-              <button 
-                onClick={(e) => { e.stopPropagation(); onDelete(category.id); }} 
-                style={{ background: 'none', border: 'none', color: 'var(--primary-red)', cursor: 'pointer', padding: '2px' }}
-                title="ลบหมวดหมู่"
-              >
-                <Trash2 size={12} />
-              </button>
-            </div>
-          )}
-        </div>
-        
-        {(isExpanded || isAdmin) && category.subCategories && (
-          <div className="nav-sub-group">
-            {category.subCategories.map(sub => (
-              <NavItem 
-                key={sub.id} 
-                category={sub} 
-                level={level + 1} 
-                activeId={activeId} 
-                onSelect={onSelect}
-                isAdmin={isAdmin}
-                onUpdateName={onUpdateName}
-                onAddSub={onAddSub}
-                onDelete={onDelete}
-              />
-            ))}
-          </div>
-        )}
-      </div>
-    );
+  const updateProgramName = (id: string, newName: string) => {
+    setData(items => {
+      const idx = items.findIndex(p => p.id === id);
+      if (idx === -1) return items;
+      const newData = [...items];
+      newData[idx] = { ...newData[idx], name: newName };
+      return newData;
+    });
   };
 
-  const updateCategoryName = (id: string, newName: string) => {
-    const newData = [...data];
-    const pIdx = newData.findIndex(p => p.id === activeProgramId);
-    if (pIdx === -1) return;
-    const result = findCategoryWithMeta(newData[pIdx].categories, id);
-    if (result) {
-      result.cat.name = newName;
-      setData(newData);
+  const deleteProgram = (id: string) => {
+    if (confirm('ลบโปรแกรมนี้?')) {
+      setData(items => items.filter(p => p.id !== id));
     }
   };
 
-  const addSubCategory = (parentId: string) => {
-    const newData = [...data];
-    const pIdx = newData.findIndex(p => p.id === activeProgramId);
-    if (pIdx === -1) return;
-    const result = findCategoryWithMeta(newData[pIdx].categories, parentId);
-    if (result) {
-      if (!result.cat.subCategories) result.cat.subCategories = [];
-      const newId = 'cat_' + Math.random().toString(36).substr(2, 5);
-      result.cat.subCategories.push({
-        id: newId,
-        name: 'หมวดหมู่ย่อยใหม่',
+  const addMainCategory = (programId: string) => {
+    setData(items => {
+      const pIdx = items.findIndex(p => p.id === programId);
+      if (pIdx === -1) return items;
+      const newData = [...items];
+      newData[pIdx].categories.push({
+        id: 'cat_' + Math.random().toString(36).substr(2, 5),
+        name: 'หมวดหมู่หลักใหม่',
         sections: []
       });
-      setData(newData);
-      setActiveCategoryId(newId);
-    }
-  };
-
-  const deleteCategory = (id: string) => {
-    if (!confirm('คุณแน่ใจหรือไม่ว่าต้องการลบหมวดหมู่นี้และข้อมูลย่อยทั้งหมด?')) return;
-    const newData = [...data];
-    const pIdx = newData.findIndex(p => p.id === activeProgramId);
-    if (pIdx === -1) return;
-    const result = findCategoryWithMeta(newData[pIdx].categories, id);
-    if (result) {
-      const idx = result.parentList.findIndex(c => c.id === id);
-      result.parentList.splice(idx, 1);
-      setData(newData);
-      if (activeCategoryId === id) {
-        setActiveCategoryId(newData[pIdx].categories[0]?.id || '');
-      }
-    }
+      return newData;
+    });
   };
 
   return (
@@ -416,79 +396,56 @@ function App() {
         </div>
 
         <nav>
-          {data.map(program => (
-            <div key={program.id} className="nav-group">
-              <div 
-                className={`nav-item ${activeProgramId === program.id ? 'active' : ''}`}
-                onClick={() => handleProgramChange(program.id)}
-              >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flex: 1, overflow: 'hidden' }}>
-                  {getIcon(program.id)}
-                  {isAdmin ? (
-                    <input 
-                      value={program.name} 
-                      onChange={(e) => {
-                          const newData = [...data];
-                          const idx = newData.findIndex(p => p.id === program.id);
-                          newData[idx].name = e.target.value;
-                          setData(newData);
-                      }}
-                      onClick={(e) => e.stopPropagation()}
-                      style={{ background: 'none', border: 'none', color: 'inherit', font: 'inherit', width: '100%', outline: 'none' }}
-                    />
-                  ) : <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{program.name}</span>}
-                </div>
-                {isAdmin && (
-                  <button 
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      if (confirm('ลบโปรแกรมนี้?')) {
-                        setData(data.filter(p => p.id !== program.id));
-                      }
-                    }}
-                    style={{ background: 'none', border: 'none', color: 'var(--primary-red)', cursor: 'pointer', flexShrink: 0 }}
-                  >
-                    <Trash2 size={14} />
-                  </button>
-                )}
-              </div>
-              
-              {activeProgramId === program.id && (
-                <div className="nav-sub-group">
-                  {program.categories.map(category => (
-                    <NavItem 
-                      key={category.id}
-                      category={category}
-                      activeId={activeCategoryId}
-                      onSelect={handleCategoryChange}
-                      isAdmin={isAdmin}
-                      onUpdateName={updateCategoryName}
-                      onAddSub={addSubCategory}
-                      onDelete={deleteCategory}
-                    />
-                  ))}
-                  {isAdmin && (
-                    <div 
-                      className="nav-sub-item" 
-                      style={{ color: 'var(--primary-purple)', opacity: 0.7 }}
-                      onClick={() => {
-                        const newData = [...data];
-                        const pIdx = newData.findIndex(p => p.id === program.id);
-                        newData[pIdx].categories.push({
-                           id: 'cat_' + Math.random().toString(36).substr(2, 5),
-                           name: 'หมวดหมู่หลักใหม่',
-                           sections: []
-                        });
-                        setData(newData);
-                      }}
-                    >
-                      <Plus size={14} /> เพิ่มหมวดหมู่หลัก
+          <DndContext
+            sensors={sensors}
+            collisionDetection={closestCenter}
+            onDragEnd={handleDragEnd}
+            modifiers={[restrictToVerticalAxis, restrictToWindowEdges]}
+          >
+            <SortableContext items={data.map(p => p.id)} strategy={verticalListSortingStrategy}>
+              {data.map(program => (
+                <SortableProgramItem
+                  key={program.id}
+                  program={program}
+                  activeProgramId={activeProgramId}
+                  onProgramChange={handleProgramChange}
+                  isAdmin={isAdmin}
+                  onUpdateName={updateProgramName}
+                  onDelete={deleteProgram}
+                  getIcon={getIcon}
+                >
+                  {activeProgramId === program.id && (
+                    <div className="nav-sub-group">
+                      <SortableContext items={program.categories.map(c => c.id)} strategy={verticalListSortingStrategy}>
+                        {program.categories.map(category => (
+                          <SortableNavItem 
+                            key={category.id}
+                            category={category}
+                            activeId={activeCategoryId}
+                            onSelect={handleCategoryChange}
+                            isAdmin={isAdmin}
+                            onUpdateName={updateCategoryName}
+                            onAddSub={addSubCategory}
+                            onDelete={deleteCategory}
+                          />
+                        ))}
+                      </SortableContext>
+                      {isAdmin && (
+                        <div 
+                          className="nav-sub-item" 
+                          style={{ color: 'var(--primary-purple)', opacity: 0.7, paddingLeft: '24px' }}
+                          onClick={() => addMainCategory(program.id)}
+                        >
+                          <Plus size={14} /> เพิ่มหมวดหมู่หลัก
+                        </div>
+                      )}
                     </div>
                   )}
-                </div>
-              )}
-            </div>
-          ))}
+                </SortableProgramItem>
+              ))}
+            </SortableContext>
+          </DndContext>
+
           {isAdmin && (
             <div 
               className="nav-item" 
@@ -913,3 +870,203 @@ function SectionCard({
 }
 
 export default App;
+
+// --- Sortable Components ---
+
+function SortableProgramItem({ 
+  program, 
+  activeProgramId, 
+  onProgramChange, 
+  isAdmin, 
+  onUpdateName, 
+  onDelete,
+  getIcon,
+  children
+}: {
+  program: ProgramData,
+  activeProgramId: string,
+  onProgramChange: (id: string) => void,
+  isAdmin: boolean,
+  onUpdateName: (id: string, name: string) => void,
+  onDelete: (id: string) => void,
+  getIcon: (id: string) => React.ReactNode,
+  children?: React.ReactNode
+}) {
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging
+  } = useSortable({ id: program.id, disabled: !isAdmin });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+    opacity: isDragging ? 0.5 : 1,
+    zIndex: isDragging ? 10 : 1
+  };
+
+  return (
+    <div ref={setNodeRef} style={style} className="nav-group">
+      <div 
+        className={`nav-item ${activeProgramId === program.id ? 'active' : ''}`}
+        onClick={() => onProgramChange(program.id)}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flex: 1, overflow: 'hidden' }}>
+          {isAdmin && (
+            <div {...attributes} {...listeners} className="drag-handle" style={{ cursor: 'grab', color: '#ccc' }}>
+              <GripVertical size={14} />
+            </div>
+          )}
+          {getIcon(program.id)}
+          {isAdmin ? (
+            <input 
+              value={program.name} 
+              onChange={(e) => onUpdateName(program.id, e.target.value)}
+              onClick={(e) => e.stopPropagation()}
+              style={{ background: 'none', border: 'none', color: 'inherit', font: 'inherit', width: '100%', outline: 'none' }}
+            />
+          ) : <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{program.name}</span>}
+        </div>
+        {isAdmin && (
+          <button 
+            onClick={(e) => {
+              e.stopPropagation();
+              onDelete(program.id);
+            }}
+            style={{ background: 'none', border: 'none', color: 'var(--primary-red)', cursor: 'pointer', flexShrink: 0 }}
+          >
+            <Trash2 size={14} />
+          </button>
+        )}
+      </div>
+      {children}
+    </div>
+  );
+}
+
+function SortableNavItem({ 
+  category, 
+  level = 0, 
+  activeId, 
+  onSelect, 
+  isAdmin, 
+  onUpdateName, 
+  onAddSub, 
+  onDelete 
+}: { 
+  category: ProgramCategory, 
+  level?: number, 
+  activeId: string, 
+  onSelect: (id: string) => void,
+  isAdmin: boolean,
+  onUpdateName: (id: string, name: string) => void,
+  onAddSub: (parentId: string) => void,
+  onDelete: (id: string) => void
+}) {
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging
+  } = useSortable({ id: category.id, disabled: !isAdmin });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+    opacity: isDragging ? 0.5 : 1,
+    zIndex: isDragging ? 10 : 1
+  };
+
+  const hasSubs = category.subCategories && category.subCategories.length > 0;
+  const isExpanded = activeId === category.id || (category.subCategories?.some(sc => sc.id === activeId));
+  
+  return (
+    <div 
+      ref={setNodeRef} 
+      className="nav-item-container" 
+      style={{ 
+        ...style, 
+        marginLeft: level > 0 ? '16px' : '0' 
+      }}
+    >
+      <div 
+        className={`nav-sub-item ${activeId === category.id ? 'active' : ''}`}
+        onClick={() => onSelect(category.id)}
+        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}
+      >
+        <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: '8px', overflow: 'hidden' }}>
+          {isAdmin && (
+            <div 
+              {...attributes} 
+              {...listeners} 
+              className="drag-handle" 
+              style={{ 
+                cursor: 'grab', 
+                color: '#999',
+                display: 'flex',
+                alignItems: 'center',
+                padding: '4px 0 4px 4px'
+              }}
+            >
+              <GripVertical size={12} />
+            </div>
+          )}
+          {hasSubs && (
+            <ChevronRight size={14} style={{ transform: isExpanded ? 'rotate(90deg)' : 'none', transition: 'transform 0.2s', flexShrink: 0 }} />
+          )}
+          {isAdmin ? (
+            <input 
+              value={category.name} 
+              onChange={(e) => onUpdateName(category.id, e.target.value)}
+              onClick={(e) => e.stopPropagation()}
+              style={{ background: 'none', border: 'none', color: 'inherit', font: 'inherit', width: '100%', outline: 'none' }}
+            />
+          ) : <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{category.name}</span>}
+        </div>
+        {isAdmin && (
+          <div style={{ display: 'flex', gap: '4px', flexShrink: 0 }}>
+            <button 
+              onClick={(e) => { e.stopPropagation(); onAddSub(category.id); }} 
+              style={{ background: 'none', border: 'none', color: 'var(--primary-purple)', cursor: 'pointer', padding: '2px' }}
+              title="เพิ่มหมวดหมู่ย่อย"
+            >
+              <Plus size={12} />
+            </button>
+            <button 
+              onClick={(e) => { e.stopPropagation(); onDelete(category.id); }} 
+              style={{ background: 'none', border: 'none', color: 'var(--primary-red)', cursor: 'pointer', padding: '2px' }}
+              title="ลบหมวดหมู่"
+            >
+              <Trash2 size={12} />
+            </button>
+          </div>
+        )}
+      </div>
+      
+      {(isExpanded || isAdmin) && category.subCategories && (
+        <div className="nav-sub-group">
+          <SortableContext items={category.subCategories.map(sc => sc.id)} strategy={verticalListSortingStrategy}>
+            {category.subCategories.map(sub => (
+              <SortableNavItem 
+                key={sub.id} 
+                category={sub} 
+                level={level + 1} 
+                activeId={activeId} 
+                onSelect={onSelect}
+                isAdmin={isAdmin}
+                onUpdateName={onUpdateName}
+                onAddSub={onAddSub}
+                onDelete={onDelete}
+              />
+            ))}
+          </SortableContext>
+        </div>
+      )}
+    </div>
+  );
+}
