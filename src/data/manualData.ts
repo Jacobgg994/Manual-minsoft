@@ -1234,7 +1234,7 @@ export const manualData: ProgramData[] = [
   },
   {
     "id": "maxcare_page_suite",
-    "name": "Maxcare Page",
+    "name": "MaxCare Page",
     "categories": [
       {
         "id": "_____________________942pm",
@@ -1263,128 +1263,538 @@ export const manualData: ProgramData[] = [
         "originalProgramName": "Maxcare Page"
       },
       {
-        "id": "maxcare_page_usage",
-        "name": "วิธีใช้งานโปรแกรม",
+        "id": "maxcarepage__________raa5v",
+        "name": "MaxCarePage วิธีเพิ่มบัญชีเฟสบุ๊คโปรแกรม",
+        "sections": [
+          {
+            "title": "1.ไปที่ More account",
+            "content": "1.ไปที่ More account\n\n![image](/images/image613.png)\n\nเพิ่มข้อมูลบัญชีในช่องว่าง\n\nจากนั้นเลือก Import format ให้ตรงกับข้อมูลบัญชี จากนั้กด comfirm\n\n![image](/images/image732.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image613.png",
+              "image732.png"
+            ]
+          },
+          {
+            "title": "รูปแบบข้อมูล",
+            "content": "รูปแบบข้อมูล\n\n![image](/images/image224.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image224.png"
+            ]
+          }
+        ],
+        "originalProgramName": "Maxcare Page"
+      },
+      {
+        "id": "maxcare_page_________b7hty",
+        "name": "MaxCare Page วิธีการเช็คเพจเช็คและดึงเพจ",
+        "sections": [
+          {
+            "title": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว",
+            "content": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว\n\n1.คลิกขวาไปที่ Page function  ==> Check the list pages ==> Open the browser\n\n![image](/images/image384.png)\n\nConfigure check page (การตั้งค่าหน้าตรวจสอบ)\n\nCheck the location page: ตรวจสอบตำแหน่งที่ตั้งของเพจ\n\nEnable disabled page: เปิดใช้งานเพจที่ถูกปิดใช้งาน\n\nDo not add a page that already exists: ห้ามเพิ่มเพจที่มีอยู่แล้ว\n\n![image](/images/image436.png)\n\n2.หลังจากเช็คเพจเสร็จแล้วคลิกขวา ==> จากนั้น Load page list ==> สามารถเลือกจำนวนเพจที่ต้องการได้\n\n![image](/images/image503.png)\n\nเป็นอันเสร็จขึ้นตอนการเช็คและดึงเพจเพื่อใช้งาน\n\n",
+            "type": "markdown",
+            "images": [
+              "image384.png",
+              "image436.png",
+              "image503.png"
+            ]
+          }
+        ],
+        "originalProgramName": "Maxcare Page"
+      },
+      {
+        "id": "_____________________vousi",
+        "name": "วิธีการเชื่อมข้อมูลกับ Maxcare",
+        "sections": [
+          {
+            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
+            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image370.png)\n\n2.กลับมาที่โปรแกรม MaxCarePage ไปที่ genneral configuration ==> ไปที่ Data synchronization เลือกเชื่อมต่อกับ maxcare ==> วางที่อยู่โฟลเดอร์ในช่องว่าง ==> กด Save\n\n![image](/images/image309.png)\n\n3.กด Refresh\n\n![image](/images/image604.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
+            "type": "markdown",
+            "images": [
+              "image370.png",
+              "image309.png",
+              "image604.png"
+            ]
+          }
+        ],
+        "originalProgramName": "Maxcare"
+      },
+      {
+        "id": "maxcare_page_usage_group",
+        "name": "วิธีการใช้งานโปรแกรม",
         "sections": [],
         "subCategories": [
           {
-            "id": "maxcarepage__________raa5v",
-            "name": "MaxCarePage วิธีเพิ่มบัญชีเฟสบุ๊คโปรแกรม",
+            "id": "_____________________ulv5u",
+            "name": "อธิบายการตั้งค่าต่างๆเบื้องต้น",
             "sections": [
               {
-                "title": "1.ไปที่ More account",
-                "content": "1.ไปที่ More account\n\n![image](/images/image613.png)\n\nเพิ่มข้อมูลบัญชีในช่องว่าง\n\nจากนั้นเลือก Import format ให้ตรงกับข้อมูลบัญชี จากนั้กด comfirm\n\n![image](/images/image732.png)\n\n",
+                "title": "1.General configuration",
+                "content": "1.General configuration\n\nการตั้งค่าจำนวนเธรดการทำงาน\n\nNumber of account opening:จำนวนบัญชีที่จะเปิดขึ้นมาทำงานพร้อมกัน\n\nNumber of page streams/accounts:จำนวนหน้าเพจหรือสตรีมต่อหนึ่งบัญชี\n\nNumber of hidden check threads:จำนวนเธรดที่ใช้สำหรับตรวจสอบเบื้องหลัง\n\nการตั้งค่าการซิงค์ข้อมูล\n\nSoftware options:เลือกซอฟต์แวร์ที่ต้องการเชื่อมต่อ\n\nDirectory path:ช่องสำหรับระบุที่อยู่โฟลเดอร์ (Path) ของซอฟต์แวร์ที่ต้องการเชื่อมต่อ\n\nการตั้งค่าเบราว์เซอร์\n\nBrowser type:เลือกประเภทเบราว์เซอร์\n\nBrowser opening time:ตั้งค่าระยะเวลาการรอขณะเปิดเบราว์เซอร์\n\nUse profiles:ติ๊กถูกเพื่อใช้งานโปรไฟล์เบราว์เซอร์ที่บันทึกไว้\n\nWindow ratio:ปรับขนาดหน้าต่างเบราว์เซอร์\n\nText typing speed:ความเร็วในการพิมพ์ข้อความ\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "ตัวเลือกเพิ่มเติม",
+                "content": "ตัวเลือกเพิ่มเติม\n\nPut chrome in from view:แสดงหน้าต่าง Chrome ให้เห็นขณะทำงาน\n\nTurn off chrome images:ปิดการแสดงผลรูปภาพใน Chrome\n\nการตั้งค่าตัวแทนเครือข่าย/IP\n\nDo not check IP before running:หากติ๊กถูก โปรแกรมจะไม่ตรวจสอบ IP ก่อนเริ่มงาน\n\nDelay after changing IP:ระยะเวลารอคอยหลังจากเปลี่ยน IP\n\nIP change option:รูปแบบการใช้ Proxy\n\nOption:การกำหนดการใช้ Proxy กับบัญชี\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "2Interactive configuration",
+                "content": "2Interactive configuration\n\n![image](/images/image327.png)\n\nการตั้งค่าการเข้าสู่ระบบ\n\nLogin type:เลือกรูปแบบการเข้ารหัสเข้าใช้งาน (เช่น UID|Pass, Email|Pass, Cookie, หรือสลับจาก Cookie เป็น Uid|Pass หากคุกกี้ใช้ไม่ได้)\n\nWeb login:เลือกเวอร์ชันของเว็บไซต์ที่จะเข้าใช้งาน (www, mbasic, หรือ m.fb)\n\nDelete cookies and re-login when password is wrong (chrome): หากติ๊กถูก โปรแกรมจะลบคุกกี้เก่าและล็อกอินใหม่ด้วยรหัสผ่านเมื่อตรวจพบว่าการเข้าสู่ระบบผิดพลาด (เฉพาะ Chrome)\n\nการตั้งค่าเมื่อเข้าสู่ระบบสำเร็จ\n\nAutomatically retrieve cookies:ดึงข้อมูลคุกกี้ใหม่โดยอัตโนมัติ\n\nAutomatically get tokens:ดึงค่า Access Token โดยอัตโนมัติ\n\nการตั้งค่าการรันอัตโนมัติ\n\nAct:ตั้งค่าการทำงานวนซ้ำ\n\nRepeat later:ตั้งค่าให้เริ่มทำงานใหม่ทุกๆ กี่นาที\n\nการตั้งค่าการแก้ captcha\n\nWeb: เลือกบริการที่จะใช้แก้ Captcha\n\nApi key:ช่องสำหรับใส่รหัส API ของบริการแก้ Captcha เพื่อตัดเครดิตค่าบริการ\n\nCheck:ปุ่มสำหรับตรวจสอบว่า Key ที่ใส่ใช้งานได้หรือมีเงินเหลือเท่าไหร่\n\nการตั้งค่าการจัดการสคริปต์\n\nAction Type:รูปแบบการปฏิบัติงาน\n\nScript:เลือกชื่อสคริปต์หรือชุดคำสั่งที่เตรียมไว้\n\nปุ่มจัดการด้านข้าง: ➕ (เพิ่ม), 📑 (คัดลอก), ✏️ (แก้ไข), ❌ (ลบสคริปต์)\n\nLink export directory: ที่เก็บไฟล์ผลลัพธ์หรือไฟล์ที่ Export ออกมาจากโปรแกรม\n\nการตั้งค่าอื่นๆ\n\nCheck wall trước khi chạy:ตรวจสอบหน้าวอลล์ (หน้าโปรไฟล์) ก่อนเริ่มทำงาน\n\nEnable disabled page:เปิดใช้งานหน้าเพจที่ปิดอยู่\n\nCheck page information:ตรวจสอบข้อมูลรายละเอียดของเพจ\n\nGet the cookie when the cookie dies:หากคุกกี้หมดอายุ ให้ทำการดึงคุกกี้ใหม่ทันที\n\nRest:ตั้งค่าให้โปรแกรมหยุดพัก\n\nKill all chrome/chromedriver while resting:ปิดเบราว์เซอร์ Chrome ทั้งหมดระหว่างที่พักเพื่อคืนทรัพยากรเครื่อง\n\n3.Utilities\n\n![image](/images/image130.png)\n\n",
                 "type": "markdown",
                 "images": [
-                  "image613.png",
-                  "image732.png"
+                  "image327.png",
+                  "image130.png"
                 ]
               },
               {
-                "title": "รูปแบบข้อมูล",
-                "content": "รูปแบบข้อมูล\n\n![image](/images/image224.png)\n\n",
+                "title": "Scan pages by keywords:ค้นหาหน้าเพจหรือเนื้อหาโดยใช้คำสำคัญ (Keywords) ที่กำหนด",
+                "content": "Scan pages by keywords:ค้นหาหน้าเพจหรือเนื้อหาโดยใช้คำสำคัญ (Keywords) ที่กำหนด\n\nKill Chrome:ใช้สำหรับปิดหน้าต่าง Google Chrome ทั้งหมดที่โปรแกรมเปิดอยู่ทันที\n\nUpdate chromedriver:ใช้สำหรับอัปเดตไฟล์ตัวควบคุมเบราว์เซอร์ (Driver) ให้เป็นเวอร์ชันล่าสุด เพื่อให้ทำงานร่วมกับเวอร์ชันของ Chrome ในเครื่องได้ปกติ\n\nKill Chromedriver:ปิดกระบวนการทำงานเบื้องหลัง (Background Process) ของตัวควบคุมเบราว์เซอร์ ช่วยแก้ปัญหาหน่วยความจำ (RAM) เต็มหรือ Driver ค้าง\n\nRelease capacity:คำสั่งล้างไฟล์ขยะ หรือคืนค่าพื้นที่ว่างให้กับระบบ เพื่อให้โปรแกรมทำงานได้ลื่นไหลขึ้น\n\nCheck proxy:ตรวจสอบสถานะการเชื่อมต่อของ Proxy ว่ายังใช้งานได้ปกติหรือไม่\n\nCheck Like UID:ตรวจสอบสถานะหรือข้อมูลของ User ID (UID) จากการกดถูกใจ เพื่อวิเคราะห์กลุ่มเป้าหมาย\n\nPrompt AI:เปิดช่องสำหรับใส่คำสั่ง (Prompt) เพื่อใช้งานร่วมกับระบบ AI\n\nFind Id facebook:เครื่องมือสำหรับค้นหาเลข ID ของโปรไฟล์, เพจ หรือกลุ่มบน Facebook จากลิงก์ URL\n\n",
                 "type": "markdown",
-                "images": [
-                  "image224.png"
-                ]
+                "images": []
               }
             ],
-            "originalProgramName": "Maxcare Page"
+            "originalProgramName": "โปรแกรมอื่นๆ"
           },
           {
-            "id": "maxcare_page_________b7hty",
-            "name": "MaxCare Page วิธีการเช็คเพจเช็คและดึงเพจ",
+            "id": "_____________________o4in0",
+            "name": "การใช้งานฟังก์ชันอื่นๆ",
             "sections": [
               {
-                "title": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว",
-                "content": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว\n\n1.คลิกขวาไปที่ Page function  ==> Check the list pages ==> Open the browser\n\n![image](/images/image384.png)\n\nConfigure check page (การตั้งค่าหน้าตรวจสอบ)\n\nCheck the location page: ตรวจสอบตำแหน่งที่ตั้งของเพจ\n\nEnable disabled page: เปิดใช้งานเพจที่ถูกปิดใช้งาน\n\nDo not add a page that already exists: ห้ามเพิ่มเพจที่มีอยู่แล้ว\n\n![image](/images/image436.png)\n\n2.หลังจากเช็คเพจเสร็จแล้วคลิกขวา ==> จากนั้น Load page list ==> สามารถเลือกจำนวนเพจที่ต้องการได้\n\n![image](/images/image503.png)\n\nเป็นอันเสร็จขึ้นตอนการเช็คและดึงเพจเพื่อใช้งาน\n\n",
+                "title": "1.ฟังก์ชันคลิกขวาฝั่ง Account list",
+                "content": "1.ฟังก์ชันคลิกขวาฝั่ง Account list\n\n![image](/images/image601.png)\n\nSelect:ใช้สำหรับเลือกรายการที่ต้องการ\n\nAll: ใช้สำหรับเลือกรายการบัญชีทั้งหมด\n\nBlacken: ใช้เลือกรายการเฉพาะแถวที่คุณทำการเอาเมาส์ไปคลิกไฮไลท์ไว้\n\nStatus > Live: ระบบจะทำการติ๊กถูกเลือกเฉพาะบัญชีที่มีสถานะเป็น \"Live\"\n\nStatus: เลือกจากสถานะอื่นๆ\n\nDeselect all:ล้างการติ๊กถูกออกจากทุกรายการที่เลือกไว้\n\nArrange:ใช้สำหรับจัดลำดับรายการในตารางตามเงื่อนไขที่กำหนด\n\nRefresh:อัปเดตการแสดงผลหน้าจอให้เป็นปัจจุบัน\n\nDelete selected:ลบชื่อบัญชีหรือข้อมูลที่เลือกไว้ออกจากระบบ\n\nCopy:คัดลอกข้อมูล เช่น ID, รหัสผ่าน, 2FA หรือคุกกี้ เพื่อนำไปใช้ต่อ\n\nUID: คัดลอกหมายเลขประจำตัวบัญชี (User ID)\n\nPass: คัดลอกรหัสผ่าน (Password)\n\n2FA: คัดลอกรหัสลับ (Secret Key) สำหรับใช้เจนรหัส 2 ชั้น\n\n6-digit 2FA code: คัดลอกตัวเลข 6 ตัวที่ใช้ล็อกอิน ณ เวลานั้น\n\nCookie: คัดลอกค่าคุกกี้ของบัญชี เพื่อใช้ล็อกอินโดยไม่ต้องกรอกรหัสผ่าน\n\nUid | pass | 2fa: คัดลอกไอดี, รหัสผ่าน และรหัส 2 ชั้น\n\nUid|pass|2FA|proxy: คัดลอกไอดี, รหัสผ่าน, 2FA และข้อมูล Proxy ที่ผูกกับบัญชีนั้น\n\nUID | Pass | 2FA | Cookie | Proxy: คัดลอกข้อมูลครบชุดสำหรับการย้ายบัญชีแบบสมบูรณ์\n\nOther formats...: หากคุณต้องการรูปแบบการคัดลอกที่ต่างออกไป คุณสามารถเข้าไปตั้งค่ากำหนดเองได้ที่เมนูนี้\n\nCheck account:ตรวจสอบว่าบัญชีนั้นยังใช้งานได้ปกติ (Live) หรือโดนปิด (Die) หรือไม่\n\nCheck Wall: โปรแกรมจะเข้าไปตรวจสอบหน้าโปรไฟล์ (Timeline) ของบัญชีนั้นๆ\n\nCheck wall and update name: เหมือนกับ Check Wall แต่จะทำการดึง \"ชื่อโปรไฟล์ล่าสุด\" ของบัญชีนั้นมาบันทึกในระบบให้ด้วย\n\nCheck proxy: ตรวจสอบการเชื่อมต่อของ Proxy ที่ผูกไว้กับบัญชีนั้นๆ\n\nCheck tokens: ตรวจสอบความถูกต้องของ Token\n\nUpdating data:อัปเดตข้อมูลที่ต้องการ\n\nPass: เปลี่ยนรหัสผ่านของบัญชีที่บันทึกไว้ในระบบ\n\n2fa: อัปเดตหรือเปลี่ยนรหัสลับ 2FA (Secret Key)\n\nCookie: นำคุกกี้ชุดใหม่มาวางทับชุดเดิม\n\nProxy: เปลี่ยน Proxy ให้กับบัญชีนั้นๆ\n\nUseragent: อัปเดตข้อมูลเบราว์เซอร์จำลอง\n\nNote: เขียนบันทึกเพิ่มเติมหรือแก้ไขข้อความโน้ตที่กำกับไว้ในแต่ละบัญชี เพื่อช่วยในการจดจำ\n\nToken: อัปเดตค่า Access Token ใหม่เพื่อให้ระบบ API ทำงานได้ต่อเนื่อง\n\nEmail|Pass Email: อัปเดตข้อมูลอีเมลที่ผูกกับบัญชีพร้อมรหัสผ่านของอีเมลนั้นๆ (มักใช้ในขั้นตอนการกู้คืนบัญชีหรือยืนยันตัวตน)\n\nSwitch folders:ย้ายรายการที่เลือกไปยังโฟลเดอร์อื่นเพื่อความเป็นระเบียบ\n\nSpam messages:ฟังก์ชันสำหรับส่งข้อความจำนวนมาก\n\nPage function:เมนูย่อยสำหรับจัดการเพจ\n\nCreate profile page: สั่งให้บัญชีที่เลือกทำการสร้างเพจใหม่ขึ้นมา\n\nCheck the list of pages: เช็กรายการเพจ\n\nOpen the browser: เปิดเบราว์เซอร์จำลองเพื่อเข้าไปดูหน้ารายการเพจทั้งหมดที่บัญชีนั้นถือครองอยู่ด้วยตัวเอง\n\nAccept page administrator rights: กดเพื่อยอมรับคำเชิญเป็นผู้ดูแลเพจ (Admin) ที่ส่งมายังบัญชีนั้นๆ โดยอัตโนมัติ\n\nBuff Like page quickly: สั่งให้บัญชีที่เลือกกดถูกใจ (Like) เพจที่กำหนดไว้ทันที\n\nOther function:รวมคำสั่งเสริมต่างๆ ที่ไม่ได้อยู่ในหมวดหมู่หลัก\n\nDelete duplicate accounts: โปรแกรมจะตรวจสอบ UID ในรายการที่คุณเลือก หากพบว่ามีบัญชีที่ซ้ำกัน จะทำการลบตัวที่ซ้ำออกให้เหลือเพียงรายการเดียว\n\nDelete profile: สั่งลบโฟลเดอร์ Cache และ Cookie (Data Profile) ของบัญชีที่เลือกออกจากพื้นที่จัดเก็บในคอมพิวเตอร์\n\nGet tokens: ดึงรหัสโทเคน\n\nEAAAAUa: เป็น Access Token ประเภทหนึ่ง\n\nOpen the browser:เปิดเบราว์เซอร์จำลอง (Fingerprint browser) เพื่อเข้าใช้งานบัญชีนั้นๆ โดยตรง\n\nAfter logging in, turn off Chrome: โปรแกรมจะเปิดเบราว์เซอร์ขึ้นมาและดำเนินการล็อกอินเข้าสู่ระบบให้โดยอัตโนมัติ\n\nOpen and login: โปรแกรมจะเปิดเบราว์เซอร์ขึ้นมาและดำเนินการกรอกไอดี รหัสผ่าน และรหัส 2FA ให้โดยอัตโนมัติ แต่จะ เปิดเบราว์เซอร์ค้างไว้ ให้คุณใช้งานต่อ\n\nLoad page list:ดึงรายการเพจที่ผูกอยู่กับบัญชีนั้นๆ\n\nช่องใส่ตัวเลข: ให้กรอกตัวเลขจำนวนเพจที่คุณต้องการดึงข้อมูล\n\nAccording to quantity: หลังจากกรอกตัวเลขในช่องด้านบนแล้ว ให้คลิกที่คำสั่งนี้เพื่อให้โปรแกรมเริ่มรันสคริปต์ดึงรายการเพจตามจำนวนที่ระบุไว้\n\nBM function:จัดการเกี่ยวกับ Business Manager\n\nCreate a business: สั่งให้บัญชีที่เลือกทำการสร้างบัญชีธุรกิจ (BM) ใหม่ขึ้นมาโดยอัตโนมัติ\n\nPage group: จัดการรวบรวมเพจต่างๆ เข้ามาอยู่ในกลุ่มหรือภายใต้การดูแลของธุรกิจที่กำหนด\n\nCheck BM list > Token: สั่งให้โปรแกรมดึงรายชื่อบัญชีธุรกิจ (BM) ทั้งหมดที่บัญชีนั้นถือครองอยู่ โดยใช้รหัส Token ในการเข้าถึงข้อมูล\n\nLoad BM list:ดึงรายการบัญชีโฆษณาธุรกิจ (BM) ที่บัญชีนั้นถือครองอยู่\n\n2.ฟังก์ชันคลิกขวาฝั่ง Page list\n\n![image](/images/image705.png)\n\nSelect:ใช้สำหรับเลือกรายการที่ต้องการ\n\nAll: ใช้สำหรับเลือกรายการทุกอย่าง\n\nBlacken: ใช้สำหรับเลือกเฉพาะรายการที่ไฮไลท์ไว้ในระบบ\n\nStatus: เปิดตัวเลือกเพิ่มเติมเพื่อเลือกรายการตามสถานะการทำงานที่เจาะจง\n\nDeselect all:คลิกเพื่อเอาเครื่องหมายเลือกออกจากทุกรายการที่เลือกไว้\n\nArrange:ใช้สำหรับปรับเปลี่ยนลำดับของรายการ เช่น เรียงตามชื่อ วันที่ หรือลำดับก่อนหลัง\n\nHide list:ใช้สำหรับซ่อนรายการที่ไม่ต้องการให้แสดงบนหน้าจอชั่วคราว\n\nSelected: สั่งซ่อนเฉพาะรายการที่คุณทำเครื่องหมายเลือกไว้ เท่านั้น รายการอื่นๆ ที่ไม่ได้เลือกจะยังคงแสดงผลตามปกติ\n\nAll: สั่งซ่อนทุกรายการที่อยู่ในหน้าจอหรือกลุ่มนั้นๆ ทันที ทำให้หน้าจอว่างเปล่าเพื่อให้เริ่มจัดการรายการใหม่ๆ ได้สะดวกขึ้น\n\nCopy:คัดลอกรายการที่เลือกไว้ไปยังคลิปบอร์ด\n\nUid Page: คัดลอกเฉพาะหมายเลข ID ของหน้าเพจ\n\nIdBusiness: คัดลอก ID ของบัญชีธุรกิจ (Business ID)\n\nIdBusiness|token: คัดลอก ID ธุรกิจควบคู่กับรหัส Token สำหรับการเข้าถึง\n\nPage name: คัดลอกชื่อของหน้าเพจ\n\nCokie page: คัดลอกข้อมูล Cookie ของเพจนั้นๆ (สำหรับใช้รักษาเซสชันการล็อกอิน)\n\nUid page|Cokie page คัดลอกทั้ง ID เพจและข้อมูล Cookie พร้อมกัน\n\nUid Admin: คัดลอกหมายเลข ID ของผู้ดูแลระบบ (Admin)\n\nName Admin: คัดลอกชื่อของผู้ดูแลระบบ\n\nUid page|Page name|Name Admin: คัดลอกข้อมูลรวม 3 อย่าง (ID เพจ, ชื่อเพจ และชื่อแอดมิน)\n\nOther formats ...: เลือกรูปแบบการคัดลอกอื่นๆ ที่ผู้ใช้กำหนดเอง\n\nDelete selected:ลบรายการที่ถูกเลือกไว้ออก\n\nSwitch categories:เปลี่ยนกลุ่มหรือประเภทให้กับรายการที่เลือกไว้\n\nPage function:จัดการคำสั่งต่างๆ ที่เกี่ยวกับเพจ\n\nCreate a location page: ใช้สำหรับสร้างหน้าเพจใหม่ที่เน้นระบุตำแหน่งที่ตั้งทางธุรกิจ (Location-based page)\n\nShare administrative rights: ใช้สำหรับส่งต่อหรือเพิ่มสิทธิ์การเป็นผู้ดูแล (Admin) ให้กับบัญชีอื่น\n\nPersonal page: ใช้สำหรับส่งสิทธิ์ผู้ดูแลเพจให้กับ \"บัญชีผู้ใช้ส่วนตัว\" (Personal Profile) โดยตรง เหมาะสำหรับการเพิ่มทีมงานหรือบัญชีสำรองส่วนบุคคล\n\nBM indicated: ใช้สำหรับส่งสิทธิ์การจัดการเพจเข้าไปยัง \"บัญชีธุรกิจ\" (Business Manager - BM)\n\nCheck page information: ดึงข้อมูลรายละเอียดเชิงลึกของเพจ\n\nDelete page (disable): สั่งยกเลิกการใช้งานเพจหรือปิดเพจนั้นๆ\n\nReactivate the page: ใช้สำหรับกู้คืนหรือกลับมาเปิดใช้งานเพจที่เคยถูกปิดไปอีกครั้ง\n\nChrome: ดำเนินการกู้คืนสถานะเพจผ่านทางเบราว์เซอร์ Chrome โดยตรง ระบบจะจำลองการเข้าถึงผ่านหน้าเว็บเพื่อทำรายการ\n\nToken: ดำเนินการกู้คืนโดยใช้รหัส Access Token ซึ่งเป็นวิธีการทางเทคนิคที่รวดเร็วและช่วยข้ามขั้นตอนบางประการในหน้าเว็บปกติ เหมาะสำหรับการจัดการในปริมาณมาก\n\nCheck avatars and covers: ตรวจเช็กความถูกต้องหรือสถานะการแสดงผลของรูป Avatar (Profile picture) และรูป Cover ของเพจ\n\nUse proxies by account: ระบบจะใช้ Proxy ที่ผูกไว้กับบัญชีนั้นๆ ในการเชื่อมต่อเพื่อเข้าไปตรวจสอบรูปภาพ เหมาะสำหรับการจัดการหลายบัญชีเพื่อป้องกันการตรวจจับจากแพลตฟอร์ม\n\nDo not use proxies: ระบบจะใช้เครือข่ายอินเทอร์เน็ตปกติของเครื่องคอมพิวเตอร์ในการเชื่อมต่อโดยตรงเพื่อตรวจสอบรูปภาพ\n\nDelete admin page: สั่งถอดถอนสิทธิ์ผู้ดูแลออกจากเพจที่เลือกไว้\n\nOpen the browser:เปิดลิงก์หรือข้อมูลที่เกี่ยวข้องผ่านเว็บเบราว์เซอร์ (Chrome)\n\nOther function:เมนูรวมคำสั่งเสริมเพิ่มเติมที่ไม่ได้อยู่ในหมวดหมู่หลัก\n\nDelete duplicate pages: ระบบจะทำการตรวจสอบรายการเพจที่มีชื่อหรือข้อมูลซ้ำซ้อนกัน และทำการลบออก\n\nGet tokens: ใช้สำหรับสร้างหรือดึงรหัส Token ของเพจหรือบัญชี เพื่อนำไปใช้ในฟังก์ชันอัตโนมัติอื่นๆ\n\n",
                 "type": "markdown",
                 "images": [
-                  "image384.png",
-                  "image436.png",
-                  "image503.png"
+                  "image601.png",
+                  "image705.png"
                 ]
               }
             ],
-            "originalProgramName": "Maxcare Page"
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "_____________________6vw49",
+            "name": "อธิบายเมนูฟังก์ชั่นการทำงาน Action list",
+            "sections": [
+              {
+                "title": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น",
+                "content": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น\n\nSeeding function\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "1.Buff follows personal page (บัฟการติดตามเพจส่วนตัว)",
+                "content": "1.Buff follows personal page (บัฟการติดตามเพจส่วนตัว)\n\n![image](/images/image132.png)\n\nการตั้งค่าเวลา\n\nWaiting time:ระยะเวลาเริ่มรอ\n\nArrive:ระยะเวลาสิ้นสุดการรอ\n\nรายการเป้าหมาย (List of personal page UIDs)\n\nรูปแบบข้อมูล:ใส่ UID (User ID) ของบัญชีส่วนตัวที่ต้องการ\n\nจำนวน:ระบบจะแสดงตัวเลขในวงเล็บ(0)เพื่อบอกจำนวน UID ทั้งหมดที่คุณใส่ลงไปในรายการ\n\nวิธีใส่:พิมพ์หรือคัดลอก UID มาวาง โดยปกติจะใส่ 1 UID ต่อ 1 บรรทัด\n\n",
+                "type": "markdown",
+                "images": [
+                  "image132.png"
+                ]
+              },
+              {
+                "title": "2.Buff like and comment on the article (กดไลค์และแสดงความคิดเห็น)",
+                "content": "2.Buff like and comment on the article (กดไลค์และแสดงความคิดเห็น)\n\n![image](/images/image557.png)\n\nการตั้งค่าเวลาและการโต้ตอบ\n\nPost spacing:กำหนดเวลาพักระหว่างแต่ละโพสต์\n\narrive:กำหนดระยะเวลาที่จะให้บัญชีอยู่ในหน้าโพสต์นั้นๆก่อน\n\nInteract:กำหนดจำนวนโพสต์ที่จะให้แต่ละบัญชีเข้าไปกดไลก์หรือคอมเมนต์\n\nรายการโพสต์เป้าหมาย\n\nDanh sách Id/link bài viết:ช่องสำหรับใส่ ID หรือ URL ของโพสต์ที่ต้องการไปเพิ่มยอด\n\nOption:เลือกลักษณะการโต้ตอบ\n\nEach page interacts with one post: 1 เพจ ต่อ 1 โพสต์\n\nOne post interacts with multiple pages: 1 โพสต์ ต่อ หลายเพจ\n\nDelete id after use:หากติ๊กถูก ระบบจะลบลิงก์ทิ้งทันทีเมื่อทำงานเสร็จ เพื่อป้องกันการทำงานซ้ำ\n\nการแชร์\n\nShare on story:แชร์โพสต์ไปยังสตอรี่\n\nShare on wall:แชร์โพสต์ไปยังหน้าวอลล์ (ไทม์ไลน์)\n\nContent:ใส่ข้อความที่จะให้เขียนกำกับเวลาแชร์\n\nOption:เลือกรูปแบบข้อความ\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nการแสดงความรู้สึก(Release Emotions)\n\nปุ่มเลือก:สามารถเลือกไอคอนความรู้สึกได้หลากหลาย เช่น Like, Love, Care, Haha, Wow, Sad, Angry\n\nการสุ่ม:ระบบมักจะสุ่มไอคอนที่คุณเลือกเพื่อให้ดูเป็นธรรมชาติ\n\nการคอมเมนต์\n\nText comment:ใส่เนื้อหาคอมเมนต์ในช่องว่าง\n\nSpin Content: ใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มคำพูด ไม่ให้ซ้ำกัน\n\nTag: สามารถใช้คำสั่ง[@uid]เพื่อแท็กผู้ใช้ได้\n\nOption: เลือกรูปแบบข้อความ\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nComment photo:ติ๊กถูกหากต้องการคอมเมนต์ด้วยรูปภาพ พร้อมระบุที่อยู่ไฟล์ (Photo folder) ในคอมพิวเตอร์\n\nExport link:ติ๊กถูกเพื่อให้ระบบบันทึกหรือส่งออกลิงก์ที่คอมเมนต์สำเร็จแล้ว\n\n",
+                "type": "markdown",
+                "images": [
+                  "image557.png"
+                ]
+              },
+              {
+                "title": "3.Buff like, follow page (กดไลค์และติดตามเพจ)",
+                "content": "3.Buff like, follow page (กดไลค์และติดตามเพจ)\n\n![image](/images/image19.png)\n\nการตั้งค่าเวลา\n\nDelay time:ใส่ตัวเลขวินาทีเริ่มต้นที่ต้องการให้ระบบรอ\n\nArrive:ใส่ตัวเลขวินาทีสิ้นสุด\n\nตัวอย่าง:หากตั้งค่าไว้ 5 ถึง 10 วินาที ระบบจะสุ่มเวลาพักระหว่างการกดแต่ละเพจในช่วง 5-10 วินาที เพื่อให้ดูเหมือนพฤติกรรมมนุษย์จริงๆ\n\nเลือกรูปแบบการทำงาน (Action options)\n\nFollow the page:สั่งให้ระบบกด \"ติดตาม\" เพจ\n\nLike the page:สั่งให้ระบบกด \"ถูกใจ\" เพจ\n\nคำแนะนำ: คุณสามารถเลือกทำทั้งสองอย่างพร้อมกัน หรือเลือกเพียงอย่างใดอย่างหนึ่งก็ได้\n\nการใส่รายชื่อเพจ (List of page ids/links)\n\nคุณสามารถใส่เป็น ID ของเพจ หรือ Link (URL) ของเพจ ก็ได้\n\nใส่ 1 รายการต่อ 1 บรรทัด\n\nตัวเลขในวงเล็บ(0)จะแสดงจำนวนรายการทั้งหมดที่คุณใส่ลงไปในรายการ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image19.png"
+                ]
+              },
+              {
+                "title": "4.Spam posts (group, page, profile) (โพสต์สแปม (กลุ่ม เพจ โปรไฟล์))",
+                "content": "4.Spam posts (group, page, profile) (โพสต์สแปม (กลุ่ม เพจ โปรไฟล์))\n\n![image](/images/image591.png)\n\nส่วนตั้งค่าจำนวนและการหน่วงเวลา\n\nNumber of ids:กำหนดจำนวนบัญชีที่จะใช้\n\nNumber of posts/id:กำหนดจำนวนโพสต์ที่แต่ละบัญชีจะดำเนินการ\n\nDelay time:ระยะเวลาหน่วงระหว่างแต่ละการกระทำ\n\nSweep:จำนวนโพสต์ที่จะทำการกวาด (Sweep) ในหนึ่งรอบการทำงาน\n\nส่วนจัดการเป้าหมาย\n\nList of ids:ช่องสำหรับใส่ ID ของกลุ่ม (Group), เพจ (Page) หรือโปรไฟล์ (Profile) ที่ต้องการเข้าถึง\n\nDelete the used id:หากติ๊กเลือก ระบบจะลบ ID ออกจากรายการทันทีเมื่อทำงานเสร็จสิ้น เพื่อไม่ให้เกิดการทำงานซ้ำ\n\nส่วนการโต้ตอบและอารมณ์\n\nRelease emotions:ติ๊กเพื่อเลือกให้แสดงความรู้สึกอัตโนมัติ (Like, Love, Haha, Wow, Sad, Angry)\n\nText comment:ช่องสีขาวขนาดใหญ่สำหรับพิมพ์ข้อความคอมเมนต์\n\nSpin Content {a|b|c}: รองรับการสลับคำเพื่อให้ข้อความไม่ซ้ำกัน\n\nOption: เลือกรูปแบบเนื้อหา\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nComment photo:ติ๊กเพื่อแนบรูปภาพในคอมเมนต์ โดยสามารถระบุที่อยู่ไฟล์ (Path) ในคอมพิวเตอร์ของคุณได้\n\nส่วนเงื่อนไขและลำดับการทำงาน\n\nSkip ... first article:ข้ามโพสต์แรกๆ (เช่น ข้าม 2-3 โพสต์แรกที่เป็นโพสต์ปักหมุด)\n\nShare on wall:แชร์โพสต์ไปยังหน้าวอลล์ของบัญชีที่ใช้งาน\n\nDo not comment on old posts:ไม่คอมเมนต์โพสต์เก่า เพื่อเน้นโพสต์ที่เป็นปัจจุบัน\n\nEdit comments:แก้ไขคอมเมนต์เดิม (ถ้ามี)\n\nGet the article:เลือกลำดับการดึงโพสต์ เช่น \"In order\" (ตามลำดับ) หรือ \"Unexpectedly\" (แบบสุ่ม)\n\nส่วนการบันทึกและจัดการไฟล์\n\nExport link:ส่งออกลิงก์ที่ดำเนินการแล้วเพื่อเก็บเป็นรายงาน\n\n",
+                "type": "markdown",
+                "images": [
+                  "image591.png"
+                ]
+              },
+              {
+                "title": "5.Spam posts by keywords (โพสต์สแปมตามคีย์เวิร์ด)",
+                "content": "5.Spam posts by keywords (โพสต์สแปมตามคีย์เวิร์ด)\n\n![image](/images/image83.png)\n\nการตั้งค่าจำนวนและเวลา\n\nNumber of keywords/page:จำนวนคีย์เวิร์ดที่จะใช้ค้นหาต่อหนึ่งหน้า\n\nNumber of articles/keywords:จำนวนโพสต์ที่จะเข้าไปดำเนินการต่อหนึ่งคีย์เวิร์ด\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงานแต่ละครั้ง\n\nการจัดการคีย์เวิร์ด\n\nKeyword list (0):พื้นที่สำหรับใส่คำค้นหาที่ต้องการให้ระบบไปไล่หาโพสต์\n\nDelete used keywords:หากติ๊กถูก ระบบจะลบคีย์เวิร์ดทิ้งหลังจากใช้งานเสร็จแล้ว\n\nการแสดงความรู้สึกและคอมเมนต์\n\nRelease emotions:เลือก \"ความรู้สึก\" ที่ต้องการให้ระบบไปกด (Like, Love, Haha, Wow, Sad, Angry)\n\nText comment:Content (0): ช่องสำหรับใส่ข้อความที่จะนำไปคอมเมนต์\n\nSpin Content {a|b|c}: รองรับการสลับคำอัตโนมัติเพื่อให้ข้อความไม่ซ้ำกัน\n\nOption: เลือกรูปแบบเนื้อหา\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nComment photo:หากติ๊กเลือก ระบบจะดึงรูปภาพจากโฟลเดอร์ในเครื่องไปแปะในคอมเมนต์ด้วย\n\nการตั้งค่าเงื่อนไขการทำงานเพิ่มเติม\n\nSkip ... first article:ข้ามโพสต์แรกๆ ไปกี่โพสต์\n\nShare on wall:ติ๊กเพื่อให้ระบบแชร์โพสต์นั้นลงบนวอลล์ของตัวเองด้วย\n\nDo not comment on old posts:ไม่ลงคอมเมนต์ในโพสต์เก่า\n\nEdit comments:แก้ไขคอมเมนต์\n\nExport link: ติ๊กหากต้องการบันทึกลิงก์ของโพสต์ที่ระบบได้เข้าไปทำงานแล้ว\n\n",
+                "type": "markdown",
+                "images": [
+                  "image83.png"
+                ]
+              },
+              {
+                "title": "6.Rate the page (ให้คะแนนเพจ)",
+                "content": "6.Rate the page (ให้คะแนนเพจ)\n\n![image](/images/image779.png)\n\nส่วนตั้งค่าข้อมูลและขีดจำกัด\n\nOne page with maximum [ ] id:กำหนดจำนวน ID สูงสุดที่จะให้คะแนนต่อหนึ่งหน้าเพจ\n\nA maximum rating id: [ ] time:กำหนดจำนวนครั้งสูงสุดในการให้คะแนนต่อหนึ่ง ID\n\nList of page ids or links:ช่องสำหรับกรอก รายการ ID ของหน้าเพจ หรือ ลิงก์ URL ที่ต้องการดำเนินการ (แสดงจำนวนรายการในวงเล็บ)\n\nDelete the id when used:หากเลือกไว้ ระบบจะลบ ID ออกจากรายการทันทีเมื่อทำงานเสร็จสิ้น เพื่อป้องกันการทำงานซ้ำ\n\nส่วนจัดการเนื้อหาและรูปแบบ\n\nExport link:ติ๊กถูกหากต้องการให้ระบบส่งออกลิงก์ที่ดำเนินการแล้ว\n\nOption:เลือกแหล่งที่มาของเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:เลือกรูปแบบคำสั่ง AI\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nList of page review text:ช่องสำหรับใส่ ข้อความรีวิว ที่ต้องการให้ระบบนำไปโพสต์ (แสดงจำนวนข้อความในวงเล็บ)\n\nOption:เลือกรูปแบบการจัดวางเนื้อหา\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image779.png"
+                ]
+              },
+              {
+                "title": "7.Livestream interaction (การโต้ตอบแบบไลฟ์สตรีม)",
+                "content": "7.Livestream interaction (การโต้ตอบแบบไลฟ์สตรีม)\n\n![image](/images/image15.png)\n\nการต้องค่าข้อมูลพื้นฐานและระยะเวลา\n\nLivestream link:วางลิงก์ของไลฟ์สดที่ต้องการให้ระบบเข้าไปทำงาน\n\nLive viewing time:กำหนดระยะเวลาที่จะให้บัญชีอยู่ในไลฟ์ (หน่วยเป็นวินาที)\n\nตัวอย่าง:ตั้งไว้ 30 ถึง 60 วินาที เพื่อให้ระบบสุ่มเวลาในช่วงนี้ ป้องกันการตรวจจับว่าเป็นบอท\n\n��า��ตอบสนองทางอารมณ์และข้อความ\n\nRelease emotions:เลือกประเภทความรู้สึกที่ต้องการส่ง (Like, Love, Care, Haha, Wow, Sad, Angry) สามารถติ๊กเลือกได้หลายแบบเพื่อให้ระบบสุ่มส่ง\n\nText comment:คอมเม้นต์ด้วยข้อความ\n\nContent: ใส่ข้อความที่ต้องการให้คอมเมนต์ (1 บรรทัดต่อ 1 ข้อความ)\n\nDelete used text: หากติ๊กถูก ระบบจะลบข้อความที่ใช้ไปแล้วออกจากรายการ เพื่อไม่ให้ส่งซ้ำ\n\nการแท็กผู้ใช้แ��ะการแชร์\n\nComment the uid tag:สำหรับการแท็กเพื่อนหรือกลุ่มเป้าหมายในคอมเมนต์\n\nList of uids: ใส่รายการ ID ผู้ใช้ที่ต้องการแท็ก\n\nOne maximum tag comment: กำหนดว่าจะให้แท็กกี่คนต่อ 1 คอมเมนต์\n\nDelete used uid: ลบ ID ที่ถูกแท็กไปแล้วออกจากรายการ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image15.png"
+                ]
+              },
+              {
+                "title": "Social Sharing:",
+                "content": "Social Sharing:\n\nShare on wall: แชร์ไลฟ์สดไปยังหน้าโปรไฟล์หลัก\n\nShare on story: แชร์ไลฟ์สดไปยังสตอรี่\n\nการตั้งค่าเพิ่มเติม\n\nRepeat action:ติ๊กเพื่อให้ระบบวนลูปทำงานซ้ำตามค่าที่ตั้งไว้\n\nRepeat later: กำหนดช่วงเวลาที่จะให้ระบบ \"พัก\" ก่อนจะเริ่มทำงานซ้ำในรอบถัดไป\n\nช่องตัวเลข (1 arri 1 second): คือการตั้งค่าสุ่มเวลาพัก (หน่วยเป็นวินาที) เช่น ถ้าตั้ง 60 ถึง 120 ระบบจะสุ่มหยุดพักในช่วงเวลานี้ก่อนเริ่มรอบใหม่ เพื่อความเป็นธรรมชาติ\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "ตัวเลือกกิจกรรมที่ต้องการทำซ้ำ (เลือกได้มากกว่า 1 อย่าง):",
+                "content": "ตัวเลือกกิจกรรมที่ต้องการทำซ้ำ (เลือกได้มากกว่า 1 อย่าง):\n\nText comment: ให้กลับไปสุ่มคอมเมนต์ข้อความซ้ำอีกครั้ง\n\nComment the uid tag: ให้กลับไปทำการแท็ก UID ซ้ำ (ระบบจะดึง UID ใหม่จากลิสต์ที่เหลืออยู่)\n\nShare on wall: ให้ทำการแชร์ลงหน้าโปรไฟล์ซ้ำ\n\nShare on story: ให้ทำการแชร์ลงสตอรี่ซ้ำ\n\n8.Post on another page's wall (reminders) (โพสต์บนหน้าเพจอื่น)\n\n![image](/images/image65.png)\n\nส่วนการตั้งค่าความถี่และเป้าหมาย\n\nMaximum posting per page:จำนวนโพสต์สูงสุดที่จะให้ลงในแต่ละเพจ\n\nOne maximum posting id:จำกัดจำนวนครั้งที่บัญชีหนึ่ง ๆ จะใช้โพสต์\n\nPosting distance:ระยะห่างระหว่างการโพสต์แต่ละครั้ง ช่วยลดความเสี่ยงในการถูกมองว่าเป็นสแปม\n\nList of page ids or links:ช่องสำหรับใส่ ID ของเพจ หรือลิงก์ URL ของเพจเป้าหมายที่ต้องการไปโพสต์\n\nDelete the id when used:หากเลือกไว้ ระบบจะลบรายชื่อเพจออกจากรายการทันทีเมื่อโพสต์สำเร็จ เพื่อป้องกันการโพสต์ซ้ำ\n\nส่วนการจัดการเนื้อหาและรูปแบบ\n\nExport link:ตัวเลือกสำหรับการแนบลิงก์ออกไปในโพสต์\n\nDocument:เมื่อติ๊กส่วนนี้ คุณสามารถเลือกแหล่งที่มาของเนื้อหาได้\n\nOption: เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt: กรณีใช้ AI ช่วยเขียน สามารถเลือกคำสั่ง (Prompt) ได้จากตรงนี้\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nContent:ช่องสำหรับพิมพ์ข้อความที่ต้องการโพสต์\n\nSpin Content: รองรับการใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มคำสลับกันไปในแต่ละโพสต์ (ป้องกันเนื้อหาซ้ำซ้อน)\n\nOption:เลือกว่าจะให้อ่านเนื้อหาแบบไหน\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nส่วนการตั้งค่ารูปภาพ\n\nPost photos:ติ๊กถูกหากต้องการให้มีรูปภาพในโพสต์ด้วย\n\nPhoto folder:ระบุที่อยู่ของโฟลเดอร์ในเครื่องคอมพิวเตอร์ที่เก็บรูปภาพไว้ ระบบจะดึงรูปจากโฟลเดอร์ไปโพสต์\n\n",
+                "type": "markdown",
+                "images": [
+                  "image65.png"
+                ]
+              },
+              {
+                "title": "9.Spam replies to comments by keyword (การตอบกลับสแปมต่อความคิดเห็นโดยใช้คีย์เวิร์ด)",
+                "content": "9.Spam replies to comments by keyword (การตอบกลับสแปมต่อความคิดเห็นโดยใช้คีย์เวิร์ด)\n\n![image](/images/image383.png)\n\nกำหนดขอบเขตและจำนวน\n\nNumber of Keywords:กำหนดว่าจะใช้คีย์เวิร์ดกี่คำในการค้นหา\n\nNumber of post:จำนวนโพสต์ที่จะเข้าไปจัดการต่อ 1 คีย์เวิร์ด\n\nNumber of comment:จำนวนคอมเมนต์ที่จะไปตอบโต้ (Reply) ในแต่ละโพสต์\n\nDelay time:ระยะเวลาหน่วง ระหว่างแต่ละการกระทำ เพื่อลดการโดนบล็อกหรือตรวจจับจากระบบ\n\nการจัดการคีย์เวิร์ด\n\nKeyword list:ช่องสำหรับใส่คำค้นหาที่ต้องการให้ระบบไปไล่ดูคอมเมนต์\n\nSearch type:เลือกประเภทการค้นหา\n\nBài viết: โพสต์\n\nPage: เพจ\n\nNhóm: กลุ่ม\n\nDelete used keywords:หากติ๊กถูก ระบบจะลบคีย์เวิร์ดทิ้งหลังจากใช้งานเสร็จแล้ว\n\nIgnore spam posts:ข้ามโพสต์ที่ระบบวิเคราะห์ว่าเป็นสแปมอยู่แล้ว\n\nการตอบโต้ด้วยอารมณ์และข้อความ\n\nRelease emotions:ติ๊กเพื่อกดแสดงความรู้สึก (Like, Love, Haha, ฯลฯ)\n\nText comment:ส่วนการตอบกลับด้วยข้อความ\n\nOption: เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt สำเร็จรูปให้เลือกใช้ตามวัตถุประสงค์ดังนี้\n\nComment AI: สร้างข้อความคอมเมนต์\n\nReply tin nhắn: ร่างข้อความตอบกลับ\n\nViết bài đăng: ร่างเนื้อหาสำหรับนำไปโพสต์ใหม่\n\nContent: ช่องสำหรับพิมพ์ข้อความที่ต้องการตอบกลับ รองรับระบบ Spin Content {a|b|c} เพื่อสุ่มคำพูดไม่ให้ซ้ำกัน\n\nOption:เลือกว่าจะให้อ่านเนื้อหาแบบไหน\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nComment photo:หากต้องการตอบกลับด้วยรูปภาพ ให้ติ๊กเลือกและระบุที่อยู่ไฟล์ (Path) ในช่อง Photo folder\n\nการบันทึกและส่งออก\n\nExport link:ติ๊กเพื่อให้ระบบบันทึกหรือส่งออกลิงก์ของคอมเมนต์/โพสต์ที่เราได้เข้าไปทำงานไว้\n\n",
+                "type": "markdown",
+                "images": [
+                  "image383.png"
+                ]
+              },
+              {
+                "title": "10.Spam replies to comments (group, page,profile) (การตอบกลับสแปมในความคิดเห็น (กลุ่ม เพจ โปรไฟล์))",
+                "content": "10.Spam replies to comments (group, page,profile) (การตอบกลับสแปมในความคิดเห็น (กลุ่ม เพจ โปรไฟล์))\n\n![image](/images/image365.png)\n\nการตั้งค่าจำนวนและเวลา\n\nNumber of ids/page:กำหนดจำนวน ID หรือจำนวนหน้าที่จะให้โปรแกรมเข้าไปทำงาน\n\nPost number/id:จำนวนโพสต์ต่อ 1 ID ที่จะให้เข้าไปตอบคอมเมนต์\n\nNumber of comment:จำนวนคอมเมนต์ที่จะให้เข้าไปตอบต่อ 1 โพสต์\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงาน เพื่อลดการโดนตรวจจับว่าเป็นสแปม\n\nการตั้งค่ากลุ่มเป้าหมาย\n\nList of ids or links:ช่องสำหรับใส่รายชื่อ ID  หรือลิงก์ที่ต้องการให้โปรแกรมเข้าไปทำงาน\n\nDelete the used id:หากติ๊กถูก โปรแกรมจะลบ ID หรือลิงก์นั้นออกจากรายการทันทีเมื่อทำงานเสร็จสิ้น\n\nการตั้งค่าเนื้อหาข้อความ\n\nContent:ช่องสำหรับใส่ข้อความที่จะใช้ตอบกลับ\n\nSpin Content:รองรับการใช้รูปแบบ{a|b|c}เพื่อให้โปรแกรมสุ่มคำพูดที่แตกต่างกันในแต่ละคอมเมนต์ (ช่วยลดโอกาสการถูกบล็อก)\n\nOption:เลือกรูปแบบการอ่านข้อความ\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nการตั้งค่าไฟล์ภาพและส่วนเสริม\n\nComment photo:ติ๊กถูกเพื่อแนบรูปภาพไปกับคอมเมนต์\n\nPhoto folder: ระบุที่อยู่ไฟล์ (Path) ของโฟลเดอร์รูปภาพในคอมพิวเตอร์\n\nExport link:ติ๊กถูกเพื่อให้โปรแกรมบันทึกหรือส่งออกลิงก์ที่ได้ทำการคอมเมนต์สำเร็จแล้ว\n\n",
+                "type": "markdown",
+                "images": [
+                  "image365.png"
+                ]
+              },
+              {
+                "title": "11.Spam replies to comments on specified posts (การตอบกลับสแปมต่อความคิดเห็นในโพสต์ที่ระบุ)",
+                "content": "11.Spam replies to comments on specified posts (การตอบกลับสแปมต่อความคิดเห็นในโพสต์ที่ระบุ)\n\n![image](/images/image103.png)\n\nการกำหนดเป้าหมายและความถี่\n\nNumber of ids/page:ตั้งค่าจำนวน ID ที่จะให้ทำงานต่อหนึ่งหน้า\n\nNumber of comment:ตั้งค่าจำนวนคอมเมนต์ที่จะให้ตอบกลับ\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงาน เพื่อลดการโดนตรวจจับว่าเป็นบอท\n\nList of article ids or links:ช่องสำหรับใส่ URL หรือ ID ของโพสต์เป้าหมายที่ต้องการให้บอทเข้าไปตอบคอมเมนต์\n\nIgnore replied comments:หากติ๊กเลือก ระบบจะข้ามคอมเมนต์ที่เคยตอบไปแล้ว\n\nDelete the used id:หากติ๊กเลือก ระบบจะลบ ID นั้นออกหลังจากใช้งานเสร็จ\n\nการแสดงความรู้สึก\n\nRelease emotions:เปิด/ปิด ฟังก์ชันการกด Reaction\n\nตัวเลือก Icon:สามารถเลือกประเภทความรู้สึกได้ เช่น Like, Love, Care, Haha, Wow, Sad หรือ Angry\n\nการตั้งค่าเนื้อหาข้อความ (Text Comment)\n\nOption:เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:เลือกชุดคำสั่ง AI ในการช่วยตอบ\n\nComment AI: สร้างข้อความคอมเมนต์\n\nReply tin nhắn: ร่างข้อความตอบกลับ\n\nViết bài đăng: ร่างเนื้อหาสำหรับนำไปโพสต์ใหม่\n\nContent: ช่องสำหรับพิมพ์ข้อความที่ต้องการ โดยรองรับระบบ Spin Content เช่น{a|b|c}เพื่อสุ่มคำพูดไม่ให้ซ้ำกัน\n\nOption:เลือกรูปแบบการแสดงผล\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nการตั้งค่าส่วนเสริมและสื่อ\n\nComment photo:หากติ๊กเลือก ระบบจะแนบรูปภาพไปกับคอมเมนต์ด้วย โดยต้องระบุที่อยู่โฟลเดอร์รูปภาพในช่อง Photo folder\n\nExport link:หากติ๊กเลือก ระบบจะทำการส่งออก (Export) ลิงก์ที่ได้ไปดำเนินการเสร็จสิ้นแล้วเก็บไว้เป็นหลักฐาน\n\n",
+                "type": "markdown",
+                "images": [
+                  "image103.png"
+                ]
+              },
+              {
+                "title": "12.Spam replies to specified comments (การตอบกลับสแปมต่อความคิดเห็นที่ระบุไว้)",
+                "content": "12.Spam replies to specified comments (การตอบกลับสแปมต่อความคิดเห็นที่ระบุไว้)\n\n![image](/images/image143.png)\n\nการตั้งค่ากำหนดเป้าหมาย\n\nList of comment ids:ช่องสำหรับใส่รหัส ID ที่ต้องการ โดยต้องพิมพ์ในรูปแบบID POST_ID COMMENT(ตามตัวอย่างในภาพคือ123456_123456)\n\nDelete the used id:หากติ๊กถูก โปรแกรมจะลบ ID นั้นออกจากรายการทันทีหลังจากทำงานเสร็จ เพื่อป้องกันการทำงานซ้ำ\n\nการตั้งค่าความเร็วและปริมาณ\n\nNumber of ids/page:ตั้งค่าจำนวน ID ที่จะให้ทำต่อหนึ่งเพจ\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงานแต่ละครั้ง เช่น ตั้งไว้ 5 ถึง 10 วินาที เพื่อให้ดูเป็นธรรมชาติเหมือนมนุษย์ใช้งาน\n\nการตั้งค่ารูปแบบการตอบกลับ\n\nRelease emotions:เลือก \"ความรู้สึก\" (Like, Love, Wow, ฯลฯ) ที่ต้องการให้โปรแกรมไปกดที่คอมเมนต์เป้าหมาย\n\n",
+                "type": "markdown",
+                "images": [
+                  "image143.png"
+                ]
+              },
+              {
+                "title": "Text comment:",
+                "content": "Text comment:\n\nOption: เลือกแหล่งที่มาของข้อความ เช่นCustom Content(พิมพ์เอง)\n\nSelect Prompt: เลือกใช้ AI ในการช่วยคิดคำตอบ (Comment AI)\n\nContent Box: ช่องสำหรับใส่ข้อความที่ต้องการตอบกลับ รองรับระบบ Spin Content โดยใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มคำพูดไม่ให้ซ้ำกัน\n\nComment photo:หากต้องการตอบกลับด้วยรูปภาพ ให้ติ๊กถูกแล้วเลือก Path หรือโฟลเดอร์เก็บรูปภาพในเครื่องคอมพิวเตอร์ของคุณ\n\nExport link:ติ๊กถูกเพื่อให้โปรแกรมบันทึกหรือส่งออกลิงก์ที่ทำงานสำเร็จแล้วออกมาให้ตรวจสอบ\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "13.Edit comments (แก้ไขความคิดเห็น)",
+                "content": "13.Edit comments (แก้ไขความคิดเห็น)\n\n![image](/images/image452.png)\n\nการตั้งค่าจัดการรายการข้อความ\n\nText list (0):ช่องว่างสำหรับพิมพ์หรือวางข้อความที่ต้องการใช้ ตัวเลขในวงเล็บจะแสดงจำนวนรายการข้อความที่มีอยู่\n\nDelete text when used:หากติ๊กถูก ระบบจะลบข้อความออกจากรายการทันทีหลังจากที่ถูกนำไปใช้งานแล้ว (ป้องกันการใช้ซ้ำ)\n\nContent options:ตัวเลือกรูปแบบเนื้อหา\n\nOne-line content: 1 บรรทัด = 1 คอมเมนต์\n\nContent many lines: ข้อความทั้งหมดในช่อง Text list คือ 1 คอมเมนต์เดียว\n\nการตั้งค่าปริมาณ\n\nOne page with maximum:กำหนดจำนวนคอมเมนต์สูงสุดที่จะให้ระบบทำงานต่อหนึ่งหน้า\n\nตัวเลือกการสแกนและการจัดเรียง\n\nComment scanning options:เลือกขอบเขตการสแกนคอมเมนต์\n\nAll comments: สแกนความคิดเห็น \"ทั้งหมด\"\n\nJust comment within the group: สแกน \"เฉพาะความคิดเห็นที่อยู่ในกลุ่ม\" ที่กำหนดไว้เท่านั้น\n\nSort comments:เลือกการเรียงลำดับคอมเมนต์\n\nIn order: รียงตามลำดับ\n\nAbsolutely: การดึงข้อมูลแบบ \"ตายตัว\"\n\nExport link:หากติ๊กถูก ระบบจะทำการส่งออกลิงก์ที่เกี่ยวข้องหลังจากทำงานเสร็จ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image452.png"
+                ]
+              },
+              {
+                "title": "14.Post reel (โพสต์คลิปรีล)",
+                "content": "14.Post reel (โพสต์คลิปรีล)\n\n![image](/images/image585.png)\n\nการจัดการวิดีโอ\n\nVideo folder:ระบุที่อยู่ไฟล์ (Path) ในเครื่องคอมพิวเตอร์ของคุณที่เก็บคลิปวิดีโอไว้\n\nVideo selection options:เลือกรูปแบบการนำวิดีโอมาโพสต์\n\nIn order: เรียงตามลำดับ\n\nRandom: สุ่ม\n\nDelete video file when finished posting:หากติ๊กถูก โปรแกรมจะลบไฟล์วิดีโอออกจากเครื่องทันทีเมื่อโพสต์เสร็จ\n\nการตั้งค่าเวลาและปริมาณ\n\nOne page posted:จำนวนวิดีโอที่จะให้โพสต์ต่อ 1 เพจ\n\nVideo upload time:เวลารอสำหรับการอัปโหลดวิดีโอ\n\nPosting distance:ระยะห่างระหว่างการโพสต์แต่ละครั้ง เพื่อความเป็นธรรมชาติ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image585.png"
+                ]
+              },
+              {
+                "title": "15.Delete page post (ลบโพสต์หน้าเพจ)",
+                "content": "15.Delete page post (ลบโพสต์หน้าเพจ)\n\n![image](/images/image490.png)\n\nการตั้งค่ารายละเอียดการลบ\n\nSweep:กำหนดจำนวนรอบในการกวาดหาโพสต์ เพื่อดึงข้อมูล \"latest article\" หรือโพสต์ล่าสุด\n\nNumber of deletions:ระบุจำนวนโพสต์ที่ต้องการลบในแต่ละครั้ง\n\nDistance:เป็นการตั้งค่าการสุ่มเวลาเพื่อไม่ให้ระบบตรวจจับว่าเป็นบอท\n\nDelete options:เมนูสำหรับเลือกว่าจะลบแบบไหน\n\nDelete all posts: ลบโพสต์ทั้งหมด\n\nDelete latest post: ลบโพสต์ล่าสุด\n\nDelete oldest post: ลบโพสต์เก่าที่สุด\n\nDelete posts by date range: ลบโพสต์ตามช่วงวันที่\n\nPage interactions\n\n",
+                "type": "markdown",
+                "images": [
+                  "image490.png"
+                ]
+              },
+              {
+                "title": "1.Read the announcement (อ่านประกาศ)",
+                "content": "1.Read the announcement (อ่านประกาศ)\n\n![image](/images/image346.png)\n\nการกำหนดค่าการแสดงผล\n\nQuantity:จำนวนที่ต้องการอ่าน\n\nWaiting time:ระยะเวลาพัก ขั้นต่ำหลังจากจบแต่ละรอบ\n\nViewing options:รูปแบบการแสดงผล\n\nSequence: ตามลำดับ\n\nRandom: สุ่ม\n\n",
+                "type": "markdown",
+                "images": [
+                  "image346.png"
+                ]
+              },
+              {
+                "title": "2.Reel interaction (ปฏิสัมพันธ์ของรีล)",
+                "content": "2.Reel interaction (ปฏิสัมพันธ์ของรีล)\n\n![image](/images/image619.png)\n\nการตั้งค่าเวลาและปริมาณ\n\nWaiting time:ตั้งค่าเวลาหน่วงในการดู Reel\n\nAn interactive page:จำนวนคลิป Reel ที่ต้องการให้โปรแกรมเข้าไปมีปฏิสัมพันธ์ด้วย\n\nWaiting time for link transfer:ระยะเวลาพักระหว่างการเปลี่ยนจากลิงก์หนึ่งไปอีกลิงก์หนึ่ง\n\nการจัดการลิงก์เป้าหมาย\n\nList of id or link reel:วางไอดีหรือลิงก์ของคลิป Reel ที่ต้องการให้ระบบเข้าไปทำงาน\n\nAutomatically delete links when interacted:หากติ๊กถูก ระบบจะลบลิงก์ออกจากรายการทันทีหลังจากทำงานเสร็จ เพื่อป้องกันการทำงานซ้ำ\n\nการแสดงความรู้สึกและคอมเมนต์\n\nRelease emotions:ติ๊กเพื่อเลือกกด \"ความรู้สึก\" (Like, Love, Care, Haha, Wow, Sad, Angry)\n\nText comment:ติ๊กเพื่อพิมพ์ข้อความแสดงความคิดเห็น\n\nContent: ช่องสำหรับใส่ข้อความ (รองรับระบบ Spin Content เช่น{ดีมาก|สุดยอด|สวยมาก}เพื่อสุ่มข้อความ)\n\nOption: เลือกรูปแบบการคอมเมนต์\n\nOne-line content:1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: ทุกบรรทัดในช่อง Content คือข้อความเดียวกันทั้งหมด\n\nComment photo:ติ๊กหากต้องการคอมเมนต์ด้วยรูปภาพ พร้อมช่องระบุที่อยู่โฟลเดอร์รูปภาพในเครื่อง\n\n",
+                "type": "markdown",
+                "images": [
+                  "image619.png"
+                ]
+              },
+              {
+                "title": "3.Post (โพสต์)",
+                "content": "3.Post (โพสต์)\n\n![image](/images/image577.png)\n\nการตั้งค่าจำนวนการโพสต์\n\nOne page posted:ตั้งค่าจำนวนขั้นต่ำที่จะโพสต์ต่อหนึ่งเพจ/บัญชี\n\nการจัดการเนื้อหา\n\nOption:เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:กรณีใช้งานร่วมกับ AI สามารถเลือกคำสั่งที่ตั้งไว้ได้\n\nComment AI: ให้ AI เขียน \"ข้อความแสดงความคิดเห็น\"\n\nReply tin nhắn: ให้ AI ตอบกลับข้อความ\n\nViết bài đăng: ให้ AI \"เขียนเนื้อหาโพสต์ใหม่\"\n\nContent (0):ช่องว่างสำหรับพิมพ์หรือวางข้อความที่จะนำไปโพสต์\n\nDelete text when used:หากติ๊กเลือก ระบบจะลบข้อความนั้นทิ้งทันทีหลังจากโพสต์สำเร็จ\n\nContent options:เลือกว่าเนื้อหาถูกแบ่งแบบใด\n\nOne-line content: 1 บรรทัด = 1 โพสต์\n\nContent many lines: ข้อความทั้งหมดที่ใส่ไว้ = 1 โพสต์เดียว\n\nการจัดการรูปภาพ\n\nPhoto folder:ระบุตำแหน่ง (Path) ของโฟลเดอร์ในคอมพิวเตอร์ที่เก็บรูปภาพไว้\n\nNumber of photos/article:กำหนดจำนวนรูปที่จะใช้ต่อ 1 โพสต์\n\nDelete photos when used:ลบไฟล์ภาพออกจากเครื่องทันทีเมื่อโพสต์เสร็จ\n\nส่วนเสริมและการตั้งค่าอื่น ๆ\n\nSchedule:ติ๊กเพื่อตั้งเวลาโพสต์ล่วงหน้า\n\nScheduling type: รูปแบบการเว้นระยะ เพื่อไม่ให้บัญชีถูกแบนจากการโพสต์ถี่เกินไป\n\nOption 1 (eg post 2 hours apart): ระบบจะคำนวณเวลาโพสต์โดยนับจากเวลาเริ่มต้น แล้วบวกเพิ่มไปตามระยะที่กำหนด (เช่น ทุกๆ 2 ชั่วโมง)\n\nOption 2 (eg 11am every day): ระบบจะทำการโพสต์ในเวลาเดิมที่กำหนดไว้ทุกๆ วัน (เช่น ตั้งไว้ 11 โมงเช้า พรุ่งนี้ 11 โมงก็จะโพสต์อีก)\n\nStarting date: วันที่ต้องการให้เริ่มงาน\n\nTime: เวลาที่ต้องการให้เริ่มทำงาน\n\nPost interaction after posting:ติ๊กเพื่อให้ระบบทำปฏิกิริยาหลังโพสต์ (เช่น กดไลก์ตัวเอง หรือคอมเมนต์) สามารถกด Setting เพื่อตั้งค่าเพิ่ม\n\nAdd a send message button:เพิ่มปุ่ม \"ส่งข้อความ\" ไว้ใต้โพสต์\n\nExport link:ติ๊กเพื่อให้ระบบบันทึกลิงก์ของโพสต์ที่ทำสำเร็จออกมาเป็นไฟล์\n\nDelete link (Post with link):ลบลิงก์ออกหลังจากโพสต์เสร็จ (กรณีที่เป็นการโพสต์แบบใช้ Link)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image577.png"
+                ]
+              },
+              {
+                "title": "4.Breaks (หยุดพัก)",
+                "content": "4.Breaks (หยุดพัก)\n\n![image](/images/image266.png)\n\nWaiting time:ระยะเวลาที่ต้องการหยุดพักก่อนจะทำงานในขั้นตอนถัดไป\n\n",
+                "type": "markdown",
+                "images": [
+                  "image266.png"
+                ]
+              },
+              {
+                "title": "5.Post stories (โพสต์สตอรี่)",
+                "content": "5.Post stories (โพสต์สตอรี่)\n\n![image](/images/image701.png)\n\nการตั้งค่าการโพสต์\n\nOne page posted:กำหนดจำนวนสตอรี่ที่จะโพสต์ต่อหนึ่งเพจ\n\nPosting distance:ระยะห่างระหว่างการโพสต์แต่ละครั้ง เพื่อลดโอกาสการโดนบล็อก\n\nPhoto folder:ตำแหน่งที่จัดเก็บรูปภาพในเครื่องคอมพิวเตอร์ของคุณที่ต้องการให้นำไปโพสต์\n\nการจัดการปุ่มและลิงก์\n\nAdd button:ติ๊กถูกเพื่อเปิดใช้งานการเพิ่มปุ่มบนสตอรี่\n\nButton Type:เลือกประเภทของปุ่ม\n\nView store: ดูร้านค้า\n\nSee more: ดูเพิ่มเติม\n\nFind out more: หาข้อมูลเพิ่มเติม\n\nBuy now: ซื้อเลย\n\nBook now: จองเลย\n\nLink list:ช่องสำหรับใส่ URL หรือลิงก์ที่ต้องการให้ปุ่มเชื่อมโยงไป คุณสามารถใส่ได้หลายลิงก์\n\nRemove link when in use:หากติ๊กช่องนี้ ระบบจะลบลิงก์ออกจากรายการทันทีหลังจากถูกนำไปโพสต์แล้ว\n\nExport link:ติ๊กถูกหากต้องการให้ระบบส่งออกข้อมูลลิงก์ที่ใช้งานแล้ว\n\n",
+                "type": "markdown",
+                "images": [
+                  "image701.png"
+                ]
+              },
+              {
+                "title": "6.Post the specified uid tag (โพสต์แท็ก uid ที่ระบุ)",
+                "content": "6.Post the specified uid tag (โพสต์แท็ก uid ที่ระบุ)\n\n![image](/images/image773.png)\n\nการกำหนดค่าการโพสต์\n\nMaximum posting per page:กำหนดจำนวนโพสต์สูงสุดต่อหนึ่งเพจ\n\nMaximum tag per article:กำหนดจำนวน UID ที่จะถูกแท็กสูงสุดต่อหนึ่งโพสต์\n\nPosting distance:การตั้งค่าระยะห่างเวลาในการโพสต์แต่ละครั้ เพื่อลดโอกาสการถูกบล็อก โดยระบบจะสุ่มเวลาในช่วงที่ระบุ\n\nการจัดการรายชื่อ UID\n\nList of uids:ช่องสำหรับใส่รายการ ID ผู้ใช้ที่ต้องการนำไปแท็กในโพสต์\n\nDelete uid when used:หากติ๊กถูก ระบบจะลบ UID นั้นออกจากรายการทันทีหลังจากใช้งานเสร็จ เพื่อป้องกันการแท็กซ้ำ\n\nการจัดการเนื้อหาและตัวเลือกเสริม\n\nExport link:หากติ๊กถูก ระบบจะทำการส่งออก (Export) ลิงก์ของโพสต์ที่ทำสำเร็จเก็บไว้\n\nAdd text to the beginning of the post:เปิดใช้งานการเพิ่มข้อความนำหน้าการแท็ก\n\nOption: เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt: เลือกคำสั่ง AI กรณีใช้ระบบช่วยเขียน\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nContent:ช่องสำหรับพิมพ์ข้อความที่ต้องการให้แสดงก่อนการแท็ก UID\n\nDelete text when used: หากติ๊กถูก ระบบจะลบข้อความนั้นออกหลังจากโพสต์เสร็จ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image773.png"
+                ]
+              },
+              {
+                "title": "7.Respond to messages (ตอบกลับข้อความ)",
+                "content": "7.Respond to messages (ตอบกลับข้อความ)\n\n![image](/images/image582.png)\n\nการตั้งค่าเงื่อนไขเวลาและจำนวน\n\nA page replied:ตั้งค่าช่วงจำนวนข้อความที่จะให้เพจตอบกลับ\n\nResponse distance:ระยะห่างของการตอบแต่ละข้อความ เพื่อลดโอกาสการโดนมองว่าเป็นสแปม\n\nA message retrieved:จำนวนเนื้อหา/ข้อความที่จะดึงขึ้นมาจัดการต่อหนึ่งรอบ\n\nReply to messages by:เลือกรูปแบบการตอบกลับ\n\nOrder: ตามลำดับ\n\nUnexpectedly: แบบสุ่ม/ไม่คาดเดา\n\nการจัดการเนื้อหาข้อความ\n\nOption: เลือกประเภทเนื้อหา\n\nCustom Content: เนื้อหากำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:กรณีใช้ AI ช่วยตอบ สามารถเลือก Prompt ที่ตั้งค่าไว้ได้\n\n",
+                "type": "markdown",
+                "images": [
+                  "image582.png"
+                ]
+              },
+              {
+                "title": "Comment AI:",
+                "content": "Comment AI:\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nContent (0):ช่องสำหรับกรอกข้อความที่คุณต้องการใช้ตอบกลับ\n\nDelete text when used:หากติ๊กถูก ระบบจะลบข้อความนั้นออกจากรายการเมื่อใช้งานแล้ว\n\nContent options:รูปแบบการดึงข้อความไปใช้\n\nOne-line content: 1 บรรทัด คือ 1 คำตอบ\n\nContent many lines: ระบบจะดึงข้อความ ทั้งหมดในช่อง Content ไปตอบในการส่งครั้งเดียว\n\nตัวเลือกสื่อและการคัดกรอง\n\nImage:หากติ๊กถูก ระบบจะส่งรูปภาพแนบไปด้วย\n\nPhoto folder: เลือกที่อยู่ไฟล์ (Path) ของรูปภาพในเครื่องคอมพิวเตอร์\n\nDelete photos when used: ลบรูปภาพทิ้งเมื่อส่งออกไปแล้ว\n\nPrioritize unread messages:ให้ความสำคัญกับข้อความที่ \"ยังไม่ได้อ่าน\" ก่อน\n\nReply to incoming messages only:ตอบกลับเฉพาะข้อความใหม่ที่ส่งเข้ามาเท่านั้น\n\nReply to messages by keyword:ตั้งค่าให้ตอบกลับตาม \"คีีย์เวิร์ด\"\n\nKeywords | Answer content: ช่องสำหรับระบุว่าถ้าเจอคำว่าอะไร ให้ตอบด้วยประโยคไหน\n\nการส่งออกข้อมูล\n\nExport messages:เปิดใช้งานการบันทึกข้อความลงเครื่อง\n\nSave folder:เลือกโฟลเดอร์ที่จะจัดเก็บไฟล์รายงาน\n\nKey word:กำหนดคีย์เวิร์ดที่ต้องการให้ระบบคัดแยกออกมาเพื่อบันทึก\n\nFile output type:รูปแบบการตั้งชื่อไฟล์หรือการแยกไฟล์\n\nSave by admin uid: ระบบจะแยกไฟล์ตาม ID ของผู้ดูแล (Admin) ที่เป็นคนรันระบบนั้นๆ\n\nSave by page id page: ระบบจะแยกไฟล์ตาม ID ของแฟนเพจ\n\nSave to a common file: ระบบจะบันทึกข้อมูลทุกอย่างรวมกันไว้ใน ไฟล์เดียว (Common File)\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "8.Reply to comments (ตอบกลับความคิดเห็น)",
+                "content": "8.Reply to comments (ตอบกลับความคิดเห็น)\n\n![image](/images/image229.png)\n\nการควบคุมเวลาและปริมาณ\n\nComment space:ระยะห่างระหว่างการตอบแต่ละคอมเมนต์  แนะนำให้ตั้งค่าให้มีความเป็นธรรมชาติ\n\nOne page replied to me:จำนวนคอมเมนต์สูงสุดที่ระบบจะทำการตอบกลับต่อหนึ่งหน้าหรือหนึ่งโพสต์\n\nการตั้งค่าข้อความ\n\nText comments:ติ๊กถูกเพื่อเปิดใช้งานการตอบกลับด้วยข้อความ\n\nOption:เลือกรูปแบบของเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:กรณีใช้ AI ช่วยเขียน สามารถเลือกคำสั่ง (Prompt) ที่ต้องการได้\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nช่องกรอกข้อความ (สีขาวขนาดใหญ่):ใส่ข้อความที่คุณต้องการให้ระบบพิมพ์ตอบกลับ\n\nDelete text when used:หากติ๊กช่องนี้ ข้อความที่ใช้ไปแล้วจะถูกลบออกจากรายการ\n\nการส่งสื่อและฟีเจอร์เสริม\n\nComment photo:หากต้องการตอบกลับด้วยรูปภาพ ให้ติ๊กถูกที่ช่องนี้\n\nPhoto folder: ระบุที่อยู่ไฟล์ (Path) ในคอมพิวเตอร์ที่เก็บรูปภาพไว้ เพื่อให้ระบบดึงไปใช้งาน\n\nSend message:ตัวเลือกสำหรับส่งข้อความส่วนตัว (Inbox) ไปหาผู้คอมเมนต์เพิ่มเติม\n\nExport link:ตัวเลือกสำหรับการดึงลิงก์ที่เกี่ยวข้องออกมาใช้งานภายนอก\n\n",
+                "type": "markdown",
+                "images": [
+                  "image229.png"
+                ]
+              },
+              {
+                "title": "9.Post a tag with a button (โพสต์แท็กพร้อมปุ่ม)",
+                "content": "9.Post a tag with a button (โพสต์แท็กพร้อมปุ่ม)\n\n![image](/images/image371.png)\n\nการตั้งค่าเวลาและจำนวน\n\nPost distance: ตั้งค่าช่วงเวลาห่างระหว่างแต่ละโพสต์\n\nMaximum posting per...posts: กำหนดจำนวนโพสต์สูงสุดต่อรอบการทำงาน\n\nการจัดการเนื้อหา\n\nContent:เนื้อหาหลักของโพสต์ (Caption)\n\nTitle 1, 2, 3 content: ส่วนหัวข้อที่จะไปปรากฏในตำแหน่งต่าง ๆ ของโพสต์\n\nButton Type:เลือกประเภทของปุ่ม\n\nLikePage: ปุ่มกดถูกใจเพจ\n\nNoButton: ไม่แสดงปุ่มใดๆ บนโพสต์\n\nContactUs: ติดต่อเรา (มักใช้เชื่อมไปยังหน้ากรอกฟอร์มหรือข้อมูลติดต่อ)\n\nMessagePage: ส่งข้อความเข้า Inbox ของเพจโดยตรง\n\nShopNow: ซื้อเลย (เหมาะสำหรับลิงก์ไปหน้าสินค้า/E-commerce)\n\nBookTravel: จองการเดินทาง\n\nGetQuote: ขอใบเสนอราคา\n\nStartOrder: เริ่มสั่งซื้อสินค้า/อาหาร\n\nLearnMore: ดูเพิ่มเติม (ปุ่มยอดนิยม ใช้เพื่อให้คนคลิกเข้าไปอ่านรายละเอียดในเว็บไซต์)\n\nDownload: ดาวน์โหลดเอกสารหรือไฟล์\n\nSeeMore: ดูเพิ่มเติม (คล้าย LearnMore)\n\nWatchMore: ชมวิดีโอเพิ่มเติม\n\nInstallApp: ติดตั้งแอปพลิเคชัน\n\nUseApp: ใช้งานแอปพลิเคชัน (สำหรับผู้ที่มีแแอปอยู่แล้ว)\n\nPlayGame: เล่นเกม\n\nSignUp: ลงชื่อเข้าใช้ / สมัครสมาชิก\n\nSubscribe: ติดตามข่าวสาร (เช่น จดหมายข่าว หรือช่อง YouTube)\n\nListenMusic: ฟังเพลง\n\nOpenLink: เปิดลิงก์เว็บไซต์\n\nTryIt: ทดลองใช้งาน\n\nApplyNow: สมัครตอนนี้ (มักใช้กับการสมัครงานหรือหลักสูตร)\n\nLink web:ใส่ URL หรือลิงก์ที่ต้องการให้ปุ่มเชื่อมโยงไป\n\nPhoto folder:ที่อยู่ไฟล์ (Path) ของโฟลเดอร์รูปภาพที่ต้องการใช้โพสต์\n\nการตั้งค่าเพิ่มเติม\n\nExport article link:หากติ๊กเลือก โปรแกรมจะส่งออก (Save) ลิงก์ของโพสต์ที่ทำสำเร็จแล้วเก็บไว้\n\n",
+                "type": "markdown",
+                "images": [
+                  "image371.png"
+                ]
+              },
+              {
+                "title": "10.Send invitation to like page (ส่งคำเชิญให้กดไลค์เพจ)",
+                "content": "10.Send invitation to like page (ส่งคำเชิญให้กดไลค์เพจ)\n\n![image](/images/image659.png)\n\nSelect sending type:เลือกประเภทการส่ง\n\nFeeling: ความรู้สึก\n\nFriend: เพื่อน\n\nBình luận: ความคิดเห็น\n\n",
+                "type": "markdown",
+                "images": [
+                  "image659.png"
+                ]
+              },
+              {
+                "title": "11.Copy the specified article (คัดลอกบทความที่ระบุ)",
+                "content": "11.Copy the specified article (คัดลอกบทความที่ระบุ)\n\n![image](/images/image720.png)\n\nการจัดการบทความต้นทาง\n\nOne page posted:กำหนดจำนวนหน้าหรือจำนวนบทความที่จะดึงมาโพสต์ในหนึ่งรอบ\n\nList of article ids or links:ช่องสำหรับใส่ ID ของบทความ หรือ URL ลิงก์ที่ต้องการให้ระบบไปคัดลอกมา (ใส่ 1 รายการต่อ 1 บรรทัด)\n\nDelete id when using:หากติ๊กถูก ระบบจะลบ ID/ลิงก์ออกจากรายการทันทีที่ใช้งานเสร็จ (ป้องกันการโพสต์ซ้ำ)\n\nRemove hashtags from content:หากติ๊กถูก ระบบจะลบเครื่องหมาย # หรือคำที่เป็น hashtag ออกจากเนื้อหาต้นฉบับอัตโนมัติ\n\nการปรับแต่งเนื้อหาเพิ่มเติม\n\nAdd content at the end of the article:ติ๊กถูกหากต้องการเพิ่มข้อความปิดท้ายบทความ\n\nช่องกรอก Content:พิมพ์ข้อความที่คุณต้องการให้ปรากฏต่อท้ายบทความทุกอันในช่องนี้\n\nDelete text when used:ลบข้อความเสริมนี้ทิ้งหลังจากใช้งานไปแล้ว\n\nContent options:เลือกรูปแบบการดึงเนื้อหามาใช้\n\nOne-line content: 1 บรรทัด = 1 ข้อความ\n\nContent many lines: ข้อความทั้งหมดในช่อง = 1 ข้อความ\n\nการตั้งเวลาและตัวเลือกเสริม\n\nSchedule:การตั้งเวลาล่วงหน้า\n\nScheduling type: เลือกรูปแบบการเว้นระยะการโพสต์\n\nOption 1 (eg post 2 hours apart): เมื่อเริ่มงานโพสต์แรกเสร็จแล้ว ระบบจะนับถอยหลังตามระยะเวลาที่คุณกำหนด (เช่น ทุกๆ 2 ชั่วโมง) เพื่อเริ่มโพสต์ถัดไป\n\nOption 2 (eg 11am every day): ระบบจะโพสต์เฉพาะตามเวลาที่คุณตั้งค่าไว้เป๊ะๆ ในแต่ละวัน (เช่น ตั้งไว้ 11:56 น. ระบบก็จะทำงานเวลานี้ของทุกวัน)\n\nStarting date: กำหนดวันที่เริ่มต้นทำงาน\n\nTime (Hour/Minute): กำหนดเวลาที่ต้องการให้เริ่มโพสต์บรรทัดแรกหรือรอบแรก\n\nAdd a send message button:เพิ่มปุ่ม \"ส่งข้อความ\" เข้าไปในโพสต์\n\nExport link:ให้ระบบส่งออกลิงก์ที่โพสต์สำเร็จแล้วออกมาเพื่อเก็บเป็นรายงาน\n\n",
+                "type": "markdown",
+                "images": [
+                  "image720.png"
+                ]
+              },
+              {
+                "title": "12.Copy specified page post (คัดลอกโพสต์เพจที่ระบุ)",
+                "content": "12.Copy specified page post (คัดลอกโพสต์เพจที่ระบุ)\n\n![image](/images/image536.png)\n\nการนำเข้าข้อมูล\n\nImport list: PAGE ID | Copy PAGE ID:ช่องสำหรับใส่ ID ของเพจต้นทางที่ต้องการคัดลอก และ ID ของเพจปลายทางที่จะให้นำไปโพสต์\n\nรูปแบบปกติมักจะเป็นID เพจต้นทาง | ID เพจปลายทาง\n\nตัวเลขด้านบน (0):แสดงจำนวนรายการที่ถูกเพิ่มเข้าไปในรายการ\n\nการตั้งค่าการดึงข้อมูล\n\nSweep [ ] latest article:กำหนดว่าจะให้ดึงโพสต์ล่าสุดจำนวนกี่โพสต์จากเพจต้นทาง\n\nMaximum posting per page [ ] post per run:กำหนดจำนวนโพสต์สูงสุดที่จะให้โปรแกรมโพสต์ต่อเพจ ต่อการทำงานหนึ่งรอบ\n\nDo not post copied articles:หากติ๊กถูก โปรแกรมจะไม่โพสต์ซ้ำหากบทความนั้นเคยถูกคัดลอกไปแล้ว\n\nRemove hashtags from content:หากติ๊กถูก โปรแกรมจะลบ Hashtag ออกจากข้อความต้นฉบับก่อนโพสต์\n\nPosting distance [ ] arrive [ ] second:ตั้งค่าหน่วงเวลา หรือระยะห่างระหว่างการโพสต์แต่ละครั้ง เพื่อป้องกันการโดนแบน\n\nPosting options:ตัวเลือกเสริมอื่นๆ\n\nPost random article: สุ่มโพสต์\n\nPost articles in order of newest: โพสต์จากใหม่ไปเก่า\n\nPost oldest first: โพสต์จากเก่าไปใหม่\n\nตัวเลือกเสริมในการโพสต์\n\nAdd content at the end of the article:เพิ่มข้อความพิเศษต่อท้ายบทความที่คัดลอกมา\n\nSchedule:ตั้งเวลาโพสต์ล่วงหน้า\n\nPost interaction after posting:ตั้งค่าการโต้ตอบหลังโพสต์เสร็จ สามารถกดที่ Setting เพื่อตั้งค่ารายละเอียด\n\nAdd a send message button:เพิ่มปุ่ม \"ส่งข้อความ\" เข้าไปในโพสต์\n\nExport link:ส่งออกลิงก์ของโพสต์ที่ทำเสร็จแล้ว\n\n",
+                "type": "markdown",
+                "images": [
+                  "image536.png"
+                ]
+              },
+              {
+                "title": "13.Post Reel (โพสต์คลิปรีล)",
+                "content": "13.Post Reel (โพสต์คลิปรีล)\n\n![image](/images/image516.png)\n\nการจัดการวิดีโอและลำดับการโพสต์\n\nVideo folder:เลือกโฟลเดอร์ในคอมพิวเตอร์ที่เก็บไฟล์วิดีโอที่ต้องการอัปโหลด\n\nOne page posted:กำหนดจำนวนวิดีโอที่จะโพสต์ต่อ 1 เพจ\n\nVideo selection options:เลือกรูปแบบการเลือกวิดีโอจากโฟลเดอร์\n\nตามลำดับ: In order\n\nRandom: สุ่ม\n\nDelete video file when finished posting:หากเลือกไว้ ระบบจะลบไฟล์วิดีโอออกจากเครื่องทันทีเมื่อโพสต์เสร็จสิ้น\n\nการตั้งค่าเวลาและขนาดวิดีโอ\n\nVideo upload time:กำหนดเวลารอระหว่างการอัปโหลด\n\nPosting distance:ระยะห่างระหว่างการโพสต์แต่ละครั้ง\n\nAutomatically cut video when too long:หากวิดีโอยาวเกินไป ระบบจะตัดคลิปให้อัตโนมัติ\n\nDuration: กำหนดช่วงเวลาที่ต้องการ\n\nฟีเจอร์เสริมและการปฏิสัมพันธ์\n\nDescribe:สำหรับใส่คำอธิบายวิดีโอ (Caption)\n\nSchedule:ตั้งเวลาโพสต์ล่วงหน้า\n\nPost interaction after posting:ตั้งค่าการปฏิสัมพันธ์หลังโพสต์เสร็จ (สามารถกด Setting เพื่อตั้งค่าเชิงลึก)\n\nExport link:ส่งออกลิงก์ของโพสต์ที่ทำสำเร็จแล้ว\n\nThumbnail:เลือกหรือตั้งค่ารูปหน้าปกวิดีโอ\n\nShare on story:แชร์วิดีโอที่โพสต์ไปยัง Story โดยอัตโนมัติ\n\nFunctions related to groups\n\n",
+                "type": "markdown",
+                "images": [
+                  "image516.png"
+                ]
+              },
+              {
+                "title": "1.Join groups by keywords (เข้าร่วมกล่มโดยใช้คีย์เวิร์ด)",
+                "content": "1.Join groups by keywords (เข้าร่วมกล่มโดยใช้คีย์เวิร์ด)\n\n![image](/images/image453.png)\n\nการจัดการคำค้นหา\n\nKeyword list:ช่องสำหรับใส่คำค้นหา (Keywords) ที่ต้องการ เช่น \"ขายของมือสอง\", \"คนรักแมว\" (ใส่ 1 คำต่อ 1 บรรทัด)\n\nDelete used keywords:หากติ๊กถูก ระบบจะลบคำค้นหานั้นออกจากรายการทันทีเมื่อใช้งานคำนั้นเสร็จแล้ว\n\nการตั้งค่าเวลา\n\nDelay time:ตั้งค่าการหน่วงเวลาระหว่างการเริ่มทำงานแต่ละครั้ง เพื่อป้องกันไม่ให้ระบบมองว่าเป็นสแปม\n\nการจำกัดจำนวน\n\nMaximum participation per page:จำนวนกลุ่มสูงสุดที่จะกดเข้าร่วมต่อหน้าการค้นหา 1 หน้า\n\nOne maximum engagement keyword:จำนวนกลุ่มสูงสุดที่จะเข้าร่วมต่อ 1 คำค้นหา\n\nตัวกรองและเงื่อนไข\n\nOnly join public groups:หากติ๊กถูก ระบบจะเลือกเข้าเฉพาะ \"กลุ่มสาธารณะ\" เท่านั้น (ข้ามกลุ่มปิด)\n\nCity:จะเป็นการระบุให้ค้นหากลุ่มตามพื้นที่หรือเมืองที่กำหนด\n\nAutomatically answer questions:หากกลุ่มมีคำถามก่อนเข้า ระบบจะตอบคำถามให้โดยอัตโนมัติ\n\nList of answers:ช่องสำหรับใส่คำตอบเตรียมไว้\n\n",
+                "type": "markdown",
+                "images": [
+                  "image453.png"
+                ]
+              },
+              {
+                "title": "2.Share the article to the group (แชร์บทความนี้ให้กับกลุ่ม)",
+                "content": "2.Share the article to the group (แชร์บทความนี้ให้กับกลุ่ม)\n\n![image](/images/image148.png)\n\nการตั้งค่าจำนวนและเวลา\n\nAn article shared > group:กำหนดจำนวนกลุ่มที่จะให้บทความหนึ่งรายการถูกแชร์ลงไป\n\nShared distance > second:เวลาระหว่างการแชร์แต่ละครั้ง แนะนำให้ตั้งค่าแบบสุ่มช่วงเวลา เช่น 60 ถึง 120 วินาที เพื่อความเป็นธรรมชาติ\n\nOne page shares > post:กำหนดจำนวนโพสต์ที่แต่ละเพจ/บัญชีจะแชร์ในหนึ่งรอบการทำงาน\n\nการจัดการลิงก์บทความ\n\nList of article ids/links (0):ให้คุณวาง URL ของบทความ หรือ ID ของโพสต์ ที่ต้องการนำไปแชร์ (ใส่ 1 ลิงก์ต่อ 1 บรรทัด)\n\nตัวเลขในวงเล็บจะบอกจำนวนลิงก์ทั้งหมดที่คุณใส่ไว้\n\nDelete the used id:หากติ๊กถูกไว้ ระบบจะลบลิงก์ออกจากรายการทันทีหลังจากแชร์เสร็จ เพื่อป้องกันการแชร์ซ้ำ\n\nการตั้งค่าเนื้อหา\n\nShare with content:หากติ๊กช่องนี้ ระบบจะแชร์บทความพร้อมกับข้อความประกอบ (Caption)\n\nContent: พื้นที่สำหรับใส่เนื้อหาที่คุณต้องการ\n\nSpin Content {a|b|c}: ระบบรองรับการสุ่มคำ (Spin Tax)\n\nตัวอย่าง:{สวัสดี|ทักทาย|ไฮ}ระบบจะสุ่มเลือกคำใดคำหนึ่งมาใช้ในแต่ละครั้ง\n\nContent Options: รูปแบบการเลือกเนื้อหา\n\nOne-line content: 1 บรรทัด คือ 1 ชุดข้อความ\n\nContent many lines: ข้อความทั้งหมดในช่องคือ 1 ชุดข้อความเดียว\n\n",
+                "type": "markdown",
+                "images": [
+                  "image148.png"
+                ]
+              },
+              {
+                "title": "3.Join designated groups (เข้าร่วมกลุ่มที่กำหนดไว้)",
+                "content": "3.Join designated groups (เข้าร่วมกลุ่มที่กำหนดไว้)\n\n![image](/images/image729.png)\n\nการตั้งค่าเวลา\n\nDelay time:ตั้งค่าระยะเวลาหยุดพัก\n\nการตั้งค่ารายชื่อกลุ่มเป้าหมาย\n\nList of group ids or link:ให้คุณนำ ID ของกลุ่ม หรือ ลิงก์ (URL) ของกลุ่มที่ต้องการเข้าร่วมมาใส่ที่นี่ (หนึ่งรายการต่อหนึ่งบรรทัด)\n\nDelete id once joined:หากติ๊กถูกที่ช่องนี้ ระบบจะลบรายชื่อกลุ่มออกจากช่องนี้โดยอัตโนมัติหลังจากที่ทำการกดเข้าร่วมสำเร็จแล้ว เพื่อป้องกันการทำงานซ้ำ\n\nการเงื่อนไขการเข้าร่วม\n\nMaximum participation per page:กำหนดจำนวนกลุ่มสูงสุดที่จะเข้าร่วมต่อหนึ่งรอบหรือต่อหนึ่งหน้า\n\nOnly join public groups:หากติ๊กถูก ระบบจะเลือกเข้าเฉพาะ \"กลุ่มสาธารณะ\" เท่านั้น (ไม่เข้ากลุ่มปิดหรือกลุ่มส่วนตัว)\n\nAutomatically answer questions:ฟังก์ชันตอบคำถามอัตโนมัติ\n\nใช้สำหรับกลุ่มที่ตั้งคำถามก่อนเข้า (เช่น \"คุณมาจากไหน?\" หรือ \"กฎของกลุ่มคืออะไร?\")\n\nList of answers: ใส่คำตอบที่ต้องการให้บอทพิมพ์ตอบ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image729.png"
+                ]
+              },
+              {
+                "title": "4.Spam joined group posts (สแปมเข้าร่วมกลุ่มโพสต์)",
+                "content": "4.Spam joined group posts (สแปมเข้าร่วมกลุ่มโพสต์)\n\n![image](/images/image216.png)\n\nการตั้งค่าขอบเขตและระยะเวลา\n\nA page uses:ตั้งค่���จำนวนเพจที่จะใช้งาน\n\nNumber of posts/group:กำหนดจำนวนโพสต์ที่จะเข้าไปมีส่วนร่วมในแต่ละกลุ่ม\n\nDelay time:ระยะเวลาหน่วงระหว่างการกระทำ เพื่อป้องกันการ��ด��บ��็อก\n\nSkip ... first article:ตัวเลือกข้ามโพสต์แรกๆ ของกลุ่ม (เช่น ข้าม 2 ถึง 3 โพสต์แรก)\n\nShare on wall:ติ๊กถูกหากต้องการให้แชร์โพสต์นั้นลงบนหน้า Wall ของตัวเองด้วย\n\nDo not comment on old posts:ป้องกันการไปคอมเมนต์ในโพสต์ที่เก่าเกินไป\n\nEdit comments:แก้ไขคอมเมนต์\n\nGet the article:รูปแบบการเลือกโพสต์\n\nIn order: ตามลำดับ\n\nUnexpectedly: แบบสุ่ม\n\nการตั้งค่าการแสดงความรู้สึก\n\nRelease emotions:ติ๊กถูกเพื่อเปิดใช้งานการกด Reaction\n\nReaction Icons:สามารถเลือกรูปแบบอารมณ์ที่ต้องการได้ (Like, Love, Care, Haha, Wow, Sad, Angry) โดยโปรแกรมจะสุ่มใช้งานตามที่เลือกไว้\n\nการตั้งค่าความคิดเห็น\n\nText comment:ติ๊กถูกเพื่อเปิดใช้งานการพิมพ์ข้อความ\n\nContent: ช่องสำหรับใส่ข้อความที่ต้องการ\n\nTag [@uid]: รองรับการแท็กผู้ใช้ด้วย ID\n\nSpin Content {a|b|c}: รองรับการหมุนเวียนคำพูดเพื่อไม่ให้ข้อความซ้ำกัน\n\nOption: รูปแบบข้อความ\n\nOne-line content: เนื้อหาบรรทัดเดียว\n\nContent many lines: เนื้อหาหลายบรรทัด\n\nComment photo:ติ๊กถูกหากต้องการคอมเมนต์ด้วยรูปภาพ\n\nPhoto folder: ระบุที่อยู่ไฟล์รูปภาพในคอมพิวเตอร์ (Path) ที่ต้องการให้ระบบดึงไปใช้\n\nExport link:ติ๊กถูกหากต้องการให้ระบบส่งออกลิงก์ของโพสต์ที่ได้ไปคอมเมนต์เสร็จแล้ว เพื่อการตรวจสอบภายหลัง\n\n",
+                "type": "markdown",
+                "images": [
+                  "image216.png"
+                ]
+              },
+              {
+                "title": "5.Post to the joined group (โพสต์ไปยังกลุ่มที่เข้าร่วม)",
+                "content": "5.Post to the joined group (โพสต์ไปยังกลุ่มที่เข้าร่วม)\n\n![image](/images/image722.png)\n\nการตั้งค่าเวลาและปริมาณ\n\nWaiting time:กำหนดช่วงเวลาพักระหว่างการโพสต์แต่ละครั้ง\n\nA page posted:กำหนดจำนวนกลุ่มที่ต้องการให้แต่ละเพจ/บัญชีโพสต์\n\nการจัดการเนื้อหา\n\nDocument:เปิดใช้งานการดึงเนื้อหาจากเอกสาร\n\nOption:เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:หากใช้ระบบ AI ในการช่วยเขียน สามารถเลือกคำสั่ง (Prompt) ได้จากที่นี่\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nการตั้งค่าส่วนเสริมและตัวเลือกเพิ่มเติม\n\nImage:ติ๊กเลือกหากต้องการแนบรูปภาพไปพร้อมกับโพสต์\n\nPost interaction after posting:ติ๊กเพื่อให้ระบบทำการโต้ตอบ ทันทีหลังจากโพสต์เสร็จ โดยสามารถกดที่ Setting เพื่อตั้งค่ารายละเอียดการโต้ตอบได้\n\nExport link:ติ๊กเมื่อต้องการให้ระบบส่งออกลิงก์ของโพสต์ที่ทำสำเร็จแล้วออกมาเป็นไฟล์รายงาน\n\n",
+                "type": "markdown",
+                "images": [
+                  "image722.png"
+                ]
+              },
+              {
+                "title": "6.Post to the designated group (โพสต์ไปยังกลุ่มที่กำหนด)",
+                "content": "6.Post to the designated group (โพสต์ไปยังกลุ่มที่กำหนด)\n\n![image](/images/image692.png)\n\nการตั้งค่าเวลาและจำนวน\n\nWaiting time:ตั้งค่าช่วงเวลาการรอระหว่างแต่ละโพสต์\n\nA page posted:ตั้งค่าว่าหนึ่งเพจจะโพสต์ลงกี่กลุ่มแล้วจึงหยุดหรือเปลี่ยน\n\nการตั้งค่าการจัดการรายชื่อกลุ่ม\n\nList of group ids or links:วาง ID ของกลุ่มหรือลิงก์ของกลุ่มที่ต้องการโพสต์ลงในช่องนี้\n\nDelete the used group id:หากติ๊กถูกช่องนี้ ระบบจะลบรายชื่อกลุ่มออกจากรายการทันทีที่โพสต์สำเร็จ เพื่อป้องกันการโพสต์ซ้ำ\n\nการตั้งค่าเนื้อหาและตัวเลือกเสริม\n\nDocument:ติ๊กเพื่อใส่ข้อความในการโพสต์\n\nImage:ติ๊กเพื่อแนบรูปภาพในการโพสต์\n\nPost interaction after posting:เมื่อโพสต์เสร็จแล้ว ให้ระบบทำกิจกรรมเพิ่มเติม สามารถกด Setting เพื่อตั้งค่ารายละเอียด\n\nExport link:ติ๊กเพื่อให้ระบบส่งออก (Export) ลิงก์ของโพสต์ที่ทำสำเร็จแล้วออกมาให้ตรวจสอบ\n\n7. spam replies to comments from participating groups (การตอบกลับสแปมต่อความคิดเห็นจากกลุ่มที่เข้าร่วม)\n\n![image](/images/image412.png)\n\nการตั้งค่าจำนวนและเวลา\n\nNumber of arrive id:ตั้งค่าจำนวนบัญชี (ID) ที่จะใช้ในการทำงาน\n\nNumber of arrive post:ตั้งค่าจำนวนโพสต์ที่จะเข้าไปโต้ตอบต่อหนึ่งกลุ่ม\n\nNumber of arrive comment:ตั้งค่าจำนวนคอมเมนต์ที่จะตอบกลับต่อหนึ่งโพสต์\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงานแต่ละครั้ง\n\nการตั้งค่าความรู้สึก\n\n",
+                "type": "markdown",
+                "images": [
+                  "image692.png",
+                  "image412.png"
+                ]
+              },
+              {
+                "title": "หากติ๊กถูกที่ช่อง \"Release emotions\" โปรแกรมจะกด Reaction ให้กับคอมเมนต์นั้นๆ ด้วย:",
+                "content": "หากติ๊กถูกที่ช่อง \"Release emotions\" โปรแกรมจะกด Reaction ให้กับคอมเมนต์นั้นๆ ด้วย:\n\nคุณสามารถเลือก Emotion ที่ต้องการได้ (ไลก์, หัวใจ, ห่วงใย, ขำ, ว้าว, เศร้า, โกรธ)\n\nระบบจะทำการสุ่มหรือกดตามที่คุณเลือกไว้\n\nเนื้อหาข้อความ\n\nContent Area:ช่องว่างสำหรับใส่ข้อความที่ต้องการ\n\nSpin Content {a|b|c}:รองรับการสุ่มคำเพื่อให้ข้อความไม่ซ้ำกัน เช่น{สวัสดีครับ|ยินดีที่ได้รู้จัก|ทักทายครับ}\n\nOption (One-line content):เลือกรูปแบบเนื้อหา\n\nContent many lines: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: ข้อความทั้งหมดทุกบรรทัด\n\nการตั้งค่ามัลติมีเดียและการบันทึกผล\n\nComment photo:หากติ๊กช่องนี้ โปรแกรมจะแนบรูปภาพไปกับคอมเมนต์ด้วย\n\nPhoto folder: ระบุที่อยู่ไฟล์ภาพในเครื่องคอมพิวเตอร์ของคุณ (Path)\n\nExport link:หากติ๊กไว้ โปรแกรมจะบันทึกหรือส่งออกลิงก์ของโพสต์/คอมเมนต์ที่ได้เข้าไปทำงานแล้ว เพื่อใช้ในการตรวจสอบภายหลัง\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "8.Create a group (สร้างกลุ่ม)",
+                "content": "8.Create a group (สร้างกลุ่ม)\n\n![image](/images/image514.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nGroup name:คลิกที่ปุ่ม \"Enter\" เพื่อพิมพ์ชื่อกลุ่มที่ต้องการ\n\nPrivacy:เลือกประเภทความเป็นส่วนตัวของกลุ่ม เช่น Public หรือ Private\n\nNumber of groups:กำหนดจำนวนกลุ่มทั้งหมดที่ต้องการให้โปรแกรมสร้างขึ้นในรอบนี้\n\nการเชิญสมาชิก\n\nInvite followers to join the group:ติ๊กถูกที่ช่องนี้หากต้องการให้โปรแกรมส่งคำเชิญไปยังผู้ติดตามทันทีหลังจากสร้างกลุ่มเสร็จ\n\nQuantity:ระบุจำนวนผู้ติดตามที่ต้องการเชิญเข้ากลุ่ม\n\nการตั้งค่ารูปภาพหน้าปก\n\nAdd cover photo:ติ๊กถูกที่ช่องนี้เพื่อเปิดใช้งานการอัปโหลดรูปภาพหน้าปกอัตโนมัติ\n\nPhoto folder:ระบุที่อยู่ไฟล์ (Path) ในเครื่องคอมพิวเตอร์ของคุณที่เก็บรูปภาพไว้\n\n",
+                "type": "markdown",
+                "images": [
+                  "image514.png"
+                ]
+              },
+              {
+                "title": "9.Create event (สร้างกิจกรรม)",
+                "content": "9.Create event (สร้างกิจกรรม)\n\n![image](/images/image539.png)\n\nการตั้งค่าการจัดการชื่อและจำนวนกิจกรรม\n\nNumber of events in a page:ช่องสำหรับระบุจำนวนกิจกรรมที่ต้องการให้แสดงผลในหนึ่งหน้า\n\nList of event names:ใช้สำหรับใส่รายชื่อกิจกรรม\n\nDelete name when used: หากติ๊กเลือก ระบบจะลบชื่อออกจากรายการทันทีหลังจากถูกนำไปสร้างกิจกรรมแล้ว\n\nContent options: ตัวเลือกสำหรับการเลือกชื่อกิจกรรมมาใช้ เช่น \"Random\" หรือ \"In order\"\n\nการตั้งค่าวันและเวลา\n\nStart date / Time:กำหนดวันที่และเวลาเริ่มต้นของกิจกรรม\n\nEnd date / Time:กำหนดวันที่และเวลาสิ้นสุดของกิจกรรม\n\nTime zone:แสดงเขตเวลาที่ใช้งานอยู่\n\nการตั้งค่ารายละเอียดและข้อมูลเพิ่มเติม\n\nDescription of the event:ช่องสำหรับพิมพ์คำอธิบายหรือเนื้อหาของกิจกรรม\n\n",
+                "type": "markdown",
+                "images": [
+                  "image539.png"
+                ]
+              },
+              {
+                "title": "ตัวเลือกเสริม (Checkboxes):",
+                "content": "ตัวเลือกเสริม (Checkboxes):\n\nEvent Promotion: ตั้งค่าการโฆษณาหรือโปรโมตกิจกรรม\n\nAdd organizer: เพิ่มข้อมูลผู้จัดงาน\n\nAdd ticket: ตั้งค่าระบบตั๋วหรือบัตรเข้างาน\n\nRecurring event: ตั้งค่ากิจกรรมแบบเกิดซ้ำ (เช่น รายสัปดาห์/รายเดือน)\n\nContact settings: ตั้งค่าข้อมูลการติดต่อสอบถาม\n\nการตั้งค่ารูปแบบและสื่อ\n\nEvent format:เลือกประเภทหรือรูปแบบของกิจกรรม\n\nCover photo:ใช้สำหรับอัปโหลดภาพหน้าปกกิจกรรมเพื่อความสวยงาม\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "10.Share the post to the designated group (แชร์โพสต์ไปยังกลุ่มที่กำหนด)",
+                "content": "10.Share the post to the designated group (แชร์โพสต์ไปยังกลุ่มที่กำหนด)\n\n![image](/images/image152.png)\n\nการตั้งค่าเวลา\n\nShared distance:สุ่มรอระหว่างการแชร์แต่ละครั้ง เช่น 10-15 วินาที\n\nการตั้งค่าการจัดการลิงก์บทความ\n\nList of article links:วางลิงก์โพสต์ที่ต้องการแชร์ ใส่ 1 ลิงก์ต่อ 1 บรรทัด\n\nDelete used link:ติ๊กแล้วระบบจะลบลิงก์อัตโนมัติหลังแชร์เสร็จ ป้องกันแชร์ซ้ำ\n\nการจัดการกลุ่มเป้าหมาย\n\nList of group ids/links:ใส่ ID กลุ่มหรือลิงก์กลุ่ม Facebook\n\nการตั้งค่าเนื้อหาเพิ่มเติม\n\nShare with content:แชร์แบบแนบข้อความไปด้วย ไม่ใช่แค่กดแชร์เปล่าๆ\n\nContent (0): ใส่ข้อความที่อยากให้โพสต์\n\nSpin Content: [a|b|c] สูตรสุ่มคำ เพื่อไม่ให้โพสต์ซ้ำกันเป๊ะๆ\n\nรูปแบบ: ใส่วงเล็บก้ามปูและคั่นด้วย |\n\nตัวอย่าง:สวัสดีค่ะ [เช้า|บ่าย|เย็น] สนใจทักแชทได้เลย [ครับ|ค่ะ|นะคะ]\n\nระบบจะสุ่มได้: \"สวัสดีค่ะ เช้า สนใจทักแชทได้เลย ครับ\" หรือ \"สวัสดีค่ะ เย็น สนใจทักแชทได้เลย นะคะ\"\n\nContent options: รูปแบบการนำข้อความไปใช้\n\nOne-line content: 1 บรรทัด = 1 ข้อความ\n\nContent many lines: ระบบจะใช้ ข้อความทั้งหมดนั้นเป็น 1 ข้อความ\n\nInformation exchange function\n\n",
+                "type": "markdown",
+                "images": [
+                  "image152.png"
+                ]
+              },
+              {
+                "title": "1.Update profile picture (อัปเดตรูปโปรไฟล์)",
+                "content": "1.Update profile picture (อัปเดตรูปโปรไฟล์)\n\n![image](/images/image320.png)\n\nการตั้งค่าแหล่งข้อมูล\n\nPhoto folder:ช่องสำหรับระบุที่อยู่ไฟล์ (Path) ของโฟลเดอร์ที่เก็บรูปภาพที่ต้องการนำไปอัปโหลด\n\nการตั้งค่าเงื่อนไขการทำงาน\n\nAutomatically delete image files after uploading:ลบไฟล์รูปอัตโนมัติหลังอัปโหลดสำเร็จ\n\nSkip when avatar is available:ข้ามการอัปโหลดถ้าบัญชีนั้นมีรูปโปรไฟล์อยู่แล้ว\n\n",
+                "type": "markdown",
+                "images": [
+                  "image320.png"
+                ]
+              },
+              {
+                "title": "2.Update cover photo (อัปเดตภาพหน้าปก)",
+                "content": "2.Update cover photo (อัปเดตภาพหน้าปก)\n\n![image](/images/image707.png)\n\nการตั้งค่าการกำหนดตำแหน่งโฟลเดอร์รูปภาพ\n\nPhoto folder:ตำแหน่งโฟล์เดอร์จะเข้าไปดึงรูปภาพ\n\nการจัดการไฟล์หลังอัปโหลด\n\nAutomatically delete image files after uploading:ลบไฟล์รูปอัตโนมัติหลังอัปโหลดเสร็จ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image707.png"
+                ]
+              },
+              {
+                "title": "3.Update biography (อัปเดตประวัติส่วนตัว)",
+                "content": "3.Update biography (อัปเดตประวัติส่วนตัว)\n\n![image](/images/image101.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image101.png"
+                ]
+              },
+              {
+                "title": "4.Update page name (อัปเดตชื่อเพจ)",
+                "content": "4.Update page name (อัปเดตชื่อเพจ)\n\n![image](/images/image205.png)\n\nการตั้งค่าจัดการรายชื่อ\n\nPage name (0):สำหรับพิมพ์หรือวางรายชื่อเพจ\n\nRandom number:ฟังก์ชันการสุ่มเลือกชื่อจากรายการนี้ไปใช้งาน\n\nDelete name when used:หากติ๊กถูกเมื่อระบบสุ่มเลือกชื่อใดชื่อหนึ่งไปใช้แล้ว ชื่อนั้นจะถูกลบออกจากรายการทางด้านซ้ายทันที\n\n",
+                "type": "markdown",
+                "images": [
+                  "image205.png"
+                ]
+              },
+              {
+                "title": "5.Update information (อัปเดตข้อมูล)",
+                "content": "5.Update information (อัปเดตข้อมูล)\n\n![image](/images/image728.png)\n\nการตั้งค่าข้อมูลการทำงานและประวัติการศึกษา\n\nWork (ที่ทำงาน):สำหรับระบุตำแหน่งงานหรือสถานที่ทำงาน\n\nHigh school (มัธยมศึกษา):สำหรับระบุชื่อโรงเรียนมัธยม\n\nUniversity (มหาวิทยาลัย): สำหรับระบุชื่อมหาวิทยาลัยหรือสถาบันการศึกษาชั้นสูง\n\nIf you have information:หากมีข้อมูลอยู่แล้ว\n\nContinue adding information: ใช้เมื่อต้องการเพิ่มข้อมูลใหม่เข้าไปโดยที่ยังคงรักษาข้อมูลเดิมไว้\n\nNo more information: ใช้เพื่อยืนยันว่าไม่มีข้อมูลที่จะเพิ่มแล้ว หรือให้ข้ามการดำเนินการในส่วนนี้ไปโดยไม่เปลี่ยนแปลงข้อมูลเดิม\n\nDelete old information: ใช้สำหรับล้างข้อมูลเก่าที่เคยบันทึกไว้ในหัวข้อนั้นๆ ออกทั้งหมดก่อนจะดำเนินการขั้นต่อไป\n\nการตั้งค่าข้อมูลที่อยู่และสถานที่\n\nCity (เมือง):ระบุเมืองที่คุณอาศัยอยู่ทั่วไป\n\n",
+                "type": "markdown",
+                "images": [
+                  "image728.png"
+                ]
+              },
+              {
+                "title": "Address (ที่อยู่โดยละเอียด):ประกอบด้วยช่องกรอกข้อมูลย่อย 4 ส่วน:",
+                "content": "Address (ที่อยู่โดยละเอียด):ประกอบด้วยช่องกรอกข้อมูลย่อย 4 ส่วน:\n\nAddress: บ้านเลขที่/ชื่อถนน\n\nCity/Town: เมืองหรือเขต\n\nMã ZIP: รหัสไปรษณีย์\n\nArea: พื้นที่หรือภูมิภาค\n\nการตั้งค่าข้อมูลการติดต่อและสื่อสังคมออนไลน์\n\nCurrent city:เมืองปัจจุบันที่อาศัยอยู่\n\nHometown:บ้านเกิด\n\nPhone number:หมายเลขโทรศัพท์\n\nEmail:ที่อยู่อีเมล\n\nService area:พื้นที่ให้บริการ (กรณีเป็นบัญชีธุรกิจ)\n\nWebpage:เว็บไซต์ส่วนตัวหรือธุรกิจ\n\nSocial network:บัญชีโซเชียลมีเดียอื่นๆ\n\nFunction related to pagesettings\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "1.Country restrictions (ข้อจำกัดของประเทศ)",
+                "content": "1.Country restrictions (ข้อจำกัดของประเทศ)\n\n![image](/images/image106.png)\n\nการตั้งค่าการแสดงผล\n\nOnly shown in some countries:แสดงเนื้อหาเฉพาะในประเทศที่เลือกเท่านั้น\n\nHidden in some countries:ซ่อนเนื้อหาในประเทศที่เลือก\n\nการตั้งค่าการเลือกและจัดการรายชื่อประเทศ\n\nช่อง Dropdown:คลิกเพื่อพิมพ์ค้นหาหรือเลือกรายชื่อประเทศที่ต้องการเพิ่มเข้าในรายการ\n\nMore:ให้เลือกประเทศที่ต้องการก่อนแล้วกดปุ่มนี้เพื่อเพิ่มประเทศนั้น\n\nCountry list (0):แสดงรายชื่อประเทศที่คุณทำการเลือกไว้แล้ว (ตัวเลขในวงเล็บจะบอกจำนวนประเทศที่ถูกเลือกในปัจจุบัน)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image106.png"
+                ]
+              },
+              {
+                "title": "2.Age restrictions (ข้อจำกัดด้านอายุ)",
+                "content": "2.Age restrictions (ข้อจำกัดด้านอายุ)\n\n![image](/images/image325.png)\n\nการตั้งค่าการเลือกเกณฑ์อายุ\n\nEveryone (no age limit):อนุญาตทุกคน ไม่จำกัดอายุ (ค่าเริ่มต้น)\n\nPeople 17 years of age and older:จำกัดเฉพาะผู้ที่มีอายุตั้งแต่ 17 ปีขึ้นไป\n\nPeople 18 years and older:จำกัดเฉพาะผู้ที่มีอายุตั้งแต่ 18 ปีขึ้นไป\n\nPeople 19 years and older:จำกัดเฉพาะผู้ที่มีอายุตั้งแต่ 19 ปีขึ้นไป\n\nPeople 21 years and older:จำกัดเฉพาะผู้ที่มีอายุตั้งแต่ 21 ปีขึ้นไป\n\nAlcohol related:จำกัดเนื้อหาที่เกี่ยวข้องกับเครื่องดื่มแอลกอฮอล์ (ตามกฎหมายท้องถิ่น)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image325.png"
+                ]
+              },
+              {
+                "title": "3.Delete all location pages (ลบหน้าข้อมูลสถานที่ทั้งหมด)",
+                "content": "3.Delete all location pages (ลบหน้าข้อมูลสถานที่ทั้งหมด)\n\n![image](/images/image629.png)\n\nการตั้งค่าพารามิเตอร์\n\nDistance:สุ่มเวลาพักระหว่างการลบแต่ละครั้ง เช่น ตั้งแต่ 5 ถึง 10 วินาที\n\nA page blocks:กำหนดขอบเขตหรือจำนวน UID ที่จะดำเนินการต่อหนึ่งรอบการทำงาน\n\nการตั้งค่าการจัดการข้อมูล UID\n\nList of uids you want to block:ช่องสำหรับใส่รายการ UID (User ID) ที่ต้องการให้สคริปต์เข้าไปดำเนินการ\n\nตัวเลขในวงเล็บ (0):แสดงจำนวน UID ทั้งหมดที่อยู่ในรายการปัจจุบัน\n\nDelete used uid:หากติ๊กเลือกไว้ ระบบจะลบ UID นั้นออกจากรายการทันทีเมื่อทำงานสำเร็จ เพื่อป้องกันการทำงานซ้ำในรอบถัดไป\n\n",
+                "type": "markdown",
+                "images": [
+                  "image629.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
           }
         ]
       },
       {
-        "id": "___________cpu_100___wsipf",
-        "name": "แก้ไขปัญหา CPU 100% เมื่อใช้ Chrome Page",
-        "sections": [
-          {
-            "title": "Details",
-            "content": "![image](/images/image645.png)\n\nหลังจากนั้น กด Ctrl+F แล้วพิมพ์ตรงช่องค้นหา 123 เลือกดาวน์โหลดตามที่ในกรอบสีแดง รอจนกว่าจะดาวน์โหลดเสร็จ\n\n",
-            "type": "markdown",
-            "images": [
-              "image645.png"
-            ]
-          },
-          {
-            "title": "Details",
-            "content": "![image](/images/image340.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image340.png"
-            ]
-          },
-          {
-            "title": "3.1 ไปที่ app",
-            "content": "3.1 ไปที่ app\n\n![image](/images/image574.png)\n\n3.2 ไปที่ chrome-bin\n\n![image](/images/image497.png)\n\n3.3 จากนั้นพิมพ์\\chrome.exe ในช่องที่อยู่ไฟล์ แล้วคัดลอก\n\n![image](/images/image402.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image574.png",
-              "image497.png",
-              "image402.png"
-            ]
-          },
-          {
-            "title": "ไปที่ general configuration ==> Đường dẫn chrome",
-            "content": "ไปที่ general configuration ==> Đường dẫn chrome\n\n![image](/images/image409.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image409.png"
-            ]
-          },
-          {
-            "title": "รอจนโหลดเสร็จ",
-            "content": "รอจนโหลดเสร็จ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "Details",
-            "content": "![image](/images/image120.png)\n\n6.1 กด Yes\n\n![image](/images/image165.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image120.png",
-              "image165.png"
-            ]
-          },
-          {
-            "title": "Details",
-            "content": "![image](/images/image636.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image636.png"
-            ]
-          },
-          {
-            "title": "หากขึ้นหน้าต่างแบบนี้",
-            "content": "หากขึ้นหน้าต่างแบบนี้\n\n![image](/images/image256.png)\n\nให้ไปที่โปรแกรม MaxCare Page ==> Utilities แล้วกด Kill chromedriver\n\n![image](/images/image116.png)\n\nจากนั้น กด Try Again เป็นอันเสร็จขั้นตอนการแก้ปัญหา\n\n",
-            "type": "markdown",
-            "images": [
-              "image256.png",
-              "image116.png"
-            ]
-          }
-        ],
+        "id": "maxcare_page_faq_group",
+        "name": "คำถามและปัญหาที่พบบ่อย MaxCarePage",
+        "sections": [],
         "subCategories": [
           {
-            "id": "1_______________6bfwl_sub",
-            "name": "1.เข้าไปที่เว็บ",
+            "id": "___________cpu_100___wsipf",
+            "name": "แก้ไขปัญหา CPU 100% เมื่อใช้ Chrome Page",
             "sections": [
               {
                 "title": "Details",
@@ -1393,13 +1803,7 @@ export const manualData: ProgramData[] = [
                 "images": [
                   "image645.png"
                 ]
-              }
-            ]
-          },
-          {
-            "id": "2____________________0bkdv_sub",
-            "name": "2.ติดตั้งไฟล์ที่ดาวน์โหลดมา",
-            "sections": [
+              },
               {
                 "title": "Details",
                 "content": "![image](/images/image340.png)\n\n",
@@ -1407,13 +1811,7 @@ export const manualData: ProgramData[] = [
                 "images": [
                   "image340.png"
                 ]
-              }
-            ]
-          },
-          {
-            "id": "3____________________e1sbd_sub",
-            "name": "3.หลังจากดาวน์โหลดเสร็จ ไปที่อยู่ไฟล์ที่ดาวน์โหลดเสร็จ",
-            "sections": [
+              },
               {
                 "title": "3.1 ไปที่ app",
                 "content": "3.1 ไปที่ app\n\n![image](/images/image574.png)\n\n3.2 ไปที่ chrome-bin\n\n![image](/images/image497.png)\n\n3.3 จากนั้นพิมพ์\\chrome.exe ในช่องที่อยู่ไฟล์ แล้วคัดลอก\n\n![image](/images/image402.png)\n\n",
@@ -1423,13 +1821,7 @@ export const manualData: ProgramData[] = [
                   "image497.png",
                   "image402.png"
                 ]
-              }
-            ]
-          },
-          {
-            "id": "4__________________m_n250l_sub",
-            "name": "4.นำไปวางในโปรแกรม MaxCare Page",
-            "sections": [
+              },
               {
                 "title": "ไปที่ general configuration ==> Đường dẫn chrome",
                 "content": "ไปที่ general configuration ==> Đường dẫn chrome\n\n![image](/images/image409.png)\n\n",
@@ -1437,25 +1829,13 @@ export const manualData: ProgramData[] = [
                 "images": [
                   "image409.png"
                 ]
-              }
-            ]
-          },
-          {
-            "id": "5____________________3hba5_sub",
-            "name": "5คัดลอกลิงค์ไปวางในแท็บใหม่",
-            "sections": [
+              },
               {
                 "title": "รอจนโหลดเสร็จ",
                 "content": "รอจนโหลดเสร็จ\n\n",
                 "type": "markdown",
                 "images": []
-              }
-            ]
-          },
-          {
-            "id": "6____________________l3z74_sub",
-            "name": "6.จากนั้นเปลี่ยนชื่อไฟล์ เพิ่ม .zip",
-            "sections": [
+              },
               {
                 "title": "Details",
                 "content": "![image](/images/image120.png)\n\n6.1 กด Yes\n\n![image](/images/image165.png)\n\n",
@@ -1464,13 +1844,7 @@ export const manualData: ProgramData[] = [
                   "image120.png",
                   "image165.png"
                 ]
-              }
-            ]
-          },
-          {
-            "id": "7____________________w84v3_sub",
-            "name": "7.หลังจากแตกไฟล์เข้าไปที่ driver > win32 จากนั้นกดคัดลอก chromedriver.exe",
-            "sections": [
+              },
               {
                 "title": "Details",
                 "content": "![image](/images/image636.png)\n\n",
@@ -1478,13 +1852,7 @@ export const manualData: ProgramData[] = [
                 "images": [
                   "image636.png"
                 ]
-              }
-            ]
-          },
-          {
-            "id": "8____________________a85pz_sub",
-            "name": "8.นำไปวางในโฟลเดอร์ MaxCare Page",
-            "sections": [
+              },
               {
                 "title": "หากขึ้นหน้าต่างแบบนี้",
                 "content": "หากขึ้นหน้าต่างแบบนี้\n\n![image](/images/image256.png)\n\nให้ไปที่โปรแกรม MaxCare Page ==> Utilities แล้วกด Kill chromedriver\n\n![image](/images/image116.png)\n\nจากนั้น กด Try Again เป็นอันเสร็จขั้นตอนการแก้ปัญหา\n\n",
@@ -1494,10 +1862,126 @@ export const manualData: ProgramData[] = [
                   "image116.png"
                 ]
               }
-            ]
+            ],
+            "subCategories": [
+              {
+                "id": "1_______________6bfwl_sub",
+                "name": "1.เข้าไปที่เว็บ",
+                "sections": [
+                  {
+                    "title": "Details",
+                    "content": "![image](/images/image645.png)\n\nหลังจากนั้น กด Ctrl+F แล้วพิมพ์ตรงช่องค้นหา 123 เลือกดาวน์โหลดตามที่ในกรอบสีแดง รอจนกว่าจะดาวน์โหลดเสร็จ\n\n",
+                    "type": "markdown",
+                    "images": [
+                      "image645.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2____________________0bkdv_sub",
+                "name": "2.ติดตั้งไฟล์ที่ดาวน์โหลดมา",
+                "sections": [
+                  {
+                    "title": "Details",
+                    "content": "![image](/images/image340.png)\n\n",
+                    "type": "markdown",
+                    "images": [
+                      "image340.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "3____________________e1sbd_sub",
+                "name": "3.หลังจากดาวน์โหลดเสร็จ ไปที่อยู่ไฟล์ที่ดาวน์โหลดเสร็จ",
+                "sections": [
+                  {
+                    "title": "3.1 ไปที่ app",
+                    "content": "3.1 ไปที่ app\n\n![image](/images/image574.png)\n\n3.2 ไปที่ chrome-bin\n\n![image](/images/image497.png)\n\n3.3 จากนั้นพิมพ์\\chrome.exe ในช่องที่อยู่ไฟล์ แล้วคัดลอก\n\n![image](/images/image402.png)\n\n",
+                    "type": "markdown",
+                    "images": [
+                      "image574.png",
+                      "image497.png",
+                      "image402.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "4__________________m_n250l_sub",
+                "name": "4.นำไปวางในโปรแกรม MaxCare Page",
+                "sections": [
+                  {
+                    "title": "ไปที่ general configuration ==> Đường dẫn chrome",
+                    "content": "ไปที่ general configuration ==> Đường dẫn chrome\n\n![image](/images/image409.png)\n\n",
+                    "type": "markdown",
+                    "images": [
+                      "image409.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "5____________________3hba5_sub",
+                "name": "5คัดลอกลิงค์ไปวางในแท็บใหม่",
+                "sections": [
+                  {
+                    "title": "รอจนโหลดเสร็จ",
+                    "content": "รอจนโหลดเสร็จ\n\n",
+                    "type": "markdown",
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "id": "6____________________l3z74_sub",
+                "name": "6.จากนั้นเปลี่ยนชื่อไฟล์ เพิ่ม .zip",
+                "sections": [
+                  {
+                    "title": "Details",
+                    "content": "![image](/images/image120.png)\n\n6.1 กด Yes\n\n![image](/images/image165.png)\n\n",
+                    "type": "markdown",
+                    "images": [
+                      "image120.png",
+                      "image165.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "7____________________w84v3_sub",
+                "name": "7.หลังจากแตกไฟล์เข้าไปที่ driver > win32 จากนั้นกดคัดลอก chromedriver.exe",
+                "sections": [
+                  {
+                    "title": "Details",
+                    "content": "![image](/images/image636.png)\n\n",
+                    "type": "markdown",
+                    "images": [
+                      "image636.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "8____________________a85pz_sub",
+                "name": "8.นำไปวางในโฟลเดอร์ MaxCare Page",
+                "sections": [
+                  {
+                    "title": "หากขึ้นหน้าต่างแบบนี้",
+                    "content": "หากขึ้นหน้าต่างแบบนี้\n\n![image](/images/image256.png)\n\nให้ไปที่โปรแกรม MaxCare Page ==> Utilities แล้วกด Kill chromedriver\n\n![image](/images/image116.png)\n\nจากนั้น กด Try Again เป็นอันเสร็จขั้นตอนการแก้ปัญหา\n\n",
+                    "type": "markdown",
+                    "images": [
+                      "image256.png",
+                      "image116.png"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originalProgramName": "Maxcare Page"
           }
-        ],
-        "originalProgramName": "Maxcare Page"
+        ]
       }
     ]
   },
@@ -2409,23 +2893,237 @@ export const manualData: ProgramData[] = [
     ]
   },
   {
-    "id": "maxphone_suite",
-    "name": "MaxPhone",
+    "id": "maxdata_suite",
+    "name": "MaxData",
     "categories": [
       {
-        "id": "maxphonefarm_7v6i9",
-        "name": "MaxPhoneFarm",
+        "id": "_____________________wpldc",
+        "name": "คู่มือดาวน์โหลดและติดตั้งโปรแกรม MaxData",
         "sections": [
           {
-            "title": "Maxphone Farm คือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) ทำให้เปรียบเสมือนเรามีจำนวน โปรไฟล์จริง ที่ใช้รันระบบฟาร์ม",
-            "content": "Maxphone Farm คือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) ทำให้เปรียบเสมือนเรามีจำนวน โปรไฟล์จริง ที่ใช้รันระบบฟาร์ม\n\nMaxphoneคือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ เพื่อให้ตอบสนอง และประสิทธิภาพ ดีขึ้น ระบบฟาร์มบัญชี โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) และพัฒนา Custom Rom ตามฉบับของ Maxcare ทำให้ตัวเครื่อง เปรียบเสมือนจำนวน โปรไฟล์ ที่ใช้รันระบบฟาร์มจุดเด่น maxphone farm\n\nมีฟังชั่นเพิ่มเติมจาก Maxcare และ Maxsystemcare คือ ฟังก์ชั่น Post Reels เนื่องจากปัจจุบันผู้คนหันมาสนใจคลิปสั้นใน Reels มากขึ้นจึงมีฟังก์ชั่นนี้ เพื่อให้ตอบโจทย์ผู้ใช้งาน\n\nมีให้เลือก Buff Like page ทั้ง 2 แบบ เพจทั่วไป และ เพจโปรไฟล์ ที่คนหันมานิยมใช้\n\nลดอัตราการแบนลงอย่างมาก เนื่องจากมีฟังก์ชั่น change device เปลี่ยนข้อมูลอุปกรณ์ ใหม่หมดในทุกครั้งทีมีการเปิดโปรไฟล์ใช้งาน\n\n![image](/images/image170.png)\n\n",
+            "title": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off เป็นอันเสร็จสิ้น",
+            "content": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off เป็นอันเสร็จสิ้น\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย",
+            "content": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย\n\nเข้าไปยังเว็บไซต์ Minsoft\n\n![image](/images/image97.png)\n\nล็อคอินเข้าใช้งาน\n\n![image](/images/image491.png)\n\nไปยังหน้าการจัดการซอร์ฟแวร์\n\n![image](/images/image711.png)\n\n2.จากนั้นไปที่โปรแกรม MaxData ==> กด ดาวน์โหลด\n\n![image](/images/image466.png)\n\n![image](/images/image740.png)\n\n3.หลังจากดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้คลิกขวาที่ไฟล์ MaxData.zip ที่โหลดมา จากนั้นกดแตกไฟล์\n\n![image](/images/image684.png)\n\n4.หลังจากแตกไฟล์เสร็จเรียบร้อยแล้ว เข้าไปยังโฟลเดอร์ MaxData แล้วกด AutoUpdate รอจนกว่าจะอัพเดตเสร็จ\n\n![image](/images/image391.png)\n\n5.เข้าใช้งานโปรแกรม ทำการเข้าระบบให้เรียบร้อย\n\n![image](/images/image682.png)\n\n6.เมื่อเข้าระบบเสร็จแล้ว ให้ไปที่ General configs >> Update chromedriver เพื่ออัพเดตโครมไดรเวอร์\n\n![image](/images/image508.png)\n\nหากติดตั้งเสร็จแล้วรันโปรแกรมแล้วหลังจากรันเสร็จแล้ว CPU ใช้งาน 100% ให้ทำตามลิ้งค์นี้\n\n",
             "type": "markdown",
             "images": [
-              "image170.png"
+              "image97.png",
+              "image491.png",
+              "image711.png",
+              "image466.png",
+              "image740.png",
+              "image684.png",
+              "image391.png",
+              "image682.png",
+              "image508.png"
             ]
           }
         ],
-        "originalProgramName": "MaxCloud & PhoneFarm"
+        "originalProgramName": "MaxData"
+      },
+      {
+        "id": "_____________________hap3e",
+        "name": "วิธีเชื่อมข้อมูลกับ Maxcare",
+        "sections": [
+          {
+            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
+            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image273.png)\n\n2.ไปที่ Configs ==> Sync data with Maxcare ==> จากนั้นวางที่อยู่โฟลเดอร์ Maxcare ลงในช่องว่าง\n\n![image](/images/image136.png)\n\nจากนั้นกด Save\n\n3.กด Refresh\n\n![image](/images/image523.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
+            "type": "markdown",
+            "images": [
+              "image273.png",
+              "image136.png",
+              "image523.png"
+            ]
+          }
+        ],
+        "originalProgramName": "Maxcare"
+      },
+      {
+        "id": "maxdata_usage_group",
+        "name": "วิธีการใช้งานโปรแกรม",
+        "sections": [],
+        "subCategories": [
+          {
+            "id": "_____________________8iax9",
+            "name": "อธิบายการตั้งค่าเบื้องต้น",
+            "sections": [
+              {
+                "title": "General configs",
+                "content": "General configs\n\n![image](/images/image4.png)\n\nGeneral configs (การตั้งค่าทั่วไป)\n\nChrome threads:กำหนดจำนวนเธรดสำหรับเปิดหรือทำงาน Chrome พร้อมกัน\n\nCheck info threads:กำหนดจำนวนเธรดสำหรับตรวจสอบข้อมูล\n\nFolder profiles:ตำแหน่งโฟลเดอร์เก็บ Chrome Profile\n\nSync data with MaxCare:ตัวเลือกซิงก์ข้อมูลกับ MaxCare\n\nFolder MaxCare:ตำแหน่งโฟลเดอร์ของ MaxCare\n\nBrowser display settings(การตั้งค่าการแสดงผลของเบราว์เซอร์)\n\nShow image when use browser:แสดงรูปภาพขณะใช้งาน Browser\n\nSort chrome window:จัดเรียงตำแหน่งหน้าต่าง Chrome\n\nDelay Open chrome (s):หน่วงเวลาการเปิด Chrome\n\nUpdate Chromedriver:ปุ่มอัปเดต ChromeDriver\n\nConfigure chrome login (ตั้งค่าการเข้าสู่ระบบ Chrome)\n\nUse chrome profile:ใช้ Chrome Profile ในการล็อกอิน\n\nLogin type:ประเภทการล็อกอิน\n\nLogin website:เลือกเว็บไซต์สำหรับล็อกอิน\n\n",
+                "type": "markdown",
+                "images": [
+                  "image4.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "_____________________4s2ub",
+            "name": "อธิบายเมนูฟังก์ชันการทำงาน MaxData",
+            "sections": [
+              {
+                "title": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย",
+                "content": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย\n\nScan group data\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "1.Scan Group by keyword (สแกนกลุ่มตามคีย์เวิร์ด)",
+                "content": "1.Scan Group by keyword (สแกนกลุ่มตามคีย์เวิร์ด)\n\n![image](/images/image380.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit : count groups/keyword :จำนวนกลุ่ม/คีย์เวิร์ด\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+                "type": "markdown",
+                "images": [
+                  "image380.png"
+                ]
+              },
+              {
+                "title": "2.Scan Group information (สแกนข้อมูลกลุ่ม)",
+                "content": "2.Scan Group information (สแกนข้อมูลกลุ่ม)\n\n![image](/images/image96.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of group Id :รายการ Id กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+                "type": "markdown",
+                "images": [
+                  "image96.png"
+                ]
+              },
+              {
+                "title": "3.Scan group that user joined (สแกนกลุ่มที่ผู้ใช้เข้าร่วม)",
+                "content": "3.Scan group that user joined (สแกนกลุ่มที่ผู้ใช้เข้าร่วม)\n\n![image](/images/image56.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of user Id :รายการ Id ผู้ใช้\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+                "type": "markdown",
+                "images": [
+                  "image56.png"
+                ]
+              },
+              {
+                "title": "4.Scan group members (สแกนสมาชิกกลุ่ม)",
+                "content": "4.Scan group members (สแกนสมาชิกกลุ่ม)\n\n![image](/images/image220.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of group Id :รายการ Id กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan page data\n\n",
+                "type": "markdown",
+                "images": [
+                  "image220.png"
+                ]
+              },
+              {
+                "title": "1.Scan page by keyword (สแกนเพจตามคีย์เวิร์ด)",
+                "content": "1.Scan page by keyword (สแกนเพจตามคีย์เวิร์ด)\n\n![image](/images/image14.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit count groups/keyword :จำกัดจำนวนเพจ/keyword\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan user data\n\n1.Scan user friends (สแกนเพื่อนผู้ใช้)\n\n![image](/images/image723.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of Uid :รายการ Uid\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan post data\n\n1.Scan posts by keyword (สแกนโพสต์ตามคีย์เวิร์ด)\n\n![image](/images/image796.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit count groups/keyword :จำกัดจำนวนกลุ่ม/คีย์เวิร์ด\n\nFilter recent posts :โพสต์ล่าสุด\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n2.Count reactions of posts (นับความรู้สึกของโพสต์)\n\n![image](/images/image58.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n3.Scan user reactions of posts (สแกนผู้ใช้ที่แสดงความรู้สึกโพสต์)\n\n![image](/images/image217.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of post Id :รายการ Id โพสต์\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n4.Scan posts of user in group (สแกนโพสต์ของผู้ใช้ในกลุ่ม)\n\n![image](/images/image347.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of Id_User|Id_Group :รายการ Id_User|Id_Group\n\nLimit number of post/groups :จำกัดจำนวนโพสต์/กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nOther functions\n\n1.Find Facebook Id (ค้นหาไอดี Facebook)\n\n![image](/images/image546.png)\n\nList of Facebook links :รายการลิงค์เฟสบุ๊ค\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n2.ChatGPT\n\n![image](/images/image441.png)\n\nAPI Key :API Key ChatGPT\n\nContent :เนื้อหา\n\nStart :เริ่ม\n\nResult :ผลลัพธ์\n\n3.Check Live Uid (ตรวจสอบสถานะ Uid)\n\n![image](/images/image639.png)\n\nEnter :Uidใส่ Uid\n\nThreads :หัวข้อ\n\nStart :เริ่ม\n\nLIVE :ใช้งานได้\n\nDIE :ถูกจำกัด\n\nCan’t check :ไม่สามารถเช็คได้\n\n",
+                "type": "markdown",
+                "images": [
+                  "image14.png",
+                  "image723.png",
+                  "image796.png",
+                  "image58.png",
+                  "image217.png",
+                  "image347.png",
+                  "image546.png",
+                  "image441.png",
+                  "image639.png"
+                ]
+              }
+            ],
+            "originalProgramName": "MaxData"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maxphonefarm_suite",
+    "name": "MaxPhoneFarm",
+    "categories": [
+      {
+        "id": "_____________________85j6h",
+        "name": "การดาวน์โหลดและการติดตั้งโปรแกรม Max Phone Farm",
+        "sections": [
+          {
+            "title": "1.หลังจากดาวน์โหลดโปรแกรม Maxphonefarm เสร็จแล้วตลิกขวาเพื่อแตกไฟล์โปรแกรม",
+            "content": "1.หลังจากดาวน์โหลดโปรแกรม Maxphonefarm เสร็จแล้วตลิกขวาเพื่อแตกไฟล์โปรแกรม\n\n1.Extract files - สามารถเลือกได้ว่าต้องการให้ไปแตกไฟล์ลงที่ไหน\n\n2.Extract to \"MaxTwitterPro\\\" เลือกให้แตกไฟล์ลงที่ Download\n\n![image](/images/image548.png)\n\n2.ไปที่โฟล์เดอร์ Maxphonefarm  ==> กดเปิดไฟล์ Setup Environment\n\n",
+            "type": "markdown",
+            "images": [
+              "image548.png"
+            ]
+          },
+          {
+            "title": "2.1 รอจนกว่าจะดาวน์โหลดเสร็จ",
+            "content": "2.1 รอจนกว่าจะดาวน์โหลดเสร็จ\n\n![image](/images/image756.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image756.png"
+            ]
+          },
+          {
+            "title": "2.2 กด open จากนั้นติดตั้ง node.js ให้เสร็จ",
+            "content": "2.2 กด open จากนั้นติดตั้ง node.js ให้เสร็จ\n\n![image](/images/image754.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image754.png"
+            ]
+          },
+          {
+            "title": "2.3 คัดลอกข้อมูลทั้งหมดในช่อง",
+            "content": "2.3 คัดลอกข้อมูลทั้งหมดในช่อง\n\n![image](/images/image296.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image296.png"
+            ]
+          },
+          {
+            "title": "2.4 ไปที่ Command Prompt ==> วางข้อมูลที่คัดลอกไว้จากนั้นกด Enter รอจนกว่าจะเสร็จ",
+            "content": "2.4 ไปที่ Command Prompt ==> วางข้อมูลที่คัดลอกไว้จากนั้นกด Enter รอจนกว่าจะเสร็จ\n\n![image](/images/image426.png)\n\n![image](/images/image300.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image426.png",
+              "image300.png"
+            ]
+          },
+          {
+            "title": "2.5 กด Setup  จากนั้นทำการรีสตาร์ทคอมพิวเตอร์ 1 รอบ",
+            "content": "2.5 กด Setup  จากนั้นทำการรีสตาร์ทคอมพิวเตอร์ 1 รอบ\n\n![image](/images/image119.png)\n\n3.หลังจากรีสตาร์ทเสร็จแล้ว ให้ไปที่โฟลเดอร์ Maxphonefarm ==. กด Auto Update รอจนกว่าจะเสร็จ\n\n![image](/images/image71.png)\n\n4.อัปเดตเสร็จแล้ว ==> เข้าใช้งานโปรแกรมจากเวอร์ชันล่าสุด\n\n![image](/images/image768.png)\n\n5.ล็อคอินเข้าใช้งานโปรแกรม\n\n![image](/images/image240.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image119.png",
+              "image71.png",
+              "image768.png",
+              "image240.png"
+            ]
+          }
+        ],
+        "originalProgramName": "โปรแกรมอื่นๆ"
+      },
+      {
+        "id": "max_phone_farm_______ndthg",
+        "name": "Max Phone Farm อธิบายการตั้งค่าต่างๆเบื้องต้น",
+        "sections": [
+          {
+            "title": "อธิบายการตั้งค่าต่างๆเบื้องต้น general config",
+            "content": "อธิบายการตั้งค่าต่างๆเบื้องต้น general config\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "General configs การตั้งค่าทั่วไป",
+            "content": "General configs การตั้งค่าทั่วไป\n\n![image](/images/image774.png)\n\nการตั้งค่าทั่วไป\n\nSync data with MaxCare:ติ๊กถูกหากต้องการซิงค์ข้อมูลกับโปรแกรม MaxCare\n\nPath to MaxCare: ช่องสำหรับเลือกที่อยู่ไฟล์ (Path) ของโปรแกรม MaxCare ในเครื่อง\n\nNumbers threads check info:กำหนดจำนวน Thread ที่จะใช้ในการเช็คข้อมูล\n\nSave [Description] column data:ติ๊กถูกเพื่อบันทึกข้อมูลในคอลัมน์คำอธิบาย (Description)\n\nBackup Database:ตัวเลือกสำหรับสำรองฐานข้อมูล\n\nKill ADB when finished:ติ๊กถูกเพื่อให้โปรแกรมปิดกระบวนการ ADB (Android Debug Bridge) โดยอัตโนมัติเมื่อทำงานเสร็จสิ้น\n\nการตั้งค่าการเปลี่ยนอุปกรณ์\n\nChange device:เลือก Yes หากต้องการให้มีการเปลี่ยนข้อมูลอุปกรณ์\n\nBrand device (1):กำหนดชื่อยี่ห้ออุปกรณ์\n\nChoose: ปุ่มสำหรับเลือกยี่ห้อหรือรุ่นอุปกรณ์ที่ต้องการแบบเฉพาะเจาะจง\n\nการตั้งค่าการเปลี่ยน IP\n\nChange IP:เลือกรูปแบบการเปลี่ยน IP\n\nDon't Check IP before running:ติ๊กถูกหากไม่ต้องการให้ระบบตรวจสอบ IP ก่อนเริ่มทำงาน\n\n",
+            "type": "markdown",
+            "images": [
+              "image774.png"
+            ]
+          },
+          {
+            "title": "Interactive configs : การกำหนดค่าการโต้ตอบ",
+            "content": "Interactive configs : การกำหนดค่าการโต้ตอบ\n\n![image](/images/image690.png)\n\nการตั้งค่าก่อนเริ่มรันสคริปต์\n\nCheck wall account:ตรวจสอบหน้าวอลล์ของบัญชีก่อนเริ่มงาน\n\nShuffle account order:สลับลำดับบัญชีแบบสุ่ม เพื่อความเป็นธรรมชาติ\n\nการตั้งค่าการเข้าสู่ระบบ\n\nLogin type:เลือกรูปแบบการล็อกอิน\n\nการตั้งค่าการทำงาน\n\nSelect script:เลือกสคริปต์ที่จะใช้งาน\n\nปุ่ม Script:สำหรับจัดการหรือแก้ไขรายละเอียดของสคริปต์\n\nLimit run time per account (seconds):จำกัดระยะเวลาทำงานต่อ 1 บัญชี\n\nLimit run time per script (minutes):จำกัดระยะเวลาทำงานต่อ 1 สคริปต์\n\nการตั้งค่าหลังการทำงาน\n\nAuto get token / Auto get cookie:ดึง Token และ Cookie โดยอัตโนมัติ\n\n",
+            "type": "markdown",
+            "images": [
+              "image690.png"
+            ]
+          },
+          {
+            "title": "Check Info Acc after running:ตรวจสอบข้อมูลบัญชีหลังรันเสร็จ ซึ่งสามารถเลือกเจาะจงข้อมูลได้ เช่น:",
+            "content": "Check Info Acc after running:ตรวจสอบข้อมูลบัญชีหลังรันเสร็จ ซึ่งสามารถเลือกเจาะจงข้อมูลได้ เช่น:\n\nข้อมูลส่วนตัว: ชื่อ (Name), เพศ (Gender), วันเกิด (Birthday), อีเมล (Email), เบอร์โทร (Phone)\n\nข้อมูลสังคม: เพื่อน (Friend), กลุ่ม (Group), ผู้ติดตาม (Follow), เพจ (Page)\n\nข้อมูลอื่นๆ: วันที่สร้าง (Date create), รูปโปรไฟล์ (Avatar), โฆษณา (Ads), สถานที่ (Location)\n\nPublic info account:ตั้งค่าให้ข้อมูลบัญชีเป็นสาธารณะ\n\nCheck Friend Suggestions:ตรวจสอบการแนะนำเพื่อน\n\nAllow follow:อนุญาตให้มีการกดติดตาม\n\nPrivate friend list:ตั้งค่ารายการเพื่อน��ป็��ส่วนตัว\n\nHide number of reactions:ซ่อนจำนวนความรู้สึก (Reactions)\n\n",
+            "type": "markdown",
+            "images": []
+          }
+        ],
+        "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
         "id": "_____________________lwboe",
@@ -2945,1094 +3643,1000 @@ export const manualData: ProgramData[] = [
           }
         ],
         "originalProgramName": "MaxCloud & PhoneFarm"
-      },
-      {
-        "id": "maxcloudphone_vj8q1",
-        "name": "MaxCloudPhone",
-        "sections": [
-          {
-            "title": "MaxCloudPhoneฟังก์ชันหลัก",
-            "content": "MaxCloudPhoneฟังก์ชันหลัก\n\n![image](/images/image192.png)\n\nอ่านการแจ้งเตือน\n\nสุ่มดูวิดีโอ\n\nดูวิดีโอที่ระบุเฉพาะเจาะจง\n\nดูวิดีโอจากคีย์เวิร์ด\n\nดูวิดีโอของผู้ใช้\n\nสุ่มเข้าดูไลฟ์สด\n\nเข้าดูไลฟ์สดที่ระบุเฉพาะเจาะจง\n\nติดตามผู้ใช้งาน\n\nติดตามผู้ใช้งานจากคีย์เวิร์ด\n\nติดตามกลับ\n\nติดตามผู้ใช้งานจากโปรไฟล์\n\nติดตามผู้ใช้งานที่ระบบแนะนำ\n\nส่งข้อความไปยังเป้าหมายที่กำหนด\n\nตอบกลับความคิดเห็นที่ระบุเฉพาะเจาะจง\n\nปั๊มยอดเข้าชมสินค้า\n\nสร้างรายได้\n\nสร้างโพสต์\n\nอัปเดตรูปโปรไฟล์\n\nเปลี่ยนชื่อ\n\nเปลี่ยนคำอธิบายโปรไฟล์\n\nกดไลก์สาธารณะ\n\nโหมดพักการทำงาน\n\nลบโพสต์บนหน้าวอลล์\n\n",
-            "type": "markdown",
-            "images": [
-              "image192.png"
-            ]
-          }
-        ],
-        "originalProgramName": "MaxCloud & PhoneFarm"
-      },
-      {
-        "id": "_______________maxcl_glp6v",
-        "name": "วิธีตั้งค่าแอป MaxCloudPhone หลังจากใส่ Token",
-        "sections": [
-          {
-            "title": "1. เริ่มต้นการตั้งค่าแอป",
-            "content": "1. เริ่มต้นการตั้งค่าแอป\n\nหลังจากใส่ Token เสร็จแล้ว แอปจะพาคุณมายังหน้า ตั้งค่าแอป\n\nกดปุ่ม Start เพื่อเริ่มการตั้งค่า\n\n![image](/images/image686.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image686.png"
-            ]
-          },
-          {
-            "title": "2.อนุญาตการเข้าถึง",
-            "content": "2.อนุญาตการเข้าถึง\n\nให้กด อนุญาต\n\n![image](/images/image425.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image425.png"
-            ]
-          },
-          {
-            "title": "3. แอปจะพาคุณไปยังหน้าตั้งค่าใหม่",
-            "content": "3. แอปจะพาคุณไปยังหน้าตั้งค่าใหม่\n\nรอจนระบบพามายังหน้านี้\n\nให้กลับไปที่แอพ MaxCloudphone\n\n![image](/images/image24.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image24.png"
-            ]
-          },
-          {
-            "title": "4.จากนั้นกดที่ MOBILE DATA",
-            "content": "4.จากนั้นกดที่ MOBILE DATA\n\n![image](/images/image144.png)\n\nทำการตั้งค่า Device assistance app\n\n![image](/images/image153.png)\n\nเลือก MaxCloudPhone\n\n![image](/images/image477.png)\n\nกด OK\n\n![image](/images/image303.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image144.png",
-              "image153.png",
-              "image477.png",
-              "image303.png"
-            ]
-          },
-          {
-            "title": "5.ทำการตั้งค่าคีย์บอร์ด",
-            "content": "5.ทำการตั้งค่าคีย์บอร์ด\n\nกดที่ KEYBOARD\n\n![image](/images/image308.png)\n\nเลือก Maxcloud เป็นคีย์บอร์ดหลัก\n\n![image](/images/image294.png)\n\n![image](/images/image435.png)\n\n✅ เสร็จสิ้นขั้นตอนการติดตั้ง หากหน้าจอการตั้งค่ามือถือของคุณไม่ตรงตามคู่มือนี้ กรุณาติดต่อ แอดมิน เพื่อสอบถามรายละเอียดเพิ่มเติม\n\n",
-            "type": "markdown",
-            "images": [
-              "image308.png",
-              "image294.png",
-              "image435.png"
-            ]
-          }
-        ],
-        "originalProgramName": "MaxCloud & PhoneFarm"
-      },
-      {
-        "id": "_____________________85j6h",
-        "name": "การดาวน์โหลดและการติดตั้งโปรแกรม Max Phone Farm",
-        "sections": [
-          {
-            "title": "1.หลังจากดาวน์โหลดโปรแกรม Maxphonefarm เสร็จแล้วตลิกขวาเพื่อแตกไฟล์โปรแกรม",
-            "content": "1.หลังจากดาวน์โหลดโปรแกรม Maxphonefarm เสร็จแล้วตลิกขวาเพื่อแตกไฟล์โปรแกรม\n\n1.Extract files - สามารถเลือกได้ว่าต้องการให้ไปแตกไฟล์ลงที่ไหน\n\n2.Extract to \"MaxTwitterPro\\\" เลือกให้แตกไฟล์ลงที่ Download\n\n![image](/images/image548.png)\n\n2.ไปที่โฟล์เดอร์ Maxphonefarm  ==> กดเปิดไฟล์ Setup Environment\n\n",
-            "type": "markdown",
-            "images": [
-              "image548.png"
-            ]
-          },
-          {
-            "title": "2.1 รอจนกว่าจะดาวน์โหลดเสร็จ",
-            "content": "2.1 รอจนกว่าจะดาวน์โหลดเสร็จ\n\n![image](/images/image756.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image756.png"
-            ]
-          },
-          {
-            "title": "2.2 กด open จากนั้นติดตั้ง node.js ให้เสร็จ",
-            "content": "2.2 กด open จากนั้นติดตั้ง node.js ให้เสร็จ\n\n![image](/images/image754.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image754.png"
-            ]
-          },
-          {
-            "title": "2.3 คัดลอกข้อมูลทั้งหมดในช่อง",
-            "content": "2.3 คัดลอกข้อมูลทั้งหมดในช่อง\n\n![image](/images/image296.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image296.png"
-            ]
-          },
-          {
-            "title": "2.4 ไปที่ Command Prompt ==> วางข้อมูลที่คัดลอกไว้จากนั้นกด Enter รอจนกว่าจะเสร็จ",
-            "content": "2.4 ไปที่ Command Prompt ==> วางข้อมูลที่คัดลอกไว้จากนั้นกด Enter รอจนกว่าจะเสร็จ\n\n![image](/images/image426.png)\n\n![image](/images/image300.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image426.png",
-              "image300.png"
-            ]
-          },
-          {
-            "title": "2.5 กด Setup  จากนั้นทำการรีสตาร์ทคอมพิวเตอร์ 1 รอบ",
-            "content": "2.5 กด Setup  จากนั้นทำการรีสตาร์ทคอมพิวเตอร์ 1 รอบ\n\n![image](/images/image119.png)\n\n3.หลังจากรีสตาร์ทเสร็จแล้ว ให้ไปที่โฟลเดอร์ Maxphonefarm ==. กด Auto Update รอจนกว่าจะเสร็จ\n\n![image](/images/image71.png)\n\n4.อัปเดตเสร็จแล้ว ==> เข้าใช้งานโปรแกรมจากเวอร์ชันล่าสุด\n\n![image](/images/image768.png)\n\n5.ล็อคอินเข้าใช้งานโปรแกรม\n\n![image](/images/image240.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image119.png",
-              "image71.png",
-              "image768.png",
-              "image240.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "maxphone_farm________cfwsm",
-        "name": "MaxPhone Farm ขั้นตอนการลงเฟิร์มแวร์ในมือถือ (สำหรับมือถือที่ไม่ใช่ Boxphone)",
-        "sections": [
-          {
-            "title": "ขั้นตอนการลงเฟิร์มแวร์ MaxPhoneFarm ในมือถือ(สำหรับมือถือที่ไม่ใช่ Boxphone)",
-            "content": "ขั้นตอนการลงเฟิร์มแวร์ MaxPhoneFarm ในมือถือ(สำหรับมือถือที่ไม่ใช่ Boxphone)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "สิ่งที่ต้องมีก่อนลงเฟิร์มแวร์",
-            "content": "สิ่งที่ต้องมีก่อนลงเฟิร์มแวร์\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "มือถือ samsung galaxy s7",
-            "content": "มือถือ samsung galaxy s7\n\nขั้นตอนการลงเฟิร์มแวร์ในมือถือ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ให้ปิดเครื่องมือถือ",
-            "content": "ให้ปิดเครื่องมือถือ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ให้กด ปุ่มลดเสียง+ปิดเครื่อง+ปุ่มโฮม ตามรูป",
-            "content": "ให้กด ปุ่มลดเสียง+ปิดเครื่อง+ปุ่มโฮม ตามรูป\n\n![image](/images/image195.png)\n\nกดปุ่มลดเสียง + ปิดเครื่อง + ปุ่มโฮม พร้อมกัน\n\n![image](/images/image41.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image195.png",
-              "image41.png"
-            ]
-          },
-          {
-            "title": "หลังจากนั้นมือถือจะขึ้นหน้าจอสีฟ้า",
-            "content": "หลังจากนั้นมือถือจะขึ้นหน้าจอสีฟ้า\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ให้กด ปุ่มเพิ่มเสียง",
-            "content": "ให้กด ปุ่มเพิ่มเสียง\n\n![image](/images/image287.png)\n\nกด 1 ครั้ง รอขึ้นหน้าดาวน์โหลด\n\n![image](/images/image333.png)\n\nหลังจากกดปุ่มเพิ่มเสียงแล้วหน้าจอจะขึ้น Downloading\n\n",
-            "type": "markdown",
-            "images": [
-              "image287.png",
-              "image333.png"
-            ]
-          },
-          {
-            "title": "***ทำการเสียบ USB เชื่อมต่อเครื่องคอม และมือ ***",
-            "content": "***ทำการเสียบ USB เชื่อมต่อเครื่องคอม และมือ ***\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "4.ให้เปิดโปรแกรม Odin 3.13.1 ในคอมพิวเตอร์",
-            "content": "4.ให้เปิดโปรแกรม Odin 3.13.1 ในคอมพิวเตอร์\n\n![image](/images/image541.png)\n\n4.1.ให้กด AP แล้วเลือกไฟล์ twrp-3.6.0_9-0-herolte.img.tar\n\n![image](/images/image110.png)\n\n![image](/images/image118.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image541.png",
-              "image110.png",
-              "image118.png"
-            ]
-          },
-          {
-            "title": "ไฟล์ twrp-3.6.0_9-0-herolte.img.tar",
-            "content": "ไฟล์ twrp-3.6.0_9-0-herolte.img.tar\n\n4.2 หลังจากอัพไฟล์ให้กด Start\n\n![image](/images/image191.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image191.png"
-            ]
-          },
-          {
-            "title": "5.หลังจากกด Start มือถือจะปิดเครื่อง ให้กด ปุ่มเพิ่มเสียง+ปิดเครื่อง+ปุ่มโฮม ตามรูป",
-            "content": "5.หลังจากกด Start มือถือจะปิดเครื่อง ให้กด ปุ่มเพิ่มเสียง+ปิดเครื่อง+ปุ่มโฮม ตามรูป\n\n![image](/images/image215.png)\n\nกดปุ่มลดเสียง + ปิดเครื่อง + ปุ่มโฮม พร้อมกัน\n\n",
-            "type": "markdown",
-            "images": [
-              "image215.png"
-            ]
-          },
-          {
-            "title": "6.หลังจากหน้าหน้าจอมือถือขึ้นตามรูปแล้วให้กด Wipe",
-            "content": "6.หลังจากหน้าหน้าจอมือถือขึ้นตามรูปแล้วให้กด Wipe\n\n![image](/images/image451.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image451.png"
-            ]
-          },
-          {
-            "title": "6.1 กด Format Data",
-            "content": "6.1 กด Format Data\n\n![image](/images/image789.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image789.png"
-            ]
-          },
-          {
-            "title": "6.2พิมพ์คำว่า yes",
-            "content": "6.2พิมพ์คำว่า yes\n\n![image](/images/image38.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image38.png"
-            ]
-          },
-          {
-            "title": "6.3 กด Advanced Wipe",
-            "content": "6.3 กด Advanced Wipe\n\n![image](/images/image592.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image592.png"
-            ]
-          },
-          {
-            "title": "6.4 เลือกไฟล์ตามรูป",
-            "content": "6.4 เลือกไฟล์ตามรูป\n\n![image](/images/image606.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image606.png"
-            ]
-          },
-          {
-            "title": "6.5 เลือนปุ่ม Swipe to Wipe ไปด้านขวา",
-            "content": "6.5 เลือนปุ่ม Swipe to Wipe ไปด้านขวา\n\n![image](/images/image286.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image286.png"
-            ]
-          },
-          {
-            "title": "7.หลังจากอัพข้อมูลเสร็จสิ้นให้กด “Reboot”",
-            "content": "7.หลังจากอัพข้อมูลเสร็จสิ้นให้กด “Reboot”\n\n![image](/images/image314.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image314.png"
-            ]
-          },
-          {
-            "title": "7.1 กด “Recovery”",
-            "content": "7.1 กด “Recovery”\n\n![image](/images/image769.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image769.png"
-            ]
-          },
-          {
-            "title": "7.2 เลือนปุ่ม Swipe to Wipe ไปด้านขวา",
-            "content": "7.2 เลือนปุ่ม Swipe to Wipe ไปด้านขวา\n\n![image](/images/image318.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image318.png"
-            ]
-          },
-          {
-            "title": "8.ให้มาที่คอมพิวเตอร์แล้วคัดลอกไฟล์ ROOT S7 ไปว่างในเครื่อง",
-            "content": "8.ให้มาที่คอมพิวเตอร์แล้วคัดลอกไฟล์ ROOT S7 ไปว่างในเครื่อง\n\n![image](/images/image583.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image583.png"
-            ]
-          },
-          {
-            "title": "8.1 เลือกอุปกรณ์",
-            "content": "8.1 เลือกอุปกรณ์\n\n![image](/images/image439.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image439.png"
-            ]
-          },
-          {
-            "title": "8.2 ว่างไฟล์ ROOT S7 ในเครื่อง",
-            "content": "8.2 ว่างไฟล์ ROOT S7 ในเครื่อง\n\n![image](/images/image635.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image635.png"
-            ]
-          },
-          {
-            "title": "9.หลังคอมพิวเตอร์อัพข้อมูลเสร็จ ให้มาที่มือถือแล้วเลือก Install",
-            "content": "9.หลังคอมพิวเตอร์อัพข้อมูลเสร็จ ให้มาที่มือถือแล้วเลือก Install\n\n![image](/images/image634.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image634.png"
-            ]
-          },
-          {
-            "title": "9.1 เลือก ROOT S7",
-            "content": "9.1 เลือก ROOT S7\n\n![image](/images/image802.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image802.png"
-            ]
-          },
-          {
-            "title": "9.2 เลือกไฟล์ตามรูปด้านล่าง (ต้องตั้งค่าตามรูปเท่านั้น)",
-            "content": "9.2 เลือกไฟล์ตามรูปด้านล่าง (ต้องตั้งค่าตามรูปเท่านั้น)\n\n![image](/images/image611.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image611.png"
-            ]
-          },
-          {
-            "title": "9.2.1 ไม่ต้องเลือกช่องไหนแล้วกด Add more Zips",
-            "content": "9.2.1 ไม่ต้องเลือกช่องไหนแล้วกด Add more Zips\n\n![image](/images/image525.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image525.png"
-            ]
-          },
-          {
-            "title": "ตั้งค่าไฟล์ 1",
-            "content": "ตั้งค่าไฟล์ 1\n\n![image](/images/image155.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image155.png"
-            ]
-          },
-          {
-            "title": "ตั้งค่าไฟล์ 2",
-            "content": "ตั้งค่าไฟล์ 2\n\n![image](/images/image388.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image388.png"
-            ]
-          },
-          {
-            "title": "ตั้งค่าไฟล์ 3",
-            "content": "ตั้งค่าไฟล์ 3\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ไฟล์ที่ 4 ไม่ต้องกด Add more Zips แต่ให้เลื่อนปุ่ม Swipe to Wipe ไปด้านขวาแทน",
-            "content": "ไฟล์ที่ 4 ไม่ต้องกด Add more Zips แต่ให้เลื่อนปุ่ม Swipe to Wipe ไปด้านขวาแทน\n\n![image](/images/image595.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image595.png"
-            ]
-          },
-          {
-            "title": "ตั้งค่าไฟล์ 4",
-            "content": "ตั้งค่าไฟล์ 4\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "9.3 หลังจากกดปุ่ม Swipe to Wipe จะอัพเดทข้อมูลเมื่ออัพเดทข้อมูลเสร็จให้กด Reboot System",
-            "content": "9.3 หลังจากกดปุ่ม Swipe to Wipe จะอัพเดทข้อมูลเมื่ออัพเดทข้อมูลเสร็จให้กด Reboot System\n\n![image](/images/image780.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image780.png"
-            ]
-          },
-          {
-            "title": "10.การติดตั้งในมือถือ",
-            "content": "10.การติดตั้งในมือถือ\n\n![image](/images/image587.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image587.png"
-            ]
-          },
-          {
-            "title": "เลือก START",
-            "content": "เลือก START\n\n![image](/images/image223.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image223.png"
-            ]
-          },
-          {
-            "title": "เลือก SKIP",
-            "content": "เลือก SKIP\n\n![image](/images/image400.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image400.png"
-            ]
-          },
-          {
-            "title": "เลือก SKIP",
-            "content": "เลือก SKIP\n\n![image](/images/image596.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image596.png"
-            ]
-          },
-          {
-            "title": "เลือก NEXT",
-            "content": "เลือก NEXT\n\n![image](/images/image395.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image395.png"
-            ]
-          },
-          {
-            "title": "เลือก MORE",
-            "content": "เลือก MORE\n\n![image](/images/image513.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image513.png"
-            ]
-          },
-          {
-            "title": "เลือก ACCEPT",
-            "content": "เลือก ACCEPT\n\n![image](/images/image504.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image504.png"
-            ]
-          },
-          {
-            "title": "เลือก Fingerpring + Password",
-            "content": "เลือก Fingerpring + Password\n\n![image](/images/image766.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image766.png"
-            ]
-          },
-          {
-            "title": "เลือก SKIP",
-            "content": "เลือก SKIP\n\n![image](/images/image26.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image26.png"
-            ]
-          },
-          {
-            "title": "เลือก NEXT",
-            "content": "เลือก NEXT\n\n![image](/images/image111.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image111.png"
-            ]
-          },
-          {
-            "title": "เลือก SKIP",
-            "content": "เลือก SKIP\n\n![image](/images/image64.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image64.png"
-            ]
-          },
-          {
-            "title": "เลือก START",
-            "content": "เลือก START\n\n![image](/images/image33.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image33.png"
-            ]
-          },
-          {
-            "title": "เลือก Magisk",
-            "content": "เลือก Magisk\n\n![image](/images/image433.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image433.png"
-            ]
-          },
-          {
-            "title": "เลือก OK",
-            "content": "เลือก OK\n\n![image](/images/image242.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image242.png"
-            ]
-          },
-          {
-            "title": "เลือก Settings",
-            "content": "เลือก Settings\n\n![image](/images/image589.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image589.png"
-            ]
-          },
-          {
-            "title": "เปิดปุ่ม Allow from this source",
-            "content": "เปิดปุ่ม Allow from this source\n\n![image](/images/image450.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image450.png"
-            ]
-          },
-          {
-            "title": "เลือก Install",
-            "content": "เลือก Install\n\n![image](/images/image664.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image664.png"
-            ]
-          },
-          {
-            "title": "เลือก Magisk",
-            "content": "เลือก Magisk\n\n![image](/images/image685.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image685.png"
-            ]
-          },
-          {
-            "title": "ปิดปุ่ม Check Updates",
-            "content": "ปิดปุ่ม Check Updates\n\n![image](/images/image666.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image666.png"
-            ]
-          },
-          {
-            "title": "เลื่อนลงข้างล่างสุดเลือก Superuser Notification",
-            "content": "เลื่อนลงข้างล่างสุดเลือก Superuser Notification\n\n![image](/images/image392.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image392.png"
-            ]
-          },
-          {
-            "title": "เลือก None",
-            "content": "เลือก None\n\n![image](/images/image718.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image718.png"
-            ]
-          },
-          {
-            "title": "เลื่อนขึ้นมาแล้วเปิดปุ่ม Zygisk (Beta)",
-            "content": "เลื่อนขึ้นมาแล้วเปิดปุ่ม Zygisk (Beta)\n\n![image](/images/image275.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image275.png"
-            ]
-          },
-          {
-            "title": "เลือก Hide the Magisk app",
-            "content": "เลือก Hide the Magisk app\n\n![image](/images/image748.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image748.png"
-            ]
-          },
-          {
-            "title": "เลือก OK หลังจากนั้นจะโหลดอยู่สักพัก",
-            "content": "เลือก OK หลังจากนั้นจะโหลดอยู่สักพัก\n\n![image](/images/image161.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image161.png"
-            ]
-          },
-          {
-            "title": "เลือก Charing this device via USB",
-            "content": "เลือก Charing this device via USB\n\n![image](/images/image322.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image322.png"
-            ]
-          },
-          {
-            "title": "เลือก File Transfer",
-            "content": "เลือก File Transfer\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "11.จากนั้นให้มาที่คอมพิมพ์เตอร์เพื่อคัดลอกเลือกไฟล์ MINSOFTWARE_Setup ลงเครื่อง",
-            "content": "11.จากนั้นให้มาที่คอมพิมพ์เตอร์เพื่อคัดลอกเลือกไฟล์ MINSOFTWARE_Setup ลงเครื่อง\n\n![image](/images/image528.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image528.png"
-            ]
-          },
-          {
-            "title": "11.1 ไปที่ Computer เลือก อุปกรณ์มือถือ SM-G930F",
-            "content": "11.1 ไปที่ Computer เลือก อุปกรณ์มือถือ SM-G930F\n\n![image](/images/image505.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image505.png"
-            ]
-          },
-          {
-            "title": "11.2 เลือก Internal shared storage",
-            "content": "11.2 เลือก Internal shared storage\n\n![image](/images/image330.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image330.png"
-            ]
-          },
-          {
-            "title": "11.3 วางไฟล์ที่คัดลอกมาลงเครื่อง",
-            "content": "11.3 วางไฟล์ที่คัดลอกมาลงเครื่อง\n\n![image](/images/image323.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image323.png"
-            ]
-          },
-          {
-            "title": "12.หลังจากวางไฟล์เสร็จให้มาที่มือถือเข้าโปรแกรม Magisk แล้วเลือกไปที่ Modules",
-            "content": "12.หลังจากวางไฟล์เสร็จให้มาที่มือถือเข้าโปรแกรม Magisk แล้วเลือกไปที่ Modules\n\n![image](/images/image231.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image231.png"
-            ]
-          },
-          {
-            "title": "12.1 เลือก Install from storage",
-            "content": "12.1 เลือก Install from storage\n\n![image](/images/image88.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image88.png"
-            ]
-          },
-          {
-            "title": "12.2 กด Allow",
-            "content": "12.2 กด Allow\n\n![image](/images/image517.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image517.png"
-            ]
-          },
-          {
-            "title": "12.3 กดไปที่ขีดสามขีดด้านบนซ้าย",
-            "content": "12.3 กดไปที่ขีดสามขีดด้านบนซ้าย\n\n![image](/images/image415.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image415.png"
-            ]
-          },
-          {
-            "title": "12.4 เลือก  SM-G930F",
-            "content": "12.4 เลือก  SM-G930F\n\n![image](/images/image725.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image725.png"
-            ]
-          },
-          {
-            "title": "12.5 เลือก MINSOFTWARE_Setup",
-            "content": "12.5 เลือก MINSOFTWARE_Setup\n\n![image](/images/image78.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image78.png"
-            ]
-          },
-          {
-            "title": "12.6 ติดตั้งไฟล์ safetynet-fix-v2.2.1-zygisk.zip",
-            "content": "12.6 ติดตั้งไฟล์ safetynet-fix-v2.2.1-zygisk.zip\n\n![image](/images/image269.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image269.png"
-            ]
-          },
-          {
-            "title": "12.7 หลังจากติดตั้งเสร็จให้กดกลับ",
-            "content": "12.7 หลังจากติดตั้งเสร็จให้กดกลับ\n\n![image](/images/image658.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image658.png"
-            ]
-          },
-          {
-            "title": "12.8 เลือก Install from storage อีกครั้ง",
-            "content": "12.8 เลือก Install from storage อีกครั้ง\n\n![image](/images/image351.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image351.png"
-            ]
-          },
-          {
-            "title": "12.9 ติดตั้งไฟล์ LSPosed-v1.8.0-6483-zygisk.zip",
-            "content": "12.9 ติดตั้งไฟล์ LSPosed-v1.8.0-6483-zygisk.zip\n\n![image](/images/image212.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image212.png"
-            ]
-          },
-          {
-            "title": "12.10 หลังจากติดตั้งเสร็จให้กด Reboot",
-            "content": "12.10 หลังจากติดตั้งเสร็จให้กด Reboot\n\n![image](/images/image198.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image198.png"
-            ]
-          },
-          {
-            "title": "13. หลังจากเครื่องเปิดมาจะมีโปรแกรม LSPosed เด้งขึ้นมาให้กด Add automatically",
-            "content": "13. หลังจากเครื่องเปิดมาจะมีโปรแกรม LSPosed เด้งขึ้นมาให้กด Add automatically\n\n![image](/images/image338.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image338.png"
-            ]
-          },
-          {
-            "title": "14.หลังจากนั้นไปที่ Settings",
-            "content": "14.หลังจากนั้นไปที่ Settings\n\n![image](/images/image571.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image571.png"
-            ]
-          },
-          {
-            "title": "14.1 เลื่อนลงไปข้างล่างสุดกด About phone",
-            "content": "14.1 เลื่อนลงไปข้างล่างสุดกด About phone\n\n![image](/images/image432.png)\n\n14.2 เลื่อนลงไปข้างล่างสุดกดที่ Build number  8 ครั้ง แบบเร็วๆ\n\n![image](/images/image783.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image432.png",
-              "image783.png"
-            ]
-          },
-          {
-            "title": "14.3 หลังจากให้กลับมาที่ Settings แล้วเลือก System",
-            "content": "14.3 หลังจากให้กลับมาที่ Settings แล้วเลือก System\n\n![image](/images/image455.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image455.png"
-            ]
-          },
-          {
-            "title": "14.4 เลื่อนลงไปข้างล่างกดที่ Developer options",
-            "content": "14.4 เลื่อนลงไปข้างล่างกดที่ Developer options\n\n![image](/images/image268.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image268.png"
-            ]
-          },
-          {
-            "title": "14.5 เปิด Stay awake",
-            "content": "14.5 เปิด Stay awake\n\n![image](/images/image172.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image172.png"
-            ]
-          },
-          {
-            "title": "14.6 เปิด Android debugging",
-            "content": "14.6 เปิด Android debugging\n\n![image](/images/image429.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image429.png"
-            ]
-          },
-          {
-            "title": "14.7 หลังจากนั้นกด OK",
-            "content": "14.7 หลังจากนั้นกด OK\n\n![image](/images/image653.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image653.png"
-            ]
-          },
-          {
-            "title": "14.8 จากนั้นจะมีแจ้งเตือนใหม่ขึ้นมาให้กด Cancel",
-            "content": "14.8 จากนั้นจะมีแจ้งเตือนใหม่ขึ้นมาให้กด Cancel\n\n![image](/images/image251.png)\n\n***เสร็จสิ้นการลงเฟิร์มแวร์ ลงมือถือ***\n\n",
-            "type": "markdown",
-            "images": [
-              "image251.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "max_phone_farm_______ndthg",
-        "name": "Max Phone Farm อธิบายการตั้งค่าต่างๆเบื้องต้น",
-        "sections": [
-          {
-            "title": "อธิบายการตั้งค่าต่างๆเบื้องต้น general config",
-            "content": "อธิบายการตั้งค่าต่างๆเบื้องต้น general config\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "General configs การตั้งค่าทั่วไป",
-            "content": "General configs การตั้งค่าทั่วไป\n\n![image](/images/image774.png)\n\nการตั้งค่าทั่วไป\n\nSync data with MaxCare:ติ๊กถูกหากต้องการซิงค์ข้อมูลกับโปรแกรม MaxCare\n\nPath to MaxCare: ช่องสำหรับเลือกที่อยู่ไฟล์ (Path) ของโปรแกรม MaxCare ในเครื่อง\n\nNumbers threads check info:กำหนดจำนวน Thread ที่จะใช้ในการเช็คข้อมูล\n\nSave [Description] column data:ติ๊กถูกเพื่อบันทึกข้อมูลในคอลัมน์คำอธิบาย (Description)\n\nBackup Database:ตัวเลือกสำหรับสำรองฐานข้อมูล\n\nKill ADB when finished:ติ๊กถูกเพื่อให้โปรแกรมปิดกระบวนการ ADB (Android Debug Bridge) โดยอัตโนมัติเมื่อทำงานเสร็จสิ้น\n\nการตั้งค่าการเปลี่ยนอุปกรณ์\n\nChange device:เลือก Yes หากต้องการให้มีการเปลี่ยนข้อมูลอุปกรณ์\n\nBrand device (1):กำหนดชื่อยี่ห้ออุปกรณ์\n\nChoose: ปุ่มสำหรับเลือกยี่ห้อหรือรุ่นอุปกรณ์ที่ต้องการแบบเฉพาะเจาะจง\n\nการตั้งค่าการเปลี่ยน IP\n\nChange IP:เลือกรูปแบบการเปลี่ยน IP\n\nDon't Check IP before running:ติ๊กถูกหากไม่ต้องการให้ระบบตรวจสอบ IP ก่อนเริ่มทำงาน\n\n",
-            "type": "markdown",
-            "images": [
-              "image774.png"
-            ]
-          },
-          {
-            "title": "Interactive configs : การกำหนดค่าการโต้ตอบ",
-            "content": "Interactive configs : การกำหนดค่าการโต้ตอบ\n\n![image](/images/image690.png)\n\nการตั้งค่าก่อนเริ่มรันสคริปต์\n\nCheck wall account:ตรวจสอบหน้าวอลล์ของบัญชีก่อนเริ่มงาน\n\nShuffle account order:สลับลำดับบัญชีแบบสุ่ม เพื่อความเป็นธรรมชาติ\n\nการตั้งค่าการเข้าสู่ระบบ\n\nLogin type:เลือกรูปแบบการล็อกอิน\n\nการตั้งค่าการทำงาน\n\nSelect script:เลือกสคริปต์ที่จะใช้งาน\n\nปุ่ม Script:สำหรับจัดการหรือแก้ไขรายละเอียดของสคริปต์\n\nLimit run time per account (seconds):จำกัดระยะเวลาทำงานต่อ 1 บัญชี\n\nLimit run time per script (minutes):จำกัดระยะเวลาทำงานต่อ 1 สคริปต์\n\nการตั้งค่าหลังการทำงาน\n\nAuto get token / Auto get cookie:ดึง Token และ Cookie โดยอัตโนมัติ\n\n",
-            "type": "markdown",
-            "images": [
-              "image690.png"
-            ]
-          },
-          {
-            "title": "Check Info Acc after running:ตรวจสอบข้อมูลบัญชีหลังรันเสร็จ ซึ่งสามารถเลือกเจาะจงข้อมูลได้ เช่น:",
-            "content": "Check Info Acc after running:ตรวจสอบข้อมูลบัญชีหลังรันเสร็จ ซึ่งสามารถเลือกเจาะจงข้อมูลได้ เช่น:\n\nข้อมูลส่วนตัว: ชื่อ (Name), เพศ (Gender), วันเกิด (Birthday), อีเมล (Email), เบอร์โทร (Phone)\n\nข้อมูลสังคม: เพื่อน (Friend), กลุ่ม (Group), ผู้ติดตาม (Follow), เพจ (Page)\n\nข้อมูลอื่นๆ: วันที่สร้าง (Date create), รูปโปรไฟล์ (Avatar), โฆษณา (Ads), สถานที่ (Location)\n\nPublic info account:ตั้งค่าให้ข้อมูลบัญชีเป็นสาธารณะ\n\nCheck Friend Suggestions:ตรวจสอบการแนะนำเพื่อน\n\nAllow follow:อนุญาตให้มีการกดติดตาม\n\nPrivate friend list:ตั้งค่ารายการเพื่อน��ป็��ส่วนตัว\n\nHide number of reactions:ซ่อนจำนวนความรู้สึก (Reactions)\n\n",
-            "type": "markdown",
-            "images": []
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
       }
     ]
   },
   {
-    "id": "maxdata_suite",
-    "name": "MaxData",
+    "id": "maxcloudphone_suite",
+    "name": "MaxCloudPhone",
     "categories": [
       {
-        "id": "maxdata_911ih",
-        "name": "MaxData",
+        "id": "maxcloud_mobile_config",
+        "name": "การตั้งค่ามือถือ",
         "sections": [],
-        "originalProgramName": "MaxData"
+        "subCategories": [
+          {
+            "id": "________________inst_ng0aq",
+            "name": "วิธีติดตั้งแอป (Install App)",
+            "sections": [
+              {
+                "title": "MaxCloudPhone วิธีติดตั้งแอป",
+                "content": "MaxCloudPhone วิธีติดตั้งแอป\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "ขั้นตอนการติดตั้ง",
+                "content": "ขั้นตอนการติดตั้ง\n\n1.ขั้นตอนการติดตั้งดาวน์โหลดไฟล์ APK\n\nเข้าไปที่เว็บไซต์\n\n![image](/images/image782.png)\n\n2. เริ่มการติดตั้งแอป\n\nไปที่เมนู ติดตั้ง APK ในอุปกรณ์ของคุณ\n\nเลือกแอปที่ต้องการติดตั้งจากรายการ\n\n![image](/images/image542.png)\n\n3. เลือกไฟล์ที่ดาวน์โหลด\n\nค้นหาไฟล์ APK ที่ดาวน์โหลดจากเว็บไซต์\n\nกดติดตั้งแอปตามขั้นตอนที่แสดงบนหน้าจอ\n\n![image](/images/image349.png)\n\n![image](/images/image739.png)\n\n![image](/images/image4.png)\n\n4. ติดตั้งสำเร็จ\n\nรอจนกว่าการติดตั้งจะเสร็จสมบูรณ์\n\nเมื่อเสร็จสิ้น คุณสามารถเปิดแอปและเริ่มใช้งานได้ทันที\n\n![image](/images/image552.png)\n\n✅ หมายเหตุ: หากมีการแจ้งเตือนเกี่ยวกับความปลอดภัยในการติดตั้งแอปจากแหล่งที่ไม่รู้จัก กรุณาไปที่การตั้งค่าอุปกรณ์และอนุญาตให้ติดตั้งแอปจากแหล่งที่ไม่รู้จักก่อนทำการติดตั้ง\n\n",
+                "type": "markdown",
+                "images": [
+                  "image782.png",
+                  "image542.png",
+                  "image349.png",
+                  "image739.png",
+                  "image4.png",
+                  "image552.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "________token________uo3lq",
+            "name": "วิธีใส่ Token เพื่อเชื่อมต่อกับมือถือ",
+            "sections": [
+              {
+                "title": "1.คัดลอก Token จากเว็บไซต์",
+                "content": "1.คัดลอก Token จากเว็บไซต์\n\nไปที่\n\nเข้าสู่ระบบบัญชีของคุณ\n\n![image](/images/image618.png)\n\nไปที่ การจัดการอุปรณ์ แล้วคัดลอก Token ตามตัวอย่างในรูป\n\n![image](/images/image532.png)\n\n![image](/images/image545.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image618.png",
+                  "image532.png",
+                  "image545.png"
+                ]
+              },
+              {
+                "title": "2. เปิดแอปบนมือถือ",
+                "content": "2. เปิดแอปบนมือถือ\n\nเปิดแอป Maxcloud บนอุปกรณ์ของคุณ\n\nวาง Token ที่คัดลอกมาลงในช่องที่กำหนด\n\n![image](/images/image552.png)\n\n![image](/images/image241.png)\n\nแล้วกด Login ได้เลย\n\n",
+                "type": "markdown",
+                "images": [
+                  "image552.png",
+                  "image241.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "_______________maxcl_glp6v",
+            "name": "วิธีตั้งค่าแอป MaxCloudPhone หลังจากใส่ Token",
+            "sections": [
+              {
+                "title": "1. เริ่มต้นการตั้งค่าแอป",
+                "content": "1. เริ่มต้นการตั้งค่าแอป\n\nหลังจากใส่ Token เสร็จแล้ว แอปจะพาคุณมายังหน้า ตั้งค่าแอป\n\nกดปุ่ม Start เพื่อเริ่มการตั้งค่า\n\n![image](/images/image686.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image686.png"
+                ]
+              },
+              {
+                "title": "2.อนุญาตการเข้าถึง",
+                "content": "2.อนุญาตการเข้าถึง\n\nให้กด อนุญาต\n\n![image](/images/image425.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image425.png"
+                ]
+              },
+              {
+                "title": "3. แอปจะพาคุณไปยังหน้าตั้งค่าใหม่",
+                "content": "3. แอปจะพาคุณไปยังหน้าตั้งค่าใหม่\n\nรอจนระบบพามายังหน้านี้\n\nให้กลับไปที่แอพ MaxCloudphone\n\n![image](/images/image24.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image24.png"
+                ]
+              },
+              {
+                "title": "4.จากนั้นกดที่ MOBILE DATA",
+                "content": "4.จากนั้นกดที่ MOBILE DATA\n\n![image](/images/image144.png)\n\nทำการตั้งค่า Device assistance app\n\n![image](/images/image153.png)\n\nเลือก MaxCloudPhone\n\n![image](/images/image477.png)\n\nกด OK\n\n![image](/images/image303.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image144.png",
+                  "image153.png",
+                  "image477.png",
+                  "image303.png"
+                ]
+              },
+              {
+                "title": "5.ทำการตั้งค่าคีย์บอร์ด",
+                "content": "5.ทำการตั้งค่าคีย์บอร์ด\n\nกดที่ KEYBOARD\n\n![image](/images/image308.png)\n\nเลือก Maxcloud เป็นคีย์บอร์ดหลัก\n\n![image](/images/image294.png)\n\n![image](/images/image435.png)\n\n✅ เสร็จสิ้นขั้นตอนการติดตั้ง หากหน้าจอการตั้งค่ามือถือของคุณไม่ตรงตามคู่มือนี้ กรุณาติดต่อ แอดมิน เพื่อสอบถามรายละเอียดเพิ่มเติม\n\n",
+                "type": "markdown",
+                "images": [
+                  "image308.png",
+                  "image294.png",
+                  "image435.png"
+                ]
+              }
+            ],
+            "originalProgramName": "MaxCloud & PhoneFarm"
+          }
+        ]
       },
       {
-        "id": "_____________________wpldc",
-        "name": "คู่มือดาวน์โหลดและติดตั้งโปรแกรม MaxData",
+        "id": "maxcloud_basic_config",
+        "name": "การตั้งค่าเบื้องต้น",
+        "sections": [],
+        "subCategories": [
+          {
+            "id": "__________________ti_g26ye",
+            "name": "วิธีการเพิ่มบัญชี Tiktok",
+            "sections": [
+              {
+                "title": "วิธีการเพิ่มบัญชี Tiktok",
+                "content": "วิธีการเพิ่มบัญชี Tiktok\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "1.ไปที่เมนู Social Accounts",
+                "content": "1.ไปที่เมนู Social Accounts\n\n![image](/images/image196.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image196.png"
+                ]
+              },
+              {
+                "title": "2.ไปที่เมนู นำเข้าบัญชี",
+                "content": "2.ไปที่เมนู นำเข้าบัญชี\n\n![image](/images/image127.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image127.png"
+                ]
+              },
+              {
+                "title": "3.เพิ่มข้อมูลบัญชี TikTok",
+                "content": "3.เพิ่มข้อมูลบัญชี TikTok\n\nกรอกข้อมูลบัญชี\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "ตัวอย่างเช่น:",
+                "content": "ตัวอย่างเช่น:\n\npatsadchara9|78sadas8F1Zr@|4NYFSDGHEWFWFKDWUQDFJLASUIL|JanendsfseNit59@hotmail.com|KWTvasfdsadsad16O\n\nเลือก Format\n\nUID|Pass|2Fa|Email|Pass_mail (ให้ใส่ Format ตามข้อมูลที่มีได้เลย)\n\n![image](/images/image261.png)\n\nจากนั้นกด บันทึก\n\n",
+                "type": "markdown",
+                "images": [
+                  "image261.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "_______________tikto_yk2im",
+            "name": "วิธีการลบบัญชี Tiktok",
+            "sections": [
+              {
+                "title": "1.เลือกบัญชีที่ต้องการลบ",
+                "content": "1.เลือกบัญชีที่ต้องการลบ\n\n![image](/images/image358.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image358.png"
+                ]
+              },
+              {
+                "title": "2.กดคลิกขวา แล้วเลือกคำว่า Delete",
+                "content": "2.กดคลิกขวา แล้วเลือกคำว่า Delete\n\n![image](/images/image105.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image105.png"
+                ]
+              },
+              {
+                "title": "เป็นอันเสร็จในการลบบัญชี",
+                "content": "เป็นอันเสร็จในการลบบัญชี\n\n",
+                "type": "markdown",
+                "images": []
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "_______________adb_d_i9lc8",
+            "name": "วิธีเปิดใช้งาน ADB Debug (ในโทรศัพท์ที่มีหน้าจอ)",
+            "sections": [
+              {
+                "title": "1.เข้าไปที่ตั้งค่า เลื่อนลงมาให้สุด แล้วเลือก About phone",
+                "content": "1.เข้าไปที่ตั้งค่า เลื่อนลงมาให้สุด แล้วเลือก About phone\n\n![image](/images/image66.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image66.png"
+                ]
+              },
+              {
+                "title": "2.เลือก Software information",
+                "content": "2.เลือก Software information\n\n![image](/images/image203.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image203.png"
+                ]
+              },
+              {
+                "title": "3.กดที่ Build number 4-5 ครั้ง",
+                "content": "3.กดที่ Build number 4-5 ครั้ง\n\n![image](/images/image51.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image51.png"
+                ]
+              },
+              {
+                "title": "4.จะมีโหมด Developer Options ขึ้นมา ให้กดเข้าไป",
+                "content": "4.จะมีโหมด Developer Options ขึ้นมา ให้กดเข้าไป\n\n![image](/images/image267.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image267.png"
+                ]
+              },
+              {
+                "title": "5.ให้มาเลือกเปิด USB debugging",
+                "content": "5.ให้มาเลือกเปิด USB debugging\n\n![image](/images/image46.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image46.png"
+                ]
+              },
+              {
+                "title": "6.เลือก OK เป็นอันเสร็จสิ้นการเปิดใช้งาน ADB Debug",
+                "content": "6.เลือก OK เป็นอันเสร็จสิ้นการเปิดใช้งาน ADB Debug\n\n![image](/images/image506.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image506.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "_____________________iay90",
+            "name": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น",
+            "sections": [
+              {
+                "title": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น",
+                "content": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "1.ไปที่ คลังภาพ",
+                "content": "1.ไปที่ คลังภาพ\n\n![image](/images/image74.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image74.png"
+                ]
+              },
+              {
+                "title": "2.เลือก New Category ตั้งชื่อตามที่ต้องการ",
+                "content": "2.เลือก New Category ตั้งชื่อตามที่ต้องการ\n\n![image](/images/image465.png)\n\n![image](/images/image397.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image465.png",
+                  "image397.png"
+                ]
+              },
+              {
+                "title": "3.จากนั้นเลือก New Content",
+                "content": "3.จากนั้นเลือก New Content\n\n![image](/images/image581.png)\n\nตั้งชื่อตามต้องการ จากนั้นกด Add\n\n![image](/images/image184.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image581.png",
+                  "image184.png"
+                ]
+              },
+              {
+                "title": "4.เลือก AddContent",
+                "content": "4.เลือก AddContent\n\n![image](/images/image700.png)\n\n![image](/images/image315.png)\n\nContent Items:รายการเนื้อหาที่ต้องการ(1 รายการต่อ 1 บรรทัด)\n\nหมายเหตุ:บรรทัดว่างจะถูกระบบละเว้น\n\nเนื้อหาหนึ่งบรรทัด:เลือกเมื่อต้องการให้แต่ละบรรทัดแยกเป็นรายการอิสระจากกัน\n\nเนื้อหาหลายบรรทัด:เลือกในกรณีที่เนื้อหาหนึ่งรายการมีความยาวหลายบรรทัด\n\nหลังจากเพิ่มข้อมูลเสร็จแล้วให้กด Add\n\n",
+                "type": "markdown",
+                "images": [
+                  "image700.png",
+                  "image315.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "_______________2fa_hhc7f",
+            "name": "วิธีเปิดใช้งาน 2FA",
+            "sections": [
+              {
+                "title": "คำถาม:ทำไมต้องเปิดใช้งาน 2FA?",
+                "content": "คำถาม:ทำไมต้องเปิดใช้งาน 2FA?\n\nคำตอบ:เพื่อให้ระบบ MaxCloudPhone สามารถยืนยันตัวได้ง่าย โดยไม่ต้องยืนยันผ่านอีเมล เพื่อให้การล็อกอินบัญชี ง่าย และสะดวกมากขึ้น\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "1.กดที่ขีด 3 ขีด ที่หน้าโปรไฟล์",
+                "content": "1.กดที่ขีด 3 ขีด ที่หน้าโปรไฟล์\n\n![image](/images/image625.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image625.png"
+                ]
+              },
+              {
+                "title": "2.ไปที่ Setting and privacy",
+                "content": "2.ไปที่ Setting and privacy\n\n![image](/images/image538.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image538.png"
+                ]
+              },
+              {
+                "title": "3.ไปที่ Security",
+                "content": "3.ไปที่ Security\n\n![image](/images/image799.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image799.png"
+                ]
+              },
+              {
+                "title": "4.ไปที่เมนู 2-step verification",
+                "content": "4.ไปที่เมนู 2-step verification\n\n![image](/images/image647.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image647.png"
+                ]
+              },
+              {
+                "title": "5.ปรับการตั้งค่าดังนี้แล้วกด Turn on",
+                "content": "5.ปรับการตั้งค่าดังนี้แล้วกด Turn on\n\n![image](/images/image50.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image50.png"
+                ]
+              },
+              {
+                "title": "6.Copy key",
+                "content": "6.Copy key\n\n![image](/images/image259.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image259.png"
+                ]
+              },
+              {
+                "title": "7.จากนั้นไปที่เว็บไซต์",
+                "content": "7.จากนั้นไปที่เว็บไซต์\n\n![image](/images/image77.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image77.png"
+                ]
+              },
+              {
+                "title": "8.วางคีย์ที่คัดลอกมาจาก Tiktok ที่ช่องด้านบน แล้วกด Submit",
+                "content": "8.วางคีย์ที่คัดลอกมาจาก Tiktok ที่ช่องด้านบน แล้วกด Submit\n\n![image](/images/image417.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image417.png"
+                ]
+              },
+              {
+                "title": "9.คัดลอกรหัสตัวเลข 6 ตัวสุดท้าย จากช่องด้านล่าง",
+                "content": "9.คัดลอกรหัสตัวเลข 6 ตัวสุดท้าย จากช่องด้านล่าง\n\n![image](/images/image511.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image511.png"
+                ]
+              },
+              {
+                "title": "10.จากนั้นกลับที่แอพ Tiktok แล้วกด Next",
+                "content": "10.จากนั้นกลับที่แอพ Tiktok แล้วกด Next\n\n![image](/images/image620.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image620.png"
+                ]
+              },
+              {
+                "title": "11.วางตัวเลขที่คัดลอกมาลงไป",
+                "content": "11.วางตัวเลขที่คัดลอกมาลงไป\n\n![image](/images/image238.png)\n\nหมายเหตุ:หากนำรหัสตัวเลขมาใส่ช้าไปจนขึ้นแบบภาพด้านล่างนี้ ให้ทำการกลับไปกด Submit ที่เว็บไซต์แล้วคัดลอกรหัสตัวเลข 6 หลัก แล้วนำมาวางอีกครั้ง\n\n![image](/images/image124.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image238.png",
+                  "image124.png"
+                ]
+              },
+              {
+                "title": "12.หลังจากนั้นระบบจะพามาที่หน้านี้ ให้ทำการ Skip",
+                "content": "12.หลังจากนั้นระบบจะพามาที่หน้านี้ ให้ทำการ Skip\n\n![image](/images/image297.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image297.png"
+                ]
+              },
+              {
+                "title": "13.ทำการ Skip อีกครั้ง",
+                "content": "13.ทำการ Skip อีกครั้ง\n\n![image](/images/image234.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image234.png"
+                ]
+              },
+              {
+                "title": "14.เมื่อเปิด 2FA สำเร็จจะได้หน้าตาประมาณนี้",
+                "content": "14.เมื่อเปิด 2FA สำเร็จจะได้หน้าตาประมาณนี้\n\n![image](/images/image129.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image129.png"
+                ]
+              },
+              {
+                "title": "15.กลับไปคัดลอกคีย์ 2fa ในเว็บไซต์",
+                "content": "15.กลับไปคัดลอกคีย์ 2fa ในเว็บไซต์\n\n![image](/images/image507.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image507.png"
+                ]
+              },
+              {
+                "title": "16.กลับไปที่เว็บไซต์จากนั้นไปที่ Social Account",
+                "content": "16.กลับไปที่เว็บไซต์จากนั้นไปที่ Social Account\n\n![image](/images/image800.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image800.png"
+                ]
+              },
+              {
+                "title": "17.ทำการนำคีย์ที่คัดลอกมา ไปวางลงในบัญชีที่เราทำการเปิด 2fa โดยไปที่ปุ่ม Edit(ไอคอนดินสอ)",
+                "content": "17.ทำการนำคีย์ที่คัดลอกมา ไปวางลงในบัญชีที่เราทำการเปิด 2fa โดยไปที่ปุ่ม Edit(ไอคอนดินสอ)\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "18.นำคีย์ไปวางในช่อง Two FA แล้วกด Save",
+                "content": "18.นำคีย์ไปวางในช่อง Two FA แล้วกด Save\n\n",
+                "type": "markdown",
+                "images": []
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "___________proxy__ip_g4f8q",
+            "name": "วิธีใช้งาน Proxy (IPv4 เท่านั้น)",
+            "sections": [
+              {
+                "title": "วิธีตั้งค่าการใช้งาน Proxy",
+                "content": "วิธีตั้งค่าการใช้งาน Proxy\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "1.ไปที่ การจัดการอุปรณ์",
+                "content": "1.ไปที่ การจัดการอุปรณ์\n\n![image](/images/image532.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image532.png"
+                ]
+              },
+              {
+                "title": "ติ๊กเลือกและคลิกขวาที่มือถือ > เลือกแก้ไขการตั้งค่า",
+                "content": "ติ๊กเลือกและคลิกขวาที่มือถือ > เลือกแก้ไขการตั้งค่า\n\n![image](/images/image786.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image786.png"
+                ]
+              },
+              {
+                "title": "เลือกProxyและกดบันทึก",
+                "content": "เลือกProxyและกดบันทึก\n\n![image](/images/image579.png)\n\nไปที่ Social Accounts\n\n![image](/images/image747.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image579.png",
+                  "image747.png"
+                ]
+              },
+              {
+                "title": "ติ๊กเลือกและคลิกขวาที่บัญชีที่ต้องการใส่ Proxy > เลือกProxy",
+                "content": "ติ๊กเลือกและคลิกขวาที่บัญชีที่ต้องการใส่ Proxy > เลือกProxy\n\n![image](/images/image403.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image403.png"
+                ]
+              },
+              {
+                "title": "ใส่ Proxy ลงในช่องตามรูปแบบ IPหรือ IP:PORT|IP:PORT:USER:PASS และกดบันทึก",
+                "content": "ใส่ Proxy ลงในช่องตามรูปแบบ IPหรือ IP:PORT|IP:PORT:USER:PASS และกดบันทึก\n\n![image](/images/image759.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image759.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "__________proxy_ipv4_63fys",
+            "name": "วิธีการลบ Proxy IPv4",
+            "sections": [
+              {
+                "title": "1.เลือกบัญชีที่ต้องการลบ Proxy",
+                "content": "1.เลือกบัญชีที่ต้องการลบ Proxy\n\n![image](/images/image440.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image440.png"
+                ]
+              },
+              {
+                "title": "2.คลิกขวาเลือก proxy",
+                "content": "2.คลิกขวาเลือก proxy\n\n![image](/images/image360.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image360.png"
+                ]
+              },
+              {
+                "title": "3.กด ลบ ได้เลย",
+                "content": "3.กด ลบ ได้เลย\n\n![image](/images/image182.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image182.png"
+                ]
+              },
+              {
+                "title": "4.หลังจากกดลบแล้ว ให้คลิกขวาเลือกคำว่า โหลดใหม่ เป็นอันเสร็จ",
+                "content": "4.หลังจากกดลบแล้ว ให้คลิกขวาเลือกคำว่า โหลดใหม่ เป็นอันเสร็จ\n\n![image](/images/image47.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image47.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "____________configur_bkf4p",
+            "name": "วิธีการตั้ง Configure Register",
+            "sections": [
+              {
+                "title": "Configure Register ตั้งค่าข้อมูลการลงทะเบียนบัญชีอัตโนมัติ",
+                "content": "Configure Register ตั้งค่าข้อมูลการลงทะเบียนบัญชีอัตโนมัติ\n\n",
+                "type": "markdown",
+                "images": []
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "___________________ctf0o",
+            "name": "วิธีการตั้งสคริปต์",
+            "sections": [
+              {
+                "title": "ก่อนที่จะกำหนดสคริปต์ให้กับบัญชี TikTok เราต้องสร้างสคริปต์ก่อน",
+                "content": "ก่อนที่จะกำหนดสคริปต์ให้กับบัญชี TikTok เราต้องสร้างสคริปต์ก่อน\n\nไปที่เมนู\"สคริปต์\"\n\n![image](/images/image377.png)\n\nคลิกที่เพิ่ม\n\n![image](/images/image134.png)\n\nตั้งชื่อScriptและกดบันทึก\n\n![image](/images/image484.png)\n\nหลังจากสร้าง Script แล้ว ดับเบิลคลิกที่ Script ที่สร้างไว้ ไปที่เพิ่ม\n\n![image](/images/image428.png)\n\nแล้วเลือกสคริปต์ที่ต้องการ\n\n![image](/images/image615.png)\n\nเมื่อสร้างสคริปต์เสร็จแล้ว กดบันทึก\n\n![image](/images/image235.png)\n\nหลังจากสร้างสคริปต์เสร็จแล้ว ทำการเพิ่มสคริปให้กับบัญชี Tiktok\n\nเลือกบัญชีที่ต้องการเพิ่มสคริปต์\n\n![image](/images/image765.png)\n\nคลิกขวา จากนั้นเลือกตั้งค่าสคริปต์\n\n![image](/images/image244.png)\n\nเลือกสคริปต์ที่ต้องการ\n\n![image](/images/image181.png)\n\nกดบันทึก\n\n![image](/images/image117.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image377.png",
+                  "image134.png",
+                  "image484.png",
+                  "image428.png",
+                  "image615.png",
+                  "image235.png",
+                  "image765.png",
+                  "image244.png",
+                  "image181.png",
+                  "image117.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          }
+        ]
+      },
+      {
+        "id": "_____________________9gj4m",
+        "name": "อธิบายการใช้งานฟังก์ชัน",
         "sections": [
           {
-            "title": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off เป็นอันเสร็จสิ้น",
-            "content": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off เป็นอันเสร็จสิ้น\n\n",
+            "title": "โต้ตอบ",
+            "content": "โต้ตอบ\n\n",
             "type": "markdown",
             "images": []
           },
           {
-            "title": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย",
-            "content": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย\n\nเข้าไปยังเว็บไซต์ Minsoft\n\n![image](/images/image97.png)\n\nล็อคอินเข้าใช้งาน\n\n![image](/images/image491.png)\n\nไปยังหน้าการจัดการซอร์ฟแวร์\n\n![image](/images/image711.png)\n\n2.จากนั้นไปที่โปรแกรม MaxData ==> กด ดาวน์โหลด\n\n![image](/images/image466.png)\n\n![image](/images/image740.png)\n\n3.หลังจากดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้คลิกขวาที่ไฟล์ MaxData.zip ที่โหลดมา จากนั้นกดแตกไฟล์\n\n![image](/images/image684.png)\n\n4.หลังจากแตกไฟล์เสร็จเรียบร้อยแล้ว เข้าไปยังโฟลเดอร์ MaxData แล้วกด AutoUpdate รอจนกว่าจะอัพเดตเสร็จ\n\n![image](/images/image391.png)\n\n5.เข้าใช้งานโปรแกรม ทำการเข้าระบบให้เรียบร้อย\n\n![image](/images/image682.png)\n\n6.เมื่อเข้าระบบเสร็จแล้ว ให้ไปที่ General configs >> Update chromedriver เพื่ออัพเดตโครมไดรเวอร์\n\n![image](/images/image508.png)\n\nหากติดตั้งเสร็จแล้วรันโปรแกรมแล้วหลังจากรันเสร็จแล้ว CPU ใช้งาน 100% ให้ทำตามลิ้งค์นี้\n\n",
+            "title": "1.อ่านการแจ้งเตือน",
+            "content": "1.อ่านการแจ้งเตือน\n\n![image](/images/image183.png)\n\nการตั้งค่าเวลาและจำนวน\n\nนับการแจ้งเตือน:กำหนดช่วงช่วงเวลาในการตรวจสอบการแจ้งเตือน\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดรอก่อนจะเริ่มดำเนินการถัดไป\n\nการตั้งค่าตัวเลือกเพิ่มเติม\n\nCount Follow:ตั้งค่าเวลาหน่วงสำหรับการกดติดตาม\n\nCount Say Hi:ตั้งค่าเวลาหน่วงสำหรับการส่งข้อความทักทาย\n\n",
             "type": "markdown",
             "images": [
-              "image97.png",
-              "image491.png",
-              "image711.png",
-              "image466.png",
-              "image740.png",
-              "image684.png",
-              "image391.png",
-              "image682.png",
-              "image508.png"
+              "image183.png"
             ]
-          }
-        ],
-        "originalProgramName": "MaxData"
-      },
-      {
-        "id": "_____________________4s2ub",
-        "name": "อธิบายเมนูฟังก์ชันการทำงาน MaxData",
-        "sections": [
+          },
           {
-            "title": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย",
-            "content": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย\n\nScan group data\n\n",
+            "title": "2.วิดีโอสุ่ม",
+            "content": "2.วิดีโอสุ่ม\n\n![image](/images/image298.png)\n\nการตั้งค่าเป้าหมายและจำนวน\n\nข้อเสนอ:ระบบจะสุ่มดูวิดีโอจากหน้า \"แนะนำ\" หรือ \"For You\" (หน้าฟีดหลักที่ระบบสุ่มมาให้)\n\nติดตาม:ระบบจะสุ่มดูวิดีโอจากบัญชีที่คุณได้กด \"ติดตาม\" (Following) ไว้แล้วเท่านั้น\n\nเพื่อน:ระบบจะเลือกดูวิดีโอจากกลุ่มที่เป็น \"เพื่อน\" (บัญชีที่ติดตามซึ่งกันและกัน)\n\n",
+            "type": "markdown",
+            "images": [
+              "image298.png"
+            ]
+          },
+          {
+            "title": "ตัวเลือกจำกัด:",
+            "content": "ตัวเลือกจำกัด:\n\nจำกัดวิดีโอ: กำหนดจำนวนวิดีโอที่จะสุ่ม (ตัวอย่าง: 1 - 2 วิดีโอ)\n\nจำกัดเวลาการโต้ตอบ (s): กำหนดระยะเวลาการทำงานรวมเป็นวินาที\n\nดูวิดีโอ: กำหนดระยะเวลาที่จะใช้ในการดูวิดีโอแต่ละตัว (ตัวอย่าง: 3 - 5 วินาที)\n\nการตั้งค่าการโต้ตอบพื้นฐาน\n\n",
             "type": "markdown",
             "images": []
           },
           {
-            "title": "1.Scan Group by keyword (สแกนกลุ่มตามคีย์เวิร์ด)",
-            "content": "1.Scan Group by keyword (สแกนกลุ่มตามคีย์เวิร์ด)\n\n![image](/images/image380.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit : count groups/keyword :จำนวนกลุ่ม/คีย์เวิร์ด\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+            "title": "การโต้ตอบ (Interaction)",
+            "content": "การโต้ตอบ (Interaction)\n\nความน่าจะเป็น: ตั้งค่าเป็น % ว่าจะให้เกิดการโต้ตอบบ่อยแค่ไหน\n\nเวลาในการหน่วง: ระยะเวลารอก่อนเริ่มโต้ตอบ (หน่วย: วินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ติดตาม (Follow)",
+            "content": "ติดตาม (Follow)\n\nความน่าจะเป็น: โอกาสที่จะกดติดตามบัญชีนั้น ๆ\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดติดตาม\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "เพิ่มในรายการโปรด (Add to Favorites)",
+            "content": "เพิ่มในรายการโปรด (Add to Favorites)\n\nความน่าจะเป็น: โอกาสที่จะกดบันทึกวิดีโอเป็นรายการโปรด\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดบันทึก\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "โพสต์ใหม่ (Repost)",
+            "content": "โพสต์ใหม่ (Repost)\n\nความน่าจะเป็น: โอกาสที่จะกดรีโพสต์วิดีโอ\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดรีโพสต์\n\nการตั้งค่าความคิดเห็น\n\nชื่อแท็ก:สามารถเลือกหรือพิมพ์แท็กที่ต้องการใช้\n\nความน่าจะเป็น:โอกาสที่จะทำการพิมพ์ความคิดเห็น\n\nรายการเนื้อหา:เลือกชุดข้อความที่จะนำไปคอมเมนต์ (สามารถกดรูปดินสอเพื่อแก้ไขเนื้อหาได้)\n\nเวลาในการหน่วง:ระยะเวลารอก่อนที่จะส่งความคิดเห็น\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "3.วิดีโอที่ระบุ",
+            "content": "3.วิดีโอที่ระบุ\n\n![image](/images/image533.png)\n\nการตั้งค่าข้อมูลพื้นฐานและรายการเป้าหมาย\n\nรายการลิงก์ (*):ช่องสำหรับใส่ URL หรือลิงก์ของวิดีโอที่ต้องการดำเนินการ\n\nจำนวนวิดีโอ:กำหนดช่วงจำนวนวิดีโอที่จะให้ระบบทำงาน\n\nดูวิดีโอ:กำหนดระยะเวลาในการเปิดดูวิดีโอแต่ละตัว\n\nการตั้งค่าการปฏิสัมพันธ์กับช่องและโพสต์\n\n",
             "type": "markdown",
             "images": [
-              "image380.png"
+              "image533.png"
             ]
           },
           {
-            "title": "2.Scan Group information (สแกนข้อมูลกลุ่ม)",
-            "content": "2.Scan Group information (สแกนข้อมูลกลุ่ม)\n\n![image](/images/image96.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of group Id :รายการ Id กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+            "title": "ติดตาม (Follow):",
+            "content": "ติดตาม (Follow):\n\nความน่าจะเป็น: ตั้งค่าโอกาสที่จะกดติดตามเป็นเปอร์เซ็นต์ (%)\n\nเวลาในการหน่วง: กำหนดช่วงเวลาพักก่อนกดติดตาม (วินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "เพิ่มในรายการโปรด (Add to Favorites):",
+            "content": "เพิ่มในรายการโปรด (Add to Favorites):\n\nความน่าจะเป็น: โอกาสที่จะกดเพิ่มเป็นรายการโปรด (%)\n\nเวลาในการหน่วง: ช่วงเวลาพักก่อนดำเนินการ (วินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "โพสต์ใหม่ (Repost):",
+            "content": "โพสต์ใหม่ (Repost):\n\nความน่าจะเป็น: โอกาสที่จะกดรีโพสต์หรือแชร์ (%)\n\nเวลาในการหน่วง: ช่วงเวลาพักก่อนดำเนินการ (วินาที)\n\nการตั้งค่าการตอบโต้และแสดงความคิดเห็น\n\nโต้ตอบ (Interaction):การตั้งค่าพื้นฐานสำหรับการกดถูกใจ พร้อมช่องกำหนดความน่าจะเป็นและเวลาหน่วง\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "แสดงความคิดเห็น (Comment):",
+            "content": "แสดงความคิดเห็น (Comment):\n\nชื่อแท็ก: ระบุแท็กชื่อที่ต้องการใช้\n\nความน่าจะเป็น: โอกาสที่ระบบจะทำการคอมเมนต์ (%)\n\nรายการเนื้อหา: เลือกชุดข้อความที่จะใช้คอมเมนต์ (สามารถกดไอคอนดินสอเพื่อแก้ไขเนื้อหาได้)\n\nเวลาในการหน่วง: ช่วงเวลาพักก่อนพิมพ์ข้อความคอมเมนต์ (วินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "4.วิดีโอจากคีย์เวิร์ด",
+            "content": "4.วิดีโอจากคีย์เวิร์ด\n\n![image](/images/image274.png)\n\nการตั้งค่าข้อมูลพื้นฐานและคีย์เวิร์ด\n\nรายการคำสำคัญ (Keywords):ใส่รายการคีย์เวิร์ดที่ต้องการค้นหา (1 บรรทัดต่อ 1 คำ) เพื่อให้ระบบเข้าถึงวิดีโอที่เกี่ยวข้อง\n\nการตั้งค่าการจำกัดปริมาณและการรับชม\n\n",
             "type": "markdown",
             "images": [
-              "image96.png"
+              "image274.png"
             ]
           },
           {
-            "title": "3.Scan group that user joined (สแกนกลุ่มที่ผู้ใช้เข้าร่วม)",
-            "content": "3.Scan group that user joined (สแกนกลุ่มที่ผู้ใช้เข้าร่วม)\n\n![image](/images/image56.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of user Id :รายการ Id ผู้ใช้\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+            "title": "ตัวเลือกการจำกัด:เลือกตั้งค่าอย่างใดอย่างหนึ่งระหว่าง:",
+            "content": "ตัวเลือกการจำกัด:เลือกตั้งค่าอย่างใดอย่างหนึ่งระหว่าง:\n\nจำกัดวิดีโอ: กำหนดจำนวนวิดีโอขั้นต่ำและสูงสุดที่จะให้ระบบเข้าไปจัดการ\n\nจำกัดเวลาการโต้ตอบ (s): กำหนดระยะเวลาการทำงานเป็นวินาที\n\nดูวิดีโอ: กำหนดช่วงเวลา (วินาที) ที่จะให้บอทเปิดดูวิดีโอนั้นๆ ก่อนจะเริ่มทำกิจกรรมถัดไป\n\nการตั้งค่าการโต้ตอบ\n\nโต้ตอบ (Like):ตั้งค่าเปอร์เซ็นต์ความน่าจะเป็นที่จะกดถูกใจ และเวลาหน่วงก่อนกด\n\nติดตาม (Follow):ตั้งค่าโอกาสที่จะกดติดตามบัญชีเจ้าของวิดีโอ\n\nเพิ่มในรายการโปรด:ตั้งค่าโอกาสในการกดบันทึกวิดีโอไว้ในรายการโปรด\n\nโพสต์ใหม่ (Repost):ตั้งค่าโอกาสที่จะแชร์วิดีโอต่อ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "แสดงความคิดเห็น:หากเปิดใช้งาน คุณสามารถระบุรายละเอียดได้ดังนี้:",
+            "content": "แสดงความคิดเห็น:หากเปิดใช้งาน คุณสามารถระบุรายละเอียดได้ดังนี้:\n\nชื่อแท็ก: ระบุแท็กชื่อที่ต้องการใช้\n\nรายการเนื้อหา: เลือกชุดข้อความคอมเมนต์ที่เตรียมไว้ (สามารถแก้ไขได้ผ่านไอคอนรูปดินสอ)\n\nเวลาในการหน่วง: กำหนดระยะเวลารอก่อนที่จะทำการพิมพ์คอมเมนต์\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "5.วิดีโอจากผู้ใช้",
+            "content": "5.วิดีโอจากผู้ใช้\n\n![image](/images/image675.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nรายชื่อผู้ใช้งาน:เลือกรายชื่อบัญชีผู้ใช้ที่จะให้ระบบเข้าไปดึงข้อมูลหรือปฏิสัมพันธ์ด้วย\n\nการตั้งค่าการกำหนดขอบเขตและระยะเวลา\n\n",
             "type": "markdown",
             "images": [
-              "image56.png"
+              "image675.png"
             ]
           },
           {
-            "title": "4.Scan group members (สแกนสมาชิกกลุ่ม)",
-            "content": "4.Scan group members (สแกนสมาชิกกลุ่ม)\n\n![image](/images/image220.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of group Id :รายการ Id กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan page data\n\n",
+            "title": "ตัวเลือก (จำกัดจำนวน):",
+            "content": "ตัวเลือก (จำกัดจำนวน):\n\nจำกัดวิดีโอ: กำหนดช่วงจำนวนวิดีโอที่จะดำเนินการ (เช่น 1 ถึง 2 วิดีโอ)\n\nจำกัดเวลาการโต้ตอบ (s): กำหนดระยะเวลาการทำงาน\n\nดูวิดีโอ:ตั้งค่าช่วงเวลาในการรับชมวิดีโอแต่ละคลิป (หน่วยเป็นวินาที)\n\nการตั้งค่าการปฏิสัมพันธ์หลัก\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ติดตาม (Follow):",
+            "content": "ติดตาม (Follow):\n\nความน่าจะเป็น: ตั้งค่าโอกาสที่จะกดติดตาม (0-100%)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดติดตาม\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "เพิ่มในรายการโปรด (Favorite):",
+            "content": "เพิ่มในรายการโปรด (Favorite):\n\nความน่าจะเป็น: ตั้งค่าโอกาสที่จะกดเพิ่มเป็นรายการโปรด\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดเพิ่มเป็นรายการโปรด\n\nการตั้งค่าการโต้ตอบและการมีส่วนร่วม\n\nโต้ตอบ (Like/Interaction):ตั้งค่าโอกาสและระยะเวลาหน่วงสำหรับการกดถูกใจ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "แสดงความคิดเห็น (Comment):",
+            "content": "แสดงความคิดเห็น (Comment):\n\nชื่อแท็ก: ระบุแท็กชื่อที่ต้องการใช้\n\nความน่าจะเป็น: โอกาสที่จะทำการคอมเมนต์ในวิดีโอนั้น\n\nรายการเนื้อหา: เลือกชุดข้อความที่จะใช้คอมเมนต์ (สามารถจัดการเนื้อหาได้ที่ปุ่มรูปดินสอ)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนพิมพ์คอมเมนต์\n\nโพสต์ใหม่ (Repost/Share):ตั้งค่าโอกาสและระยะเวลาหน่วงสำหรับการแชร์\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "6.ถ่ายทอดสดสุ่ม",
+            "content": "6.ถ่ายทอดสดสุ่ม\n\n![image](/images/image549.png)\n\nการตั้งค่าตัวเลือกการจำกัด\n\nจำกัดวิดีโอ:กำหนดจำนวนวิดีโอที่ต้องการให้ระบบทำงาน (เช่น 1 ถึง 2 วิดีโอ)\n\nจำกัดเวลาการโต้ตอบ (s):กำหนดระยะเวลาเป็นวินาทีในการปฏิสัมพันธ์\n\nการตั้งค่าการดูถ่ายทอดสด\n\nดูถ่ายทอดสด:กำหนดช่วงเวลาที่จะรับชมในแต่ละไลฟ์ (ระบุเป็นวินาที เช่น 3 ถึง 5 วินาที)\n\nการตั้งค่าการปฏิสัมพันธ์หลัก\n\n",
             "type": "markdown",
             "images": [
-              "image220.png"
+              "image549.png"
             ]
           },
           {
-            "title": "1.Scan page by keyword (สแกนเพจตามคีย์เวิร์ด)",
-            "content": "1.Scan page by keyword (สแกนเพจตามคีย์เวิร์ด)\n\n![image](/images/image14.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit count groups/keyword :จำกัดจำนวนเพจ/keyword\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan user data\n\n1.Scan user friends (สแกนเพื่อนผู้ใช้)\n\n![image](/images/image723.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of Uid :รายการ Uid\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan post data\n\n1.Scan posts by keyword (สแกนโพสต์ตามคีย์เวิร์ด)\n\n![image](/images/image796.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit count groups/keyword :จำกัดจำนวนกลุ่ม/คีย์เวิร์ด\n\nFilter recent posts :โพสต์ล่าสุด\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n2.Count reactions of posts (นับความรู้สึกของโพสต์)\n\n![image](/images/image58.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n3.Scan user reactions of posts (สแกนผู้ใช้ที่แสดงความรู้สึกโพสต์)\n\n![image](/images/image217.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of post Id :รายการ Id โพสต์\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n4.Scan posts of user in group (สแกนโพสต์ของผู้ใช้ในกลุ่ม)\n\n![image](/images/image347.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of Id_User|Id_Group :รายการ Id_User|Id_Group\n\nLimit number of post/groups :จำกัดจำนวนโพสต์/กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nOther functions\n\n1.Find Facebook Id (ค้นหาไอดี Facebook)\n\n![image](/images/image546.png)\n\nList of Facebook links :รายการลิงค์เฟสบุ๊ค\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n2.ChatGPT\n\n![image](/images/image441.png)\n\nAPI Key :API Key ChatGPT\n\nContent :เนื้อหา\n\nStart :เริ่ม\n\nResult :ผลลัพธ์\n\n3.Check Live Uid (ตรวจสอบสถานะ Uid)\n\n![image](/images/image639.png)\n\nEnter :Uidใส่ Uid\n\nThreads :หัวข้อ\n\nStart :เริ่ม\n\nLIVE :ใช้งานได้\n\nDIE :ถูกจำกัด\n\nCan’t check :ไม่สามารถเช็คได้\n\n",
+            "title": "โต้ตอบ (Interaction)",
+            "content": "โต้ตอบ (Interaction)\n\nความน่าจะเป็น: ระบุโอกาสที่จะเกิดการโต้ตอบเป็นเปอร์เซ็นต์ (%)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนเริ่มโต้ตอบ (ระบุเป็นวินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "แชร์ถ่ายทอดสด (Share Live)",
+            "content": "แชร์ถ่ายทอดสด (Share Live)\n\nความน่าจะเป็น: ระบุโอกาสที่จะกดแชร์เป็นเปอร์เซ็นต์ (%)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดแชร์ (ระบุเป็นวินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ติดตาม (Follow)",
+            "content": "ติดตาม (Follow)\n\nความน่าจะเป็น: ระบุโอกาสที่จะกดติดตามเจ้าของไลฟ์เป็นเปอร์เซ็นต์ (%)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดติดตาม (ระบุเป็นวินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "แสดงความคิดเห็น (Comment)",
+            "content": "แสดงความคิดเห็น (Comment)\n\nความน่าจะเป็น: ระบุโอกาสที่จะพิมพ์คอมเมนต์เป็นเปอร์เซ็นต์ (%)\n\nรายการเนื้อหา: เลือกชุดข้อความที่ต้องการใช้แสดงความคิดเห็น (สามารถกดไอคอนดินสอเพื่อแก้ไขเนื้อหาได้)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนพิมพ์ความคิดเห็น (ระบุเป็นวินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "7.ถ่ายทอดสดที่ระบุ",
+            "content": "7.ถ่ายทอดสดที่ระบุ\n\n![image](/images/image218.png)\n\nการตั้งค่าข้อมูลพื้นฐานการทำงาน\n\nลิงก์ถ่ายทอดสด:ช่องสำหรับใส่ลิงก์ถ่ายทอดสด\n\nดูถ่ายทอดสด:กำหนดช่วงเวลา (วินาที)\n\nการตั้งค่าตัวเลือกการโต้ตอบ\n\n",
             "type": "markdown",
             "images": [
-              "image14.png",
-              "image723.png",
-              "image796.png",
-              "image58.png",
-              "image217.png",
-              "image347.png",
-              "image546.png",
-              "image441.png",
-              "image639.png"
+              "image218.png"
+            ]
+          },
+          {
+            "title": "โต้ตอบ:",
+            "content": "โต้ตอบ:\n\nความน่าจะเป็น: (กรอกค่า %)\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "แชร์ถ่ายทอดสด:",
+            "content": "แชร์ถ่ายทอดสด:\n\nความน่าจะเป็น: (กรอกค่า %)\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ติดตาม:",
+            "content": "ติดตาม:\n\nความน่าจะเป็น: (กรอกค่า %)\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\nการตั้งค่าตัวเลือกการโต้ตอบเพิ่มเติม\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "โต้ตอบต่อเนื่อง:",
+            "content": "โต้ตอบต่อเนื่อง:\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "แสดงความคิดเห็น:",
+            "content": "แสดงความคิดเห็น:\n\nความน่าจะเป็น: (กรอกค่า %)\n\nรายการเนื้อหา (0): เมนูเลือกรายการ และสามารถแก้ไขได้ที่ปุ่มแก้ไขรูปดินสอ\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\nติดตาม & ส่งข้อความ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "1.ติดตามผู้ใช้",
+            "content": "1.ติดตามผู้ใช้\n\n![image](/images/image623.png)\n\nการตั้งค่าข้อมูลพื้นฐานและเป้าหมาย\n\nรายการผู้ใช้:ช่องสำหรับกรอก ID หรือชื่อผู้ใช้งานที่ต้องการติดตาม โดยกรอกเรียงลงมาทีละบรรทัด\n\nการตั้งค่าเงื่อนไขและเวลา\n\nนับผู้ใช้:กำหนดช่วงจำนวนผู้ใช้ที่จะติดตามต่อรอบ (ระบุเป็นค่าเริ่มต้น 1 - 2 user)\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดพักระหว่างการดำเนินการแต่ละครั้ง (ระบุเป็นค่าเริ่มต้น 3 - 5 วินาที)\n\nออกเมื่อการติดตามล้มเหลว:ตัวเลือกสำหรับหยุดการทำงานอัตโนมัติหากพบข้อผิดพลาดตามจำนวนครั้งที่กำหนด\n\nเปิดลิงก์ด้วยการค้นหา:ตัวเลือกเสริมในการเข้าถึงโปรไฟล์ผู้ใช้ผ่านช่องทางค้นหาแทนการเข้าถึงโดยตรง\n\n",
+            "type": "markdown",
+            "images": [
+              "image623.png"
+            ]
+          },
+          {
+            "title": "2.ติดตามจากคีย์เวิร์ด",
+            "content": "2.ติดตามจากคีย์เวิร์ด\n\n![image](/images/image147.png)\n\nการตั้งค่าการจัดการคำสำคัญ\n\nรายการคำสำคัญ:ช่องขนาดใหญ่สำหรับใส่คำค้นหาที่คุณต้องการให้ระบบไปค้นหาและกดติดตาม\n\nคุณสามารถใส่ได้หลายคำโด��แยกเ��็นบรรทัด\n\nการตั้งค่าปริมาณและระยะเวลา\n\nนับผู้ใช้:กำหนดช่วงจำนวนผู้ใช้ที่ต้องการให้ระบบกดติดตามต่อรอบ\n\nระบุเป็นช่วง ขั้นต่ำ - สูงสุด (เช่น 1 - 1 user)\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดพักระหว่างการกระทำแต่ละครั้ง\n\nระบุหน่วยเป็น วินาที (เช่น 3 - 5 วินาที)\n\nการตั้งค่าแบบสุ่มช่วงเวลาจะช่วยให้การทำงานดูเหมือนมนุษย์มา��ขึ้น\n\n",
+            "type": "markdown",
+            "images": [
+              "image147.png"
+            ]
+          },
+          {
+            "title": "3.ติดตามกลับ",
+            "content": "3.ติดตามกลับ\n\n![image](/images/image468.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image468.png"
+            ]
+          },
+          {
+            "title": "นับผู้ใช้ (User Count):",
+            "content": "นับผู้ใช้ (User Count):\n\nใช้สำหรับกำหนดจำนวนผู���ใช้ที่���้องกา���ให้ระบบดำเนินการ \"ติดตามกลับ\"\n\nสามารถระบุเป็นช่วง (Range) ได้ เช่น ตั้งแต่ 1 ถึง 1 user เพื่อควบคุมปริมาณการทำงานต่อรอบ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "เวลาในการหน่วง (Delay Time):",
+            "content": "เวลาในการหน่วง (Delay Time):\n\nใช้สำหรับตั้งค่าระยะเวลาหยุดรอระหว่างการดำเนินการในแต่ละแอคชั่น เพื่อเลียนแบบพฤติกรรมมนุษย์และลดความเสี่ยงจากการถูกตรวจสอบ\n\nสามารถระบุเป็นช่วงวินาทีได้ เช่น 3 ถึง 5 วินาที\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "4.ติดตามผู้ใช้โดยโปรไฟล์",
+            "content": "4.ติดตามผู้ใช้โดยโปรไฟล์\n\n![image](/images/image631.png)\n\nการตั้งค่าการกำหนดปริมาณและเวลา\n\nจำนวนลิงก์ (Link):กำหนดจำนวนลิงก์โปรไฟล์ที่จะให้ระบบเข้าไปทำงานต่อรอบ\n\nนับผู้ใช้ / Link (User):กำหนดจำนวนผู้ใช้ที่จะกดติดตามต่อ 1 ลิงก์\n\nเวลาในการหน่วง (วินาที):ระยะเวลาพักระหว่างการกระทำแต่ละครั้ง เพื่อไม่ให้ระบบทำงานเร็วเกินไป\n\nการตั้งค่าข้อมูลเป้าหมาย\n\nรายการลิงก์:ช่องสำหรับใส่ URL หรือลิงก์โปรไฟล์ที่ต้องการให้ระบบเข้าไปติดตาม โดยใส่ 1 ลิงก์ต่อ 1 บรรทัด\n\n",
+            "type": "markdown",
+            "images": [
+              "image631.png"
+            ]
+          },
+          {
+            "title": "5.ติดตามผู้ใช้ที่แนะนำ",
+            "content": "5.ติดตามผู้ใช้ที่แนะนำ\n\n![image](/images/image444.png)\n\nการตั้งค่าเงื่อนไข\n\n",
+            "type": "markdown",
+            "images": [
+              "image444.png"
+            ]
+          },
+          {
+            "title": "นับผู้ใช้ (User Count):",
+            "content": "นับผู้ใช้ (User Count):\n\nกำหนดจำนวนผู้ใช้ที่ต้องการให้ระบบเข้าไปติดตาม\n\nระบุเป็นช่วงตัวเลข (ขั้นต่ำ - สูงสุด) เช่น 1 - 1 user\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "เวลาในการหน่วง (Delay Time):",
+            "content": "เวลาในการหน่วง (Delay Time):\n\nกำหนดระยะเวลารอคอยระหว่างการกดติดตามแต่ละคน เพื่อป้องกันการถูกตรวจจับว่าเป็นบอท\n\nระบุเป็นช่วงวินาที เช่น 3 - 5 วินาที\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "6.ส่งข้อความตามที่กำหนด",
+            "content": "6.ส่งข้อความตามที่กำหนด\n\n![image](/images/image159.png)\n\nการตั้งค่าข้อมูลพื้นฐานการทำงาน\n\nนับผู้ใช้:กำหนดช่วงจำนวนผู้ใช้ที่ต้องการดำเนินการ (เช่น 1 ถึง 2 user)\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดพักระหว่างการส่งแต่ละครั้ง (หน่วยเป็นวินาที)\n\nการตั้งค่าการจัดการรายชื่อผู้รับ\n\nรายการผู้ใช้:ช่องสำหรับกรอกไอดี (ID) ของผู้รับที่ต้องการส่งข้อความไปหา โดยใส่หนึ่งรายการต่อหนึ่งบรรทัด\n\nการตั้งค่าเนื้อหาข้อความ\n\nรายการเนื้อหา:เลือกชุดข้อความที่เตรียมไว้จากรายการดรอปดาวน์ และมีปุ่มรูปดินสอสำหรับแก้ไขเนื้อหา\n\nNhắn tin hình ảnh (Texting img):ติ๊กถูกที่ช่องนี้หากต้องการส่งรูปภาพประกอบ\n\nภาพ: เลือกไฟล์รูปภาพจากรายการ\n\nลบภาพที่ใช้แล้ว: ติ๊กถูกหากต้องการให้ระบบลบรูปภาพออกจากรายการหลังจากส่งสำเร็จแล้ว\n\n",
+            "type": "markdown",
+            "images": [
+              "image159.png"
+            ]
+          },
+          {
+            "title": "7.บัฟความคิดเห็น",
+            "content": "7.บัฟความคิดเห็น\n\n![image](/images/image715.png)\n\nการตั้งค่าการกำหนดเงื่อนไขและเวลา\n\nนับความคิดเห็น:กำหนดช่วงจำนวนของความคิดเห็นที่ต้องการดำเนินการ โดยระบุเป็นค่า ขั้นต่ำ - สูงสุด เพื่อให้การทำงานดูเป็นธรรมชาติ\n\nเวลาในการหน่วง:ตั้งค่าระยะเวลาหยุดพักระหว่างการทำงานแต่ละครั้ง (หน่วยเป็น วินาที) โดยกำหนดเป็นช่วงเวลา เพื่อสุ่มความเร็วให้ไม่คงที่จนเกินไป\n\nการตั้งค่าการจัดการเป้าหมาย\n\nลิงก์: ส่วนสำหรับใส่ URL หรือลิงก์ของโพสต์ที่ต้องการให้ระบบเข้าไปดำเนินการ สามารถใส่ได้หลายลิงก์โดยแยกเป็นบรรทัด\n\nการตั้งค่ารูปแบบการปฏิสัมพันธ์\n\nถูกใจ:ติ๊กเครื่องหมายถูกหากต้องการให้ระบบกด Like หรือถูกใจในโพสต์เป้าหมาย\n\nแสดงความคิดเห็น:ติ๊กเครื่องหมายถูกหากต้องการให้ระบบพิมพ์ข้อความตอบกลับ โดยมีการตั้งค่าเพิ่มเติมดังนี้:\n\nความน่าจะเป็น: กำหนดโอกาสในการสุ่มแสดงความคิดเห็น (หน่วยเป็น %)\n\nรายการเนื้อหา: เลือกชุดข้อความหรือเนื้อหาที่ต้องการนำไปใช้ (สามารถคลิกไอคอนดินสอเพื่อแก้ไขเนื้อหาได้)\n\n",
+            "type": "markdown",
+            "images": [
+              "image715.png"
+            ]
+          },
+          {
+            "title": "8.บัฟดูสินค้า",
+            "content": "8.บัฟดูสินค้า\n\n![image](/images/image688.png)\n\nการตั้งค่าปริมาณและเวลา\n\nนับสินค้า:กำหนดจำนวนสินค้าที่ต้องการให้ระบบเข้าไปดู โดยสามารถระบุเป็นช่วง ขั้นต่ำ - สูงสุด (เช่น 1 - 2 ชิ้น) เพื่อให้ระบบทำงานแบบสุ่ม ช่วยให้ดูเป็นธรรมชาติมากขึ้น\n\nเวลาในการหน่วง:กำหนดระยะเวลารอระหว่างการดำเนินการ มีหน่วยเป็น วินาที โดยระบุเป็นช่วง ขั้นต่ำ - สูงสุด (เช่น 1 - 3 วินาที)\n\nการตั้งค่าข้อมูลเป้าหมาย\n\nรายการลิงก์:ช่องสำหรับใส่ URL หรือลิงก์ของสินค้าที่ต้องการเพิ่มยอดการเข้าชม โดยคุณสามารถใส่ได้หลายลิงก์ (บรรทัดละ 1 ลิงก์)\n\nฟังก์ชันบัญชี\n\n",
+            "type": "markdown",
+            "images": [
+              "image688.png"
+            ]
+          },
+          {
+            "title": "1.ทำเงิน",
+            "content": "1.ทำเงิน\n\n![image](/images/image603.png)\n\nการตั้งค่าการเชื่อมต่อ\n\nToken:ระบุ Token สำหรับเชื่อมต่อกับระบบ (เช่น จากweb.traodoituongtac.com) ซึ่งเป็นส่วนสำคัญในการยืนยันตัวตนเพื่อเริ่มงาน\n\nการตั้งค่าเวลาและปริมาณงาน\n\nช่วงเวลาระหว่างงาน (วินาที):กำหนดระยะห่างระหว่างการเริ่มงานแต่ละครั้งแบบสุ่ม (เช่น 5 - 10 วินาที) เพื่อความเป็นธรรมชาติในการใช้งาน\n\nเวลารอทำงาน (วินาที):ระยะเวลาที่ระบบจะรอสั่งการในแต่ละขั้นตอน\n\nจำนวนงานสำเร็จ:กำหนดเป้าหมายจำนวนงานที่ต้องการให้ระบบทำจนเสร็จสิ้น\n\nหยุดเมื่อเกิดความล้มเหลวติดต่อกัน:ระบบจะหยุดทำงานอัตโนมัติหากพบข้อผิดพลาดต่อเนื่องตามจำนวนที่ระบุ (เช่น 5 ครั้ง) เพื่อป้องกันบัญชีถูกระงับ\n\nการตั้งค่าการจำลองพฤติกรรมผู้ใช้\n\nเปิดลิงก์ด้วยการค้นหา:ตัวเลือกสำหรับการเข้าถึงเป้าหมายผ่านการค้นหา แทนการเข้าถึงลิงก์โดยตรง\n\nเลื่อนฟีดข่าวหลังจาก: ตั้งค่าให้มีการเลื่อนดูหน้าฟีดข่าวหลังจากทำงานเสร็จตามจำนวน Jobs ที่กำหนดเพื่อเลียนแบบพฤติกรรมการใช้งานของมนุษย์จริง\n\nประเภทงานที่เลือกได้\n\nTiktok Like:กดถูกใจวิดีโอ\n\nTiktok Follow:กดติดตามบัญชีผู้ใช้\n\nTiktok Comment:การเขียนคอมเมนต์อัตโนมัติ\n\nTiktok View:การเข้าชมวิดีโอ\n\nTiktok Share:การแชร์วิดีโอไปยังช่องทางต่างๆ\n\nTiktok livestream:การเข้าไปมีส่วนร่วมในไลฟ์สด\n\n",
+            "type": "markdown",
+            "images": [
+              "image603.png"
+            ]
+          },
+          {
+            "title": "2.สร้างโพสต์",
+            "content": "2.สร้างโพสต์\n\n![image](/images/image737.png)\n\nข้อมูลพื้นฐานและการตั้งค่าเวลา\n\nเวลารอคอยการโหลดวิดีโอ:กำหนดช่วงเวลา (วินาที) เพื่อให้ระบบรอระหว่างการอัปโหลดไฟล์\n\nโพสต์วิดีโอตามชื่อไฟล์:ตัวเลือกสำหรับสั่งให้ระบบใช้ชื่อไฟล์วิดีโอเป็นชื่อโพสต์โดยอัตโนมัติ\n\nการตั้งค่าการจัดการรูปภาพและสื่อ\n\nภาพ:เลือกไฟล์รูปภาพที่ต้องการใช้งาน\n\nลบภาพที่ใช้แล้ว:เมื่อโพสต์เสร็จ ระบบจะลบไฟล์ต้นฉบับออกจากรายการ\n\nหลายรูปภาพ:สำหรับการโพสต์แบบหลายรูปในโพสต์เดียว\n\nAutoCut:ฟังก์ชันช่วยตัดต่อภาพหรือวิดีโออัตโนมัติ\n\nการตั้งค่าเนื้อหาและข้อความ\n\nรายการเนื้อหาที่แทรกลงในภาพ:เลือกข้อความที่ต้องการให้ระบบนำไปวางซ้อนบนรูปภาพ\n\nรายการเนื้อหาเมื่อโพสต์:ระบุแคปชันหรือข้อความที่จะใช้โพสต์คู่กับสื่อ\n\nแนบชื่อสินค้าร้าน Tiktok:ตัวเลือกสำหรับใส่ลิงก์หรือชื่อสินค้าจาก TikTok Shop พร้อมช่องสำหรับใส่รายละเอียดสินค้าด้านล่าง\n\nการปรับแต่งเพิ่มเติมและเสียงเพลง\n\nแก้ไขตัวกรอง:ปรับเปลี่ยน Filter ของภาพ\n\nเพิ่มเพลงยอดนิยม:ระบบจะดึงเพลงที่เป็นกระแสมาใส่ในโพสต์\n\n",
+            "type": "markdown",
+            "images": [
+              "image737.png"
+            ]
+          },
+          {
+            "title": "การเลือกเพลง/ฟิลเตอร์:",
+            "content": "การเลือกเพลง/ฟิลเตอร์:\n\nRandom:ให้ระบบสุ่มเลือกให้\n\nCustom (List Filter):กำหนดรายการตัวกรองหรือคำค้นหาเฉพาะเจาะจงในช่องด้านล่าง\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "3.อัปเดตอวาตาร์",
+            "content": "3.อัปเดตอวาตาร์\n\n![image](/images/image53.png)\n\nภาพ: ใช้สำหรับเลือกไฟล์ภาพที่ต้องการใช้งาน\n\nไอคอนรูปดินสอ:อยู่ทางด้านขวาของช่องเลือกภาพ ใช้สำหรับแก้ไขภาพที่เลือก\n\nลบภาพที่ใช้แล้ว:หากเลือกไว้ ระบบจะลบภาพที่อัปโหลดไปแล้วออก\n\n",
+            "type": "markdown",
+            "images": [
+              "image53.png"
+            ]
+          },
+          {
+            "title": "4.เปลี่ยนชื่อ",
+            "content": "4.เปลี่ยนชื่อ\n\n![image](/images/image641.png)\n\nตัวเลือก:เลือกรูปแบบการเปลี่ยนชื่อ เช่น สุ่ม, เฉพาะเจาะจง 1, เฉพาะเจาะจง 2\n\nรูปแบบ: สุ่ม\n\nประเภทชื่อ:สามารถเลือกได้ 2 รูปแบบ\n\nตามชื่อเวียดนาม:ระบบจะสุ่มชื่อและนามสกุลตามฐานข้อมูลชื่อเวียดนาม\n\nตามชื่อชาวต่างชาติ: ระบบจะสุ่มชื่อและนามสกุลในรูปแบบสากล/ภาษาอังกฤษ\n\nรูปแบบ: เฉพาะเจาะจง 1\n\nการป้อนข้อมูล:ระบบจะแสดงช่องให้เติม 3 ส่วน (ใส่ 1 รายการต่อ 1 บรรทัด)\n\nป้อนนามสกุล: ระบุนามสกุลที่ต้องการ\n\nป้อนชื่อกลาง: ระบุชื่อกลาง (ถ้ามี)\n\nป้อนชื่อแรก: ระบุชื่อจริงที่ต้องการ\n\nรูปแบบ: เฉพาะเจาะจง 2\n\n",
+            "type": "markdown",
+            "images": [
+              "image641.png"
+            ]
+          },
+          {
+            "title": "การป้อนข้อมูล:",
+            "content": "การป้อนข้อมูล:\n\nป้อนชื่อเต็ม: ให้ระบุชื่อและนามสกุล (หรือชื่อที่ต้องการแสดงผลทั้งหมด) ลงในช่องนี้ โดยพิมพ์ 1 ชื่อเต็มต่อ 1 บรรทัด\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "5.เปลี่ยนประวัติ",
+            "content": "5.เปลี่ยนประวัติ\n\n![image](/images/image42.png)\n\nรายการเนื้อหา:เลือกรายการเนื้อหาที่ต้องการ โดยคลิกที่ลูกศรชี้ลงด้านขวาเพื่อดูตัวเลือกทั้งหมด\n\nปุ่มแก้ไข (ไอคอนดินสอ):ใช้สำหรับเข้าไปแก้ไขรายละเอียดของเนื้อหาที่เลือกหรือจัดการรายการเพิ่มเติม\n\n",
+            "type": "markdown",
+            "images": [
+              "image42.png"
+            ]
+          },
+          {
+            "title": "6.เปิดเผยยอดไลค์",
+            "content": "6.เปิดเผยยอดไลค์\n\n![image](/images/image785.png)\n\nกด \"บันทึก\" เพื่อเริ่มการดำเนินการนี้หากต้องการยกเลิกการดำเนินการนี้ โปรดลบออกจากรายการการดำเนินการ!\n\n",
+            "type": "markdown",
+            "images": [
+              "image785.png"
+            ]
+          },
+          {
+            "title": "7.พักผ่อน",
+            "content": "7.พักผ่อน\n\n![image](/images/image638.png)\n\nการตั้งค่าช่วงเวลาพัก\n\nช่วงเวลาระหว่างงาน (วินาที): กำหนดระยะเวลาที่ต้องการให้ระบบหยุดพัก\n\nช่องแรก: ใส่จำนวนวินาทีเริ่มต้น (เช่น 3 วินาที)\n\nช่องหลัง: ใส่จำนวนวินาทีสิ้นสุด (เช่น 5 วินาที)\n\nหมายเหตุ: ระบบจะทำการสุ่มเวลาพักในช่วงที่คุณกำหนดไว้\n\n",
+            "type": "markdown",
+            "images": [
+              "image638.png"
+            ]
+          },
+          {
+            "title": "8.ลบโพสต์บนกำแพง",
+            "content": "8.ลบโพสต์บนกำแพง\n\n![image](/images/image135.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image135.png"
+            ]
+          },
+          {
+            "title": "จำนวนกระทู้ (Number of Posts):",
+            "content": "จำนวนกระทู้ (Number of Posts):\n\nกำหนดจำนวนโพสต์ที่ต้องการให้ระบบลบ โดยใส่เป็น ช่วงจำนวน (ต่ำสุด - สูงสุด)\n\nจากตัวอย่าง: ระบบจะสุ่มลบโพสต์ตั้งแต่ 1 ถึง 2 โพสต์\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "เวลารอคอย (Delay Time):",
+            "content": "เวลารอคอย (Delay Time):\n\nกำหนดระยะเวลาที่ระบบจะหยุดพักระหว่างการลบแต่ละโพสต์ (หน่วยเป็น วินาที)\n\nการตั้งค่าแบบสุ่มช่วยให้การทำงานดูเป็นธรรมชาติเหมือนมนุษย์ทำมากขึ้น\n\nจากตัวอย่าง: ระบบจะสุ่มรอระหว่าง 3 ถึง 5 วินาที\n\n",
+            "type": "markdown",
+            "images": []
+          }
+        ],
+        "originalProgramName": "โปรแกรมอื่นๆ"
+      },
+      {
+        "id": "_____________________wbjhj",
+        "name": "โปรแกรมไม่ทำงาน หรือค้าง",
+        "sections": [
+          {
+            "title": "แก้ปัญหา ไม่ทำงานตามสคริปต์ หรือค้าง",
+            "content": "แก้ปัญหา ไม่ทำงานตามสคริปต์ หรือค้าง\n\nไปที่โปรแกรมแพนด้า --> ทำการเลือกมือถือที่ไม่ทำงาน --> กดดับเบิลคลิก เพื่อแสดงหน้าจอควบคุมมือถือ --> เลื่อนแถบเมนูด้านขวา --> มองหาแอป MaxCloud (หรือ ONOX) --> ทำการกดปิดแอป\n\n![image](/images/image691.png)\n\nหลังจากนั้นให้กลับ ไปทำที่ขั้นตอนอีกครั้ง\n\nหากทำแล้วยังใช้งานไม่ได้ ให้ทำการถอนการติดตั้งแอป แล้วติดตั้งใหม่อีกครั้ง หรือแจ้งแอดมินเพื่อรบการซัพพอร์ต\n\n",
+            "type": "markdown",
+            "images": [
+              "image691.png"
             ]
           }
         ],
-        "originalProgramName": "MaxData"
+        "originalProgramName": "โปรแกรมอื่นๆ"
       }
     ]
   },
   {
-    "id": "others_suite",
-    "name": "โปรแกรมอื่นๆ",
+    "id": "maxtwitter_suite",
+    "name": "Max Twitter Pro",
     "categories": [
-      {
-        "id": "_____________________vousi",
-        "name": "วิธีการเชื่อมข้อมูลกับ Maxcare",
-        "sections": [
-          {
-            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
-            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image370.png)\n\n2.กลับมาที่โปรแกรม MaxCarePage ไปที่ genneral configuration ==> ไปที่ Data synchronization เลือกเชื่อมต่อกับ maxcare ==> วางที่อยู่โฟลเดอร์ในช่องว่าง ==> กด Save\n\n![image](/images/image309.png)\n\n3.กด Refresh\n\n![image](/images/image604.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
-            "type": "markdown",
-            "images": [
-              "image370.png",
-              "image309.png",
-              "image604.png"
-            ]
-          }
-        ],
-        "originalProgramName": "Maxcare"
-      },
-      {
-        "id": "_____________________hap3e",
-        "name": "วิธีเชื่อมข้อมูลกับ Maxcare",
-        "sections": [
-          {
-            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
-            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image273.png)\n\n2.ไปที่ Configs ==> Sync data with Maxcare ==> จากนั้นวางที่อยู่โฟลเดอร์ Maxcare ลงในช่องว่าง\n\n![image](/images/image136.png)\n\nจากนั้นกด Save\n\n3.กด Refresh\n\n![image](/images/image523.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
-            "type": "markdown",
-            "images": [
-              "image273.png",
-              "image136.png",
-              "image523.png"
-            ]
-          }
-        ],
-        "originalProgramName": "Maxcare"
-      },
-      {
-        "id": "maxcare_page_o6snn",
-        "name": "MaxCare Page",
-        "sections": [
-          {
-            "title": "เครื่องมือที่ช่วยเราบริหารจัดการเพจเฟสบุ๊คจำนวนมาก ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น",
-            "content": "เครื่องมือที่ช่วยเราบริหารจัดการเพจเฟสบุ๊คจำนวนมาก ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น\n\nระบบฟาร์มเพจเฟสบุ๊คอัติโนมัติ ไม่จำกัดจำนวนเฟช ใช้ระบบ Chrome Browser ในการรัน\n\nด้วยฟังชั่นครบครัน ดังนี้\n\n![image](/images/image389.png)\n\nปั๊มยอดผู้ติดตามโปรไฟล์ส่วนตัว\n\nปั๊มไลก์และคอมเมนต์บนโพสต์\n\nปั๊มไลก์และติดตามเพจ\n\nสแปมโพสต์ (กลุ่ม, เพจ, โปรไฟล์)\n\nสแปมโพสต์ตามคีย์เวิร์ด\n\nให้คะแนนรีวิวเพจ\n\nสร้างปฏิสัมพันธ์ในไลฟ์สด\n\nโพสต์บนวอลล์ของเพจอื่น (แจ้งเตือน)\n\nสแปมตอบกลับคอมเมนต์ตามคีย์เวิร์ด\n\nสแปมตอบกลับคอมเมนต์ (กลุ่ม, เพจ...)\n\nสแปมตอบกลับคอมเมนต์ในโพสต์ที่ระบุ\n\nสแปมตอบกลับคอมเมนต์ที่เจาะจง\n\nแก้ไขคอมเมนต์\n\nอ่านประกาศ\n\nปฏิสัมพันธ์กับ Reels\n\nโพสต์\n\nตั้งเวลาหยุดพัก\n\nโพสต์สตอรี่\n\nโพสต์แท็ก UID ที่ระบุ\n\nตอบกลับข้อความแชท\n\nตอบกลับคอมเมนต์\n\nโพสต์แท็กพร้อมปุ่มกด\n\nส่งคำเชิญให้กดไลก์เพจ\n\nคัดลอกเนื้อหาโพสต์ที่ระบุ\n\nคัดลอกโพสต์จากเพจที่ระบุ\n\nโพสต์คลิป Reels\n\nลบโพสต์ในเพจ\n\nเข้ากลุ่มตามคีย์เวิร์ด\n\nแชร์โพสต์ลงกลุ่ม\n\nเข้ากลุ่มที่กำหนดไว้\n\nสแปมโพสต์ในกลุ่มที่เป็นสมาชิก\n\nโพสต์ลงในกลุ่มที่เป็นสมาชิก\n\nโพสต์ลงในกลุ่มที่กำหนดไว้\n\nสแปมตอบกลับคอมเมนต์จากกลุ่มที่มีส่วนร่วม\n\nสร้างกลุ่ม\n\nสร้างกิจกรรม\n\nแชร์โพสต์ไปยังกลุ่มที่กำหนด\n\nอัปเดตรูปโปรไฟล์\n\nอัปเดตรูปหน้าปก\n\nอัปเดตประวัติ/คำแนะนำตัว\n\nอัปเดตชื่อเพจ\n\nอัปเดตข้อมูลทั่วไป\n\nตั้งค่าจำกัดประเทศ\n\nตั้งค่าจำกัดอายุ\n\nบล็อก UID ที่ระบุ\n\nลบหน้าเพจระบุตำแหน่งทั้งหมด\n\n",
-            "type": "markdown",
-            "images": [
-              "image389.png"
-            ]
-          }
-        ],
-        "originalProgramName": "Maxcare Page"
-      },
-      {
-        "id": "maxsystemcare_x3lvt",
-        "name": "MaxSystemCare",
-        "sections": [
-          {
-            "title": "โปรแกรมตัวเสริมใช้ควบคู่สำหรับMaxcareใช้ระบบLDplayer Android Emulatorในการใช้งาน ทำให้บัญชีที่ผ่านการวอมจากMaxcareแล้ว หากนำมารันบนMaxSystemCareต่อ จะทำให้บัญชีนั้นแข็งแรงขึ้นอย่างมาก",
-            "content": "โปรแกรมตัวเสริมใช้ควบคู่สำหรับMaxcareใช้ระบบLDplayer Android Emulatorในการใช้งาน ทำให้บัญชีที่ผ่านการวอมจากMaxcareแล้ว หากนำมารันบนMaxSystemCareต่อ จะทำให้บัญชีนั้นแข็งแรงขึ้นอย่างมาก\n\nระบบฟาร์มบัญชีอัติโนมัติ ไม่จำกัดจำนวนเฟช ใช้ระบบLDplayer Android Emulatorในการรัน\n\nด้วยฟังชั่นครบครัน ดังนี้\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "เมนูฟังก์ชั่นโปรแกรมMaxSystemCare",
-            "content": "เมนูฟังก์ชั่นโปรแกรมMaxSystemCare\n\n![image](/images/image59.png)\n\nอ่านการแจ้งเตือน\n\nปฏิสัมพันธ์หน้าฟีด\n\nปฏิสัมพันธ์กับเพื่อน\n\nปฏิสัมพันธ์กับกลุ่ม\n\nปฏิสัมพันธ์กับเพจ\n\nปฏิสัมพันธ์กับโปรไฟล์\n\nปฏิสัมพันธ์กับวิดีโอ (Watch)\n\nปฏิสัมพันธ์กับเรล (Reel)\n\nปฏิสัมพันธ์กับสตอรี่\n\nตั้งเวลาหยุดพัก\n\nปฏิสัมพันธ์หน้าฟีด 2\n\nเพิ่มเพื่อนด้วยคำค้นหา\n\nเพิ่มเพื่อนด้วยไอดี (UID)\n\nเพิ่มเพื่อนจากรายการแนะนำ\n\nยืนยันรับคำขอเป็นเพื่อน\n\nลบเพื่อน\n\nยกเลิกคำขอเป็นเพื่อนที่ส่งไป\n\nเพิ่มสมาชิกกลุ่ม\n\nเข้ากลุ่มด้วยคำค้นหา\n\nเข้ากลุ่มที่ระบุเจาะจง\n\nเข้ากลุ่มจากรายการแนะนำ\n\nออกจากกลุ่ม\n\nสร้างกลุ่มใหม่\n\nโพสต์หน้าวอลล์\n\nโพสต์ลงกลุ่ม\n\nโพสต์เรล\n\nโพสต์สตอรี่\n\nแชร์โพสต์\n\nสแปมโพสต์\n\nสแปมหน้าฟีด\n\nสแปมเพื่อน\n\nสแปมกลุ่ม\n\nรันระบบทำรายได้\n\nรีวิวเพจ\n\nปั๊มไลก์เพจ\n\nปั๊มผู้ติดตามไอดี (UID)\n\nปฏิสัมพันธ์กับโพสต์ที่ระบุ\n\nปฏิสัมพันธ์กับโพสต์ตามคำค้นหา\n\nปฏิสัมพันธ์กับวิดีโอและไลฟ์สด\n\nปฏิสัมพันธ์กับเรลผ่านลิงก์\n\nเชิญเพื่อนให้กดไลก์เพจ\n\nเชิญเพื่อนให้เข้ากลุ่ม\n\nซิงค์รายชื่อผู้ติดต่อ\n\nยกเลิกการถูกใจเพจ\n\nเปลี่ยนรหัสผ่าน\n\nอัปโหลดรูปโปรไฟล์\n\nอัปโหลดรูปปก\n\nลบเบอร์โทรศัพท์\n\nเปิด-ปิดการยืนยันตัวตน 2 ชั้น (2FA)\n\nเพิ่มอีเมล\n\nเปลี่ยนชื่อบัญชี\n\nเปลี่ยนข้อมูลบัญชี\n\nออกจากระบบในอุปกรณ์อื่น\n\nเปิดโหมดมืออาชีพ\n\nลบโพสต์หน้าวอลล์\n\nปลดล็อกโปรไฟล์\n\n",
-            "type": "markdown",
-            "images": [
-              "image59.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "maxsystemcare________wpg3p",
-        "name": "MaxsystemCare แนะนำการเพิ่มเพื่อนอัตโนมัติ",
-        "sections": [
-          {
-            "title": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)",
-            "content": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)\n\nเพิ่มเพื่อนด้วยคีย์เวิร์ด เหมาะสำหรับคนที่ต้องการเพิ่มเพื่อนด้วยคีย์เวิร์ดนั้นๆ เช่น\n\n- ต้องการเพิ่มเพื่อนที่มีชื่อว่า สิริ  ให้พิมพ์ สิริ ลงในช่อว List of keywords\n\n![image](/images/image671.png)\n\n2.Add friends by UID (แอดเพื่อนด้วยไอดี)\n\nเพิ่มเพื่อนด้วย UID เหมาะสำหรับคนที่ต้องการเพิ่มเพื่อนตาม UID ที่มีอยู่\n\n![image](/images/image446.png)\n\n3.Add friends by suggestions(เพิ่มเพื่อนตามคำแนะนำ)\n\nเพิ่มเพื่อนตามคำแนะนำ สำหรับบัญชีใหม่จะยังไม่มีเพื่อนที่แนะนำ อาจจะใช้งานฟังก์ชันที่ 2 3 4 ในช่วงแรกของการฟาร์มบัญชี\n\n![image](/images/image628.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image671.png",
-              "image446.png",
-              "image628.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "_____________________z2334",
-        "name": "วิธีการใช้งานโปรแกรม",
-        "sections": [
-          {
-            "title": "รวมวิธีการใช้งานโปรแกรม Maxcare",
-            "content": "<p>อธิบายรายละเอียดแต่ละฟังก์ชั่น การนำบัญชีเฟสบุ๊คเข้าโปรแกรม Maxcare ![image](/images/image537.png) หลังจากเปิดโปรแกรมมาแล้ว ให้กดที่ Import accounts เพื่อนำเฟสบุ๊คเข้าระบบ ![image](/images/image180.png) ให้ทำการสร้างไฟล์ขึ้นมา โดยใส่ชื่อตามที่ต้องการได้เลยจากนั้นกด Add ![image](/images/image305.png) ใส่ข้อมูลเฟสลงไป ตามแพทเทิน คั่นด้วยเครื่องหมาย | ยกตัวอย่างการเลือก Format ตามแพทเทินเฟสบุ๊คที่จะนำเข้า ![image](/images/image224.png) จากนั้นเลือก format ตามแพทเทินที่เรากรอกเข้าไป แล้วกดติ้กถูกที่ Option เพื่อให้มันเช็คข้อมูล Account ต่างๆด้วย เช่น ชื่อ,เพศ,จำนวนเพื่อน,จำนวนกลุ่ม เป็นต้น ![image](/images/image734.png) ![image](/images/image197.png) ![image](/images/image260.png) เป็นอันเสร็จสิ้นขั้นตอนการนำเข้าเฟสบุ๊ค</p>",
-            "type": "markdown",
-            "images": [
-              "image537.png",
-              "image180.png",
-              "image305.png",
-              "image224.png",
-              "image734.png",
-              "image197.png",
-              "image260.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "__________________2j4qw",
-        "name": "วิธีใช้งานโปรแกรม",
-        "sections": [
-          {
-            "title": "รวมวิธีการใช้งานโปรแกรม MaxSystemCare",
-            "content": "รวมวิธีการใช้งานโปรแกรม MaxSystemCare\n\n",
-            "type": "markdown",
-            "images": []
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "max_twitter_pro_blx4d",
-        "name": "Max Twitter Pro",
-        "sections": [
-          {
-            "title": "โปรแกรมใช้ในการฟาร์มบัญชี twitter อัตโนมัติ",
-            "content": "โปรแกรมใช้ในการฟาร์มบัญชี twitter อัตโนมัติ\n\nเครื่องมือที่ช่วยเราบริหารจัดการบัญชี ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น แต่ฟังชั่นหนึ่งที่โดดเด่นที่สุดคือ ฟังชั่นการสร้างออแกนิคเทียมให้กับโพสต์ ด้วยการปั่นทวิตเตอร์ช่วยลดค่าโฆษณา\n\n![image](/images/image471.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image471.png"
-            ]
-          },
-          {
-            "title": "ปฏิสัมพันธ์ (Interaction)",
-            "content": "ปฏิสัมพันธ์ (Interaction)\n\nปฏิสัมพันธ์ในฟีดข่าว\n\nปฏิสัมพันธ์กับผู้ติดตาม\n\nปฏิสัมพันธ์กับการติดตาม\n\nปฏิสัมพันธ์ที่ผู้ใช้กำหนดเอง\n\nปฏิสัมพันธ์ผ่านแฮชแท็ก\n\nปฏิสัมพันธ์กับผู้ใช้ผ่านแฮชแท็ก\n\nปฏิสัมพันธ์กับบทความที่กำหนด\n\nปฏิสัมพันธ์กับความคิดเห็นที่กำหนด\n\nปฏิสัมพันธ์ผ่านคีย์เวิร์ด\n\nส่งข้อความโดยผู้ใช้\n\nส่งข้อความถึงผู้ติดตาม/การติดตาม...\n\nการโต้ตอบของโฆษณาโดยผู้ใช้\n\nโฆษณาเชิงโต้ตอบในฟีดข่าว\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "การติดตาม (Following)",
-            "content": "การติดตาม (Following)\n\nติดตาม (Follow)\n\nติดตามคนที่ทวิตแนะนำ\n\nติดตามโดยคีย์เวิร์ด\n\nติดตามผู้ใช้\n\nติดตามกลับผู้ติดตาม\n\nติดตามผู้ติดตามของผู้ใช้\n\nติดตามการติดตามของผู้ใช้\n\nติดตามแฮชแท็ก\n\nยกเลิกการติดตาม (Unfollow)\n\nยกเลิกการติดตามผู้ใช้ที่กำหนด\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ฟังก์ชันอื่นๆ (Other Functions)",
-            "content": "ฟังก์ชันอื่นๆ (Other Functions)\n\nหยุดพัก (Breaks)\n\nอ่านแจ้งเตือน\n\nโพสต์ทวีต\n\nแชร์ทวีต\n\nอัปเดตข้อมูล\n\nรับรายชื่อผู้ติดตาม/การติดตาม\n\nรับรายชื่อผู้ใช้ที่กดไลค์/รีทวีต\n\nรับลิงก์ทวีตและรีทวีต\n\nเปลี่ยนประเทศและภาษา\n\nลบทวีตเก่าทั้งหมด\n\nสแกนเนื้อหาความคิดเห็น\n\nแบ่งปันสิทธิ์ผู้จัดการสตูดิโอ\n\nเปิดการแสดงเนื้อหา 18+\n\nลบการเข้าสู่ระบบอุปกรณ์เก่า\n\nรับรายชื่อผู้ใช้ตามรายชื่อชื่อ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "เปลี่ยนข้อมูล (Change Info)",
-            "content": "เปลี่ยนข้อมูล (Change Info)\n\nเปลี่ยนชื่อผู้ใช้\n\nเปลี่ยนรหัสผ่าน\n\nเปลี่ยนรูปโปรไฟล์\n\nเปลี่ยนภาพพื้นหลัง\n\nอัปเดตหมายเลขโทรศัพท์\n\nเปลี่ยนชื่อ, ประวัติ, เว็บไซต์ และ...\n\nสร้างรหัส 2FA\n\nเปิดเผยวันเกิด\n\nอัปเดตอีเมล\n\nราคา 1700 บาท / เดือน\n\n",
-            "type": "markdown",
-            "images": []
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
       {
         "id": "1____________________4qzuc",
         "name": "1.วิธีการนำบัญชีเข้าสู่โปรแกรม MaxTwitterPro",
@@ -4699,48 +5303,48 @@ export const manualData: ProgramData[] = [
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "_____________________jn0yd",
-        "name": "โพสต์รูปภาพไม่ได้แก้ไขอย่างไร",
-        "sections": [
+        "id": "maxtwitter_faq",
+        "name": "คำถามและปัญหาที่พบบ่อย MaxTwitter",
+        "sections": [],
+        "subCategories": [
           {
-            "title": "1.ไปที่General configs==> เลือกShow image when opening browser",
-            "content": "1.ไปที่General configs==> เลือกShow image when opening browser\n\n![image](/images/image547.png)\n\nจากนั้นกดSaveแล้วรันโปรแกรมอีกรอบ\n\n2.หากตั้งค่าตามขั้นตอนแรกแล้วยังไม่สามารถโพสต์ได้\n\nลบอิโมจิที่อยู่ในช่องข้อความออก\n\nเช็คโฟล์เดอร์รูปภาพว่ามีรูปภาพอยู่หรือไม่\n\n",
-            "type": "markdown",
-            "images": [
-              "image547.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "__________________de_nhavs",
-        "name": "รันโปรแกรมแล้วที่ Description แจ้งว่า An unkown error!",
-        "sections": [
+            "id": "_____________________jn0yd",
+            "name": "โพสต์รูปภาพไม่ได้แก้ไขอย่างไร",
+            "sections": [
+              {
+                "title": "1.ไปที่General configs==> เลือกShow image when opening browser",
+                "content": "1.ไปที่General configs==> เลือกShow image when opening browser\n\n![image](/images/image547.png)\n\nจากนั้นกดSaveแล้วรันโปรแกรมอีกรอบ\n\n2.หากตั้งค่าตามขั้นตอนแรกแล้วยังไม่สามารถโพสต์ได้\n\nลบอิโมจิที่อยู่ในช่องข้อความออก\n\nเช็คโฟล์เดอร์รูปภาพว่ามีรูปภาพอยู่หรือไม่\n\n",
+                "type": "markdown",
+                "images": [
+                  "image547.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
           {
-            "title": "1.ไปที่General configs==> เลือกChrome",
-            "content": "1.ไปที่General configs==> เลือกChrome\n\n![image](/images/image521.png)\n\nจากนั้นกดSaveแล้วรันโปรแกรมอีกรอบ\n\n",
-            "type": "markdown",
-            "images": [
-              "image521.png"
-            ]
+            "id": "__________________de_nhavs",
+            "name": "รันโปรแกรมแล้วที่ Description แจ้งว่า An unkown error!",
+            "sections": [
+              {
+                "title": "1.ไปที่General configs==> เลือกChrome",
+                "content": "1.ไปที่General configs==> เลือกChrome\n\n![image](/images/image521.png)\n\nจากนั้นกดSaveแล้วรันโปรแกรมอีกรอบ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image521.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
           }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "maxreupfacebook_qbul7",
-        "name": "MaxReupFacebook",
-        "sections": [
-          {
-            "title": "โปรแกรมโพสต์คลิป Reels MaxReup",
-            "content": "โปรแกรมโพสต์คลิป Reels MaxReup\n\nโพสต์คลิป Reels อัตโนมัติ\n\nแบบสุ่มวิดีโอ\n\nแบบอิมพอตวิดีโอในแต่ละเพจ\n\nสร้างแคปชันได้ตามใจชอบ\n\nใส่เสียงเพลง\n\nดาวน์โหลดคลิปตามแพลตฟอร์มได้อย่างรวดเร็ว\n\nfacebook\n\nTiktok\n\nInstagram\n\nTwitter\n\nYoutube\n\nDouyin\n\nKuaishou\n\nPinterest\n\nตัดต่อวิดีโอในโปรแกรมได้อย่างรวดเร็ว\n\nเพิ่มแบ็คกราว\n\nเพิ่มข้อความตัวอักษร\n\nเพิ่มรูปภาพหรือโลโก้แบรนด์เนอร์\n\nเพิ่มเสียงเพลงหรือเสียงดนตรี\n\nสามารถใช้ Cookie หรือใช้ Proxy ได้ นำบัญชีเข้าโปรแกรมได้แบบไม่จำกัด ค่าบริการเพียง\n\nเดือนละ 1700 บาท เท่านั้น\n\n",
-            "type": "markdown",
-            "images": []
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maxreup_suite",
+    "name": "MaxReupFacebook",
+    "categories": [
       {
         "id": "1_max_reup___________35dkq",
         "name": "1.Max Reup วิธีการดาวน์โหลดติดตั้ง",
@@ -4963,1046 +5567,917 @@ export const manualData: ProgramData[] = [
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "_____________________3iflg",
-        "name": "ไม่สามารถเปิดใช้งานโปรแกรมได้",
+        "id": "maxreup_faq",
+        "name": "คำถามและปัญหาที่พบบ่อย MaxReup",
+        "sections": [],
+        "subCategories": [
+          {
+            "id": "_____________________3iflg",
+            "name": "ไม่สามารถเปิดใช้งานโปรแกรมได้",
+            "sections": [
+              {
+                "title": "1.โปรแกรมขึ้นว่า Login fail 2.โปรแกรมเริ่มทำงานแล้วไม่ล็อคอินบัญชี",
+                "content": "1.โปรแกรมขึ้นว่า Login fail 2.โปรแกรมเริ่มทำงานแล้วไม่ล็อคอินบัญชี\n\n",
+                "type": "markdown",
+                "images": []
+              },
+              {
+                "title": "Details",
+                "content": "![image](/images/image398.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image398.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "_____________________77ofx",
+            "name": "วิธีนำเข้าบัญชีและการเลือก Type login ให้ตรงกับข้อมูลบัญชี",
+            "sections": [
+              {
+                "title": "1.ไปที่ Add account",
+                "content": "1.ไปที่ Add account\n\n![image](/images/image509.png)\n\n2.นำเข้าบัญชี\n\n1.นำข้อมูลบัญชีมาวางในช่องว่าง\n\n2.เลือก Format ให้ตรงกับรูปแบบบัญชี\n\n3.เลือกโฟล์เดอร์\n\nจากนั้นกด Confirm\n\n![image](/images/image405.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image509.png",
+                  "image405.png"
+                ]
+              },
+              {
+                "title": "1.ไปที่ General configuration",
+                "content": "1.ไปที่ General configuration\n\n![image](/images/image493.png)\n\n2.เลือก Type login\n\nกรณีที่ข้อมูลบัญชีมี UID หรือ Email และ Pass(รหัสผ่าน) ให้เลือก Login Type เป็น UID | Pass\n\nกรณีที่ข้อมูลบัญชีมี Cookie เพิ่มมาด้วย สามารถเลือก Login Type เป็น Cookie หรือ Cookie > Uid|Pass\n\nจากนั้นกด Save\n\n![image](/images/image13.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image493.png",
+                  "image13.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "__________proxy____m_7r9vu",
+            "name": "การใช้งาน Proxy ใน MaxReup",
+            "sections": [
+              {
+                "title": "การนำเข้าในแต่ละบัญชี",
+                "content": "การนำเข้าในแต่ละบัญชี\n\nเลือกบัญชีที่ต้องการนำเข้า Proxy\n\nคลิกขวา => Update data => Proxy\n\n![image](/images/image209.png)\n\nนำ Ip Proxy มาวางในช่องว่าง\n\n![image](/images/image329.png)\n\nเลือก Proxy type\n\n![image](/images/image94.png)\n\nกำหนดจำนวนบัญชีต่อ IP Proxy\n\n![image](/images/image324.png)\n\nจากนั้นกด Confirm\n\n",
+                "type": "markdown",
+                "images": [
+                  "image209.png",
+                  "image329.png",
+                  "image94.png",
+                  "image324.png"
+                ]
+              },
+              {
+                "title": "1.ไปที่หน้า General configuration",
+                "content": "1.ไปที่หน้า General configuration\n\n![image](/images/image493.png)\n\n2.ในช่อง IP change option : เลือก Proxy\n\n![image](/images/image282.png)\n\n3.ตัวเลือกการใช้ Proxy\n\n![image](/images/image376.png)\n\nAssigned to each acccount :ใช้ Proxy ที่อยู่ในแต่ละบัญชี\n\n![image](/images/image544.png)\n\nRandom in the list :แบบสุ่มในรายการ\n\n![image](/images/image202.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image493.png",
+                  "image282.png",
+                  "image376.png",
+                  "image544.png",
+                  "image202.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "others_suite",
+    "name": "โปรแกรมอื่นๆ",
+    "categories": [
+      {
+        "id": "maxcare_page_usage",
+        "name": "วิธีใช้งานโปรแกรม",
+        "sections": [],
+        "subCategories": [
+          {
+            "id": "maxcarepage__________raa5v",
+            "name": "MaxCarePage วิธีเพิ่มบัญชีเฟสบุ๊คโปรแกรม",
+            "sections": [
+              {
+                "title": "1.ไปที่ More account",
+                "content": "1.ไปที่ More account\n\n![image](/images/image613.png)\n\nเพิ่มข้อมูลบัญชีในช่องว่าง\n\nจากนั้นเลือก Import format ให้ตรงกับข้อมูลบัญชี จากนั้กด comfirm\n\n![image](/images/image732.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image613.png",
+                  "image732.png"
+                ]
+              },
+              {
+                "title": "รูปแบบข้อมูล",
+                "content": "รูปแบบข้อมูล\n\n![image](/images/image224.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image224.png"
+                ]
+              }
+            ],
+            "originalProgramName": "Maxcare Page"
+          },
+          {
+            "id": "maxcare_page_________b7hty",
+            "name": "MaxCare Page วิธีการเช็คเพจเช็คและดึงเพจ",
+            "sections": [
+              {
+                "title": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว",
+                "content": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว\n\n1.คลิกขวาไปที่ Page function  ==> Check the list pages ==> Open the browser\n\n![image](/images/image384.png)\n\nConfigure check page (การตั้งค่าหน้าตรวจสอบ)\n\nCheck the location page: ตรวจสอบตำแหน่งที่ตั้งของเพจ\n\nEnable disabled page: เปิดใช้งานเพจที่ถูกปิดใช้งาน\n\nDo not add a page that already exists: ห้ามเพิ่มเพจที่มีอยู่แล้ว\n\n![image](/images/image436.png)\n\n2.หลังจากเช็คเพจเสร็จแล้วคลิกขวา ==> จากนั้น Load page list ==> สามารถเลือกจำนวนเพจที่ต้องการได้\n\n![image](/images/image503.png)\n\nเป็นอันเสร็จขึ้นตอนการเช็คและดึงเพจเพื่อใช้งาน\n\n",
+                "type": "markdown",
+                "images": [
+                  "image384.png",
+                  "image436.png",
+                  "image503.png"
+                ]
+              }
+            ],
+            "originalProgramName": "Maxcare Page"
+          }
+        ]
+      },
+      {
+        "id": "maxphonefarm_7v6i9",
+        "name": "MaxPhoneFarm",
         "sections": [
           {
-            "title": "1.โปรแกรมขึ้นว่า Login fail 2.โปรแกรมเริ่มทำงานแล้วไม่ล็อคอินบัญชี",
-            "content": "1.โปรแกรมขึ้นว่า Login fail 2.โปรแกรมเริ่มทำงานแล้วไม่ล็อคอินบัญชี\n\n",
+            "title": "Maxphone Farm คือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) ทำให้เปรียบเสมือนเรามีจำนวน โปรไฟล์จริง ที่ใช้รันระบบฟาร์ม",
+            "content": "Maxphone Farm คือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) ทำให้เปรียบเสมือนเรามีจำนวน โปรไฟล์จริง ที่ใช้รันระบบฟาร์ม\n\nMaxphoneคือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ เพื่อให้ตอบสนอง และประสิทธิภาพ ดีขึ้น ระบบฟาร์มบัญชี โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) และพัฒนา Custom Rom ตามฉบับของ Maxcare ทำให้ตัวเครื่อง เปรียบเสมือนจำนวน โปรไฟล์ ที่ใช้รันระบบฟาร์มจุดเด่น maxphone farm\n\nมีฟังชั่นเพิ่มเติมจาก Maxcare และ Maxsystemcare คือ ฟังก์ชั่น Post Reels เนื่องจากปัจจุบันผู้คนหันมาสนใจคลิปสั้นใน Reels มากขึ้นจึงมีฟังก์ชั่นนี้ เพื่อให้ตอบโจทย์ผู้ใช้งาน\n\nมีให้เลือก Buff Like page ทั้ง 2 แบบ เพจทั่วไป และ เพจโปรไฟล์ ที่คนหันมานิยมใช้\n\nลดอัตราการแบนลงอย่างมาก เนื่องจากมีฟังก์ชั่น change device เปลี่ยนข้อมูลอุปกรณ์ ใหม่หมดในทุกครั้งทีมีการเปิดโปรไฟล์ใช้งาน\n\n![image](/images/image170.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image170.png"
+            ]
+          }
+        ],
+        "originalProgramName": "MaxCloud & PhoneFarm"
+      },
+      {
+        "id": "maxcloudphone_vj8q1",
+        "name": "MaxCloudPhone",
+        "sections": [
+          {
+            "title": "MaxCloudPhoneฟังก์ชันหลัก",
+            "content": "MaxCloudPhoneฟังก์ชันหลัก\n\n![image](/images/image192.png)\n\nอ่านการแจ้งเตือน\n\nสุ่มดูวิดีโอ\n\nดูวิดีโอที่ระบุเฉพาะเจาะจง\n\nดูวิดีโอจากคีย์เวิร์ด\n\nดูวิดีโอของผู้ใช้\n\nสุ่มเข้าดูไลฟ์สด\n\nเข้าดูไลฟ์สดที่ระบุเฉพาะเจาะจง\n\nติดตามผู้ใช้งาน\n\nติดตามผู้ใช้งานจากคีย์เวิร์ด\n\nติดตามกลับ\n\nติดตามผู้ใช้งานจากโปรไฟล์\n\nติดตามผู้ใช้งานที่ระบบแนะนำ\n\nส่งข้อความไปยังเป้าหมายที่กำหนด\n\nตอบกลับความคิดเห็นที่ระบุเฉพาะเจาะจง\n\nปั๊มยอดเข้าชมสินค้า\n\nสร้างรายได้\n\nสร้างโพสต์\n\nอัปเดตรูปโปรไฟล์\n\nเปลี่ยนชื่อ\n\nเปลี่ยนคำอธิบายโปรไฟล์\n\nกดไลก์สาธารณะ\n\nโหมดพักการทำงาน\n\nลบโพสต์บนหน้าวอลล์\n\n",
+            "type": "markdown",
+            "images": [
+              "image192.png"
+            ]
+          }
+        ],
+        "originalProgramName": "MaxCloud & PhoneFarm"
+      },
+      {
+        "id": "maxphone_farm________cfwsm",
+        "name": "MaxPhone Farm ขั้นตอนการลงเฟิร์มแวร์ในมือถือ (สำหรับมือถือที่ไม่ใช่ Boxphone)",
+        "sections": [
+          {
+            "title": "ขั้นตอนการลงเฟิร์มแวร์ MaxPhoneFarm ในมือถือ(สำหรับมือถือที่ไม่ใช่ Boxphone)",
+            "content": "ขั้นตอนการลงเฟิร์มแวร์ MaxPhoneFarm ในมือถือ(สำหรับมือถือที่ไม่ใช่ Boxphone)\n\n",
             "type": "markdown",
             "images": []
           },
           {
-            "title": "Details",
-            "content": "![image](/images/image398.png)\n\n",
+            "title": "สิ่งที่ต้องมีก่อนลงเฟิร์มแวร์",
+            "content": "สิ่งที่ต้องมีก่อนลงเฟิร์มแวร์\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "มือถือ samsung galaxy s7",
+            "content": "มือถือ samsung galaxy s7\n\nขั้นตอนการลงเฟิร์มแวร์ในมือถือ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ให้ปิดเครื่องมือถือ",
+            "content": "ให้ปิดเครื่องมือถือ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ให้กด ปุ่มลดเสียง+ปิดเครื่อง+ปุ่มโฮม ตามรูป",
+            "content": "ให้กด ปุ่มลดเสียง+ปิดเครื่อง+ปุ่มโฮม ตามรูป\n\n![image](/images/image195.png)\n\nกดปุ่มลดเสียง + ปิดเครื่อง + ปุ่มโฮม พร้อมกัน\n\n![image](/images/image41.png)\n\n",
             "type": "markdown",
             "images": [
-              "image398.png"
+              "image195.png",
+              "image41.png"
+            ]
+          },
+          {
+            "title": "หลังจากนั้นมือถือจะขึ้นหน้าจอสีฟ้า",
+            "content": "หลังจากนั้นมือถือจะขึ้นหน้าจอสีฟ้า\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ให้กด ปุ่มเพิ่มเสียง",
+            "content": "ให้กด ปุ่มเพิ่มเสียง\n\n![image](/images/image287.png)\n\nกด 1 ครั้ง รอขึ้นหน้าดาวน์โหลด\n\n![image](/images/image333.png)\n\nหลังจากกดปุ่มเพิ่มเสียงแล้วหน้าจอจะขึ้น Downloading\n\n",
+            "type": "markdown",
+            "images": [
+              "image287.png",
+              "image333.png"
+            ]
+          },
+          {
+            "title": "***ทำการเสียบ USB เชื่อมต่อเครื่องคอม และมือ ***",
+            "content": "***ทำการเสียบ USB เชื่อมต่อเครื่องคอม และมือ ***\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "4.ให้เปิดโปรแกรม Odin 3.13.1 ในคอมพิวเตอร์",
+            "content": "4.ให้เปิดโปรแกรม Odin 3.13.1 ในคอมพิวเตอร์\n\n![image](/images/image541.png)\n\n4.1.ให้กด AP แล้วเลือกไฟล์ twrp-3.6.0_9-0-herolte.img.tar\n\n![image](/images/image110.png)\n\n![image](/images/image118.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image541.png",
+              "image110.png",
+              "image118.png"
+            ]
+          },
+          {
+            "title": "ไฟล์ twrp-3.6.0_9-0-herolte.img.tar",
+            "content": "ไฟล์ twrp-3.6.0_9-0-herolte.img.tar\n\n4.2 หลังจากอัพไฟล์ให้กด Start\n\n![image](/images/image191.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image191.png"
+            ]
+          },
+          {
+            "title": "5.หลังจากกด Start มือถือจะปิดเครื่อง ให้กด ปุ่มเพิ่มเสียง+ปิดเครื่อง+ปุ่มโฮม ตามรูป",
+            "content": "5.หลังจากกด Start มือถือจะปิดเครื่อง ให้กด ปุ่มเพิ่มเสียง+ปิดเครื่อง+ปุ่มโฮม ตามรูป\n\n![image](/images/image215.png)\n\nกดปุ่มลดเสียง + ปิดเครื่อง + ปุ่มโฮม พร้อมกัน\n\n",
+            "type": "markdown",
+            "images": [
+              "image215.png"
+            ]
+          },
+          {
+            "title": "6.หลังจากหน้าหน้าจอมือถือขึ้นตามรูปแล้วให้กด Wipe",
+            "content": "6.หลังจากหน้าหน้าจอมือถือขึ้นตามรูปแล้วให้กด Wipe\n\n![image](/images/image451.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image451.png"
+            ]
+          },
+          {
+            "title": "6.1 กด Format Data",
+            "content": "6.1 กด Format Data\n\n![image](/images/image789.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image789.png"
+            ]
+          },
+          {
+            "title": "6.2พิมพ์คำว่า yes",
+            "content": "6.2พิมพ์คำว่า yes\n\n![image](/images/image38.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image38.png"
+            ]
+          },
+          {
+            "title": "6.3 กด Advanced Wipe",
+            "content": "6.3 กด Advanced Wipe\n\n![image](/images/image592.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image592.png"
+            ]
+          },
+          {
+            "title": "6.4 เลือกไฟล์ตามรูป",
+            "content": "6.4 เลือกไฟล์ตามรูป\n\n![image](/images/image606.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image606.png"
+            ]
+          },
+          {
+            "title": "6.5 เลือนปุ่ม Swipe to Wipe ไปด้านขวา",
+            "content": "6.5 เลือนปุ่ม Swipe to Wipe ไปด้านขวา\n\n![image](/images/image286.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image286.png"
+            ]
+          },
+          {
+            "title": "7.หลังจากอัพข้อมูลเสร็จสิ้นให้กด “Reboot”",
+            "content": "7.หลังจากอัพข้อมูลเสร็จสิ้นให้กด “Reboot”\n\n![image](/images/image314.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image314.png"
+            ]
+          },
+          {
+            "title": "7.1 กด “Recovery”",
+            "content": "7.1 กด “Recovery”\n\n![image](/images/image769.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image769.png"
+            ]
+          },
+          {
+            "title": "7.2 เลือนปุ่ม Swipe to Wipe ไปด้านขวา",
+            "content": "7.2 เลือนปุ่ม Swipe to Wipe ไปด้านขวา\n\n![image](/images/image318.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image318.png"
+            ]
+          },
+          {
+            "title": "8.ให้มาที่คอมพิวเตอร์แล้วคัดลอกไฟล์ ROOT S7 ไปว่างในเครื่อง",
+            "content": "8.ให้มาที่คอมพิวเตอร์แล้วคัดลอกไฟล์ ROOT S7 ไปว่างในเครื่อง\n\n![image](/images/image583.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image583.png"
+            ]
+          },
+          {
+            "title": "8.1 เลือกอุปกรณ์",
+            "content": "8.1 เลือกอุปกรณ์\n\n![image](/images/image439.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image439.png"
+            ]
+          },
+          {
+            "title": "8.2 ว่างไฟล์ ROOT S7 ในเครื่อง",
+            "content": "8.2 ว่างไฟล์ ROOT S7 ในเครื่อง\n\n![image](/images/image635.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image635.png"
+            ]
+          },
+          {
+            "title": "9.หลังคอมพิวเตอร์อัพข้อมูลเสร็จ ให้มาที่มือถือแล้วเลือก Install",
+            "content": "9.หลังคอมพิวเตอร์อัพข้อมูลเสร็จ ให้มาที่มือถือแล้วเลือก Install\n\n![image](/images/image634.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image634.png"
+            ]
+          },
+          {
+            "title": "9.1 เลือก ROOT S7",
+            "content": "9.1 เลือก ROOT S7\n\n![image](/images/image802.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image802.png"
+            ]
+          },
+          {
+            "title": "9.2 เลือกไฟล์ตามรูปด้านล่าง (ต้องตั้งค่าตามรูปเท่านั้น)",
+            "content": "9.2 เลือกไฟล์ตามรูปด้านล่าง (ต้องตั้งค่าตามรูปเท่านั้น)\n\n![image](/images/image611.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image611.png"
+            ]
+          },
+          {
+            "title": "9.2.1 ไม่ต้องเลือกช่องไหนแล้วกด Add more Zips",
+            "content": "9.2.1 ไม่ต้องเลือกช่องไหนแล้วกด Add more Zips\n\n![image](/images/image525.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image525.png"
+            ]
+          },
+          {
+            "title": "ตั้งค่าไฟล์ 1",
+            "content": "ตั้งค่าไฟล์ 1\n\n![image](/images/image155.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image155.png"
+            ]
+          },
+          {
+            "title": "ตั้งค่าไฟล์ 2",
+            "content": "ตั้งค่าไฟล์ 2\n\n![image](/images/image388.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image388.png"
+            ]
+          },
+          {
+            "title": "ตั้งค่าไฟล์ 3",
+            "content": "ตั้งค่าไฟล์ 3\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ไฟล์ที่ 4 ไม่ต้องกด Add more Zips แต่ให้เลื่อนปุ่ม Swipe to Wipe ไปด้านขวาแทน",
+            "content": "ไฟล์ที่ 4 ไม่ต้องกด Add more Zips แต่ให้เลื่อนปุ่ม Swipe to Wipe ไปด้านขวาแทน\n\n![image](/images/image595.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image595.png"
+            ]
+          },
+          {
+            "title": "ตั้งค่าไฟล์ 4",
+            "content": "ตั้งค่าไฟล์ 4\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "9.3 หลังจากกดปุ่ม Swipe to Wipe จะอัพเดทข้อมูลเมื่ออัพเดทข้อมูลเสร็จให้กด Reboot System",
+            "content": "9.3 หลังจากกดปุ่ม Swipe to Wipe จะอัพเดทข้อมูลเมื่ออัพเดทข้อมูลเสร็จให้กด Reboot System\n\n![image](/images/image780.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image780.png"
+            ]
+          },
+          {
+            "title": "10.การติดตั้งในมือถือ",
+            "content": "10.การติดตั้งในมือถือ\n\n![image](/images/image587.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image587.png"
+            ]
+          },
+          {
+            "title": "เลือก START",
+            "content": "เลือก START\n\n![image](/images/image223.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image223.png"
+            ]
+          },
+          {
+            "title": "เลือก SKIP",
+            "content": "เลือก SKIP\n\n![image](/images/image400.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image400.png"
+            ]
+          },
+          {
+            "title": "เลือก SKIP",
+            "content": "เลือก SKIP\n\n![image](/images/image596.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image596.png"
+            ]
+          },
+          {
+            "title": "เลือก NEXT",
+            "content": "เลือก NEXT\n\n![image](/images/image395.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image395.png"
+            ]
+          },
+          {
+            "title": "เลือก MORE",
+            "content": "เลือก MORE\n\n![image](/images/image513.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image513.png"
+            ]
+          },
+          {
+            "title": "เลือก ACCEPT",
+            "content": "เลือก ACCEPT\n\n![image](/images/image504.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image504.png"
+            ]
+          },
+          {
+            "title": "เลือก Fingerpring + Password",
+            "content": "เลือก Fingerpring + Password\n\n![image](/images/image766.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image766.png"
+            ]
+          },
+          {
+            "title": "เลือก SKIP",
+            "content": "เลือก SKIP\n\n![image](/images/image26.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image26.png"
+            ]
+          },
+          {
+            "title": "เลือก NEXT",
+            "content": "เลือก NEXT\n\n![image](/images/image111.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image111.png"
+            ]
+          },
+          {
+            "title": "เลือก SKIP",
+            "content": "เลือก SKIP\n\n![image](/images/image64.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image64.png"
+            ]
+          },
+          {
+            "title": "เลือก START",
+            "content": "เลือก START\n\n![image](/images/image33.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image33.png"
+            ]
+          },
+          {
+            "title": "เลือก Magisk",
+            "content": "เลือก Magisk\n\n![image](/images/image433.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image433.png"
+            ]
+          },
+          {
+            "title": "เลือก OK",
+            "content": "เลือก OK\n\n![image](/images/image242.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image242.png"
+            ]
+          },
+          {
+            "title": "เลือก Settings",
+            "content": "เลือก Settings\n\n![image](/images/image589.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image589.png"
+            ]
+          },
+          {
+            "title": "เปิดปุ่ม Allow from this source",
+            "content": "เปิดปุ่ม Allow from this source\n\n![image](/images/image450.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image450.png"
+            ]
+          },
+          {
+            "title": "เลือก Install",
+            "content": "เลือก Install\n\n![image](/images/image664.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image664.png"
+            ]
+          },
+          {
+            "title": "เลือก Magisk",
+            "content": "เลือก Magisk\n\n![image](/images/image685.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image685.png"
+            ]
+          },
+          {
+            "title": "ปิดปุ่ม Check Updates",
+            "content": "ปิดปุ่ม Check Updates\n\n![image](/images/image666.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image666.png"
+            ]
+          },
+          {
+            "title": "เลื่อนลงข้างล่างสุดเลือก Superuser Notification",
+            "content": "เลื่อนลงข้างล่างสุดเลือก Superuser Notification\n\n![image](/images/image392.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image392.png"
+            ]
+          },
+          {
+            "title": "เลือก None",
+            "content": "เลือก None\n\n![image](/images/image718.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image718.png"
+            ]
+          },
+          {
+            "title": "เลื่อนขึ้นมาแล้วเปิดปุ่ม Zygisk (Beta)",
+            "content": "เลื่อนขึ้นมาแล้วเปิดปุ่ม Zygisk (Beta)\n\n![image](/images/image275.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image275.png"
+            ]
+          },
+          {
+            "title": "เลือก Hide the Magisk app",
+            "content": "เลือก Hide the Magisk app\n\n![image](/images/image748.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image748.png"
+            ]
+          },
+          {
+            "title": "เลือก OK หลังจากนั้นจะโหลดอยู่สักพัก",
+            "content": "เลือก OK หลังจากนั้นจะโหลดอยู่สักพัก\n\n![image](/images/image161.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image161.png"
+            ]
+          },
+          {
+            "title": "เลือก Charing this device via USB",
+            "content": "เลือก Charing this device via USB\n\n![image](/images/image322.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image322.png"
+            ]
+          },
+          {
+            "title": "เลือก File Transfer",
+            "content": "เลือก File Transfer\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "11.จากนั้นให้มาที่คอมพิมพ์เตอร์เพื่อคัดลอกเลือกไฟล์ MINSOFTWARE_Setup ลงเครื่อง",
+            "content": "11.จากนั้นให้มาที่คอมพิมพ์เตอร์เพื่อคัดลอกเลือกไฟล์ MINSOFTWARE_Setup ลงเครื่อง\n\n![image](/images/image528.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image528.png"
+            ]
+          },
+          {
+            "title": "11.1 ไปที่ Computer เลือก อุปกรณ์มือถือ SM-G930F",
+            "content": "11.1 ไปที่ Computer เลือก อุปกรณ์มือถือ SM-G930F\n\n![image](/images/image505.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image505.png"
+            ]
+          },
+          {
+            "title": "11.2 เลือก Internal shared storage",
+            "content": "11.2 เลือก Internal shared storage\n\n![image](/images/image330.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image330.png"
+            ]
+          },
+          {
+            "title": "11.3 วางไฟล์ที่คัดลอกมาลงเครื่อง",
+            "content": "11.3 วางไฟล์ที่คัดลอกมาลงเครื่อง\n\n![image](/images/image323.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image323.png"
+            ]
+          },
+          {
+            "title": "12.หลังจากวางไฟล์เสร็จให้มาที่มือถือเข้าโปรแกรม Magisk แล้วเลือกไปที่ Modules",
+            "content": "12.หลังจากวางไฟล์เสร็จให้มาที่มือถือเข้าโปรแกรม Magisk แล้วเลือกไปที่ Modules\n\n![image](/images/image231.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image231.png"
+            ]
+          },
+          {
+            "title": "12.1 เลือก Install from storage",
+            "content": "12.1 เลือก Install from storage\n\n![image](/images/image88.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image88.png"
+            ]
+          },
+          {
+            "title": "12.2 กด Allow",
+            "content": "12.2 กด Allow\n\n![image](/images/image517.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image517.png"
+            ]
+          },
+          {
+            "title": "12.3 กดไปที่ขีดสามขีดด้านบนซ้าย",
+            "content": "12.3 กดไปที่ขีดสามขีดด้านบนซ้าย\n\n![image](/images/image415.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image415.png"
+            ]
+          },
+          {
+            "title": "12.4 เลือก  SM-G930F",
+            "content": "12.4 เลือก  SM-G930F\n\n![image](/images/image725.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image725.png"
+            ]
+          },
+          {
+            "title": "12.5 เลือก MINSOFTWARE_Setup",
+            "content": "12.5 เลือก MINSOFTWARE_Setup\n\n![image](/images/image78.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image78.png"
+            ]
+          },
+          {
+            "title": "12.6 ติดตั้งไฟล์ safetynet-fix-v2.2.1-zygisk.zip",
+            "content": "12.6 ติดตั้งไฟล์ safetynet-fix-v2.2.1-zygisk.zip\n\n![image](/images/image269.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image269.png"
+            ]
+          },
+          {
+            "title": "12.7 หลังจากติดตั้งเสร็จให้กดกลับ",
+            "content": "12.7 หลังจากติดตั้งเสร็จให้กดกลับ\n\n![image](/images/image658.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image658.png"
+            ]
+          },
+          {
+            "title": "12.8 เลือก Install from storage อีกครั้ง",
+            "content": "12.8 เลือก Install from storage อีกครั้ง\n\n![image](/images/image351.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image351.png"
+            ]
+          },
+          {
+            "title": "12.9 ติดตั้งไฟล์ LSPosed-v1.8.0-6483-zygisk.zip",
+            "content": "12.9 ติดตั้งไฟล์ LSPosed-v1.8.0-6483-zygisk.zip\n\n![image](/images/image212.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image212.png"
+            ]
+          },
+          {
+            "title": "12.10 หลังจากติดตั้งเสร็จให้กด Reboot",
+            "content": "12.10 หลังจากติดตั้งเสร็จให้กด Reboot\n\n![image](/images/image198.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image198.png"
+            ]
+          },
+          {
+            "title": "13. หลังจากเครื่องเปิดมาจะมีโปรแกรม LSPosed เด้งขึ้นมาให้กด Add automatically",
+            "content": "13. หลังจากเครื่องเปิดมาจะมีโปรแกรม LSPosed เด้งขึ้นมาให้กด Add automatically\n\n![image](/images/image338.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image338.png"
+            ]
+          },
+          {
+            "title": "14.หลังจากนั้นไปที่ Settings",
+            "content": "14.หลังจากนั้นไปที่ Settings\n\n![image](/images/image571.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image571.png"
+            ]
+          },
+          {
+            "title": "14.1 เลื่อนลงไปข้างล่างสุดกด About phone",
+            "content": "14.1 เลื่อนลงไปข้างล่างสุดกด About phone\n\n![image](/images/image432.png)\n\n14.2 เลื่อนลงไปข้างล่างสุดกดที่ Build number  8 ครั้ง แบบเร็วๆ\n\n![image](/images/image783.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image432.png",
+              "image783.png"
+            ]
+          },
+          {
+            "title": "14.3 หลังจากให้กลับมาที่ Settings แล้วเลือก System",
+            "content": "14.3 หลังจากให้กลับมาที่ Settings แล้วเลือก System\n\n![image](/images/image455.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image455.png"
+            ]
+          },
+          {
+            "title": "14.4 เลื่อนลงไปข้างล่างกดที่ Developer options",
+            "content": "14.4 เลื่อนลงไปข้างล่างกดที่ Developer options\n\n![image](/images/image268.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image268.png"
+            ]
+          },
+          {
+            "title": "14.5 เปิด Stay awake",
+            "content": "14.5 เปิด Stay awake\n\n![image](/images/image172.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image172.png"
+            ]
+          },
+          {
+            "title": "14.6 เปิด Android debugging",
+            "content": "14.6 เปิด Android debugging\n\n![image](/images/image429.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image429.png"
+            ]
+          },
+          {
+            "title": "14.7 หลังจากนั้นกด OK",
+            "content": "14.7 หลังจากนั้นกด OK\n\n![image](/images/image653.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image653.png"
+            ]
+          },
+          {
+            "title": "14.8 จากนั้นจะมีแจ้งเตือนใหม่ขึ้นมาให้กด Cancel",
+            "content": "14.8 จากนั้นจะมีแจ้งเตือนใหม่ขึ้นมาให้กด Cancel\n\n![image](/images/image251.png)\n\n***เสร็จสิ้นการลงเฟิร์มแวร์ ลงมือถือ***\n\n",
+            "type": "markdown",
+            "images": [
+              "image251.png"
             ]
           }
         ],
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "_____________________77ofx",
-        "name": "วิธีนำเข้าบัญชีและการเลือก Type login ให้ตรงกับข้อมูลบัญชี",
+        "id": "maxdata_911ih",
+        "name": "MaxData",
+        "sections": [],
+        "originalProgramName": "MaxData"
+      },
+      {
+        "id": "maxcare_page_o6snn",
+        "name": "MaxCare Page",
         "sections": [
           {
-            "title": "1.ไปที่ Add account",
-            "content": "1.ไปที่ Add account\n\n![image](/images/image509.png)\n\n2.นำเข้าบัญชี\n\n1.นำข้อมูลบัญชีมาวางในช่องว่าง\n\n2.เลือก Format ให้ตรงกับรูปแบบบัญชี\n\n3.เลือกโฟล์เดอร์\n\nจากนั้นกด Confirm\n\n![image](/images/image405.png)\n\n",
+            "title": "เครื่องมือที่ช่วยเราบริหารจัดการเพจเฟสบุ๊คจำนวนมาก ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น",
+            "content": "เครื่องมือที่ช่วยเราบริหารจัดการเพจเฟสบุ๊คจำนวนมาก ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น\n\nระบบฟาร์มเพจเฟสบุ๊คอัติโนมัติ ไม่จำกัดจำนวนเฟช ใช้ระบบ Chrome Browser ในการรัน\n\nด้วยฟังชั่นครบครัน ดังนี้\n\n![image](/images/image389.png)\n\nปั๊มยอดผู้ติดตามโปรไฟล์ส่วนตัว\n\nปั๊มไลก์และคอมเมนต์บนโพสต์\n\nปั๊มไลก์และติดตามเพจ\n\nสแปมโพสต์ (กลุ่ม, เพจ, โปรไฟล์)\n\nสแปมโพสต์ตามคีย์เวิร์ด\n\nให้คะแนนรีวิวเพจ\n\nสร้างปฏิสัมพันธ์ในไลฟ์สด\n\nโพสต์บนวอลล์ของเพจอื่น (แจ้งเตือน)\n\nสแปมตอบกลับคอมเมนต์ตามคีย์เวิร์ด\n\nสแปมตอบกลับคอมเมนต์ (กลุ่ม, เพจ...)\n\nสแปมตอบกลับคอมเมนต์ในโพสต์ที่ระบุ\n\nสแปมตอบกลับคอมเมนต์ที่เจาะจง\n\nแก้ไขคอมเมนต์\n\nอ่านประกาศ\n\nปฏิสัมพันธ์กับ Reels\n\nโพสต์\n\nตั้งเวลาหยุดพัก\n\nโพสต์สตอรี่\n\nโพสต์แท็ก UID ที่ระบุ\n\nตอบกลับข้อความแชท\n\nตอบกลับคอมเมนต์\n\nโพสต์แท็กพร้อมปุ่มกด\n\nส่งคำเชิญให้กดไลก์เพจ\n\nคัดลอกเนื้อหาโพสต์ที่ระบุ\n\nคัดลอกโพสต์จากเพจที่ระบุ\n\nโพสต์คลิป Reels\n\nลบโพสต์ในเพจ\n\nเข้ากลุ่มตามคีย์เวิร์ด\n\nแชร์โพสต์ลงกลุ่ม\n\nเข้ากลุ่มที่กำหนดไว้\n\nสแปมโพสต์ในกลุ่มที่เป็นสมาชิก\n\nโพสต์ลงในกลุ่มที่เป็นสมาชิก\n\nโพสต์ลงในกลุ่มที่กำหนดไว้\n\nสแปมตอบกลับคอมเมนต์จากกลุ่มที่มีส่วนร่วม\n\nสร้างกลุ่ม\n\nสร้างกิจกรรม\n\nแชร์โพสต์ไปยังกลุ่มที่กำหนด\n\nอัปเดตรูปโปรไฟล์\n\nอัปเดตรูปหน้าปก\n\nอัปเดตประวัติ/คำแนะนำตัว\n\nอัปเดตชื่อเพจ\n\nอัปเดตข้อมูลทั่วไป\n\nตั้งค่าจำกัดประเทศ\n\nตั้งค่าจำกัดอายุ\n\nบล็อก UID ที่ระบุ\n\nลบหน้าเพจระบุตำแหน่งทั้งหมด\n\n",
             "type": "markdown",
             "images": [
-              "image509.png",
-              "image405.png"
+              "image389.png"
             ]
+          }
+        ],
+        "originalProgramName": "Maxcare Page"
+      },
+      {
+        "id": "maxsystemcare_x3lvt",
+        "name": "MaxSystemCare",
+        "sections": [
+          {
+            "title": "โปรแกรมตัวเสริมใช้ควบคู่สำหรับMaxcareใช้ระบบLDplayer Android Emulatorในการใช้งาน ทำให้บัญชีที่ผ่านการวอมจากMaxcareแล้ว หากนำมารันบนMaxSystemCareต่อ จะทำให้บัญชีนั้นแข็งแรงขึ้นอย่างมาก",
+            "content": "โปรแกรมตัวเสริมใช้ควบคู่สำหรับMaxcareใช้ระบบLDplayer Android Emulatorในการใช้งาน ทำให้บัญชีที่ผ่านการวอมจากMaxcareแล้ว หากนำมารันบนMaxSystemCareต่อ จะทำให้บัญชีนั้นแข็งแรงขึ้นอย่างมาก\n\nระบบฟาร์มบัญชีอัติโนมัติ ไม่จำกัดจำนวนเฟช ใช้ระบบLDplayer Android Emulatorในการรัน\n\nด้วยฟังชั่นครบครัน ดังนี้\n\n",
+            "type": "markdown",
+            "images": []
           },
           {
-            "title": "1.ไปที่ General configuration",
-            "content": "1.ไปที่ General configuration\n\n![image](/images/image493.png)\n\n2.เลือก Type login\n\nกรณีที่ข้อมูลบัญชีมี UID หรือ Email และ Pass(รหัสผ่าน) ให้เลือก Login Type เป็น UID | Pass\n\nกรณีที่ข้อมูลบัญชีมี Cookie เพิ่มมาด้วย สามารถเลือก Login Type เป็น Cookie หรือ Cookie > Uid|Pass\n\nจากนั้นกด Save\n\n![image](/images/image13.png)\n\n",
+            "title": "เมนูฟังก์ชั่นโปรแกรมMaxSystemCare",
+            "content": "เมนูฟังก์ชั่นโปรแกรมMaxSystemCare\n\n![image](/images/image59.png)\n\nอ่านการแจ้งเตือน\n\nปฏิสัมพันธ์หน้าฟีด\n\nปฏิสัมพันธ์กับเพื่อน\n\nปฏิสัมพันธ์กับกลุ่ม\n\nปฏิสัมพันธ์กับเพจ\n\nปฏิสัมพันธ์กับโปรไฟล์\n\nปฏิสัมพันธ์กับวิดีโอ (Watch)\n\nปฏิสัมพันธ์กับเรล (Reel)\n\nปฏิสัมพันธ์กับสตอรี่\n\nตั้งเวลาหยุดพัก\n\nปฏิสัมพันธ์หน้าฟีด 2\n\nเพิ่มเพื่อนด้วยคำค้นหา\n\nเพิ่มเพื่อนด้วยไอดี (UID)\n\nเพิ่มเพื่อนจากรายการแนะนำ\n\nยืนยันรับคำขอเป็นเพื่อน\n\nลบเพื่อน\n\nยกเลิกคำขอเป็นเพื่อนที่ส่งไป\n\nเพิ่มสมาชิกกลุ่ม\n\nเข้ากลุ่มด้วยคำค้นหา\n\nเข้ากลุ่มที่ระบุเจาะจง\n\nเข้ากลุ่มจากรายการแนะนำ\n\nออกจากกลุ่ม\n\nสร้างกลุ่มใหม่\n\nโพสต์หน้าวอลล์\n\nโพสต์ลงกลุ่ม\n\nโพสต์เรล\n\nโพสต์สตอรี่\n\nแชร์โพสต์\n\nสแปมโพสต์\n\nสแปมหน้าฟีด\n\nสแปมเพื่อน\n\nสแปมกลุ่ม\n\nรันระบบทำรายได้\n\nรีวิวเพจ\n\nปั๊มไลก์เพจ\n\nปั๊มผู้ติดตามไอดี (UID)\n\nปฏิสัมพันธ์กับโพสต์ที่ระบุ\n\nปฏิสัมพันธ์กับโพสต์ตามคำค้นหา\n\nปฏิสัมพันธ์กับวิดีโอและไลฟ์สด\n\nปฏิสัมพันธ์กับเรลผ่านลิงก์\n\nเชิญเพื่อนให้กดไลก์เพจ\n\nเชิญเพื่อนให้เข้ากลุ่ม\n\nซิงค์รายชื่อผู้ติดต่อ\n\nยกเลิกการถูกใจเพจ\n\nเปลี่ยนรหัสผ่าน\n\nอัปโหลดรูปโปรไฟล์\n\nอัปโหลดรูปปก\n\nลบเบอร์โทรศัพท์\n\nเปิด-ปิดการยืนยันตัวตน 2 ชั้น (2FA)\n\nเพิ่มอีเมล\n\nเปลี่ยนชื่อบัญชี\n\nเปลี่ยนข้อมูลบัญชี\n\nออกจากระบบในอุปกรณ์อื่น\n\nเปิดโหมดมืออาชีพ\n\nลบโพสต์หน้าวอลล์\n\nปลดล็อกโปรไฟล์\n\n",
             "type": "markdown",
             "images": [
-              "image493.png",
-              "image13.png"
+              "image59.png"
             ]
           }
         ],
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "__________proxy____m_7r9vu",
-        "name": "การใช้งาน Proxy ใน MaxReup",
+        "id": "maxsystemcare________wpg3p",
+        "name": "MaxsystemCare แนะนำการเพิ่มเพื่อนอัตโนมัติ",
         "sections": [
           {
-            "title": "การนำเข้าในแต่ละบัญชี",
-            "content": "การนำเข้าในแต่ละบัญชี\n\nเลือกบัญชีที่ต้องการนำเข้า Proxy\n\nคลิกขวา => Update data => Proxy\n\n![image](/images/image209.png)\n\nนำ Ip Proxy มาวางในช่องว่าง\n\n![image](/images/image329.png)\n\nเลือก Proxy type\n\n![image](/images/image94.png)\n\nกำหนดจำนวนบัญชีต่อ IP Proxy\n\n![image](/images/image324.png)\n\nจากนั้นกด Confirm\n\n",
+            "title": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)",
+            "content": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)\n\nเพิ่มเพื่อนด้วยคีย์เวิร์ด เหมาะสำหรับคนที่ต้องการเพิ่มเพื่อนด้วยคีย์เวิร์ดนั้นๆ เช่น\n\n- ต้องการเพิ่มเพื่อนที่มีชื่อว่า สิริ  ให้พิมพ์ สิริ ลงในช่อว List of keywords\n\n![image](/images/image671.png)\n\n2.Add friends by UID (แอดเพื่อนด้วยไอดี)\n\nเพิ่มเพื่อนด้วย UID เหมาะสำหรับคนที่ต้องการเพิ่มเพื่อนตาม UID ที่มีอยู่\n\n![image](/images/image446.png)\n\n3.Add friends by suggestions(เพิ่มเพื่อนตามคำแนะนำ)\n\nเพิ่มเพื่อนตามคำแนะนำ สำหรับบัญชีใหม่จะยังไม่มีเพื่อนที่แนะนำ อาจจะใช้งานฟังก์ชันที่ 2 3 4 ในช่วงแรกของการฟาร์มบัญชี\n\n![image](/images/image628.png)\n\n",
             "type": "markdown",
             "images": [
-              "image209.png",
-              "image329.png",
-              "image94.png",
-              "image324.png"
-            ]
-          },
-          {
-            "title": "1.ไปที่หน้า General configuration",
-            "content": "1.ไปที่หน้า General configuration\n\n![image](/images/image493.png)\n\n2.ในช่อง IP change option : เลือก Proxy\n\n![image](/images/image282.png)\n\n3.ตัวเลือกการใช้ Proxy\n\n![image](/images/image376.png)\n\nAssigned to each acccount :ใช้ Proxy ที่อยู่ในแต่ละบัญชี\n\n![image](/images/image544.png)\n\nRandom in the list :แบบสุ่มในรายการ\n\n![image](/images/image202.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image493.png",
-              "image282.png",
-              "image376.png",
-              "image544.png",
-              "image202.png"
+              "image671.png",
+              "image446.png",
+              "image628.png"
             ]
           }
         ],
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "_____________________ulv5u",
-        "name": "อธิบายการตั้งค่าต่างๆเบื้องต้น",
+        "id": "_____________________z2334",
+        "name": "วิธีการใช้งานโปรแกรม",
         "sections": [
           {
-            "title": "1.General configuration",
-            "content": "1.General configuration\n\nการตั้งค่าจำนวนเธรดการทำงาน\n\nNumber of account opening:จำนวนบัญชีที่จะเปิดขึ้นมาทำงานพร้อมกัน\n\nNumber of page streams/accounts:จำนวนหน้าเพจหรือสตรีมต่อหนึ่งบัญชี\n\nNumber of hidden check threads:จำนวนเธรดที่ใช้สำหรับตรวจสอบเบื้องหลัง\n\nการตั้งค่าการซิงค์ข้อมูล\n\nSoftware options:เลือกซอฟต์แวร์ที่ต้องการเชื่อมต่อ\n\nDirectory path:ช่องสำหรับระบุที่อยู่โฟลเดอร์ (Path) ของซอฟต์แวร์ที่ต้องการเชื่อมต่อ\n\nการตั้งค่าเบราว์เซอร์\n\nBrowser type:เลือกประเภทเบราว์เซอร์\n\nBrowser opening time:ตั้งค่าระยะเวลาการรอขณะเปิดเบราว์เซอร์\n\nUse profiles:ติ๊กถูกเพื่อใช้งานโปรไฟล์เบราว์เซอร์ที่บันทึกไว้\n\nWindow ratio:ปรับขนาดหน้าต่างเบราว์เซอร์\n\nText typing speed:ความเร็วในการพิมพ์ข้อความ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ตัวเลือกเพิ่มเติม",
-            "content": "ตัวเลือกเพิ่มเติม\n\nPut chrome in from view:แสดงหน้าต่าง Chrome ให้เห็นขณะทำงาน\n\nTurn off chrome images:ปิดการแสดงผลรูปภาพใน Chrome\n\nการตั้งค่าตัวแทนเครือข่าย/IP\n\nDo not check IP before running:หากติ๊กถูก โปรแกรมจะไม่ตรวจสอบ IP ก่อนเริ่มงาน\n\nDelay after changing IP:ระยะเวลารอคอยหลังจากเปลี่ยน IP\n\nIP change option:รูปแบบการใช้ Proxy\n\nOption:การกำหนดการใช้ Proxy กับบัญชี\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "2Interactive configuration",
-            "content": "2Interactive configuration\n\n![image](/images/image327.png)\n\nการตั้งค่าการเข้าสู่ระบบ\n\nLogin type:เลือกรูปแบบการเข้ารหัสเข้าใช้งาน (เช่น UID|Pass, Email|Pass, Cookie, หรือสลับจาก Cookie เป็น Uid|Pass หากคุกกี้ใช้ไม่ได้)\n\nWeb login:เลือกเวอร์ชันของเว็บไซต์ที่จะเข้าใช้งาน (www, mbasic, หรือ m.fb)\n\nDelete cookies and re-login when password is wrong (chrome): หากติ๊กถูก โปรแกรมจะลบคุกกี้เก่าและล็อกอินใหม่ด้วยรหัสผ่านเมื่อตรวจพบว่าการเข้าสู่ระบบผิดพลาด (เฉพาะ Chrome)\n\nการตั้งค่าเมื่อเข้าสู่ระบบสำเร็จ\n\nAutomatically retrieve cookies:ดึงข้อมูลคุกกี้ใหม่โดยอัตโนมัติ\n\nAutomatically get tokens:ดึงค่า Access Token โดยอัตโนมัติ\n\nการตั้งค่าการรันอัตโนมัติ\n\nAct:ตั้งค่าการทำงานวนซ้ำ\n\nRepeat later:ตั้งค่าให้เริ่มทำงานใหม่ทุกๆ กี่นาที\n\nการตั้งค่าการแก้ captcha\n\nWeb: เลือกบริการที่จะใช้แก้ Captcha\n\nApi key:ช่องสำหรับใส่รหัส API ของบริการแก้ Captcha เพื่อตัดเครดิตค่าบริการ\n\nCheck:ปุ่มสำหรับตรวจสอบว่า Key ที่ใส่ใช้งานได้หรือมีเงินเหลือเท่าไหร่\n\nการตั้งค่าการจัดการสคริปต์\n\nAction Type:รูปแบบการปฏิบัติงาน\n\nScript:เลือกชื่อสคริปต์หรือชุดคำสั่งที่เตรียมไว้\n\nปุ่มจัดการด้านข้าง: ➕ (เพิ่ม), 📑 (คัดลอก), ✏️ (แก้ไข), ❌ (ลบสคริปต์)\n\nLink export directory: ที่เก็บไฟล์ผลลัพธ์หรือไฟล์ที่ Export ออกมาจากโปรแกรม\n\nการตั้งค่าอื่นๆ\n\nCheck wall trước khi chạy:ตรวจสอบหน้าวอลล์ (หน้าโปรไฟล์) ก่อนเริ่มทำงาน\n\nEnable disabled page:เปิดใช้งานหน้าเพจที่ปิดอยู่\n\nCheck page information:ตรวจสอบข้อมูลรายละเอียดของเพจ\n\nGet the cookie when the cookie dies:หากคุกกี้หมดอายุ ให้ทำการดึงคุกกี้ใหม่ทันที\n\nRest:ตั้งค่าให้โปรแกรมหยุดพัก\n\nKill all chrome/chromedriver while resting:ปิดเบราว์เซอร์ Chrome ทั้งหมดระหว่างที่พักเพื่อคืนทรัพยากรเครื่อง\n\n3.Utilities\n\n![image](/images/image130.png)\n\n",
+            "title": "รวมวิธีการใช้งานโปรแกรม Maxcare",
+            "content": "<p>อธิบายรายละเอียดแต่ละฟังก์ชั่น การนำบัญชีเฟสบุ๊คเข้าโปรแกรม Maxcare ![image](/images/image537.png) หลังจากเปิดโปรแกรมมาแล้ว ให้กดที่ Import accounts เพื่อนำเฟสบุ๊คเข้าระบบ ![image](/images/image180.png) ให้ทำการสร้างไฟล์ขึ้นมา โดยใส่ชื่อตามที่ต้องการได้เลยจากนั้นกด Add ![image](/images/image305.png) ใส่ข้อมูลเฟสลงไป ตามแพทเทิน คั่นด้วยเครื่องหมาย | ยกตัวอย่างการเลือก Format ตามแพทเทินเฟสบุ๊คที่จะนำเข้า ![image](/images/image224.png) จากนั้นเลือก format ตามแพทเทินที่เรากรอกเข้าไป แล้วกดติ้กถูกที่ Option เพื่อให้มันเช็คข้อมูล Account ต่างๆด้วย เช่น ชื่อ,เพศ,จำนวนเพื่อน,จำนวนกลุ่ม เป็นต้น ![image](/images/image734.png) ![image](/images/image197.png) ![image](/images/image260.png) เป็นอันเสร็จสิ้นขั้นตอนการนำเข้าเฟสบุ๊ค</p>",
             "type": "markdown",
             "images": [
-              "image327.png",
-              "image130.png"
-            ]
-          },
-          {
-            "title": "Scan pages by keywords:ค้นหาหน้าเพจหรือเนื้อหาโดยใช้คำสำคัญ (Keywords) ที่กำหนด",
-            "content": "Scan pages by keywords:ค้นหาหน้าเพจหรือเนื้อหาโดยใช้คำสำคัญ (Keywords) ที่กำหนด\n\nKill Chrome:ใช้สำหรับปิดหน้าต่าง Google Chrome ทั้งหมดที่โปรแกรมเปิดอยู่ทันที\n\nUpdate chromedriver:ใช้สำหรับอัปเดตไฟล์ตัวควบคุมเบราว์เซอร์ (Driver) ให้เป็นเวอร์ชันล่าสุด เพื่อให้ทำงานร่วมกับเวอร์ชันของ Chrome ในเครื่องได้ปกติ\n\nKill Chromedriver:ปิดกระบวนการทำงานเบื้องหลัง (Background Process) ของตัวควบคุมเบราว์เซอร์ ช่วยแก้ปัญหาหน่วยความจำ (RAM) เต็มหรือ Driver ค้าง\n\nRelease capacity:คำสั่งล้างไฟล์ขยะ หรือคืนค่าพื้นที่ว่างให้กับระบบ เพื่อให้โปรแกรมทำงานได้ลื่นไหลขึ้น\n\nCheck proxy:ตรวจสอบสถานะการเชื่อมต่อของ Proxy ว่ายังใช้งานได้ปกติหรือไม่\n\nCheck Like UID:ตรวจสอบสถานะหรือข้อมูลของ User ID (UID) จากการกดถูกใจ เพื่อวิเคราะห์กลุ่มเป้าหมาย\n\nPrompt AI:เปิดช่องสำหรับใส่คำสั่ง (Prompt) เพื่อใช้งานร่วมกับระบบ AI\n\nFind Id facebook:เครื่องมือสำหรับค้นหาเลข ID ของโปรไฟล์, เพจ หรือกลุ่มบน Facebook จากลิงก์ URL\n\n",
-            "type": "markdown",
-            "images": []
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "_____________________o4in0",
-        "name": "การใช้งานฟังก์ชันอื่นๆ",
-        "sections": [
-          {
-            "title": "1.ฟังก์ชันคลิกขวาฝั่ง Account list",
-            "content": "1.ฟังก์ชันคลิกขวาฝั่ง Account list\n\n![image](/images/image601.png)\n\nSelect:ใช้สำหรับเลือกรายการที่ต้องการ\n\nAll: ใช้สำหรับเลือกรายการบัญชีทั้งหมด\n\nBlacken: ใช้เลือกรายการเฉพาะแถวที่คุณทำการเอาเมาส์ไปคลิกไฮไลท์ไว้\n\nStatus > Live: ระบบจะทำการติ๊กถูกเลือกเฉพาะบัญชีที่มีสถานะเป็น \"Live\"\n\nStatus: เลือกจากสถานะอื่นๆ\n\nDeselect all:ล้างการติ๊กถูกออกจากทุกรายการที่เลือกไว้\n\nArrange:ใช้สำหรับจัดลำดับรายการในตารางตามเงื่อนไขที่กำหนด\n\nRefresh:อัปเดตการแสดงผลหน้าจอให้เป็นปัจจุบัน\n\nDelete selected:ลบชื่อบัญชีหรือข้อมูลที่เลือกไว้ออกจากระบบ\n\nCopy:คัดลอกข้อมูล เช่น ID, รหัสผ่าน, 2FA หรือคุกกี้ เพื่อนำไปใช้ต่อ\n\nUID: คัดลอกหมายเลขประจำตัวบัญชี (User ID)\n\nPass: คัดลอกรหัสผ่าน (Password)\n\n2FA: คัดลอกรหัสลับ (Secret Key) สำหรับใช้เจนรหัส 2 ชั้น\n\n6-digit 2FA code: คัดลอกตัวเลข 6 ตัวที่ใช้ล็อกอิน ณ เวลานั้น\n\nCookie: คัดลอกค่าคุกกี้ของบัญชี เพื่อใช้ล็อกอินโดยไม่ต้องกรอกรหัสผ่าน\n\nUid | pass | 2fa: คัดลอกไอดี, รหัสผ่าน และรหัส 2 ชั้น\n\nUid|pass|2FA|proxy: คัดลอกไอดี, รหัสผ่าน, 2FA และข้อมูล Proxy ที่ผูกกับบัญชีนั้น\n\nUID | Pass | 2FA | Cookie | Proxy: คัดลอกข้อมูลครบชุดสำหรับการย้ายบัญชีแบบสมบูรณ์\n\nOther formats...: หากคุณต้องการรูปแบบการคัดลอกที่ต่างออกไป คุณสามารถเข้าไปตั้งค่ากำหนดเองได้ที่เมนูนี้\n\nCheck account:ตรวจสอบว่าบัญชีนั้นยังใช้งานได้ปกติ (Live) หรือโดนปิด (Die) หรือไม่\n\nCheck Wall: โปรแกรมจะเข้าไปตรวจสอบหน้าโปรไฟล์ (Timeline) ของบัญชีนั้นๆ\n\nCheck wall and update name: เหมือนกับ Check Wall แต่จะทำการดึง \"ชื่อโปรไฟล์ล่าสุด\" ของบัญชีนั้นมาบันทึกในระบบให้ด้วย\n\nCheck proxy: ตรวจสอบการเชื่อมต่อของ Proxy ที่ผูกไว้กับบัญชีนั้นๆ\n\nCheck tokens: ตรวจสอบความถูกต้องของ Token\n\nUpdating data:อัปเดตข้อมูลที่ต้องการ\n\nPass: เปลี่ยนรหัสผ่านของบัญชีที่บันทึกไว้ในระบบ\n\n2fa: อัปเดตหรือเปลี่ยนรหัสลับ 2FA (Secret Key)\n\nCookie: นำคุกกี้ชุดใหม่มาวางทับชุดเดิม\n\nProxy: เปลี่ยน Proxy ให้กับบัญชีนั้นๆ\n\nUseragent: อัปเดตข้อมูลเบราว์เซอร์จำลอง\n\nNote: เขียนบันทึกเพิ่มเติมหรือแก้ไขข้อความโน้ตที่กำกับไว้ในแต่ละบัญชี เพื่อช่วยในการจดจำ\n\nToken: อัปเดตค่า Access Token ใหม่เพื่อให้ระบบ API ทำงานได้ต่อเนื่อง\n\nEmail|Pass Email: อัปเดตข้อมูลอีเมลที่ผูกกับบัญชีพร้อมรหัสผ่านของอีเมลนั้นๆ (มักใช้ในขั้นตอนการกู้คืนบัญชีหรือยืนยันตัวตน)\n\nSwitch folders:ย้ายรายการที่เลือกไปยังโฟลเดอร์อื่นเพื่อความเป็นระเบียบ\n\nSpam messages:ฟังก์ชันสำหรับส่งข้อความจำนวนมาก\n\nPage function:เมนูย่อยสำหรับจัดการเพจ\n\nCreate profile page: สั่งให้บัญชีที่เลือกทำการสร้างเพจใหม่ขึ้นมา\n\nCheck the list of pages: เช็กรายการเพจ\n\nOpen the browser: เปิดเบราว์เซอร์จำลองเพื่อเข้าไปดูหน้ารายการเพจทั้งหมดที่บัญชีนั้นถือครองอยู่ด้วยตัวเอง\n\nAccept page administrator rights: กดเพื่อยอมรับคำเชิญเป็นผู้ดูแลเพจ (Admin) ที่ส่งมายังบัญชีนั้นๆ โดยอัตโนมัติ\n\nBuff Like page quickly: สั่งให้บัญชีที่เลือกกดถูกใจ (Like) เพจที่กำหนดไว้ทันที\n\nOther function:รวมคำสั่งเสริมต่างๆ ที่ไม่ได้อยู่ในหมวดหมู่หลัก\n\nDelete duplicate accounts: โปรแกรมจะตรวจสอบ UID ในรายการที่คุณเลือก หากพบว่ามีบัญชีที่ซ้ำกัน จะทำการลบตัวที่ซ้ำออกให้เหลือเพียงรายการเดียว\n\nDelete profile: สั่งลบโฟลเดอร์ Cache และ Cookie (Data Profile) ของบัญชีที่เลือกออกจากพื้นที่จัดเก็บในคอมพิวเตอร์\n\nGet tokens: ดึงรหัสโทเคน\n\nEAAAAUa: เป็น Access Token ประเภทหนึ่ง\n\nOpen the browser:เปิดเบราว์เซอร์จำลอง (Fingerprint browser) เพื่อเข้าใช้งานบัญชีนั้นๆ โดยตรง\n\nAfter logging in, turn off Chrome: โปรแกรมจะเปิดเบราว์เซอร์ขึ้นมาและดำเนินการล็อกอินเข้าสู่ระบบให้โดยอัตโนมัติ\n\nOpen and login: โปรแกรมจะเปิดเบราว์เซอร์ขึ้นมาและดำเนินการกรอกไอดี รหัสผ่าน และรหัส 2FA ให้โดยอัตโนมัติ แต่จะ เปิดเบราว์เซอร์ค้างไว้ ให้คุณใช้งานต่อ\n\nLoad page list:ดึงรายการเพจที่ผูกอยู่กับบัญชีนั้นๆ\n\nช่องใส่ตัวเลข: ให้กรอกตัวเลขจำนวนเพจที่คุณต้องการดึงข้อมูล\n\nAccording to quantity: หลังจากกรอกตัวเลขในช่องด้านบนแล้ว ให้คลิกที่คำสั่งนี้เพื่อให้โปรแกรมเริ่มรันสคริปต์ดึงรายการเพจตามจำนวนที่ระบุไว้\n\nBM function:จัดการเกี่ยวกับ Business Manager\n\nCreate a business: สั่งให้บัญชีที่เลือกทำการสร้างบัญชีธุรกิจ (BM) ใหม่ขึ้นมาโดยอัตโนมัติ\n\nPage group: จัดการรวบรวมเพจต่างๆ เข้ามาอยู่ในกลุ่มหรือภายใต้การดูแลของธุรกิจที่กำหนด\n\nCheck BM list > Token: สั่งให้โปรแกรมดึงรายชื่อบัญชีธุรกิจ (BM) ทั้งหมดที่บัญชีนั้นถือครองอยู่ โดยใช้รหัส Token ในการเข้าถึงข้อมูล\n\nLoad BM list:ดึงรายการบัญชีโฆษณาธุรกิจ (BM) ที่บัญชีนั้นถือครองอยู่\n\n2.ฟังก์ชันคลิกขวาฝั่ง Page list\n\n![image](/images/image705.png)\n\nSelect:ใช้สำหรับเลือกรายการที่ต้องการ\n\nAll: ใช้สำหรับเลือกรายการทุกอย่าง\n\nBlacken: ใช้สำหรับเลือกเฉพาะรายการที่ไฮไลท์ไว้ในระบบ\n\nStatus: เปิดตัวเลือกเพิ่มเติมเพื่อเลือกรายการตามสถานะการทำงานที่เจาะจง\n\nDeselect all:คลิกเพื่อเอาเครื่องหมายเลือกออกจากทุกรายการที่เลือกไว้\n\nArrange:ใช้สำหรับปรับเปลี่ยนลำดับของรายการ เช่น เรียงตามชื่อ วันที่ หรือลำดับก่อนหลัง\n\nHide list:ใช้สำหรับซ่อนรายการที่ไม่ต้องการให้แสดงบนหน้าจอชั่วคราว\n\nSelected: สั่งซ่อนเฉพาะรายการที่คุณทำเครื่องหมายเลือกไว้ เท่านั้น รายการอื่นๆ ที่ไม่ได้เลือกจะยังคงแสดงผลตามปกติ\n\nAll: สั่งซ่อนทุกรายการที่อยู่ในหน้าจอหรือกลุ่มนั้นๆ ทันที ทำให้หน้าจอว่างเปล่าเพื่อให้เริ่มจัดการรายการใหม่ๆ ได้สะดวกขึ้น\n\nCopy:คัดลอกรายการที่เลือกไว้ไปยังคลิปบอร์ด\n\nUid Page: คัดลอกเฉพาะหมายเลข ID ของหน้าเพจ\n\nIdBusiness: คัดลอก ID ของบัญชีธุรกิจ (Business ID)\n\nIdBusiness|token: คัดลอก ID ธุรกิจควบคู่กับรหัส Token สำหรับการเข้าถึง\n\nPage name: คัดลอกชื่อของหน้าเพจ\n\nCokie page: คัดลอกข้อมูล Cookie ของเพจนั้นๆ (สำหรับใช้รักษาเซสชันการล็อกอิน)\n\nUid page|Cokie page คัดลอกทั้ง ID เพจและข้อมูล Cookie พร้อมกัน\n\nUid Admin: คัดลอกหมายเลข ID ของผู้ดูแลระบบ (Admin)\n\nName Admin: คัดลอกชื่อของผู้ดูแลระบบ\n\nUid page|Page name|Name Admin: คัดลอกข้อมูลรวม 3 อย่าง (ID เพจ, ชื่อเพจ และชื่อแอดมิน)\n\nOther formats ...: เลือกรูปแบบการคัดลอกอื่นๆ ที่ผู้ใช้กำหนดเอง\n\nDelete selected:ลบรายการที่ถูกเลือกไว้ออก\n\nSwitch categories:เปลี่ยนกลุ่มหรือประเภทให้กับรายการที่เลือกไว้\n\nPage function:จัดการคำสั่งต่างๆ ที่เกี่ยวกับเพจ\n\nCreate a location page: ใช้สำหรับสร้างหน้าเพจใหม่ที่เน้นระบุตำแหน่งที่ตั้งทางธุรกิจ (Location-based page)\n\nShare administrative rights: ใช้สำหรับส่งต่อหรือเพิ่มสิทธิ์การเป็นผู้ดูแล (Admin) ให้กับบัญชีอื่น\n\nPersonal page: ใช้สำหรับส่งสิทธิ์ผู้ดูแลเพจให้กับ \"บัญชีผู้ใช้ส่วนตัว\" (Personal Profile) โดยตรง เหมาะสำหรับการเพิ่มทีมงานหรือบัญชีสำรองส่วนบุคคล\n\nBM indicated: ใช้สำหรับส่งสิทธิ์การจัดการเพจเข้าไปยัง \"บัญชีธุรกิจ\" (Business Manager - BM)\n\nCheck page information: ดึงข้อมูลรายละเอียดเชิงลึกของเพจ\n\nDelete page (disable): สั่งยกเลิกการใช้งานเพจหรือปิดเพจนั้นๆ\n\nReactivate the page: ใช้สำหรับกู้คืนหรือกลับมาเปิดใช้งานเพจที่เคยถูกปิดไปอีกครั้ง\n\nChrome: ดำเนินการกู้คืนสถานะเพจผ่านทางเบราว์เซอร์ Chrome โดยตรง ระบบจะจำลองการเข้าถึงผ่านหน้าเว็บเพื่อทำรายการ\n\nToken: ดำเนินการกู้คืนโดยใช้รหัส Access Token ซึ่งเป็นวิธีการทางเทคนิคที่รวดเร็วและช่วยข้ามขั้นตอนบางประการในหน้าเว็บปกติ เหมาะสำหรับการจัดการในปริมาณมาก\n\nCheck avatars and covers: ตรวจเช็กความถูกต้องหรือสถานะการแสดงผลของรูป Avatar (Profile picture) และรูป Cover ของเพจ\n\nUse proxies by account: ระบบจะใช้ Proxy ที่ผูกไว้กับบัญชีนั้นๆ ในการเชื่อมต่อเพื่อเข้าไปตรวจสอบรูปภาพ เหมาะสำหรับการจัดการหลายบัญชีเพื่อป้องกันการตรวจจับจากแพลตฟอร์ม\n\nDo not use proxies: ระบบจะใช้เครือข่ายอินเทอร์เน็ตปกติของเครื่องคอมพิวเตอร์ในการเชื่อมต่อโดยตรงเพื่อตรวจสอบรูปภาพ\n\nDelete admin page: สั่งถอดถอนสิทธิ์ผู้ดูแลออกจากเพจที่เลือกไว้\n\nOpen the browser:เปิดลิงก์หรือข้อมูลที่เกี่ยวข้องผ่านเว็บเบราว์เซอร์ (Chrome)\n\nOther function:เมนูรวมคำสั่งเสริมเพิ่มเติมที่ไม่ได้อยู่ในหมวดหมู่หลัก\n\nDelete duplicate pages: ระบบจะทำการตรวจสอบรายการเพจที่มีชื่อหรือข้อมูลซ้ำซ้อนกัน และทำการลบออก\n\nGet tokens: ใช้สำหรับสร้างหรือดึงรหัส Token ของเพจหรือบัญชี เพื่อนำไปใช้ในฟังก์ชันอัตโนมัติอื่นๆ\n\n",
-            "type": "markdown",
-            "images": [
-              "image601.png",
-              "image705.png"
+              "image537.png",
+              "image180.png",
+              "image305.png",
+              "image224.png",
+              "image734.png",
+              "image197.png",
+              "image260.png"
             ]
           }
         ],
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "_____________________6vw49",
-        "name": "อธิบายเมนูฟังก์ชั่นการทำงาน Action list",
+        "id": "__________________2j4qw",
+        "name": "วิธีใช้งานโปรแกรม",
         "sections": [
           {
-            "title": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น",
-            "content": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น\n\nSeeding function\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.Buff follows personal page (บัฟการติดตามเพจส่วนตัว)",
-            "content": "1.Buff follows personal page (บัฟการติดตามเพจส่วนตัว)\n\n![image](/images/image132.png)\n\nการตั้งค่าเวลา\n\nWaiting time:ระยะเวลาเริ่มรอ\n\nArrive:ระยะเวลาสิ้นสุดการรอ\n\nรายการเป้าหมาย (List of personal page UIDs)\n\nรูปแบบข้อมูล:ใส่ UID (User ID) ของบัญชีส่วนตัวที่ต้องการ\n\nจำนวน:ระบบจะแสดงตัวเลขในวงเล็บ(0)เพื่อบอกจำนวน UID ทั้งหมดที่คุณใส่ลงไปในรายการ\n\nวิธีใส่:พิมพ์หรือคัดลอก UID มาวาง โดยปกติจะใส่ 1 UID ต่อ 1 บรรทัด\n\n",
-            "type": "markdown",
-            "images": [
-              "image132.png"
-            ]
-          },
-          {
-            "title": "2.Buff like and comment on the article (กดไลค์และแสดงความคิดเห็น)",
-            "content": "2.Buff like and comment on the article (กดไลค์และแสดงความคิดเห็น)\n\n![image](/images/image557.png)\n\nการตั้งค่าเวลาและการโต้ตอบ\n\nPost spacing:กำหนดเวลาพักระหว่างแต่ละโพสต์\n\narrive:กำหนดระยะเวลาที่จะให้บัญชีอยู่ในหน้าโพสต์นั้นๆก่อน\n\nInteract:กำหนดจำนวนโพสต์ที่จะให้แต่ละบัญชีเข้าไปกดไลก์หรือคอมเมนต์\n\nรายการโพสต์เป้าหมาย\n\nDanh sách Id/link bài viết:ช่องสำหรับใส่ ID หรือ URL ของโพสต์ที่ต้องการไปเพิ่มยอด\n\nOption:เลือกลักษณะการโต้ตอบ\n\nEach page interacts with one post: 1 เพจ ต่อ 1 โพสต์\n\nOne post interacts with multiple pages: 1 โพสต์ ต่อ หลายเพจ\n\nDelete id after use:หากติ๊กถูก ระบบจะลบลิงก์ทิ้งทันทีเมื่อทำงานเสร็จ เพื่อป้องกันการทำงานซ้ำ\n\nการแชร์\n\nShare on story:แชร์โพสต์ไปยังสตอรี่\n\nShare on wall:แชร์โพสต์ไปยังหน้าวอลล์ (ไทม์ไลน์)\n\nContent:ใส่ข้อความที่จะให้เขียนกำกับเวลาแชร์\n\nOption:เลือกรูปแบบข้อความ\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nการแสดงความรู้สึก(Release Emotions)\n\nปุ่มเลือก:สามารถเลือกไอคอนความรู้สึกได้หลากหลาย เช่น Like, Love, Care, Haha, Wow, Sad, Angry\n\nการสุ่ม:ระบบมักจะสุ่มไอคอนที่คุณเลือกเพื่อให้ดูเป็นธรรมชาติ\n\nการคอมเมนต์\n\nText comment:ใส่เนื้อหาคอมเมนต์ในช่องว่าง\n\nSpin Content: ใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มคำพูด ไม่ให้ซ้ำกัน\n\nTag: สามารถใช้คำสั่ง[@uid]เพื่อแท็กผู้ใช้ได้\n\nOption: เลือกรูปแบบข้อความ\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nComment photo:ติ๊กถูกหากต้องการคอมเมนต์ด้วยรูปภาพ พร้อมระบุที่อยู่ไฟล์ (Photo folder) ในคอมพิวเตอร์\n\nExport link:ติ๊กถูกเพื่อให้ระบบบันทึกหรือส่งออกลิงก์ที่คอมเมนต์สำเร็จแล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image557.png"
-            ]
-          },
-          {
-            "title": "3.Buff like, follow page (กดไลค์และติดตามเพจ)",
-            "content": "3.Buff like, follow page (กดไลค์และติดตามเพจ)\n\n![image](/images/image19.png)\n\nการตั้งค่าเวลา\n\nDelay time:ใส่ตัวเลขวินาทีเริ่มต้นที่ต้องการให้ระบบรอ\n\nArrive:ใส่ตัวเลขวินาทีสิ้นสุด\n\nตัวอย่าง:หากตั้งค่าไว้ 5 ถึง 10 วินาที ระบบจะสุ่มเวลาพักระหว่างการกดแต่ละเพจในช่วง 5-10 วินาที เพื่อให้ดูเหมือนพฤติกรรมมนุษย์จริงๆ\n\nเลือกรูปแบบการทำงาน (Action options)\n\nFollow the page:สั่งให้ระบบกด \"ติดตาม\" เพจ\n\nLike the page:สั่งให้ระบบกด \"ถูกใจ\" เพจ\n\nคำแนะนำ: คุณสามารถเลือกทำทั้งสองอย่างพร้อมกัน หรือเลือกเพียงอย่างใดอย่างหนึ่งก็ได้\n\nการใส่รายชื่อเพจ (List of page ids/links)\n\nคุณสามารถใส่เป็น ID ของเพจ หรือ Link (URL) ของเพจ ก็ได้\n\nใส่ 1 รายการต่อ 1 บรรทัด\n\nตัวเลขในวงเล็บ(0)จะแสดงจำนวนรายการทั้งหมดที่คุณใส่ลงไปในรายการ\n\n",
-            "type": "markdown",
-            "images": [
-              "image19.png"
-            ]
-          },
-          {
-            "title": "4.Spam posts (group, page, profile) (โพสต์สแปม (กลุ่ม เพจ โปรไฟล์))",
-            "content": "4.Spam posts (group, page, profile) (โพสต์สแปม (กลุ่ม เพจ โปรไฟล์))\n\n![image](/images/image591.png)\n\nส่วนตั้งค่าจำนวนและการหน่วงเวลา\n\nNumber of ids:กำหนดจำนวนบัญชีที่จะใช้\n\nNumber of posts/id:กำหนดจำนวนโพสต์ที่แต่ละบัญชีจะดำเนินการ\n\nDelay time:ระยะเวลาหน่วงระหว่างแต่ละการกระทำ\n\nSweep:จำนวนโพสต์ที่จะทำการกวาด (Sweep) ในหนึ่งรอบการทำงาน\n\nส่วนจัดการเป้าหมาย\n\nList of ids:ช่องสำหรับใส่ ID ของกลุ่ม (Group), เพจ (Page) หรือโปรไฟล์ (Profile) ที่ต้องการเข้าถึง\n\nDelete the used id:หากติ๊กเลือก ระบบจะลบ ID ออกจากรายการทันทีเมื่อทำงานเสร็จสิ้น เพื่อไม่ให้เกิดการทำงานซ้ำ\n\nส่วนการโต้ตอบและอารมณ์\n\nRelease emotions:ติ๊กเพื่อเลือกให้แสดงความรู้สึกอัตโนมัติ (Like, Love, Haha, Wow, Sad, Angry)\n\nText comment:ช่องสีขาวขนาดใหญ่สำหรับพิมพ์ข้อความคอมเมนต์\n\nSpin Content {a|b|c}: รองรับการสลับคำเพื่อให้ข้อความไม่ซ้ำกัน\n\nOption: เลือกรูปแบบเนื้อหา\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nComment photo:ติ๊กเพื่อแนบรูปภาพในคอมเมนต์ โดยสามารถระบุที่อยู่ไฟล์ (Path) ในคอมพิวเตอร์ของคุณได้\n\nส่วนเงื่อนไขและลำดับการทำงาน\n\nSkip ... first article:ข้ามโพสต์แรกๆ (เช่น ข้าม 2-3 โพสต์แรกที่เป็นโพสต์ปักหมุด)\n\nShare on wall:แชร์โพสต์ไปยังหน้าวอลล์ของบัญชีที่ใช้งาน\n\nDo not comment on old posts:ไม่คอมเมนต์โพสต์เก่า เพื่อเน้นโพสต์ที่เป็นปัจจุบัน\n\nEdit comments:แก้ไขคอมเมนต์เดิม (ถ้ามี)\n\nGet the article:เลือกลำดับการดึงโพสต์ เช่น \"In order\" (ตามลำดับ) หรือ \"Unexpectedly\" (แบบสุ่ม)\n\nส่วนการบันทึกและจัดการไฟล์\n\nExport link:ส่งออกลิงก์ที่ดำเนินการแล้วเพื่อเก็บเป็นรายงาน\n\n",
-            "type": "markdown",
-            "images": [
-              "image591.png"
-            ]
-          },
-          {
-            "title": "5.Spam posts by keywords (โพสต์สแปมตามคีย์เวิร์ด)",
-            "content": "5.Spam posts by keywords (โพสต์สแปมตามคีย์เวิร์ด)\n\n![image](/images/image83.png)\n\nการตั้งค่าจำนวนและเวลา\n\nNumber of keywords/page:จำนวนคีย์เวิร์ดที่จะใช้ค้นหาต่อหนึ่งหน้า\n\nNumber of articles/keywords:จำนวนโพสต์ที่จะเข้าไปดำเนินการต่อหนึ่งคีย์เวิร์ด\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงานแต่ละครั้ง\n\nการจัดการคีย์เวิร์ด\n\nKeyword list (0):พื้นที่สำหรับใส่คำค้นหาที่ต้องการให้ระบบไปไล่หาโพสต์\n\nDelete used keywords:หากติ๊กถูก ระบบจะลบคีย์เวิร์ดทิ้งหลังจากใช้งานเสร็จแล้ว\n\nการแสดงความรู้สึกและคอมเมนต์\n\nRelease emotions:เลือก \"ความรู้สึก\" ที่ต้องการให้ระบบไปกด (Like, Love, Haha, Wow, Sad, Angry)\n\nText comment:Content (0): ช่องสำหรับใส่ข้อความที่จะนำไปคอมเมนต์\n\nSpin Content {a|b|c}: รองรับการสลับคำอัตโนมัติเพื่อให้ข้อความไม่ซ้ำกัน\n\nOption: เลือกรูปแบบเนื้อหา\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nComment photo:หากติ๊กเลือก ระบบจะดึงรูปภาพจากโฟลเดอร์ในเครื่องไปแปะในคอมเมนต์ด้วย\n\nการตั้งค่าเงื่อนไขการทำงานเพิ่มเติม\n\nSkip ... first article:ข้ามโพสต์แรกๆ ไปกี่โพสต์\n\nShare on wall:ติ๊กเพื่อให้ระบบแชร์โพสต์นั้นลงบนวอลล์ของตัวเองด้วย\n\nDo not comment on old posts:ไม่ลงคอมเมนต์ในโพสต์เก่า\n\nEdit comments:แก้ไขคอมเมนต์\n\nExport link: ติ๊กหากต้องการบันทึกลิงก์ของโพสต์ที่ระบบได้เข้าไปทำงานแล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image83.png"
-            ]
-          },
-          {
-            "title": "6.Rate the page (ให้คะแนนเพจ)",
-            "content": "6.Rate the page (ให้คะแนนเพจ)\n\n![image](/images/image779.png)\n\nส่วนตั้งค่าข้อมูลและขีดจำกัด\n\nOne page with maximum [ ] id:กำหนดจำนวน ID สูงสุดที่จะให้คะแนนต่อหนึ่งหน้าเพจ\n\nA maximum rating id: [ ] time:กำหนดจำนวนครั้งสูงสุดในการให้คะแนนต่อหนึ่ง ID\n\nList of page ids or links:ช่องสำหรับกรอก รายการ ID ของหน้าเพจ หรือ ลิงก์ URL ที่ต้องการดำเนินการ (แสดงจำนวนรายการในวงเล็บ)\n\nDelete the id when used:หากเลือกไว้ ระบบจะลบ ID ออกจากรายการทันทีเมื่อทำงานเสร็จสิ้น เพื่อป้องกันการทำงานซ้ำ\n\nส่วนจัดการเนื้อหาและรูปแบบ\n\nExport link:ติ๊กถูกหากต้องการให้ระบบส่งออกลิงก์ที่ดำเนินการแล้ว\n\nOption:เลือกแหล่งที่มาของเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:เลือกรูปแบบคำสั่ง AI\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nList of page review text:ช่องสำหรับใส่ ข้อความรีวิว ที่ต้องการให้ระบบนำไปโพสต์ (แสดงจำนวนข้อความในวงเล็บ)\n\nOption:เลือกรูปแบบการจัดวางเนื้อหา\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\n",
-            "type": "markdown",
-            "images": [
-              "image779.png"
-            ]
-          },
-          {
-            "title": "7.Livestream interaction (การโต้ตอบแบบไลฟ์สตรีม)",
-            "content": "7.Livestream interaction (การโต้ตอบแบบไลฟ์สตรีม)\n\n![image](/images/image15.png)\n\nการต้องค่าข้อมูลพื้นฐานและระยะเวลา\n\nLivestream link:วางลิงก์ของไลฟ์สดที่ต้องการให้ระบบเข้าไปทำงาน\n\nLive viewing time:กำหนดระยะเวลาที่จะให้บัญชีอยู่ในไลฟ์ (หน่วยเป็นวินาที)\n\nตัวอย่าง:ตั้งไว้ 30 ถึง 60 วินาที เพื่อให้ระบบสุ่มเวลาในช่วงนี้ ป้องกันการตรวจจับว่าเป็นบอท\n\n��า��ตอบสนองทางอารมณ์และข้อความ\n\nRelease emotions:เลือกประเภทความรู้สึกที่ต้องการส่ง (Like, Love, Care, Haha, Wow, Sad, Angry) สามารถติ๊กเลือกได้หลายแบบเพื่อให้ระบบสุ่มส่ง\n\nText comment:คอมเม้นต์ด้วยข้อความ\n\nContent: ใส่ข้อความที่ต้องการให้คอมเมนต์ (1 บรรทัดต่อ 1 ข้อความ)\n\nDelete used text: หากติ๊กถูก ระบบจะลบข้อความที่ใช้ไปแล้วออกจากรายการ เพื่อไม่ให้ส่งซ้ำ\n\nการแท็กผู้ใช้แ��ะการแชร์\n\nComment the uid tag:สำหรับการแท็กเพื่อนหรือกลุ่มเป้าหมายในคอมเมนต์\n\nList of uids: ใส่รายการ ID ผู้ใช้ที่ต้องการแท็ก\n\nOne maximum tag comment: กำหนดว่าจะให้แท็กกี่คนต่อ 1 คอมเมนต์\n\nDelete used uid: ลบ ID ที่ถูกแท็กไปแล้วออกจากรายการ\n\n",
-            "type": "markdown",
-            "images": [
-              "image15.png"
-            ]
-          },
-          {
-            "title": "Social Sharing:",
-            "content": "Social Sharing:\n\nShare on wall: แชร์ไลฟ์สดไปยังหน้าโปรไฟล์หลัก\n\nShare on story: แชร์ไลฟ์สดไปยังสตอรี่\n\nการตั้งค่าเพิ่มเติม\n\nRepeat action:ติ๊กเพื่อให้ระบบวนลูปทำงานซ้ำตามค่าที่ตั้งไว้\n\nRepeat later: กำหนดช่วงเวลาที่จะให้ระบบ \"พัก\" ก่อนจะเริ่มทำงานซ้ำในรอบถัดไป\n\nช่องตัวเลข (1 arri 1 second): คือการตั้งค่าสุ่มเวลาพัก (หน่วยเป็นวินาที) เช่น ถ้าตั้ง 60 ถึง 120 ระบบจะสุ่มหยุดพักในช่วงเวลานี้ก่อนเริ่มรอบใหม่ เพื่อความเป็นธรรมชาติ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ตัวเลือกกิจกรรมที่ต้องการทำซ้ำ (เลือกได้มากกว่า 1 อย่าง):",
-            "content": "ตัวเลือกกิจกรรมที่ต้องการทำซ้ำ (เลือกได้มากกว่า 1 อย่าง):\n\nText comment: ให้กลับไปสุ่มคอมเมนต์ข้อความซ้ำอีกครั้ง\n\nComment the uid tag: ให้กลับไปทำการแท็ก UID ซ้ำ (ระบบจะดึง UID ใหม่จากลิสต์ที่เหลืออยู่)\n\nShare on wall: ให้ทำการแชร์ลงหน้าโปรไฟล์ซ้ำ\n\nShare on story: ให้ทำการแชร์ลงสตอรี่ซ้ำ\n\n8.Post on another page's wall (reminders) (โพสต์บนหน้าเพจอื่น)\n\n![image](/images/image65.png)\n\nส่วนการตั้งค่าความถี่และเป้าหมาย\n\nMaximum posting per page:จำนวนโพสต์สูงสุดที่จะให้ลงในแต่ละเพจ\n\nOne maximum posting id:จำกัดจำนวนครั้งที่บัญชีหนึ่ง ๆ จะใช้โพสต์\n\nPosting distance:ระยะห่างระหว่างการโพสต์แต่ละครั้ง ช่วยลดความเสี่ยงในการถูกมองว่าเป็นสแปม\n\nList of page ids or links:ช่องสำหรับใส่ ID ของเพจ หรือลิงก์ URL ของเพจเป้าหมายที่ต้องการไปโพสต์\n\nDelete the id when used:หากเลือกไว้ ระบบจะลบรายชื่อเพจออกจากรายการทันทีเมื่อโพสต์สำเร็จ เพื่อป้องกันการโพสต์ซ้ำ\n\nส่วนการจัดการเนื้อหาและรูปแบบ\n\nExport link:ตัวเลือกสำหรับการแนบลิงก์ออกไปในโพสต์\n\nDocument:เมื่อติ๊กส่วนนี้ คุณสามารถเลือกแหล่งที่มาของเนื้อหาได้\n\nOption: เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt: กรณีใช้ AI ช่วยเขียน สามารถเลือกคำสั่ง (Prompt) ได้จากตรงนี้\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nContent:ช่องสำหรับพิมพ์ข้อความที่ต้องการโพสต์\n\nSpin Content: รองรับการใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มคำสลับกันไปในแต่ละโพสต์ (ป้องกันเนื้อหาซ้ำซ้อน)\n\nOption:เลือกว่าจะให้อ่านเนื้อหาแบบไหน\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nส่วนการตั้งค่ารูปภาพ\n\nPost photos:ติ๊กถูกหากต้องการให้มีรูปภาพในโพสต์ด้วย\n\nPhoto folder:ระบุที่อยู่ของโฟลเดอร์ในเครื่องคอมพิวเตอร์ที่เก็บรูปภาพไว้ ระบบจะดึงรูปจากโฟลเดอร์ไปโพสต์\n\n",
-            "type": "markdown",
-            "images": [
-              "image65.png"
-            ]
-          },
-          {
-            "title": "9.Spam replies to comments by keyword (การตอบกลับสแปมต่อความคิดเห็นโดยใช้คีย์เวิร์ด)",
-            "content": "9.Spam replies to comments by keyword (การตอบกลับสแปมต่อความคิดเห็นโดยใช้คีย์เวิร์ด)\n\n![image](/images/image383.png)\n\nกำหนดขอบเขตและจำนวน\n\nNumber of Keywords:กำหนดว่าจะใช้คีย์เวิร์ดกี่คำในการค้นหา\n\nNumber of post:จำนวนโพสต์ที่จะเข้าไปจัดการต่อ 1 คีย์เวิร์ด\n\nNumber of comment:จำนวนคอมเมนต์ที่จะไปตอบโต้ (Reply) ในแต่ละโพสต์\n\nDelay time:ระยะเวลาหน่วง ระหว่างแต่ละการกระทำ เพื่อลดการโดนบล็อกหรือตรวจจับจากระบบ\n\nการจัดการคีย์เวิร์ด\n\nKeyword list:ช่องสำหรับใส่คำค้นหาที่ต้องการให้ระบบไปไล่ดูคอมเมนต์\n\nSearch type:เลือกประเภทการค้นหา\n\nBài viết: โพสต์\n\nPage: เพจ\n\nNhóm: กลุ่ม\n\nDelete used keywords:หากติ๊กถูก ระบบจะลบคีย์เวิร์ดทิ้งหลังจากใช้งานเสร็จแล้ว\n\nIgnore spam posts:ข้ามโพสต์ที่ระบบวิเคราะห์ว่าเป็นสแปมอยู่แล้ว\n\nการตอบโต้ด้วยอารมณ์และข้อความ\n\nRelease emotions:ติ๊กเพื่อกดแสดงความรู้สึก (Like, Love, Haha, ฯลฯ)\n\nText comment:ส่วนการตอบกลับด้วยข้อความ\n\nOption: เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt สำเร็จรูปให้เลือกใช้ตามวัตถุประสงค์ดังนี้\n\nComment AI: สร้างข้อความคอมเมนต์\n\nReply tin nhắn: ร่างข้อความตอบกลับ\n\nViết bài đăng: ร่างเนื้อหาสำหรับนำไปโพสต์ใหม่\n\nContent: ช่องสำหรับพิมพ์ข้อความที่ต้องการตอบกลับ รองรับระบบ Spin Content {a|b|c} เพื่อสุ่มคำพูดไม่ให้ซ้ำกัน\n\nOption:เลือกว่าจะให้อ่านเนื้อหาแบบไหน\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nComment photo:หากต้องการตอบกลับด้วยรูปภาพ ให้ติ๊กเลือกและระบุที่อยู่ไฟล์ (Path) ในช่อง Photo folder\n\nการบันทึกและส่งออก\n\nExport link:ติ๊กเพื่อให้ระบบบันทึกหรือส่งออกลิงก์ของคอมเมนต์/โพสต์ที่เราได้เข้าไปทำงานไว้\n\n",
-            "type": "markdown",
-            "images": [
-              "image383.png"
-            ]
-          },
-          {
-            "title": "10.Spam replies to comments (group, page,profile) (การตอบกลับสแปมในความคิดเห็น (กลุ่ม เพจ โปรไฟล์))",
-            "content": "10.Spam replies to comments (group, page,profile) (การตอบกลับสแปมในความคิดเห็น (กลุ่ม เพจ โปรไฟล์))\n\n![image](/images/image365.png)\n\nการตั้งค่าจำนวนและเวลา\n\nNumber of ids/page:กำหนดจำนวน ID หรือจำนวนหน้าที่จะให้โปรแกรมเข้าไปทำงาน\n\nPost number/id:จำนวนโพสต์ต่อ 1 ID ที่จะให้เข้าไปตอบคอมเมนต์\n\nNumber of comment:จำนวนคอมเมนต์ที่จะให้เข้าไปตอบต่อ 1 โพสต์\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงาน เพื่อลดการโดนตรวจจับว่าเป็นสแปม\n\nการตั้งค่ากลุ่มเป้าหมาย\n\nList of ids or links:ช่องสำหรับใส่รายชื่อ ID  หรือลิงก์ที่ต้องการให้โปรแกรมเข้าไปทำงาน\n\nDelete the used id:หากติ๊กถูก โปรแกรมจะลบ ID หรือลิงก์นั้นออกจากรายการทันทีเมื่อทำงานเสร็จสิ้น\n\nการตั้งค่าเนื้อหาข้อความ\n\nContent:ช่องสำหรับใส่ข้อความที่จะใช้ตอบกลับ\n\nSpin Content:รองรับการใช้รูปแบบ{a|b|c}เพื่อให้โปรแกรมสุ่มคำพูดที่แตกต่างกันในแต่ละคอมเมนต์ (ช่วยลดโอกาสการถูกบล็อก)\n\nOption:เลือกรูปแบบการอ่านข้อความ\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nการตั้งค่าไฟล์ภาพและส่วนเสริม\n\nComment photo:ติ๊กถูกเพื่อแนบรูปภาพไปกับคอมเมนต์\n\nPhoto folder: ระบุที่อยู่ไฟล์ (Path) ของโฟลเดอร์รูปภาพในคอมพิวเตอร์\n\nExport link:ติ๊กถูกเพื่อให้โปรแกรมบันทึกหรือส่งออกลิงก์ที่ได้ทำการคอมเมนต์สำเร็จแล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image365.png"
-            ]
-          },
-          {
-            "title": "11.Spam replies to comments on specified posts (การตอบกลับสแปมต่อความคิดเห็นในโพสต์ที่ระบุ)",
-            "content": "11.Spam replies to comments on specified posts (การตอบกลับสแปมต่อความคิดเห็นในโพสต์ที่ระบุ)\n\n![image](/images/image103.png)\n\nการกำหนดเป้าหมายและความถี่\n\nNumber of ids/page:ตั้งค่าจำนวน ID ที่จะให้ทำงานต่อหนึ่งหน้า\n\nNumber of comment:ตั้งค่าจำนวนคอมเมนต์ที่จะให้ตอบกลับ\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงาน เพื่อลดการโดนตรวจจับว่าเป็นบอท\n\nList of article ids or links:ช่องสำหรับใส่ URL หรือ ID ของโพสต์เป้าหมายที่ต้องการให้บอทเข้าไปตอบคอมเมนต์\n\nIgnore replied comments:หากติ๊กเลือก ระบบจะข้ามคอมเมนต์ที่เคยตอบไปแล้ว\n\nDelete the used id:หากติ๊กเลือก ระบบจะลบ ID นั้นออกหลังจากใช้งานเสร็จ\n\nการแสดงความรู้สึก\n\nRelease emotions:เปิด/ปิด ฟังก์ชันการกด Reaction\n\nตัวเลือก Icon:สามารถเลือกประเภทความรู้สึกได้ เช่น Like, Love, Care, Haha, Wow, Sad หรือ Angry\n\nการตั้งค่าเนื้อหาข้อความ (Text Comment)\n\nOption:เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:เลือกชุดคำสั่ง AI ในการช่วยตอบ\n\nComment AI: สร้างข้อความคอมเมนต์\n\nReply tin nhắn: ร่างข้อความตอบกลับ\n\nViết bài đăng: ร่างเนื้อหาสำหรับนำไปโพสต์ใหม่\n\nContent: ช่องสำหรับพิมพ์ข้อความที่ต้องการ โดยรองรับระบบ Spin Content เช่น{a|b|c}เพื่อสุ่มคำพูดไม่ให้ซ้ำกัน\n\nOption:เลือกรูปแบบการแสดงผล\n\nOne-line content: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: หลายบรรทัด คือ 1 ข้อความ\n\nการตั้งค่าส่วนเสริมและสื่อ\n\nComment photo:หากติ๊กเลือก ระบบจะแนบรูปภาพไปกับคอมเมนต์ด้วย โดยต้องระบุที่อยู่โฟลเดอร์รูปภาพในช่อง Photo folder\n\nExport link:หากติ๊กเลือก ระบบจะทำการส่งออก (Export) ลิงก์ที่ได้ไปดำเนินการเสร็จสิ้นแล้วเก็บไว้เป็นหลักฐาน\n\n",
-            "type": "markdown",
-            "images": [
-              "image103.png"
-            ]
-          },
-          {
-            "title": "12.Spam replies to specified comments (การตอบกลับสแปมต่อความคิดเห็นที่ระบุไว้)",
-            "content": "12.Spam replies to specified comments (การตอบกลับสแปมต่อความคิดเห็นที่ระบุไว้)\n\n![image](/images/image143.png)\n\nการตั้งค่ากำหนดเป้าหมาย\n\nList of comment ids:ช่องสำหรับใส่รหัส ID ที่ต้องการ โดยต้องพิมพ์ในรูปแบบID POST_ID COMMENT(ตามตัวอย่างในภาพคือ123456_123456)\n\nDelete the used id:หากติ๊กถูก โปรแกรมจะลบ ID นั้นออกจากรายการทันทีหลังจากทำงานเสร็จ เพื่อป้องกันการทำงานซ้ำ\n\nการตั้งค่าความเร็วและปริมาณ\n\nNumber of ids/page:ตั้งค่าจำนวน ID ที่จะให้ทำต่อหนึ่งเพจ\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงานแต่ละครั้ง เช่น ตั้งไว้ 5 ถึง 10 วินาที เพื่อให้ดูเป็นธรรมชาติเหมือนมนุษย์ใช้งาน\n\nการตั้งค่ารูปแบบการตอบกลับ\n\nRelease emotions:เลือก \"ความรู้สึก\" (Like, Love, Wow, ฯลฯ) ที่ต้องการให้โปรแกรมไปกดที่คอมเมนต์เป้าหมาย\n\n",
-            "type": "markdown",
-            "images": [
-              "image143.png"
-            ]
-          },
-          {
-            "title": "Text comment:",
-            "content": "Text comment:\n\nOption: เลือกแหล่งที่มาของข้อความ เช่นCustom Content(พิมพ์เอง)\n\nSelect Prompt: เลือกใช้ AI ในการช่วยคิดคำตอบ (Comment AI)\n\nContent Box: ช่องสำหรับใส่ข้อความที่ต้องการตอบกลับ รองรับระบบ Spin Content โดยใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มคำพูดไม่ให้ซ้ำกัน\n\nComment photo:หากต้องการตอบกลับด้วยรูปภาพ ให้ติ๊กถูกแล้วเลือก Path หรือโฟลเดอร์เก็บรูปภาพในเครื่องคอมพิวเตอร์ของคุณ\n\nExport link:ติ๊กถูกเพื่อให้โปรแกรมบันทึกหรือส่งออกลิงก์ที่ทำงานสำเร็จแล้วออกมาให้ตรวจสอบ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "13.Edit comments (แก้ไขความคิดเห็น)",
-            "content": "13.Edit comments (แก้ไขความคิดเห็น)\n\n![image](/images/image452.png)\n\nการตั้งค่าจัดการรายการข้อความ\n\nText list (0):ช่องว่างสำหรับพิมพ์หรือวางข้อความที่ต้องการใช้ ตัวเลขในวงเล็บจะแสดงจำนวนรายการข้อความที่มีอยู่\n\nDelete text when used:หากติ๊กถูก ระบบจะลบข้อความออกจากรายการทันทีหลังจากที่ถูกนำไปใช้งานแล้ว (ป้องกันการใช้ซ้ำ)\n\nContent options:ตัวเลือกรูปแบบเนื้อหา\n\nOne-line content: 1 บรรทัด = 1 คอมเมนต์\n\nContent many lines: ข้อความทั้งหมดในช่อง Text list คือ 1 คอมเมนต์เดียว\n\nการตั้งค่าปริมาณ\n\nOne page with maximum:กำหนดจำนวนคอมเมนต์สูงสุดที่จะให้ระบบทำงานต่อหนึ่งหน้า\n\nตัวเลือกการสแกนและการจัดเรียง\n\nComment scanning options:เลือกขอบเขตการสแกนคอมเมนต์\n\nAll comments: สแกนความคิดเห็น \"ทั้งหมด\"\n\nJust comment within the group: สแกน \"เฉพาะความคิดเห็นที่อยู่ในกลุ่ม\" ที่กำหนดไว้เท่านั้น\n\nSort comments:เลือกการเรียงลำดับคอมเมนต์\n\nIn order: รียงตามลำดับ\n\nAbsolutely: การดึงข้อมูลแบบ \"ตายตัว\"\n\nExport link:หากติ๊กถูก ระบบจะทำการส่งออกลิงก์ที่เกี่ยวข้องหลังจากทำงานเสร็จ\n\n",
-            "type": "markdown",
-            "images": [
-              "image452.png"
-            ]
-          },
-          {
-            "title": "14.Post reel (โพสต์คลิปรีล)",
-            "content": "14.Post reel (โพสต์คลิปรีล)\n\n![image](/images/image585.png)\n\nการจัดการวิดีโอ\n\nVideo folder:ระบุที่อยู่ไฟล์ (Path) ในเครื่องคอมพิวเตอร์ของคุณที่เก็บคลิปวิดีโอไว้\n\nVideo selection options:เลือกรูปแบบการนำวิดีโอมาโพสต์\n\nIn order: เรียงตามลำดับ\n\nRandom: สุ่ม\n\nDelete video file when finished posting:หากติ๊กถูก โปรแกรมจะลบไฟล์วิดีโอออกจากเครื่องทันทีเมื่อโพสต์เสร็จ\n\nการตั้งค่าเวลาและปริมาณ\n\nOne page posted:จำนวนวิดีโอที่จะให้โพสต์ต่อ 1 เพจ\n\nVideo upload time:เวลารอสำหรับการอัปโหลดวิดีโอ\n\nPosting distance:ระยะห่างระหว่างการโพสต์แต่ละครั้ง เพื่อความเป็นธรรมชาติ\n\n",
-            "type": "markdown",
-            "images": [
-              "image585.png"
-            ]
-          },
-          {
-            "title": "15.Delete page post (ลบโพสต์หน้าเพจ)",
-            "content": "15.Delete page post (ลบโพสต์หน้าเพจ)\n\n![image](/images/image490.png)\n\nการตั้งค่ารายละเอียดการลบ\n\nSweep:กำหนดจำนวนรอบในการกวาดหาโพสต์ เพื่อดึงข้อมูล \"latest article\" หรือโพสต์ล่าสุด\n\nNumber of deletions:ระบุจำนวนโพสต์ที่ต้องการลบในแต่ละครั้ง\n\nDistance:เป็นการตั้งค่าการสุ่มเวลาเพื่อไม่ให้ระบบตรวจจับว่าเป็นบอท\n\nDelete options:เมนูสำหรับเลือกว่าจะลบแบบไหน\n\nDelete all posts: ลบโพสต์ทั้งหมด\n\nDelete latest post: ลบโพสต์ล่าสุด\n\nDelete oldest post: ลบโพสต์เก่าที่สุด\n\nDelete posts by date range: ลบโพสต์ตามช่วงวันที่\n\nPage interactions\n\n",
-            "type": "markdown",
-            "images": [
-              "image490.png"
-            ]
-          },
-          {
-            "title": "1.Read the announcement (อ่านประกาศ)",
-            "content": "1.Read the announcement (อ่านประกาศ)\n\n![image](/images/image346.png)\n\nการกำหนดค่าการแสดงผล\n\nQuantity:จำนวนที่ต้องการอ่าน\n\nWaiting time:ระยะเวลาพัก ขั้นต่ำหลังจากจบแต่ละรอบ\n\nViewing options:รูปแบบการแสดงผล\n\nSequence: ตามลำดับ\n\nRandom: สุ่ม\n\n",
-            "type": "markdown",
-            "images": [
-              "image346.png"
-            ]
-          },
-          {
-            "title": "2.Reel interaction (ปฏิสัมพันธ์ของรีล)",
-            "content": "2.Reel interaction (ปฏิสัมพันธ์ของรีล)\n\n![image](/images/image619.png)\n\nการตั้งค่าเวลาและปริมาณ\n\nWaiting time:ตั้งค่าเวลาหน่วงในการดู Reel\n\nAn interactive page:จำนวนคลิป Reel ที่ต้องการให้โปรแกรมเข้าไปมีปฏิสัมพันธ์ด้วย\n\nWaiting time for link transfer:ระยะเวลาพักระหว่างการเปลี่ยนจากลิงก์หนึ่งไปอีกลิงก์หนึ่ง\n\nการจัดการลิงก์เป้าหมาย\n\nList of id or link reel:วางไอดีหรือลิงก์ของคลิป Reel ที่ต้องการให้ระบบเข้าไปทำงาน\n\nAutomatically delete links when interacted:หากติ๊กถูก ระบบจะลบลิงก์ออกจากรายการทันทีหลังจากทำงานเสร็จ เพื่อป้องกันการทำงานซ้ำ\n\nการแสดงความรู้สึกและคอมเมนต์\n\nRelease emotions:ติ๊กเพื่อเลือกกด \"ความรู้สึก\" (Like, Love, Care, Haha, Wow, Sad, Angry)\n\nText comment:ติ๊กเพื่อพิมพ์ข้อความแสดงความคิดเห็น\n\nContent: ช่องสำหรับใส่ข้อความ (รองรับระบบ Spin Content เช่น{ดีมาก|สุดยอด|สวยมาก}เพื่อสุ่มข้อความ)\n\nOption: เลือกรูปแบบการคอมเมนต์\n\nOne-line content:1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: ทุกบรรทัดในช่อง Content คือข้อความเดียวกันทั้งหมด\n\nComment photo:ติ๊กหากต้องการคอมเมนต์ด้วยรูปภาพ พร้อมช่องระบุที่อยู่โฟลเดอร์รูปภาพในเครื่อง\n\n",
-            "type": "markdown",
-            "images": [
-              "image619.png"
-            ]
-          },
-          {
-            "title": "3.Post (โพสต์)",
-            "content": "3.Post (โพสต์)\n\n![image](/images/image577.png)\n\nการตั้งค่าจำนวนการโพสต์\n\nOne page posted:ตั้งค่าจำนวนขั้นต่ำที่จะโพสต์ต่อหนึ่งเพจ/บัญชี\n\nการจัดการเนื้อหา\n\nOption:เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:กรณีใช้งานร่วมกับ AI สามารถเลือกคำสั่งที่ตั้งไว้ได้\n\nComment AI: ให้ AI เขียน \"ข้อความแสดงความคิดเห็น\"\n\nReply tin nhắn: ให้ AI ตอบกลับข้อความ\n\nViết bài đăng: ให้ AI \"เขียนเนื้อหาโพสต์ใหม่\"\n\nContent (0):ช่องว่างสำหรับพิมพ์หรือวางข้อความที่จะนำไปโพสต์\n\nDelete text when used:หากติ๊กเลือก ระบบจะลบข้อความนั้นทิ้งทันทีหลังจากโพสต์สำเร็จ\n\nContent options:เลือกว่าเนื้อหาถูกแบ่งแบบใด\n\nOne-line content: 1 บรรทัด = 1 โพสต์\n\nContent many lines: ข้อความทั้งหมดที่ใส่ไว้ = 1 โพสต์เดียว\n\nการจัดการรูปภาพ\n\nPhoto folder:ระบุตำแหน่ง (Path) ของโฟลเดอร์ในคอมพิวเตอร์ที่เก็บรูปภาพไว้\n\nNumber of photos/article:กำหนดจำนวนรูปที่จะใช้ต่อ 1 โพสต์\n\nDelete photos when used:ลบไฟล์ภาพออกจากเครื่องทันทีเมื่อโพสต์เสร็จ\n\nส่วนเสริมและการตั้งค่าอื่น ๆ\n\nSchedule:ติ๊กเพื่อตั้งเวลาโพสต์ล่วงหน้า\n\nScheduling type: รูปแบบการเว้นระยะ เพื่อไม่ให้บัญชีถูกแบนจากการโพสต์ถี่เกินไป\n\nOption 1 (eg post 2 hours apart): ระบบจะคำนวณเวลาโพสต์โดยนับจากเวลาเริ่มต้น แล้วบวกเพิ่มไปตามระยะที่กำหนด (เช่น ทุกๆ 2 ชั่วโมง)\n\nOption 2 (eg 11am every day): ระบบจะทำการโพสต์ในเวลาเดิมที่กำหนดไว้ทุกๆ วัน (เช่น ตั้งไว้ 11 โมงเช้า พรุ่งนี้ 11 โมงก็จะโพสต์อีก)\n\nStarting date: วันที่ต้องการให้เริ่มงาน\n\nTime: เวลาที่ต้องการให้เริ่มทำงาน\n\nPost interaction after posting:ติ๊กเพื่อให้ระบบทำปฏิกิริยาหลังโพสต์ (เช่น กดไลก์ตัวเอง หรือคอมเมนต์) สามารถกด Setting เพื่อตั้งค่าเพิ่ม\n\nAdd a send message button:เพิ่มปุ่ม \"ส่งข้อความ\" ไว้ใต้โพสต์\n\nExport link:ติ๊กเพื่อให้ระบบบันทึกลิงก์ของโพสต์ที่ทำสำเร็จออกมาเป็นไฟล์\n\nDelete link (Post with link):ลบลิงก์ออกหลังจากโพสต์เสร็จ (กรณีที่เป็นการโพสต์แบบใช้ Link)\n\n",
-            "type": "markdown",
-            "images": [
-              "image577.png"
-            ]
-          },
-          {
-            "title": "4.Breaks (หยุดพัก)",
-            "content": "4.Breaks (หยุดพัก)\n\n![image](/images/image266.png)\n\nWaiting time:ระยะเวลาที่ต้องการหยุดพักก่อนจะทำงานในขั้นตอนถัดไป\n\n",
-            "type": "markdown",
-            "images": [
-              "image266.png"
-            ]
-          },
-          {
-            "title": "5.Post stories (โพสต์สตอรี่)",
-            "content": "5.Post stories (โพสต์สตอรี่)\n\n![image](/images/image701.png)\n\nการตั้งค่าการโพสต์\n\nOne page posted:กำหนดจำนวนสตอรี่ที่จะโพสต์ต่อหนึ่งเพจ\n\nPosting distance:ระยะห่างระหว่างการโพสต์แต่ละครั้ง เพื่อลดโอกาสการโดนบล็อก\n\nPhoto folder:ตำแหน่งที่จัดเก็บรูปภาพในเครื่องคอมพิวเตอร์ของคุณที่ต้องการให้นำไปโพสต์\n\nการจัดการปุ่มและลิงก์\n\nAdd button:ติ๊กถูกเพื่อเปิดใช้งานการเพิ่มปุ่มบนสตอรี่\n\nButton Type:เลือกประเภทของปุ่ม\n\nView store: ดูร้านค้า\n\nSee more: ดูเพิ่มเติม\n\nFind out more: หาข้อมูลเพิ่มเติม\n\nBuy now: ซื้อเลย\n\nBook now: จองเลย\n\nLink list:ช่องสำหรับใส่ URL หรือลิงก์ที่ต้องการให้ปุ่มเชื่อมโยงไป คุณสามารถใส่ได้หลายลิงก์\n\nRemove link when in use:หากติ๊กช่องนี้ ระบบจะลบลิงก์ออกจากรายการทันทีหลังจากถูกนำไปโพสต์แล้ว\n\nExport link:ติ๊กถูกหากต้องการให้ระบบส่งออกข้อมูลลิงก์ที่ใช้งานแล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image701.png"
-            ]
-          },
-          {
-            "title": "6.Post the specified uid tag (โพสต์แท็ก uid ที่ระบุ)",
-            "content": "6.Post the specified uid tag (โพสต์แท็ก uid ที่ระบุ)\n\n![image](/images/image773.png)\n\nการกำหนดค่าการโพสต์\n\nMaximum posting per page:กำหนดจำนวนโพสต์สูงสุดต่อหนึ่งเพจ\n\nMaximum tag per article:กำหนดจำนวน UID ที่จะถูกแท็กสูงสุดต่อหนึ่งโพสต์\n\nPosting distance:การตั้งค่าระยะห่างเวลาในการโพสต์แต่ละครั้ เพื่อลดโอกาสการถูกบล็อก โดยระบบจะสุ่มเวลาในช่วงที่ระบุ\n\nการจัดการรายชื่อ UID\n\nList of uids:ช่องสำหรับใส่รายการ ID ผู้ใช้ที่ต้องการนำไปแท็กในโพสต์\n\nDelete uid when used:หากติ๊กถูก ระบบจะลบ UID นั้นออกจากรายการทันทีหลังจากใช้งานเสร็จ เพื่อป้องกันการแท็กซ้ำ\n\nการจัดการเนื้อหาและตัวเลือกเสริม\n\nExport link:หากติ๊กถูก ระบบจะทำการส่งออก (Export) ลิงก์ของโพสต์ที่ทำสำเร็จเก็บไว้\n\nAdd text to the beginning of the post:เปิดใช้งานการเพิ่มข้อความนำหน้าการแท็ก\n\nOption: เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt: เลือกคำสั่ง AI กรณีใช้ระบบช่วยเขียน\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nContent:ช่องสำหรับพิมพ์ข้อความที่ต้องการให้แสดงก่อนการแท็ก UID\n\nDelete text when used: หากติ๊กถูก ระบบจะลบข้อความนั้นออกหลังจากโพสต์เสร็จ\n\n",
-            "type": "markdown",
-            "images": [
-              "image773.png"
-            ]
-          },
-          {
-            "title": "7.Respond to messages (ตอบกลับข้อความ)",
-            "content": "7.Respond to messages (ตอบกลับข้อความ)\n\n![image](/images/image582.png)\n\nการตั้งค่าเงื่อนไขเวลาและจำนวน\n\nA page replied:ตั้งค่าช่วงจำนวนข้อความที่จะให้เพจตอบกลับ\n\nResponse distance:ระยะห่างของการตอบแต่ละข้อความ เพื่อลดโอกาสการโดนมองว่าเป็นสแปม\n\nA message retrieved:จำนวนเนื้อหา/ข้อความที่จะดึงขึ้นมาจัดการต่อหนึ่งรอบ\n\nReply to messages by:เลือกรูปแบบการตอบกลับ\n\nOrder: ตามลำดับ\n\nUnexpectedly: แบบสุ่ม/ไม่คาดเดา\n\nการจัดการเนื้อหาข้อความ\n\nOption: เลือกประเภทเนื้อหา\n\nCustom Content: เนื้อหากำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:กรณีใช้ AI ช่วยตอบ สามารถเลือก Prompt ที่ตั้งค่าไว้ได้\n\n",
-            "type": "markdown",
-            "images": [
-              "image582.png"
-            ]
-          },
-          {
-            "title": "Comment AI:",
-            "content": "Comment AI:\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nContent (0):ช่องสำหรับกรอกข้อความที่คุณต้องการใช้ตอบกลับ\n\nDelete text when used:หากติ๊กถูก ระบบจะลบข้อความนั้นออกจากรายการเมื่อใช้งานแล้ว\n\nContent options:รูปแบบการดึงข้อความไปใช้\n\nOne-line content: 1 บรรทัด คือ 1 คำตอบ\n\nContent many lines: ระบบจะดึงข้อความ ทั้งหมดในช่อง Content ไปตอบในการส่งครั้งเดียว\n\nตัวเลือกสื่อและการคัดกรอง\n\nImage:หากติ๊กถูก ระบบจะส่งรูปภาพแนบไปด้วย\n\nPhoto folder: เลือกที่อยู่ไฟล์ (Path) ของรูปภาพในเครื่องคอมพิวเตอร์\n\nDelete photos when used: ลบรูปภาพทิ้งเมื่อส่งออกไปแล้ว\n\nPrioritize unread messages:ให้ความสำคัญกับข้อความที่ \"ยังไม่ได้อ่าน\" ก่อน\n\nReply to incoming messages only:ตอบกลับเฉพาะข้อความใหม่ที่ส่งเข้ามาเท่านั้น\n\nReply to messages by keyword:ตั้งค่าให้ตอบกลับตาม \"คีีย์เวิร์ด\"\n\nKeywords | Answer content: ช่องสำหรับระบุว่าถ้าเจอคำว่าอะไร ให้ตอบด้วยประโยคไหน\n\nการส่งออกข้อมูล\n\nExport messages:เปิดใช้งานการบันทึกข้อความลงเครื่อง\n\nSave folder:เลือกโฟลเดอร์ที่จะจัดเก็บไฟล์รายงาน\n\nKey word:กำหนดคีย์เวิร์ดที่ต้องการให้ระบบคัดแยกออกมาเพื่อบันทึก\n\nFile output type:รูปแบบการตั้งชื่อไฟล์หรือการแยกไฟล์\n\nSave by admin uid: ระบบจะแยกไฟล์ตาม ID ของผู้ดูแล (Admin) ที่เป็นคนรันระบบนั้นๆ\n\nSave by page id page: ระบบจะแยกไฟล์ตาม ID ของแฟนเพจ\n\nSave to a common file: ระบบจะบันทึกข้อมูลทุกอย่างรวมกันไว้ใน ไฟล์เดียว (Common File)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "8.Reply to comments (ตอบกลับความคิดเห็น)",
-            "content": "8.Reply to comments (ตอบกลับความคิดเห็น)\n\n![image](/images/image229.png)\n\nการควบคุมเวลาและปริมาณ\n\nComment space:ระยะห่างระหว่างการตอบแต่ละคอมเมนต์  แนะนำให้ตั้งค่าให้มีความเป็นธรรมชาติ\n\nOne page replied to me:จำนวนคอมเมนต์สูงสุดที่ระบบจะทำการตอบกลับต่อหนึ่งหน้าหรือหนึ่งโพสต์\n\nการตั้งค่าข้อความ\n\nText comments:ติ๊กถูกเพื่อเปิดใช้งานการตอบกลับด้วยข้อความ\n\nOption:เลือกรูปแบบของเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:กรณีใช้ AI ช่วยเขียน สามารถเลือกคำสั่ง (Prompt) ที่ต้องการได้\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nช่องกรอกข้อความ (สีขาวขนาดใหญ่):ใส่ข้อความที่คุณต้องการให้ระบบพิมพ์ตอบกลับ\n\nDelete text when used:หากติ๊กช่องนี้ ข้อความที่ใช้ไปแล้วจะถูกลบออกจากรายการ\n\nการส่งสื่อและฟีเจอร์เสริม\n\nComment photo:หากต้องการตอบกลับด้วยรูปภาพ ให้ติ๊กถูกที่ช่องนี้\n\nPhoto folder: ระบุที่อยู่ไฟล์ (Path) ในคอมพิวเตอร์ที่เก็บรูปภาพไว้ เพื่อให้ระบบดึงไปใช้งาน\n\nSend message:ตัวเลือกสำหรับส่งข้อความส่วนตัว (Inbox) ไปหาผู้คอมเมนต์เพิ่มเติม\n\nExport link:ตัวเลือกสำหรับการดึงลิงก์ที่เกี่ยวข้องออกมาใช้งานภายนอก\n\n",
-            "type": "markdown",
-            "images": [
-              "image229.png"
-            ]
-          },
-          {
-            "title": "9.Post a tag with a button (โพสต์แท็กพร้อมปุ่ม)",
-            "content": "9.Post a tag with a button (โพสต์แท็กพร้อมปุ่ม)\n\n![image](/images/image371.png)\n\nการตั้งค่าเวลาและจำนวน\n\nPost distance: ตั้งค่าช่วงเวลาห่างระหว่างแต่ละโพสต์\n\nMaximum posting per...posts: กำหนดจำนวนโพสต์สูงสุดต่อรอบการทำงาน\n\nการจัดการเนื้อหา\n\nContent:เนื้อหาหลักของโพสต์ (Caption)\n\nTitle 1, 2, 3 content: ส่วนหัวข้อที่จะไปปรากฏในตำแหน่งต่าง ๆ ของโพสต์\n\nButton Type:เลือกประเภทของปุ่ม\n\nLikePage: ปุ่มกดถูกใจเพจ\n\nNoButton: ไม่แสดงปุ่มใดๆ บนโพสต์\n\nContactUs: ติดต่อเรา (มักใช้เชื่อมไปยังหน้ากรอกฟอร์มหรือข้อมูลติดต่อ)\n\nMessagePage: ส่งข้อความเข้า Inbox ของเพจโดยตรง\n\nShopNow: ซื้อเลย (เหมาะสำหรับลิงก์ไปหน้าสินค้า/E-commerce)\n\nBookTravel: จองการเดินทาง\n\nGetQuote: ขอใบเสนอราคา\n\nStartOrder: เริ่มสั่งซื้อสินค้า/อาหาร\n\nLearnMore: ดูเพิ่มเติม (ปุ่มยอดนิยม ใช้เพื่อให้คนคลิกเข้าไปอ่านรายละเอียดในเว็บไซต์)\n\nDownload: ดาวน์โหลดเอกสารหรือไฟล์\n\nSeeMore: ดูเพิ่มเติม (คล้าย LearnMore)\n\nWatchMore: ชมวิดีโอเพิ่มเติม\n\nInstallApp: ติดตั้งแอปพลิเคชัน\n\nUseApp: ใช้งานแอปพลิเคชัน (สำหรับผู้ที่มีแแอปอยู่แล้ว)\n\nPlayGame: เล่นเกม\n\nSignUp: ลงชื่อเข้าใช้ / สมัครสมาชิก\n\nSubscribe: ติดตามข่าวสาร (เช่น จดหมายข่าว หรือช่อง YouTube)\n\nListenMusic: ฟังเพลง\n\nOpenLink: เปิดลิงก์เว็บไซต์\n\nTryIt: ทดลองใช้งาน\n\nApplyNow: สมัครตอนนี้ (มักใช้กับการสมัครงานหรือหลักสูตร)\n\nLink web:ใส่ URL หรือลิงก์ที่ต้องการให้ปุ่มเชื่อมโยงไป\n\nPhoto folder:ที่อยู่ไฟล์ (Path) ของโฟลเดอร์รูปภาพที่ต้องการใช้โพสต์\n\nการตั้งค่าเพิ่มเติม\n\nExport article link:หากติ๊กเลือก โปรแกรมจะส่งออก (Save) ลิงก์ของโพสต์ที่ทำสำเร็จแล้วเก็บไว้\n\n",
-            "type": "markdown",
-            "images": [
-              "image371.png"
-            ]
-          },
-          {
-            "title": "10.Send invitation to like page (ส่งคำเชิญให้กดไลค์เพจ)",
-            "content": "10.Send invitation to like page (ส่งคำเชิญให้กดไลค์เพจ)\n\n![image](/images/image659.png)\n\nSelect sending type:เลือกประเภทการส่ง\n\nFeeling: ความรู้สึก\n\nFriend: เพื่อน\n\nBình luận: ความคิดเห็น\n\n",
-            "type": "markdown",
-            "images": [
-              "image659.png"
-            ]
-          },
-          {
-            "title": "11.Copy the specified article (คัดลอกบทความที่ระบุ)",
-            "content": "11.Copy the specified article (คัดลอกบทความที่ระบุ)\n\n![image](/images/image720.png)\n\nการจัดการบทความต้นทาง\n\nOne page posted:กำหนดจำนวนหน้าหรือจำนวนบทความที่จะดึงมาโพสต์ในหนึ่งรอบ\n\nList of article ids or links:ช่องสำหรับใส่ ID ของบทความ หรือ URL ลิงก์ที่ต้องการให้ระบบไปคัดลอกมา (ใส่ 1 รายการต่อ 1 บรรทัด)\n\nDelete id when using:หากติ๊กถูก ระบบจะลบ ID/ลิงก์ออกจากรายการทันทีที่ใช้งานเสร็จ (ป้องกันการโพสต์ซ้ำ)\n\nRemove hashtags from content:หากติ๊กถูก ระบบจะลบเครื่องหมาย # หรือคำที่เป็น hashtag ออกจากเนื้อหาต้นฉบับอัตโนมัติ\n\nการปรับแต่งเนื้อหาเพิ่มเติม\n\nAdd content at the end of the article:ติ๊กถูกหากต้องการเพิ่มข้อความปิดท้ายบทความ\n\nช่องกรอก Content:พิมพ์ข้อความที่คุณต้องการให้ปรากฏต่อท้ายบทความทุกอันในช่องนี้\n\nDelete text when used:ลบข้อความเสริมนี้ทิ้งหลังจากใช้งานไปแล้ว\n\nContent options:เลือกรูปแบบการดึงเนื้อหามาใช้\n\nOne-line content: 1 บรรทัด = 1 ข้อความ\n\nContent many lines: ข้อความทั้งหมดในช่อง = 1 ข้อความ\n\nการตั้งเวลาและตัวเลือกเสริม\n\nSchedule:การตั้งเวลาล่วงหน้า\n\nScheduling type: เลือกรูปแบบการเว้นระยะการโพสต์\n\nOption 1 (eg post 2 hours apart): เมื่อเริ่มงานโพสต์แรกเสร็จแล้ว ระบบจะนับถอยหลังตามระยะเวลาที่คุณกำหนด (เช่น ทุกๆ 2 ชั่วโมง) เพื่อเริ่มโพสต์ถัดไป\n\nOption 2 (eg 11am every day): ระบบจะโพสต์เฉพาะตามเวลาที่คุณตั้งค่าไว้เป๊ะๆ ในแต่ละวัน (เช่น ตั้งไว้ 11:56 น. ระบบก็จะทำงานเวลานี้ของทุกวัน)\n\nStarting date: กำหนดวันที่เริ่มต้นทำงาน\n\nTime (Hour/Minute): กำหนดเวลาที่ต้องการให้เริ่มโพสต์บรรทัดแรกหรือรอบแรก\n\nAdd a send message button:เพิ่มปุ่ม \"ส่งข้อความ\" เข้าไปในโพสต์\n\nExport link:ให้ระบบส่งออกลิงก์ที่โพสต์สำเร็จแล้วออกมาเพื่อเก็บเป็นรายงาน\n\n",
-            "type": "markdown",
-            "images": [
-              "image720.png"
-            ]
-          },
-          {
-            "title": "12.Copy specified page post (คัดลอกโพสต์เพจที่ระบุ)",
-            "content": "12.Copy specified page post (คัดลอกโพสต์เพจที่ระบุ)\n\n![image](/images/image536.png)\n\nการนำเข้าข้อมูล\n\nImport list: PAGE ID | Copy PAGE ID:ช่องสำหรับใส่ ID ของเพจต้นทางที่ต้องการคัดลอก และ ID ของเพจปลายทางที่จะให้นำไปโพสต์\n\nรูปแบบปกติมักจะเป็นID เพจต้นทาง | ID เพจปลายทาง\n\nตัวเลขด้านบน (0):แสดงจำนวนรายการที่ถูกเพิ่มเข้าไปในรายการ\n\nการตั้งค่าการดึงข้อมูล\n\nSweep [ ] latest article:กำหนดว่าจะให้ดึงโพสต์ล่าสุดจำนวนกี่โพสต์จากเพจต้นทาง\n\nMaximum posting per page [ ] post per run:กำหนดจำนวนโพสต์สูงสุดที่จะให้โปรแกรมโพสต์ต่อเพจ ต่อการทำงานหนึ่งรอบ\n\nDo not post copied articles:หากติ๊กถูก โปรแกรมจะไม่โพสต์ซ้ำหากบทความนั้นเคยถูกคัดลอกไปแล้ว\n\nRemove hashtags from content:หากติ๊กถูก โปรแกรมจะลบ Hashtag ออกจากข้อความต้นฉบับก่อนโพสต์\n\nPosting distance [ ] arrive [ ] second:ตั้งค่าหน่วงเวลา หรือระยะห่างระหว่างการโพสต์แต่ละครั้ง เพื่อป้องกันการโดนแบน\n\nPosting options:ตัวเลือกเสริมอื่นๆ\n\nPost random article: สุ่มโพสต์\n\nPost articles in order of newest: โพสต์จากใหม่ไปเก่า\n\nPost oldest first: โพสต์จากเก่าไปใหม่\n\nตัวเลือกเสริมในการโพสต์\n\nAdd content at the end of the article:เพิ่มข้อความพิเศษต่อท้ายบทความที่คัดลอกมา\n\nSchedule:ตั้งเวลาโพสต์ล่วงหน้า\n\nPost interaction after posting:ตั้งค่าการโต้ตอบหลังโพสต์เสร็จ สามารถกดที่ Setting เพื่อตั้งค่ารายละเอียด\n\nAdd a send message button:เพิ่มปุ่ม \"ส่งข้อความ\" เข้าไปในโพสต์\n\nExport link:ส่งออกลิงก์ของโพสต์ที่ทำเสร็จแล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image536.png"
-            ]
-          },
-          {
-            "title": "13.Post Reel (โพสต์คลิปรีล)",
-            "content": "13.Post Reel (โพสต์คลิปรีล)\n\n![image](/images/image516.png)\n\nการจัดการวิดีโอและลำดับการโพสต์\n\nVideo folder:เลือกโฟลเดอร์ในคอมพิวเตอร์ที่เก็บไฟล์วิดีโอที่ต้องการอัปโหลด\n\nOne page posted:กำหนดจำนวนวิดีโอที่จะโพสต์ต่อ 1 เพจ\n\nVideo selection options:เลือกรูปแบบการเลือกวิดีโอจากโฟลเดอร์\n\nตามลำดับ: In order\n\nRandom: สุ่ม\n\nDelete video file when finished posting:หากเลือกไว้ ระบบจะลบไฟล์วิดีโอออกจากเครื่องทันทีเมื่อโพสต์เสร็จสิ้น\n\nการตั้งค่าเวลาและขนาดวิดีโอ\n\nVideo upload time:กำหนดเวลารอระหว่างการอัปโหลด\n\nPosting distance:ระยะห่างระหว่างการโพสต์แต่ละครั้ง\n\nAutomatically cut video when too long:หากวิดีโอยาวเกินไป ระบบจะตัดคลิปให้อัตโนมัติ\n\nDuration: กำหนดช่วงเวลาที่ต้องการ\n\nฟีเจอร์เสริมและการปฏิสัมพันธ์\n\nDescribe:สำหรับใส่คำอธิบายวิดีโอ (Caption)\n\nSchedule:ตั้งเวลาโพสต์ล่วงหน้า\n\nPost interaction after posting:ตั้งค่าการปฏิสัมพันธ์หลังโพสต์เสร็จ (สามารถกด Setting เพื่อตั้งค่าเชิงลึก)\n\nExport link:ส่งออกลิงก์ของโพสต์ที่ทำสำเร็จแล้ว\n\nThumbnail:เลือกหรือตั้งค่ารูปหน้าปกวิดีโอ\n\nShare on story:แชร์วิดีโอที่โพสต์ไปยัง Story โดยอัตโนมัติ\n\nFunctions related to groups\n\n",
-            "type": "markdown",
-            "images": [
-              "image516.png"
-            ]
-          },
-          {
-            "title": "1.Join groups by keywords (เข้าร่วมกล่มโดยใช้คีย์เวิร์ด)",
-            "content": "1.Join groups by keywords (เข้าร่วมกล่มโดยใช้คีย์เวิร์ด)\n\n![image](/images/image453.png)\n\nการจัดการคำค้นหา\n\nKeyword list:ช่องสำหรับใส่คำค้นหา (Keywords) ที่ต้องการ เช่น \"ขายของมือสอง\", \"คนรักแมว\" (ใส่ 1 คำต่อ 1 บรรทัด)\n\nDelete used keywords:หากติ๊กถูก ระบบจะลบคำค้นหานั้นออกจากรายการทันทีเมื่อใช้งานคำนั้นเสร็จแล้ว\n\nการตั้งค่าเวลา\n\nDelay time:ตั้งค่าการหน่วงเวลาระหว่างการเริ่มทำงานแต่ละครั้ง เพื่อป้องกันไม่ให้ระบบมองว่าเป็นสแปม\n\nการจำกัดจำนวน\n\nMaximum participation per page:จำนวนกลุ่มสูงสุดที่จะกดเข้าร่วมต่อหน้าการค้นหา 1 หน้า\n\nOne maximum engagement keyword:จำนวนกลุ่มสูงสุดที่จะเข้าร่วมต่อ 1 คำค้นหา\n\nตัวกรองและเงื่อนไข\n\nOnly join public groups:หากติ๊กถูก ระบบจะเลือกเข้าเฉพาะ \"กลุ่มสาธารณะ\" เท่านั้น (ข้ามกลุ่มปิด)\n\nCity:จะเป็นการระบุให้ค้นหากลุ่มตามพื้นที่หรือเมืองที่กำหนด\n\nAutomatically answer questions:หากกลุ่มมีคำถามก่อนเข้า ระบบจะตอบคำถามให้โดยอัตโนมัติ\n\nList of answers:ช่องสำหรับใส่คำตอบเตรียมไว้\n\n",
-            "type": "markdown",
-            "images": [
-              "image453.png"
-            ]
-          },
-          {
-            "title": "2.Share the article to the group (แชร์บทความนี้ให้กับกลุ่ม)",
-            "content": "2.Share the article to the group (แชร์บทความนี้ให้กับกลุ่ม)\n\n![image](/images/image148.png)\n\nการตั้งค่าจำนวนและเวลา\n\nAn article shared > group:กำหนดจำนวนกลุ่มที่จะให้บทความหนึ่งรายการถูกแชร์ลงไป\n\nShared distance > second:เวลาระหว่างการแชร์แต่ละครั้ง แนะนำให้ตั้งค่าแบบสุ่มช่วงเวลา เช่น 60 ถึง 120 วินาที เพื่อความเป็นธรรมชาติ\n\nOne page shares > post:กำหนดจำนวนโพสต์ที่แต่ละเพจ/บัญชีจะแชร์ในหนึ่งรอบการทำงาน\n\nการจัดการลิงก์บทความ\n\nList of article ids/links (0):ให้คุณวาง URL ของบทความ หรือ ID ของโพสต์ ที่ต้องการนำไปแชร์ (ใส่ 1 ลิงก์ต่อ 1 บรรทัด)\n\nตัวเลขในวงเล็บจะบอกจำนวนลิงก์ทั้งหมดที่คุณใส่ไว้\n\nDelete the used id:หากติ๊กถูกไว้ ระบบจะลบลิงก์ออกจากรายการทันทีหลังจากแชร์เสร็จ เพื่อป้องกันการแชร์ซ้ำ\n\nการตั้งค่าเนื้อหา\n\nShare with content:หากติ๊กช่องนี้ ระบบจะแชร์บทความพร้อมกับข้อความประกอบ (Caption)\n\nContent: พื้นที่สำหรับใส่เนื้อหาที่คุณต้องการ\n\nSpin Content {a|b|c}: ระบบรองรับการสุ่มคำ (Spin Tax)\n\nตัวอย่าง:{สวัสดี|ทักทาย|ไฮ}ระบบจะสุ่มเลือกคำใดคำหนึ่งมาใช้ในแต่ละครั้ง\n\nContent Options: รูปแบบการเลือกเนื้อหา\n\nOne-line content: 1 บรรทัด คือ 1 ชุดข้อความ\n\nContent many lines: ข้อความทั้งหมดในช่องคือ 1 ชุดข้อความเดียว\n\n",
-            "type": "markdown",
-            "images": [
-              "image148.png"
-            ]
-          },
-          {
-            "title": "3.Join designated groups (เข้าร่วมกลุ่มที่กำหนดไว้)",
-            "content": "3.Join designated groups (เข้าร่วมกลุ่มที่กำหนดไว้)\n\n![image](/images/image729.png)\n\nการตั้งค่าเวลา\n\nDelay time:ตั้งค่าระยะเวลาหยุดพัก\n\nการตั้งค่ารายชื่อกลุ่มเป้าหมาย\n\nList of group ids or link:ให้คุณนำ ID ของกลุ่ม หรือ ลิงก์ (URL) ของกลุ่มที่ต้องการเข้าร่วมมาใส่ที่นี่ (หนึ่งรายการต่อหนึ่งบรรทัด)\n\nDelete id once joined:หากติ๊กถูกที่ช่องนี้ ระบบจะลบรายชื่อกลุ่มออกจากช่องนี้โดยอัตโนมัติหลังจากที่ทำการกดเข้าร่วมสำเร็จแล้ว เพื่อป้องกันการทำงานซ้ำ\n\nการเงื่อนไขการเข้าร่วม\n\nMaximum participation per page:กำหนดจำนวนกลุ่มสูงสุดที่จะเข้าร่วมต่อหนึ่งรอบหรือต่อหนึ่งหน้า\n\nOnly join public groups:หากติ๊กถูก ระบบจะเลือกเข้าเฉพาะ \"กลุ่มสาธารณะ\" เท่านั้น (ไม่เข้ากลุ่มปิดหรือกลุ่มส่วนตัว)\n\nAutomatically answer questions:ฟังก์ชันตอบคำถามอัตโนมัติ\n\nใช้สำหรับกลุ่มที่ตั้งคำถามก่อนเข้า (เช่น \"คุณมาจากไหน?\" หรือ \"กฎของกลุ่มคืออะไร?\")\n\nList of answers: ใส่คำตอบที่ต้องการให้บอทพิมพ์ตอบ\n\n",
-            "type": "markdown",
-            "images": [
-              "image729.png"
-            ]
-          },
-          {
-            "title": "4.Spam joined group posts (สแปมเข้าร่วมกลุ่มโพสต์)",
-            "content": "4.Spam joined group posts (สแปมเข้าร่วมกลุ่มโพสต์)\n\n![image](/images/image216.png)\n\nการตั้งค่าขอบเขตและระยะเวลา\n\nA page uses:ตั้งค่���จำนวนเพจที่จะใช้งาน\n\nNumber of posts/group:กำหนดจำนวนโพสต์ที่จะเข้าไปมีส่วนร่วมในแต่ละกลุ่ม\n\nDelay time:ระยะเวลาหน่วงระหว่างการกระทำ เพื่อป้องกันการ��ด��บ��็อก\n\nSkip ... first article:ตัวเลือกข้ามโพสต์แรกๆ ของกลุ่ม (เช่น ข้าม 2 ถึง 3 โพสต์แรก)\n\nShare on wall:ติ๊กถูกหากต้องการให้แชร์โพสต์นั้นลงบนหน้า Wall ของตัวเองด้วย\n\nDo not comment on old posts:ป้องกันการไปคอมเมนต์ในโพสต์ที่เก่าเกินไป\n\nEdit comments:แก้ไขคอมเมนต์\n\nGet the article:รูปแบบการเลือกโพสต์\n\nIn order: ตามลำดับ\n\nUnexpectedly: แบบสุ่ม\n\nการตั้งค่าการแสดงความรู้สึก\n\nRelease emotions:ติ๊กถูกเพื่อเปิดใช้งานการกด Reaction\n\nReaction Icons:สามารถเลือกรูปแบบอารมณ์ที่ต้องการได้ (Like, Love, Care, Haha, Wow, Sad, Angry) โดยโปรแกรมจะสุ่มใช้งานตามที่เลือกไว้\n\nการตั้งค่าความคิดเห็น\n\nText comment:ติ๊กถูกเพื่อเปิดใช้งานการพิมพ์ข้อความ\n\nContent: ช่องสำหรับใส่ข้อความที่ต้องการ\n\nTag [@uid]: รองรับการแท็กผู้ใช้ด้วย ID\n\nSpin Content {a|b|c}: รองรับการหมุนเวียนคำพูดเพื่อไม่ให้ข้อความซ้ำกัน\n\nOption: รูปแบบข้อความ\n\nOne-line content: เนื้อหาบรรทัดเดียว\n\nContent many lines: เนื้อหาหลายบรรทัด\n\nComment photo:ติ๊กถูกหากต้องการคอมเมนต์ด้วยรูปภาพ\n\nPhoto folder: ระบุที่อยู่ไฟล์รูปภาพในคอมพิวเตอร์ (Path) ที่ต้องการให้ระบบดึงไปใช้\n\nExport link:ติ๊กถูกหากต้องการให้ระบบส่งออกลิงก์ของโพสต์ที่ได้ไปคอมเมนต์เสร็จแล้ว เพื่อการตรวจสอบภายหลัง\n\n",
-            "type": "markdown",
-            "images": [
-              "image216.png"
-            ]
-          },
-          {
-            "title": "5.Post to the joined group (โพสต์ไปยังกลุ่มที่เข้าร่วม)",
-            "content": "5.Post to the joined group (โพสต์ไปยังกลุ่มที่เข้าร่วม)\n\n![image](/images/image722.png)\n\nการตั้งค่าเวลาและปริมาณ\n\nWaiting time:กำหนดช่วงเวลาพักระหว่างการโพสต์แต่ละครั้ง\n\nA page posted:กำหนดจำนวนกลุ่มที่ต้องการให้แต่ละเพจ/บัญชีโพสต์\n\nการจัดการเนื้อหา\n\nDocument:เปิดใช้งานการดึงเนื้อหาจากเอกสาร\n\nOption:เลือกรูปแบบเนื้อหา\n\nCustom Content: เนื้อหาที่กำหนดเอง\n\nAI-generated content: เนื้อหาที่สร้างโดย AI\n\nSelect Prompt:หากใช้ระบบ AI ในการช่วยเขียน สามารถเลือกคำสั่ง (Prompt) ได้จากที่นี่\n\nComment AI\n\nReply tin nhắn: ตอบกลับข้อความ\n\nViết bài đăng: เขียนโพสต์\n\nการตั้งค่าส่วนเสริมและตัวเลือกเพิ่มเติม\n\nImage:ติ๊กเลือกหากต้องการแนบรูปภาพไปพร้อมกับโพสต์\n\nPost interaction after posting:ติ๊กเพื่อให้ระบบทำการโต้ตอบ ทันทีหลังจากโพสต์เสร็จ โดยสามารถกดที่ Setting เพื่อตั้งค่ารายละเอียดการโต้ตอบได้\n\nExport link:ติ๊กเมื่อต้องการให้ระบบส่งออกลิงก์ของโพสต์ที่ทำสำเร็จแล้วออกมาเป็นไฟล์รายงาน\n\n",
-            "type": "markdown",
-            "images": [
-              "image722.png"
-            ]
-          },
-          {
-            "title": "6.Post to the designated group (โพสต์ไปยังกลุ่มที่กำหนด)",
-            "content": "6.Post to the designated group (โพสต์ไปยังกลุ่มที่กำหนด)\n\n![image](/images/image692.png)\n\nการตั้งค่าเวลาและจำนวน\n\nWaiting time:ตั้งค่าช่วงเวลาการรอระหว่างแต่ละโพสต์\n\nA page posted:ตั้งค่าว่าหนึ่งเพจจะโพสต์ลงกี่กลุ่มแล้วจึงหยุดหรือเปลี่ยน\n\nการตั้งค่าการจัดการรายชื่อกลุ่ม\n\nList of group ids or links:วาง ID ของกลุ่มหรือลิงก์ของกลุ่มที่ต้องการโพสต์ลงในช่องนี้\n\nDelete the used group id:หากติ๊กถูกช่องนี้ ระบบจะลบรายชื่อกลุ่มออกจากรายการทันทีที่โพสต์สำเร็จ เพื่อป้องกันการโพสต์ซ้ำ\n\nการตั้งค่าเนื้อหาและตัวเลือกเสริม\n\nDocument:ติ๊กเพื่อใส่ข้อความในการโพสต์\n\nImage:ติ๊กเพื่อแนบรูปภาพในการโพสต์\n\nPost interaction after posting:เมื่อโพสต์เสร็จแล้ว ให้ระบบทำกิจกรรมเพิ่มเติม สามารถกด Setting เพื่อตั้งค่ารายละเอียด\n\nExport link:ติ๊กเพื่อให้ระบบส่งออก (Export) ลิงก์ของโพสต์ที่ทำสำเร็จแล้วออกมาให้ตรวจสอบ\n\n7. spam replies to comments from participating groups (การตอบกลับสแปมต่อความคิดเห็นจากกลุ่มที่เข้าร่วม)\n\n![image](/images/image412.png)\n\nการตั้งค่าจำนวนและเวลา\n\nNumber of arrive id:ตั้งค่าจำนวนบัญชี (ID) ที่จะใช้ในการทำงาน\n\nNumber of arrive post:ตั้งค่าจำนวนโพสต์ที่จะเข้าไปโต้ตอบต่อหนึ่งกลุ่ม\n\nNumber of arrive comment:ตั้งค่าจำนวนคอมเมนต์ที่จะตอบกลับต่อหนึ่งโพสต์\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงานแต่ละครั้ง\n\nการตั้งค่าความรู้สึก\n\n",
-            "type": "markdown",
-            "images": [
-              "image692.png",
-              "image412.png"
-            ]
-          },
-          {
-            "title": "หากติ๊กถูกที่ช่อง \"Release emotions\" โปรแกรมจะกด Reaction ให้กับคอมเมนต์นั้นๆ ด้วย:",
-            "content": "หากติ๊กถูกที่ช่อง \"Release emotions\" โปรแกรมจะกด Reaction ให้กับคอมเมนต์นั้นๆ ด้วย:\n\nคุณสามารถเลือก Emotion ที่ต้องการได้ (ไลก์, หัวใจ, ห่วงใย, ขำ, ว้าว, เศร้า, โกรธ)\n\nระบบจะทำการสุ่มหรือกดตามที่คุณเลือกไว้\n\nเนื้อหาข้อความ\n\nContent Area:ช่องว่างสำหรับใส่ข้อความที่ต้องการ\n\nSpin Content {a|b|c}:รองรับการสุ่มคำเพื่อให้ข้อความไม่ซ้ำกัน เช่น{สวัสดีครับ|ยินดีที่ได้รู้จัก|ทักทายครับ}\n\nOption (One-line content):เลือกรูปแบบเนื้อหา\n\nContent many lines: 1 บรรทัด คือ 1 ข้อความ\n\nContent many lines: ข้อความทั้งหมดทุกบรรทัด\n\nการตั้งค่ามัลติมีเดียและการบันทึกผล\n\nComment photo:หากติ๊กช่องนี้ โปรแกรมจะแนบรูปภาพไปกับคอมเมนต์ด้วย\n\nPhoto folder: ระบุที่อยู่ไฟล์ภาพในเครื่องคอมพิวเตอร์ของคุณ (Path)\n\nExport link:หากติ๊กไว้ โปรแกรมจะบันทึกหรือส่งออกลิงก์ของโพสต์/คอมเมนต์ที่ได้เข้าไปทำงานแล้ว เพื่อใช้ในการตรวจสอบภายหลัง\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "8.Create a group (สร้างกลุ่ม)",
-            "content": "8.Create a group (สร้างกลุ่ม)\n\n![image](/images/image514.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nGroup name:คลิกที่ปุ่ม \"Enter\" เพื่อพิมพ์ชื่อกลุ่มที่ต้องการ\n\nPrivacy:เลือกประเภทความเป็นส่วนตัวของกลุ่ม เช่น Public หรือ Private\n\nNumber of groups:กำหนดจำนวนกลุ่มทั้งหมดที่ต้องการให้โปรแกรมสร้างขึ้นในรอบนี้\n\nการเชิญสมาชิก\n\nInvite followers to join the group:ติ๊กถูกที่ช่องนี้หากต้องการให้โปรแกรมส่งคำเชิญไปยังผู้ติดตามทันทีหลังจากสร้างกลุ่มเสร็จ\n\nQuantity:ระบุจำนวนผู้ติดตามที่ต้องการเชิญเข้ากลุ่ม\n\nการตั้งค่ารูปภาพหน้าปก\n\nAdd cover photo:ติ๊กถูกที่ช่องนี้เพื่อเปิดใช้งานการอัปโหลดรูปภาพหน้าปกอัตโนมัติ\n\nPhoto folder:ระบุที่อยู่ไฟล์ (Path) ในเครื่องคอมพิวเตอร์ของคุณที่เก็บรูปภาพไว้\n\n",
-            "type": "markdown",
-            "images": [
-              "image514.png"
-            ]
-          },
-          {
-            "title": "9.Create event (สร้างกิจกรรม)",
-            "content": "9.Create event (สร้างกิจกรรม)\n\n![image](/images/image539.png)\n\nการตั้งค่าการจัดการชื่อและจำนวนกิจกรรม\n\nNumber of events in a page:ช่องสำหรับระบุจำนวนกิจกรรมที่ต้องการให้แสดงผลในหนึ่งหน้า\n\nList of event names:ใช้สำหรับใส่รายชื่อกิจกรรม\n\nDelete name when used: หากติ๊กเลือก ระบบจะลบชื่อออกจากรายการทันทีหลังจากถูกนำไปสร้างกิจกรรมแล้ว\n\nContent options: ตัวเลือกสำหรับการเลือกชื่อกิจกรรมมาใช้ เช่น \"Random\" หรือ \"In order\"\n\nการตั้งค่าวันและเวลา\n\nStart date / Time:กำหนดวันที่และเวลาเริ่มต้นของกิจกรรม\n\nEnd date / Time:กำหนดวันที่และเวลาสิ้นสุดของกิจกรรม\n\nTime zone:แสดงเขตเวลาที่ใช้งานอยู่\n\nการตั้งค่ารายละเอียดและข้อมูลเพิ่มเติม\n\nDescription of the event:ช่องสำหรับพิมพ์คำอธิบายหรือเนื้อหาของกิจกรรม\n\n",
-            "type": "markdown",
-            "images": [
-              "image539.png"
-            ]
-          },
-          {
-            "title": "ตัวเลือกเสริม (Checkboxes):",
-            "content": "ตัวเลือกเสริม (Checkboxes):\n\nEvent Promotion: ตั้งค่าการโฆษณาหรือโปรโมตกิจกรรม\n\nAdd organizer: เพิ่มข้อมูลผู้จัดงาน\n\nAdd ticket: ตั้งค่าระบบตั๋วหรือบัตรเข้างาน\n\nRecurring event: ตั้งค่ากิจกรรมแบบเกิดซ้ำ (เช่น รายสัปดาห์/รายเดือน)\n\nContact settings: ตั้งค่าข้อมูลการติดต่อสอบถาม\n\nการตั้งค่ารูปแบบและสื่อ\n\nEvent format:เลือกประเภทหรือรูปแบบของกิจกรรม\n\nCover photo:ใช้สำหรับอัปโหลดภาพหน้าปกกิจกรรมเพื่อความสวยงาม\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "10.Share the post to the designated group (แชร์โพสต์ไปยังกลุ่มที่กำหนด)",
-            "content": "10.Share the post to the designated group (แชร์โพสต์ไปยังกลุ่มที่กำหนด)\n\n![image](/images/image152.png)\n\nการตั้งค่าเวลา\n\nShared distance:สุ่มรอระหว่างการแชร์แต่ละครั้ง เช่น 10-15 วินาที\n\nการตั้งค่าการจัดการลิงก์บทความ\n\nList of article links:วางลิงก์โพสต์ที่ต้องการแชร์ ใส่ 1 ลิงก์ต่อ 1 บรรทัด\n\nDelete used link:ติ๊กแล้วระบบจะลบลิงก์อัตโนมัติหลังแชร์เสร็จ ป้องกันแชร์ซ้ำ\n\nการจัดการกลุ่มเป้าหมาย\n\nList of group ids/links:ใส่ ID กลุ่มหรือลิงก์กลุ่ม Facebook\n\nการตั้งค่าเนื้อหาเพิ่มเติม\n\nShare with content:แชร์แบบแนบข้อความไปด้วย ไม่ใช่แค่กดแชร์เปล่าๆ\n\nContent (0): ใส่ข้อความที่อยากให้โพสต์\n\nSpin Content: [a|b|c] สูตรสุ่มคำ เพื่อไม่ให้โพสต์ซ้ำกันเป๊ะๆ\n\nรูปแบบ: ใส่วงเล็บก้ามปูและคั่นด้วย |\n\nตัวอย่าง:สวัสดีค่ะ [เช้า|บ่าย|เย็น] สนใจทักแชทได้เลย [ครับ|ค่ะ|นะคะ]\n\nระบบจะสุ่มได้: \"สวัสดีค่ะ เช้า สนใจทักแชทได้เลย ครับ\" หรือ \"สวัสดีค่ะ เย็น สนใจทักแชทได้เลย นะคะ\"\n\nContent options: รูปแบบการนำข้อความไปใช้\n\nOne-line content: 1 บรรทัด = 1 ข้อความ\n\nContent many lines: ระบบจะใช้ ข้อความทั้งหมดนั้นเป็น 1 ข้อความ\n\nInformation exchange function\n\n",
-            "type": "markdown",
-            "images": [
-              "image152.png"
-            ]
-          },
-          {
-            "title": "1.Update profile picture (อัปเดตรูปโปรไฟล์)",
-            "content": "1.Update profile picture (อัปเดตรูปโปรไฟล์)\n\n![image](/images/image320.png)\n\nการตั้งค่าแหล่งข้อมูล\n\nPhoto folder:ช่องสำหรับระบุที่อยู่ไฟล์ (Path) ของโฟลเดอร์ที่เก็บรูปภาพที่ต้องการนำไปอัปโหลด\n\nการตั้งค่าเงื่อนไขการทำงาน\n\nAutomatically delete image files after uploading:ลบไฟล์รูปอัตโนมัติหลังอัปโหลดสำเร็จ\n\nSkip when avatar is available:ข้ามการอัปโหลดถ้าบัญชีนั้นมีรูปโปรไฟล์อยู่แล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image320.png"
-            ]
-          },
-          {
-            "title": "2.Update cover photo (อัปเดตภาพหน้าปก)",
-            "content": "2.Update cover photo (อัปเดตภาพหน้าปก)\n\n![image](/images/image707.png)\n\nการตั้งค่าการกำหนดตำแหน่งโฟลเดอร์รูปภาพ\n\nPhoto folder:ตำแหน่งโฟล์เดอร์จะเข้าไปดึงรูปภาพ\n\nการจัดการไฟล์หลังอัปโหลด\n\nAutomatically delete image files after uploading:ลบไฟล์รูปอัตโนมัติหลังอัปโหลดเสร็จ\n\n",
-            "type": "markdown",
-            "images": [
-              "image707.png"
-            ]
-          },
-          {
-            "title": "3.Update biography (อัปเดตประวัติส่วนตัว)",
-            "content": "3.Update biography (อัปเดตประวัติส่วนตัว)\n\n![image](/images/image101.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image101.png"
-            ]
-          },
-          {
-            "title": "4.Update page name (อัปเดตชื่อเพจ)",
-            "content": "4.Update page name (อัปเดตชื่อเพจ)\n\n![image](/images/image205.png)\n\nการตั้งค่าจัดการรายชื่อ\n\nPage name (0):สำหรับพิมพ์หรือวางรายชื่อเพจ\n\nRandom number:ฟังก์ชันการสุ่มเลือกชื่อจากรายการนี้ไปใช้งาน\n\nDelete name when used:หากติ๊กถูกเมื่อระบบสุ่มเลือกชื่อใดชื่อหนึ่งไปใช้แล้ว ชื่อนั้นจะถูกลบออกจากรายการทางด้านซ้ายทันที\n\n",
-            "type": "markdown",
-            "images": [
-              "image205.png"
-            ]
-          },
-          {
-            "title": "5.Update information (อัปเดตข้อมูล)",
-            "content": "5.Update information (อัปเดตข้อมูล)\n\n![image](/images/image728.png)\n\nการตั้งค่าข้อมูลการทำงานและประวัติการศึกษา\n\nWork (ที่ทำงาน):สำหรับระบุตำแหน่งงานหรือสถานที่ทำงาน\n\nHigh school (มัธยมศึกษา):สำหรับระบุชื่อโรงเรียนมัธยม\n\nUniversity (มหาวิทยาลัย): สำหรับระบุชื่อมหาวิทยาลัยหรือสถาบันการศึกษาชั้นสูง\n\nIf you have information:หากมีข้อมูลอยู่แล้ว\n\nContinue adding information: ใช้เมื่อต้องการเพิ่มข้อมูลใหม่เข้าไปโดยที่ยังคงรักษาข้อมูลเดิมไว้\n\nNo more information: ใช้เพื่อยืนยันว่าไม่มีข้อมูลที่จะเพิ่มแล้ว หรือให้ข้ามการดำเนินการในส่วนนี้ไปโดยไม่เปลี่ยนแปลงข้อมูลเดิม\n\nDelete old information: ใช้สำหรับล้างข้อมูลเก่าที่เคยบันทึกไว้ในหัวข้อนั้นๆ ออกทั้งหมดก่อนจะดำเนินการขั้นต่อไป\n\nการตั้งค่าข้อมูลที่อยู่และสถานที่\n\nCity (เมือง):ระบุเมืองที่คุณอาศัยอยู่ทั่วไป\n\n",
-            "type": "markdown",
-            "images": [
-              "image728.png"
-            ]
-          },
-          {
-            "title": "Address (ที่อยู่โดยละเอียด):ประกอบด้วยช่องกรอกข้อมูลย่อย 4 ส่วน:",
-            "content": "Address (ที่อยู่โดยละเอียด):ประกอบด้วยช่องกรอกข้อมูลย่อย 4 ส่วน:\n\nAddress: บ้านเลขที่/ชื่อถนน\n\nCity/Town: เมืองหรือเขต\n\nMã ZIP: รหัสไปรษณีย์\n\nArea: พื้นที่หรือภูมิภาค\n\nการตั้งค่าข้อมูลการติดต่อและสื่อสังคมออนไลน์\n\nCurrent city:เมืองปัจจุบันที่อาศัยอยู่\n\nHometown:บ้านเกิด\n\nPhone number:หมายเลขโทรศัพท์\n\nEmail:ที่อยู่อีเมล\n\nService area:พื้นที่ให้บริการ (กรณีเป็นบัญชีธุรกิจ)\n\nWebpage:เว็บไซต์ส่วนตัวหรือธุรกิจ\n\nSocial network:บัญชีโซเชียลมีเดียอื่นๆ\n\nFunction related to pagesettings\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.Country restrictions (ข้อจำกัดของประเทศ)",
-            "content": "1.Country restrictions (ข้อจำกัดของประเทศ)\n\n![image](/images/image106.png)\n\nการตั้งค่าการแสดงผล\n\nOnly shown in some countries:แสดงเนื้อหาเฉพาะในประเทศที่เลือกเท่านั้น\n\nHidden in some countries:ซ่อนเนื้อหาในประเทศที่เลือก\n\nการตั้งค่าการเลือกและจัดการรายชื่อประเทศ\n\nช่อง Dropdown:คลิกเพื่อพิมพ์ค้นหาหรือเลือกรายชื่อประเทศที่ต้องการเพิ่มเข้าในรายการ\n\nMore:ให้เลือกประเทศที่ต้องการก่อนแล้วกดปุ่มนี้เพื่อเพิ่มประเทศนั้น\n\nCountry list (0):แสดงรายชื่อประเทศที่คุณทำการเลือกไว้แล้ว (ตัวเลขในวงเล็บจะบอกจำนวนประเทศที่ถูกเลือกในปัจจุบัน)\n\n",
-            "type": "markdown",
-            "images": [
-              "image106.png"
-            ]
-          },
-          {
-            "title": "2.Age restrictions (ข้อจำกัดด้านอายุ)",
-            "content": "2.Age restrictions (ข้อจำกัดด้านอายุ)\n\n![image](/images/image325.png)\n\nการตั้งค่าการเลือกเกณฑ์อายุ\n\nEveryone (no age limit):อนุญาตทุกคน ไม่จำกัดอายุ (ค่าเริ่มต้น)\n\nPeople 17 years of age and older:จำกัดเฉพาะผู้ที่มีอายุตั้งแต่ 17 ปีขึ้นไป\n\nPeople 18 years and older:จำกัดเฉพาะผู้ที่มีอายุตั้งแต่ 18 ปีขึ้นไป\n\nPeople 19 years and older:จำกัดเฉพาะผู้ที่มีอายุตั้งแต่ 19 ปีขึ้นไป\n\nPeople 21 years and older:จำกัดเฉพาะผู้ที่มีอายุตั้งแต่ 21 ปีขึ้นไป\n\nAlcohol related:จำกัดเนื้อหาที่เกี่ยวข้องกับเครื่องดื่มแอลกอฮอล์ (ตามกฎหมายท้องถิ่น)\n\n",
-            "type": "markdown",
-            "images": [
-              "image325.png"
-            ]
-          },
-          {
-            "title": "3.Delete all location pages (ลบหน้าข้อมูลสถานที่ทั้งหมด)",
-            "content": "3.Delete all location pages (ลบหน้าข้อมูลสถานที่ทั้งหมด)\n\n![image](/images/image629.png)\n\nการตั้งค่าพารามิเตอร์\n\nDistance:สุ่มเวลาพักระหว่างการลบแต่ละครั้ง เช่น ตั้งแต่ 5 ถึง 10 วินาที\n\nA page blocks:กำหนดขอบเขตหรือจำนวน UID ที่จะดำเนินการต่อหนึ่งรอบการทำงาน\n\nการตั้งค่าการจัดการข้อมูล UID\n\nList of uids you want to block:ช่องสำหรับใส่รายการ UID (User ID) ที่ต้องการให้สคริปต์เข้าไปดำเนินการ\n\nตัวเลขในวงเล็บ (0):แสดงจำนวน UID ทั้งหมดที่อยู่ในรายการปัจจุบัน\n\nDelete used uid:หากติ๊กเลือกไว้ ระบบจะลบ UID นั้นออกจากรายการทันทีเมื่อทำงานสำเร็จ เพื่อป้องกันการทำงานซ้ำในรอบถัดไป\n\n",
-            "type": "markdown",
-            "images": [
-              "image629.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "________________inst_ng0aq",
-        "name": "วิธีติดตั้งแอป (Install App)",
-        "sections": [
-          {
-            "title": "MaxCloudPhone วิธีติดตั้งแอป",
-            "content": "MaxCloudPhone วิธีติดตั้งแอป\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ขั้นตอนการติดตั้ง",
-            "content": "ขั้นตอนการติดตั้ง\n\n1.ขั้นตอนการติดตั้งดาวน์โหลดไฟล์ APK\n\nเข้าไปที่เว็บไซต์\n\n![image](/images/image782.png)\n\n2. เริ่มการติดตั้งแอป\n\nไปที่เมนู ติดตั้ง APK ในอุปกรณ์ของคุณ\n\nเลือกแอปที่ต้องการติดตั้งจากรายการ\n\n![image](/images/image542.png)\n\n3. เลือกไฟล์ที่ดาวน์โหลด\n\nค้นหาไฟล์ APK ที่ดาวน์โหลดจากเว็บไซต์\n\nกดติดตั้งแอปตามขั้นตอนที่แสดงบนหน้าจอ\n\n![image](/images/image349.png)\n\n![image](/images/image739.png)\n\n![image](/images/image4.png)\n\n4. ติดตั้งสำเร็จ\n\nรอจนกว่าการติดตั้งจะเสร็จสมบูรณ์\n\nเมื่อเสร็จสิ้น คุณสามารถเปิดแอปและเริ่มใช้งานได้ทันที\n\n![image](/images/image552.png)\n\n✅ หมายเหตุ: หากมีการแจ้งเตือนเกี่ยวกับความปลอดภัยในการติดตั้งแอปจากแหล่งที่ไม่รู้จัก กรุณาไปที่การตั้งค่าอุปกรณ์และอนุญาตให้ติดตั้งแอปจากแหล่งที่ไม่รู้จักก่อนทำการติดตั้ง\n\n",
-            "type": "markdown",
-            "images": [
-              "image782.png",
-              "image542.png",
-              "image349.png",
-              "image739.png",
-              "image4.png",
-              "image552.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "________token________uo3lq",
-        "name": "วิธีใส่ Token เพื่อเชื่อมต่อกับมือถือ",
-        "sections": [
-          {
-            "title": "1.คัดลอก Token จากเว็บไซต์",
-            "content": "1.คัดลอก Token จากเว็บไซต์\n\nไปที่\n\nเข้าสู่ระบบบัญชีของคุณ\n\n![image](/images/image618.png)\n\nไปที่ การจัดการอุปรณ์ แล้วคัดลอก Token ตามตัวอย่างในรูป\n\n![image](/images/image532.png)\n\n![image](/images/image545.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image618.png",
-              "image532.png",
-              "image545.png"
-            ]
-          },
-          {
-            "title": "2. เปิดแอปบนมือถือ",
-            "content": "2. เปิดแอปบนมือถือ\n\nเปิดแอป Maxcloud บนอุปกรณ์ของคุณ\n\nวาง Token ที่คัดลอกมาลงในช่องที่กำหนด\n\n![image](/images/image552.png)\n\n![image](/images/image241.png)\n\nแล้วกด Login ได้เลย\n\n",
-            "type": "markdown",
-            "images": [
-              "image552.png",
-              "image241.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "__________________ti_g26ye",
-        "name": "วิธีการเพิ่มบัญชี Tiktok",
-        "sections": [
-          {
-            "title": "วิธีการเพิ่มบัญชี Tiktok",
-            "content": "วิธีการเพิ่มบัญชี Tiktok\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.ไปที่เมนู Social Accounts",
-            "content": "1.ไปที่เมนู Social Accounts\n\n![image](/images/image196.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image196.png"
-            ]
-          },
-          {
-            "title": "2.ไปที่เมนู นำเข้าบัญชี",
-            "content": "2.ไปที่เมนู นำเข้าบัญชี\n\n![image](/images/image127.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image127.png"
-            ]
-          },
-          {
-            "title": "3.เพิ่มข้อมูลบัญชี TikTok",
-            "content": "3.เพิ่มข้อมูลบัญชี TikTok\n\nกรอกข้อมูลบัญชี\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ตัวอย่างเช่น:",
-            "content": "ตัวอย่างเช่น:\n\npatsadchara9|78sadas8F1Zr@|4NYFSDGHEWFWFKDWUQDFJLASUIL|JanendsfseNit59@hotmail.com|KWTvasfdsadsad16O\n\nเลือก Format\n\nUID|Pass|2Fa|Email|Pass_mail (ให้ใส่ Format ตามข้อมูลที่มีได้เลย)\n\n![image](/images/image261.png)\n\nจากนั้นกด บันทึก\n\n",
-            "type": "markdown",
-            "images": [
-              "image261.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "_______________tikto_yk2im",
-        "name": "วิธีการลบบัญชี Tiktok",
-        "sections": [
-          {
-            "title": "1.เลือกบัญชีที่ต้องการลบ",
-            "content": "1.เลือกบัญชีที่ต้องการลบ\n\n![image](/images/image358.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image358.png"
-            ]
-          },
-          {
-            "title": "2.กดคลิกขวา แล้วเลือกคำว่า Delete",
-            "content": "2.กดคลิกขวา แล้วเลือกคำว่า Delete\n\n![image](/images/image105.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image105.png"
-            ]
-          },
-          {
-            "title": "เป็นอันเสร็จในการลบบัญชี",
-            "content": "เป็นอันเสร็จในการลบบัญชี\n\n",
-            "type": "markdown",
-            "images": []
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "_______________adb_d_i9lc8",
-        "name": "วิธีเปิดใช้งาน ADB Debug (ในโทรศัพท์ที่มีหน้าจอ)",
-        "sections": [
-          {
-            "title": "1.เข้าไปที่ตั้งค่า เลื่อนลงมาให้สุด แล้วเลือก About phone",
-            "content": "1.เข้าไปที่ตั้งค่า เลื่อนลงมาให้สุด แล้วเลือก About phone\n\n![image](/images/image66.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image66.png"
-            ]
-          },
-          {
-            "title": "2.เลือก Software information",
-            "content": "2.เลือก Software information\n\n![image](/images/image203.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image203.png"
-            ]
-          },
-          {
-            "title": "3.กดที่ Build number 4-5 ครั้ง",
-            "content": "3.กดที่ Build number 4-5 ครั้ง\n\n![image](/images/image51.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image51.png"
-            ]
-          },
-          {
-            "title": "4.จะมีโหมด Developer Options ขึ้นมา ให้กดเข้าไป",
-            "content": "4.จะมีโหมด Developer Options ขึ้นมา ให้กดเข้าไป\n\n![image](/images/image267.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image267.png"
-            ]
-          },
-          {
-            "title": "5.ให้มาเลือกเปิด USB debugging",
-            "content": "5.ให้มาเลือกเปิด USB debugging\n\n![image](/images/image46.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image46.png"
-            ]
-          },
-          {
-            "title": "6.เลือก OK เป็นอันเสร็จสิ้นการเปิดใช้งาน ADB Debug",
-            "content": "6.เลือก OK เป็นอันเสร็จสิ้นการเปิดใช้งาน ADB Debug\n\n![image](/images/image506.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image506.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "_____________________iay90",
-        "name": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น",
-        "sections": [
-          {
-            "title": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น",
-            "content": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.ไปที่ คลังภาพ",
-            "content": "1.ไปที่ คลังภาพ\n\n![image](/images/image74.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image74.png"
-            ]
-          },
-          {
-            "title": "2.เลือก New Category ตั้งชื่อตามที่ต้องการ",
-            "content": "2.เลือก New Category ตั้งชื่อตามที่ต้องการ\n\n![image](/images/image465.png)\n\n![image](/images/image397.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image465.png",
-              "image397.png"
-            ]
-          },
-          {
-            "title": "3.จากนั้นเลือก New Content",
-            "content": "3.จากนั้นเลือก New Content\n\n![image](/images/image581.png)\n\nตั้งชื่อตามต้องการ จากนั้นกด Add\n\n![image](/images/image184.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image581.png",
-              "image184.png"
-            ]
-          },
-          {
-            "title": "4.เลือก AddContent",
-            "content": "4.เลือก AddContent\n\n![image](/images/image700.png)\n\n![image](/images/image315.png)\n\nContent Items:รายการเนื้อหาที่ต้องการ(1 รายการต่อ 1 บรรทัด)\n\nหมายเหตุ:บรรทัดว่างจะถูกระบบละเว้น\n\nเนื้อหาหนึ่งบรรทัด:เลือกเมื่อต้องการให้แต่ละบรรทัดแยกเป็นรายการอิสระจากกัน\n\nเนื้อหาหลายบรรทัด:เลือกในกรณีที่เนื้อหาหนึ่งรายการมีความยาวหลายบรรทัด\n\nหลังจากเพิ่มข้อมูลเสร็จแล้วให้กด Add\n\n",
-            "type": "markdown",
-            "images": [
-              "image700.png",
-              "image315.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "_______________2fa_hhc7f",
-        "name": "วิธีเปิดใช้งาน 2FA",
-        "sections": [
-          {
-            "title": "คำถาม:ทำไมต้องเปิดใช้งาน 2FA?",
-            "content": "คำถาม:ทำไมต้องเปิดใช้งาน 2FA?\n\nคำตอบ:เพื่อให้ระบบ MaxCloudPhone สามารถยืนยันตัวได้ง่าย โดยไม่ต้องยืนยันผ่านอีเมล เพื่อให้การล็อกอินบัญชี ง่าย และสะดวกมากขึ้น\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.กดที่ขีด 3 ขีด ที่หน้าโปรไฟล์",
-            "content": "1.กดที่ขีด 3 ขีด ที่หน้าโปรไฟล์\n\n![image](/images/image625.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image625.png"
-            ]
-          },
-          {
-            "title": "2.ไปที่ Setting and privacy",
-            "content": "2.ไปที่ Setting and privacy\n\n![image](/images/image538.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image538.png"
-            ]
-          },
-          {
-            "title": "3.ไปที่ Security",
-            "content": "3.ไปที่ Security\n\n![image](/images/image799.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image799.png"
-            ]
-          },
-          {
-            "title": "4.ไปที่เมนู 2-step verification",
-            "content": "4.ไปที่เมนู 2-step verification\n\n![image](/images/image647.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image647.png"
-            ]
-          },
-          {
-            "title": "5.ปรับการตั้งค่าดังนี้แล้วกด Turn on",
-            "content": "5.ปรับการตั้งค่าดังนี้แล้วกด Turn on\n\n![image](/images/image50.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image50.png"
-            ]
-          },
-          {
-            "title": "6.Copy key",
-            "content": "6.Copy key\n\n![image](/images/image259.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image259.png"
-            ]
-          },
-          {
-            "title": "7.จากนั้นไปที่เว็บไซต์",
-            "content": "7.จากนั้นไปที่เว็บไซต์\n\n![image](/images/image77.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image77.png"
-            ]
-          },
-          {
-            "title": "8.วางคีย์ที่คัดลอกมาจาก Tiktok ที่ช่องด้านบน แล้วกด Submit",
-            "content": "8.วางคีย์ที่คัดลอกมาจาก Tiktok ที่ช่องด้านบน แล้วกด Submit\n\n![image](/images/image417.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image417.png"
-            ]
-          },
-          {
-            "title": "9.คัดลอกรหัสตัวเลข 6 ตัวสุดท้าย จากช่องด้านล่าง",
-            "content": "9.คัดลอกรหัสตัวเลข 6 ตัวสุดท้าย จากช่องด้านล่าง\n\n![image](/images/image511.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image511.png"
-            ]
-          },
-          {
-            "title": "10.จากนั้นกลับที่แอพ Tiktok แล้วกด Next",
-            "content": "10.จากนั้นกลับที่แอพ Tiktok แล้วกด Next\n\n![image](/images/image620.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image620.png"
-            ]
-          },
-          {
-            "title": "11.วางตัวเลขที่คัดลอกมาลงไป",
-            "content": "11.วางตัวเลขที่คัดลอกมาลงไป\n\n![image](/images/image238.png)\n\nหมายเหตุ:หากนำรหัสตัวเลขมาใส่ช้าไปจนขึ้นแบบภาพด้านล่างนี้ ให้ทำการกลับไปกด Submit ที่เว็บไซต์แล้วคัดลอกรหัสตัวเลข 6 หลัก แล้วนำมาวางอีกครั้ง\n\n![image](/images/image124.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image238.png",
-              "image124.png"
-            ]
-          },
-          {
-            "title": "12.หลังจากนั้นระบบจะพามาที่หน้านี้ ให้ทำการ Skip",
-            "content": "12.หลังจากนั้นระบบจะพามาที่หน้านี้ ให้ทำการ Skip\n\n![image](/images/image297.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image297.png"
-            ]
-          },
-          {
-            "title": "13.ทำการ Skip อีกครั้ง",
-            "content": "13.ทำการ Skip อีกครั้ง\n\n![image](/images/image234.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image234.png"
-            ]
-          },
-          {
-            "title": "14.เมื่อเปิด 2FA สำเร็จจะได้หน้าตาประมาณนี้",
-            "content": "14.เมื่อเปิด 2FA สำเร็จจะได้หน้าตาประมาณนี้\n\n![image](/images/image129.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image129.png"
-            ]
-          },
-          {
-            "title": "15.กลับไปคัดลอกคีย์ 2fa ในเว็บไซต์",
-            "content": "15.กลับไปคัดลอกคีย์ 2fa ในเว็บไซต์\n\n![image](/images/image507.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image507.png"
-            ]
-          },
-          {
-            "title": "16.กลับไปที่เว็บไซต์จากนั้นไปที่ Social Account",
-            "content": "16.กลับไปที่เว็บไซต์จากนั้นไปที่ Social Account\n\n![image](/images/image800.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image800.png"
-            ]
-          },
-          {
-            "title": "17.ทำการนำคีย์ที่คัดลอกมา ไปวางลงในบัญชีที่เราทำการเปิด 2fa โดยไปที่ปุ่ม Edit(ไอคอนดินสอ)",
-            "content": "17.ทำการนำคีย์ที่คัดลอกมา ไปวางลงในบัญชีที่เราทำการเปิด 2fa โดยไปที่ปุ่ม Edit(ไอคอนดินสอ)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "18.นำคีย์ไปวางในช่อง Two FA แล้วกด Save",
-            "content": "18.นำคีย์ไปวางในช่อง Two FA แล้วกด Save\n\n",
-            "type": "markdown",
-            "images": []
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "___________proxy__ip_g4f8q",
-        "name": "วิธีใช้งาน Proxy (IPv4 เท่านั้น)",
-        "sections": [
-          {
-            "title": "วิธีตั้งค่าการใช้งาน Proxy",
-            "content": "วิธีตั้งค่าการใช้งาน Proxy\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.ไปที่ การจัดการอุปรณ์",
-            "content": "1.ไปที่ การจัดการอุปรณ์\n\n![image](/images/image532.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image532.png"
-            ]
-          },
-          {
-            "title": "ติ๊กเลือกและคลิกขวาที่มือถือ > เลือกแก้ไขการตั้งค่า",
-            "content": "ติ๊กเลือกและคลิกขวาที่มือถือ > เลือกแก้ไขการตั้งค่า\n\n![image](/images/image786.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image786.png"
-            ]
-          },
-          {
-            "title": "เลือกProxyและกดบันทึก",
-            "content": "เลือกProxyและกดบันทึก\n\n![image](/images/image579.png)\n\nไปที่ Social Accounts\n\n![image](/images/image747.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image579.png",
-              "image747.png"
-            ]
-          },
-          {
-            "title": "ติ๊กเลือกและคลิกขวาที่บัญชีที่ต้องการใส่ Proxy > เลือกProxy",
-            "content": "ติ๊กเลือกและคลิกขวาที่บัญชีที่ต้องการใส่ Proxy > เลือกProxy\n\n![image](/images/image403.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image403.png"
-            ]
-          },
-          {
-            "title": "ใส่ Proxy ลงในช่องตามรูปแบบ IPหรือ IP:PORT|IP:PORT:USER:PASS และกดบันทึก",
-            "content": "ใส่ Proxy ลงในช่องตามรูปแบบ IPหรือ IP:PORT|IP:PORT:USER:PASS และกดบันทึก\n\n![image](/images/image759.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image759.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "__________proxy_ipv4_63fys",
-        "name": "วิธีการลบ Proxy IPv4",
-        "sections": [
-          {
-            "title": "1.เลือกบัญชีที่ต้องการลบ Proxy",
-            "content": "1.เลือกบัญชีที่ต้องการลบ Proxy\n\n![image](/images/image440.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image440.png"
-            ]
-          },
-          {
-            "title": "2.คลิกขวาเลือก proxy",
-            "content": "2.คลิกขวาเลือก proxy\n\n![image](/images/image360.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image360.png"
-            ]
-          },
-          {
-            "title": "3.กด ลบ ได้เลย",
-            "content": "3.กด ลบ ได้เลย\n\n![image](/images/image182.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image182.png"
-            ]
-          },
-          {
-            "title": "4.หลังจากกดลบแล้ว ให้คลิกขวาเลือกคำว่า โหลดใหม่ เป็นอันเสร็จ",
-            "content": "4.หลังจากกดลบแล้ว ให้คลิกขวาเลือกคำว่า โหลดใหม่ เป็นอันเสร็จ\n\n![image](/images/image47.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image47.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "___________________ctf0o",
-        "name": "วิธีการตั้งสคริปต์",
-        "sections": [
-          {
-            "title": "ก่อนที่จะกำหนดสคริปต์ให้กับบัญชี TikTok เราต้องสร้างสคริปต์ก่อน",
-            "content": "ก่อนที่จะกำหนดสคริปต์ให้กับบัญชี TikTok เราต้องสร้างสคริปต์ก่อน\n\nไปที่เมนู\"สคริปต์\"\n\n![image](/images/image377.png)\n\nคลิกที่เพิ่ม\n\n![image](/images/image134.png)\n\nตั้งชื่อScriptและกดบันทึก\n\n![image](/images/image484.png)\n\nหลังจากสร้าง Script แล้ว ดับเบิลคลิกที่ Script ที่สร้างไว้ ไปที่เพิ่ม\n\n![image](/images/image428.png)\n\nแล้วเลือกสคริปต์ที่ต้องการ\n\n![image](/images/image615.png)\n\nเมื่อสร้างสคริปต์เสร็จแล้ว กดบันทึก\n\n![image](/images/image235.png)\n\nหลังจากสร้างสคริปต์เสร็จแล้ว ทำการเพิ่มสคริปให้กับบัญชี Tiktok\n\nเลือกบัญชีที่ต้องการเพิ่มสคริปต์\n\n![image](/images/image765.png)\n\nคลิกขวา จากนั้นเลือกตั้งค่าสคริปต์\n\n![image](/images/image244.png)\n\nเลือกสคริปต์ที่ต้องการ\n\n![image](/images/image181.png)\n\nกดบันทึก\n\n![image](/images/image117.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image377.png",
-              "image134.png",
-              "image484.png",
-              "image428.png",
-              "image615.png",
-              "image235.png",
-              "image765.png",
-              "image244.png",
-              "image181.png",
-              "image117.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "____________configur_bkf4p",
-        "name": "วิธีการตั้ง Configure Register",
-        "sections": [
-          {
-            "title": "Configure Register ตั้งค่าข้อมูลการลงทะเบียนบัญชีอัตโนมัติ",
-            "content": "Configure Register ตั้งค่าข้อมูลการลงทะเบียนบัญชีอัตโนมัติ\n\n",
+            "title": "รวมวิธีการใช้งานโปรแกรม MaxSystemCare",
+            "content": "รวมวิธีการใช้งานโปรแกรม MaxSystemCare\n\n",
             "type": "markdown",
             "images": []
           }
@@ -6010,388 +6485,38 @@ export const manualData: ProgramData[] = [
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "_____________________9gj4m",
-        "name": "อธิบายการใช้งานฟังก์ชัน",
+        "id": "max_twitter_pro_blx4d",
+        "name": "Max Twitter Pro",
         "sections": [
           {
-            "title": "โต้ตอบ",
-            "content": "โต้ตอบ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.อ่านการแจ้งเตือน",
-            "content": "1.อ่านการแจ้งเตือน\n\n![image](/images/image183.png)\n\nการตั้งค่าเวลาและจำนวน\n\nนับการแจ้งเตือน:กำหนดช่วงช่วงเวลาในการตรวจสอบการแจ้งเตือน\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดรอก่อนจะเริ่มดำเนินการถัดไป\n\nการตั้งค่าตัวเลือกเพิ่มเติม\n\nCount Follow:ตั้งค่าเวลาหน่วงสำหรับการกดติดตาม\n\nCount Say Hi:ตั้งค่าเวลาหน่วงสำหรับการส่งข้อความทักทาย\n\n",
+            "title": "โปรแกรมใช้ในการฟาร์มบัญชี twitter อัตโนมัติ",
+            "content": "โปรแกรมใช้ในการฟาร์มบัญชี twitter อัตโนมัติ\n\nเครื่องมือที่ช่วยเราบริหารจัดการบัญชี ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น แต่ฟังชั่นหนึ่งที่โดดเด่นที่สุดคือ ฟังชั่นการสร้างออแกนิคเทียมให้กับโพสต์ ด้วยการปั่นทวิตเตอร์ช่วยลดค่าโฆษณา\n\n![image](/images/image471.png)\n\n",
             "type": "markdown",
             "images": [
-              "image183.png"
+              "image471.png"
             ]
           },
           {
-            "title": "2.วิดีโอสุ่ม",
-            "content": "2.วิดีโอสุ่ม\n\n![image](/images/image298.png)\n\nการตั้งค่าเป้าหมายและจำนวน\n\nข้อเสนอ:ระบบจะสุ่มดูวิดีโอจากหน้า \"แนะนำ\" หรือ \"For You\" (หน้าฟีดหลักที่ระบบสุ่มมาให้)\n\nติดตาม:ระบบจะสุ่มดูวิดีโอจากบัญชีที่คุณได้กด \"ติดตาม\" (Following) ไว้แล้วเท่านั้น\n\nเพื่อน:ระบบจะเลือกดูวิดีโอจากกลุ่มที่เป็น \"เพื่อน\" (บัญชีที่ติดตามซึ่งกันและกัน)\n\n",
-            "type": "markdown",
-            "images": [
-              "image298.png"
-            ]
-          },
-          {
-            "title": "ตัวเลือกจำกัด:",
-            "content": "ตัวเลือกจำกัด:\n\nจำกัดวิดีโอ: กำหนดจำนวนวิดีโอที่จะสุ่ม (ตัวอย่าง: 1 - 2 วิดีโอ)\n\nจำกัดเวลาการโต้ตอบ (s): กำหนดระยะเวลาการทำงานรวมเป็นวินาที\n\nดูวิดีโอ: กำหนดระยะเวลาที่จะใช้ในการดูวิดีโอแต่ละตัว (ตัวอย่าง: 3 - 5 วินาที)\n\nการตั้งค่าการโต้ตอบพื้นฐาน\n\n",
+            "title": "ปฏิสัมพันธ์ (Interaction)",
+            "content": "ปฏิสัมพันธ์ (Interaction)\n\nปฏิสัมพันธ์ในฟีดข่าว\n\nปฏิสัมพันธ์กับผู้ติดตาม\n\nปฏิสัมพันธ์กับการติดตาม\n\nปฏิสัมพันธ์ที่ผู้ใช้กำหนดเอง\n\nปฏิสัมพันธ์ผ่านแฮชแท็ก\n\nปฏิสัมพันธ์กับผู้ใช้ผ่านแฮชแท็ก\n\nปฏิสัมพันธ์กับบทความที่กำหนด\n\nปฏิสัมพันธ์กับความคิดเห็นที่กำหนด\n\nปฏิสัมพันธ์ผ่านคีย์เวิร์ด\n\nส่งข้อความโดยผู้ใช้\n\nส่งข้อความถึงผู้ติดตาม/การติดตาม...\n\nการโต้ตอบของโฆษณาโดยผู้ใช้\n\nโฆษณาเชิงโต้ตอบในฟีดข่าว\n\n",
             "type": "markdown",
             "images": []
           },
           {
-            "title": "การโต้ตอบ (Interaction)",
-            "content": "การโต้ตอบ (Interaction)\n\nความน่าจะเป็น: ตั้งค่าเป็น % ว่าจะให้เกิดการโต้ตอบบ่อยแค่ไหน\n\nเวลาในการหน่วง: ระยะเวลารอก่อนเริ่มโต้ตอบ (หน่วย: วินาที)\n\n",
+            "title": "การติดตาม (Following)",
+            "content": "การติดตาม (Following)\n\nติดตาม (Follow)\n\nติดตามคนที่ทวิตแนะนำ\n\nติดตามโดยคีย์เวิร์ด\n\nติดตามผู้ใช้\n\nติดตามกลับผู้ติดตาม\n\nติดตามผู้ติดตามของผู้ใช้\n\nติดตามการติดตามของผู้ใช้\n\nติดตามแฮชแท็ก\n\nยกเลิกการติดตาม (Unfollow)\n\nยกเลิกการติดตามผู้ใช้ที่กำหนด\n\n",
             "type": "markdown",
             "images": []
           },
           {
-            "title": "ติดตาม (Follow)",
-            "content": "ติดตาม (Follow)\n\nความน่าจะเป็น: โอกาสที่จะกดติดตามบัญชีนั้น ๆ\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดติดตาม\n\n",
+            "title": "ฟังก์ชันอื่นๆ (Other Functions)",
+            "content": "ฟังก์ชันอื่นๆ (Other Functions)\n\nหยุดพัก (Breaks)\n\nอ่านแจ้งเตือน\n\nโพสต์ทวีต\n\nแชร์ทวีต\n\nอัปเดตข้อมูล\n\nรับรายชื่อผู้ติดตาม/การติดตาม\n\nรับรายชื่อผู้ใช้ที่กดไลค์/รีทวีต\n\nรับลิงก์ทวีตและรีทวีต\n\nเปลี่ยนประเทศและภาษา\n\nลบทวีตเก่าทั้งหมด\n\nสแกนเนื้อหาความคิดเห็น\n\nแบ่งปันสิทธิ์ผู้จัดการสตูดิโอ\n\nเปิดการแสดงเนื้อหา 18+\n\nลบการเข้าสู่ระบบอุปกรณ์เก่า\n\nรับรายชื่อผู้ใช้ตามรายชื่อชื่อ\n\n",
             "type": "markdown",
             "images": []
           },
           {
-            "title": "เพิ่มในรายการโปรด (Add to Favorites)",
-            "content": "เพิ่มในรายการโปรด (Add to Favorites)\n\nความน่าจะเป็น: โอกาสที่จะกดบันทึกวิดีโอเป็นรายการโปรด\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดบันทึก\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "โพสต์ใหม่ (Repost)",
-            "content": "โพสต์ใหม่ (Repost)\n\nความน่าจะเป็น: โอกาสที่จะกดรีโพสต์วิดีโอ\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดรีโพสต์\n\nการตั้งค่าความคิดเห็น\n\nชื่อแท็ก:สามารถเลือกหรือพิมพ์แท็กที่ต้องการใช้\n\nความน่าจะเป็น:โอกาสที่จะทำการพิมพ์ความคิดเห็น\n\nรายการเนื้อหา:เลือกชุดข้อความที่จะนำไปคอมเมนต์ (สามารถกดรูปดินสอเพื่อแก้ไขเนื้อหาได้)\n\nเวลาในการหน่วง:ระยะเวลารอก่อนที่จะส่งความคิดเห็น\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "3.วิดีโอที่ระบุ",
-            "content": "3.วิดีโอที่ระบุ\n\n![image](/images/image533.png)\n\nการตั้งค่าข้อมูลพื้นฐานและรายการเป้าหมาย\n\nรายการลิงก์ (*):ช่องสำหรับใส่ URL หรือลิงก์ของวิดีโอที่ต้องการดำเนินการ\n\nจำนวนวิดีโอ:กำหนดช่วงจำนวนวิดีโอที่จะให้ระบบทำงาน\n\nดูวิดีโอ:กำหนดระยะเวลาในการเปิดดูวิดีโอแต่ละตัว\n\nการตั้งค่าการปฏิสัมพันธ์กับช่องและโพสต์\n\n",
-            "type": "markdown",
-            "images": [
-              "image533.png"
-            ]
-          },
-          {
-            "title": "ติดตาม (Follow):",
-            "content": "ติดตาม (Follow):\n\nความน่าจะเป็น: ตั้งค่าโอกาสที่จะกดติดตามเป็นเปอร์เซ็นต์ (%)\n\nเวลาในการหน่วง: กำหนดช่วงเวลาพักก่อนกดติดตาม (วินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "เพิ่มในรายการโปรด (Add to Favorites):",
-            "content": "เพิ่มในรายการโปรด (Add to Favorites):\n\nความน่าจะเป็น: โอกาสที่จะกดเพิ่มเป็นรายการโปรด (%)\n\nเวลาในการหน่วง: ช่วงเวลาพักก่อนดำเนินการ (วินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "โพสต์ใหม่ (Repost):",
-            "content": "โพสต์ใหม่ (Repost):\n\nความน่าจะเป็น: โอกาสที่จะกดรีโพสต์หรือแชร์ (%)\n\nเวลาในการหน่วง: ช่วงเวลาพักก่อนดำเนินการ (วินาที)\n\nการตั้งค่าการตอบโต้และแสดงความคิดเห็น\n\nโต้ตอบ (Interaction):การตั้งค่าพื้นฐานสำหรับการกดถูกใจ พร้อมช่องกำหนดความน่าจะเป็นและเวลาหน่วง\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "แสดงความคิดเห็น (Comment):",
-            "content": "แสดงความคิดเห็น (Comment):\n\nชื่อแท็ก: ระบุแท็กชื่อที่ต้องการใช้\n\nความน่าจะเป็น: โอกาสที่ระบบจะทำการคอมเมนต์ (%)\n\nรายการเนื้อหา: เลือกชุดข้อความที่จะใช้คอมเมนต์ (สามารถกดไอคอนดินสอเพื่อแก้ไขเนื้อหาได้)\n\nเวลาในการหน่วง: ช่วงเวลาพักก่อนพิมพ์ข้อความคอมเมนต์ (วินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "4.วิดีโอจากคีย์เวิร์ด",
-            "content": "4.วิดีโอจากคีย์เวิร์ด\n\n![image](/images/image274.png)\n\nการตั้งค่าข้อมูลพื้นฐานและคีย์เวิร์ด\n\nรายการคำสำคัญ (Keywords):ใส่รายการคีย์เวิร์ดที่ต้องการค้นหา (1 บรรทัดต่อ 1 คำ) เพื่อให้ระบบเข้าถึงวิดีโอที่เกี่ยวข้อง\n\nการตั้งค่าการจำกัดปริมาณและการรับชม\n\n",
-            "type": "markdown",
-            "images": [
-              "image274.png"
-            ]
-          },
-          {
-            "title": "ตัวเลือกการจำกัด:เลือกตั้งค่าอย่างใดอย่างหนึ่งระหว่าง:",
-            "content": "ตัวเลือกการจำกัด:เลือกตั้งค่าอย่างใดอย่างหนึ่งระหว่าง:\n\nจำกัดวิดีโอ: กำหนดจำนวนวิดีโอขั้นต่ำและสูงสุดที่จะให้ระบบเข้าไปจัดการ\n\nจำกัดเวลาการโต้ตอบ (s): กำหนดระยะเวลาการทำงานเป็นวินาที\n\nดูวิดีโอ: กำหนดช่วงเวลา (วินาที) ที่จะให้บอทเปิดดูวิดีโอนั้นๆ ก่อนจะเริ่มทำกิจกรรมถัดไป\n\nการตั้งค่าการโต้ตอบ\n\nโต้ตอบ (Like):ตั้งค่าเปอร์เซ็นต์ความน่าจะเป็นที่จะกดถูกใจ และเวลาหน่วงก่อนกด\n\nติดตาม (Follow):ตั้งค่าโอกาสที่จะกดติดตามบัญชีเจ้าของวิดีโอ\n\nเพิ่มในรายการโปรด:ตั้งค่าโอกาสในการกดบันทึกวิดีโอไว้ในรายการโปรด\n\nโพสต์ใหม่ (Repost):ตั้งค่าโอกาสที่จะแชร์วิดีโอต่อ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "แสดงความคิดเห็น:หากเปิดใช้งาน คุณสามารถระบุรายละเอียดได้ดังนี้:",
-            "content": "แสดงความคิดเห็น:หากเปิดใช้งาน คุณสามารถระบุรายละเอียดได้ดังนี้:\n\nชื่อแท็ก: ระบุแท็กชื่อที่ต้องการใช้\n\nรายการเนื้อหา: เลือกชุดข้อความคอมเมนต์ที่เตรียมไว้ (สามารถแก้ไขได้ผ่านไอคอนรูปดินสอ)\n\nเวลาในการหน่วง: กำหนดระยะเวลารอก่อนที่จะทำการพิมพ์คอมเมนต์\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "5.วิดีโอจากผู้ใช้",
-            "content": "5.วิดีโอจากผู้ใช้\n\n![image](/images/image675.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nรายชื่อผู้ใช้งาน:เลือกรายชื่อบัญชีผู้ใช้ที่จะให้ระบบเข้าไปดึงข้อมูลหรือปฏิสัมพันธ์ด้วย\n\nการตั้งค่าการกำหนดขอบเขตและระยะเวลา\n\n",
-            "type": "markdown",
-            "images": [
-              "image675.png"
-            ]
-          },
-          {
-            "title": "ตัวเลือก (จำกัดจำนวน):",
-            "content": "ตัวเลือก (จำกัดจำนวน):\n\nจำกัดวิดีโอ: กำหนดช่วงจำนวนวิดีโอที่จะดำเนินการ (เช่น 1 ถึง 2 วิดีโอ)\n\nจำกัดเวลาการโต้ตอบ (s): กำหนดระยะเวลาการทำงาน\n\nดูวิดีโอ:ตั้งค่าช่วงเวลาในการรับชมวิดีโอแต่ละคลิป (หน่วยเป็นวินาที)\n\nการตั้งค่าการปฏิสัมพันธ์หลัก\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ติดตาม (Follow):",
-            "content": "ติดตาม (Follow):\n\nความน่าจะเป็น: ตั้งค่าโอกาสที่จะกดติดตาม (0-100%)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดติดตาม\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "เพิ่มในรายการโปรด (Favorite):",
-            "content": "เพิ่มในรายการโปรด (Favorite):\n\nความน่าจะเป็น: ตั้งค่าโอกาสที่จะกดเพิ่มเป็นรายการโปรด\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดเพิ่มเป็นรายการโปรด\n\nการตั้งค่าการโต้ตอบและการมีส่วนร่วม\n\nโต้ตอบ (Like/Interaction):ตั้งค่าโอกาสและระยะเวลาหน่วงสำหรับการกดถูกใจ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "แสดงความคิดเห็น (Comment):",
-            "content": "แสดงความคิดเห็น (Comment):\n\nชื่อแท็ก: ระบุแท็กชื่อที่ต้องการใช้\n\nความน่าจะเป็น: โอกาสที่จะทำการคอมเมนต์ในวิดีโอนั้น\n\nรายการเนื้อหา: เลือกชุดข้อความที่จะใช้คอมเมนต์ (สามารถจัดการเนื้อหาได้ที่ปุ่มรูปดินสอ)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนพิมพ์คอมเมนต์\n\nโพสต์ใหม่ (Repost/Share):ตั้งค่าโอกาสและระยะเวลาหน่วงสำหรับการแชร์\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "6.ถ่ายทอดสดสุ่ม",
-            "content": "6.ถ่ายทอดสดสุ่ม\n\n![image](/images/image549.png)\n\nการตั้งค่าตัวเลือกการจำกัด\n\nจำกัดวิดีโอ:กำหนดจำนวนวิดีโอที่ต้องการให้ระบบทำงาน (เช่น 1 ถึง 2 วิดีโอ)\n\nจำกัดเวลาการโต้ตอบ (s):กำหนดระยะเวลาเป็นวินาทีในการปฏิสัมพันธ์\n\nการตั้งค่าการดูถ่ายทอดสด\n\nดูถ่ายทอดสด:กำหนดช่วงเวลาที่จะรับชมในแต่ละไลฟ์ (ระบุเป็นวินาที เช่น 3 ถึง 5 วินาที)\n\nการตั้งค่าการปฏิสัมพันธ์หลัก\n\n",
-            "type": "markdown",
-            "images": [
-              "image549.png"
-            ]
-          },
-          {
-            "title": "โต้ตอบ (Interaction)",
-            "content": "โต้ตอบ (Interaction)\n\nความน่าจะเป็น: ระบุโอกาสที่จะเกิดการโต้ตอบเป็นเปอร์เซ็นต์ (%)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนเริ่มโต้ตอบ (ระบุเป็นวินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "แชร์ถ่ายทอดสด (Share Live)",
-            "content": "แชร์ถ่ายทอดสด (Share Live)\n\nความน่าจะเป็น: ระบุโอกาสที่จะกดแชร์เป็นเปอร์เซ็นต์ (%)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดแชร์ (ระบุเป็นวินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ติดตาม (Follow)",
-            "content": "ติดตาม (Follow)\n\nความน่าจะเป็น: ระบุโอกาสที่จะกดติดตามเจ้าของไลฟ์เป็นเปอร์เซ็นต์ (%)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนกดติดตาม (ระบุเป็นวินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "แสดงความคิดเห็น (Comment)",
-            "content": "แสดงความคิดเห็น (Comment)\n\nความน่าจะเป็น: ระบุโอกาสที่จะพิมพ์คอมเมนต์เป็นเปอร์เซ็นต์ (%)\n\nรายการเนื้อหา: เลือกชุดข้อความที่ต้องการใช้แสดงความคิดเห็น (สามารถกดไอคอนดินสอเพื่อแก้ไขเนื้อหาได้)\n\nเวลาในการหน่วง: ระยะเวลารอก่อนพิมพ์ความคิดเห็น (ระบุเป็นวินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "7.ถ่ายทอดสดที่ระบุ",
-            "content": "7.ถ่ายทอดสดที่ระบุ\n\n![image](/images/image218.png)\n\nการตั้งค่าข้อมูลพื้นฐานการทำงาน\n\nลิงก์ถ่ายทอดสด:ช่องสำหรับใส่ลิงก์ถ่ายทอดสด\n\nดูถ่ายทอดสด:กำหนดช่วงเวลา (วินาที)\n\nการตั้งค่าตัวเลือกการโต้ตอบ\n\n",
-            "type": "markdown",
-            "images": [
-              "image218.png"
-            ]
-          },
-          {
-            "title": "โต้ตอบ:",
-            "content": "โต้ตอบ:\n\nความน่าจะเป็น: (กรอกค่า %)\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "แชร์ถ่ายทอดสด:",
-            "content": "แชร์ถ่ายทอดสด:\n\nความน่าจะเป็น: (กรอกค่า %)\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ติดตาม:",
-            "content": "ติดตาม:\n\nความน่าจะเป็น: (กรอกค่า %)\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\nการตั้งค่าตัวเลือกการโต้ตอบเพิ่มเติม\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "โต้ตอบต่อเนื่อง:",
-            "content": "โต้ตอบต่อเนื่อง:\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "แสดงความคิดเห็น:",
-            "content": "แสดงความคิดเห็น:\n\nความน่าจะเป็น: (กรอกค่า %)\n\nรายการเนื้อหา (0): เมนูเลือกรายการ และสามารถแก้ไขได้ที่ปุ่มแก้ไขรูปดินสอ\n\nเวลาในการหน่วง: กำหนดช่วงเวลา (วินาที)\n\nติดตาม & ส่งข้อความ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.ติดตามผู้ใช้",
-            "content": "1.ติดตามผู้ใช้\n\n![image](/images/image623.png)\n\nการตั้งค่าข้อมูลพื้นฐานและเป้าหมาย\n\nรายการผู้ใช้:ช่องสำหรับกรอก ID หรือชื่อผู้ใช้งานที่ต้องการติดตาม โดยกรอกเรียงลงมาทีละบรรทัด\n\nการตั้งค่าเงื่อนไขและเวลา\n\nนับผู้ใช้:กำหนดช่วงจำนวนผู้ใช้ที่จะติดตามต่อรอบ (ระบุเป็นค่าเริ่มต้น 1 - 2 user)\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดพักระหว่างการดำเนินการแต่ละครั้ง (ระบุเป็นค่าเริ่มต้น 3 - 5 วินาที)\n\nออกเมื่อการติดตามล้มเหลว:ตัวเลือกสำหรับหยุดการทำงานอัตโนมัติหากพบข้อผิดพลาดตามจำนวนครั้งที่กำหนด\n\nเปิดลิงก์ด้วยการค้นหา:ตัวเลือกเสริมในการเข้าถึงโปรไฟล์ผู้ใช้ผ่านช่องทางค้นหาแทนการเข้าถึงโดยตรง\n\n",
-            "type": "markdown",
-            "images": [
-              "image623.png"
-            ]
-          },
-          {
-            "title": "2.ติดตามจากคีย์เวิร์ด",
-            "content": "2.ติดตามจากคีย์เวิร์ด\n\n![image](/images/image147.png)\n\nการตั้งค่าการจัดการคำสำคัญ\n\nรายการคำสำคัญ:ช่องขนาดใหญ่สำหรับใส่คำค้นหาที่คุณต้องการให้ระบบไปค้นหาและกดติดตาม\n\nคุณสามารถใส่ได้หลายคำโด��แยกเ��็นบรรทัด\n\nการตั้งค่าปริมาณและระยะเวลา\n\nนับผู้ใช้:กำหนดช่วงจำนวนผู้ใช้ที่ต้องการให้ระบบกดติดตามต่อรอบ\n\nระบุเป็นช่วง ขั้นต่ำ - สูงสุด (เช่น 1 - 1 user)\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดพักระหว่างการกระทำแต่ละครั้ง\n\nระบุหน่วยเป็น วินาที (เช่น 3 - 5 วินาที)\n\nการตั้งค่าแบบสุ่มช่วงเวลาจะช่วยให้การทำงานดูเหมือนมนุษย์มา��ขึ้น\n\n",
-            "type": "markdown",
-            "images": [
-              "image147.png"
-            ]
-          },
-          {
-            "title": "3.ติดตามกลับ",
-            "content": "3.ติดตามกลับ\n\n![image](/images/image468.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image468.png"
-            ]
-          },
-          {
-            "title": "นับผู้ใช้ (User Count):",
-            "content": "นับผู้ใช้ (User Count):\n\nใช้สำหรับกำหนดจำนวนผู���ใช้ที่���้องกา���ให้ระบบดำเนินการ \"ติดตามกลับ\"\n\nสามารถระบุเป็นช่วง (Range) ได้ เช่น ตั้งแต่ 1 ถึง 1 user เพื่อควบคุมปริมาณการทำงานต่อรอบ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "เวลาในการหน่วง (Delay Time):",
-            "content": "เวลาในการหน่วง (Delay Time):\n\nใช้สำหรับตั้งค่าระยะเวลาหยุดรอระหว่างการดำเนินการในแต่ละแอคชั่น เพื่อเลียนแบบพฤติกรรมมนุษย์และลดความเสี่ยงจากการถูกตรวจสอบ\n\nสามารถระบุเป็นช่วงวินาทีได้ เช่น 3 ถึง 5 วินาที\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "4.ติดตามผู้ใช้โดยโปรไฟล์",
-            "content": "4.ติดตามผู้ใช้โดยโปรไฟล์\n\n![image](/images/image631.png)\n\nการตั้งค่าการกำหนดปริมาณและเวลา\n\nจำนวนลิงก์ (Link):กำหนดจำนวนลิงก์โปรไฟล์ที่จะให้ระบบเข้าไปทำงานต่อรอบ\n\nนับผู้ใช้ / Link (User):กำหนดจำนวนผู้ใช้ที่จะกดติดตามต่อ 1 ลิงก์\n\nเวลาในการหน่วง (วินาที):ระยะเวลาพักระหว่างการกระทำแต่ละครั้ง เพื่อไม่ให้ระบบทำงานเร็วเกินไป\n\nการตั้งค่าข้อมูลเป้าหมาย\n\nรายการลิงก์:ช่องสำหรับใส่ URL หรือลิงก์โปรไฟล์ที่ต้องการให้ระบบเข้าไปติดตาม โดยใส่ 1 ลิงก์ต่อ 1 บรรทัด\n\n",
-            "type": "markdown",
-            "images": [
-              "image631.png"
-            ]
-          },
-          {
-            "title": "5.ติดตามผู้ใช้ที่แนะนำ",
-            "content": "5.ติดตามผู้ใช้ที่แนะนำ\n\n![image](/images/image444.png)\n\nการตั้งค่าเงื่อนไข\n\n",
-            "type": "markdown",
-            "images": [
-              "image444.png"
-            ]
-          },
-          {
-            "title": "นับผู้ใช้ (User Count):",
-            "content": "นับผู้ใช้ (User Count):\n\nกำหนดจำนวนผู้ใช้ที่ต้องการให้ระบบเข้าไปติดตาม\n\nระบุเป็นช่วงตัวเลข (ขั้นต่ำ - สูงสุด) เช่น 1 - 1 user\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "เวลาในการหน่วง (Delay Time):",
-            "content": "เวลาในการหน่วง (Delay Time):\n\nกำหนดระยะเวลารอคอยระหว่างการกดติดตามแต่ละคน เพื่อป้องกันการถูกตรวจจับว่าเป็นบอท\n\nระบุเป็นช่วงวินาที เช่น 3 - 5 วินาที\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "6.ส่งข้อความตามที่กำหนด",
-            "content": "6.ส่งข้อความตามที่กำหนด\n\n![image](/images/image159.png)\n\nการตั้งค่าข้อมูลพื้นฐานการทำงาน\n\nนับผู้ใช้:กำหนดช่วงจำนวนผู้ใช้ที่ต้องการดำเนินการ (เช่น 1 ถึง 2 user)\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดพักระหว่างการส่งแต่ละครั้ง (หน่วยเป็นวินาที)\n\nการตั้งค่าการจัดการรายชื่อผู้รับ\n\nรายการผู้ใช้:ช่องสำหรับกรอกไอดี (ID) ของผู้รับที่ต้องการส่งข้อความไปหา โดยใส่หนึ่งรายการต่อหนึ่งบรรทัด\n\nการตั้งค่าเนื้อหาข้อความ\n\nรายการเนื้อหา:เลือกชุดข้อความที่เตรียมไว้จากรายการดรอปดาวน์ และมีปุ่มรูปดินสอสำหรับแก้ไขเนื้อหา\n\nNhắn tin hình ảnh (Texting img):ติ๊กถูกที่ช่องนี้หากต้องการส่งรูปภาพประกอบ\n\nภาพ: เลือกไฟล์รูปภาพจากรายการ\n\nลบภาพที่ใช้แล้ว: ติ๊กถูกหากต้องการให้ระบบลบรูปภาพออกจากรายการหลังจากส่งสำเร็จแล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image159.png"
-            ]
-          },
-          {
-            "title": "7.บัฟความคิดเห็น",
-            "content": "7.บัฟความคิดเห็น\n\n![image](/images/image715.png)\n\nการตั้งค่าการกำหนดเงื่อนไขและเวลา\n\nนับความคิดเห็น:กำหนดช่วงจำนวนของความคิดเห็นที่ต้องการดำเนินการ โดยระบุเป็นค่า ขั้นต่ำ - สูงสุด เพื่อให้การทำงานดูเป็นธรรมชาติ\n\nเวลาในการหน่วง:ตั้งค่าระยะเวลาหยุดพักระหว่างการทำงานแต่ละครั้ง (หน่วยเป็น วินาที) โดยกำหนดเป็นช่วงเวลา เพื่อสุ่มความเร็วให้ไม่คงที่จนเกินไป\n\nการตั้งค่าการจัดการเป้าหมาย\n\nลิงก์: ส่วนสำหรับใส่ URL หรือลิงก์ของโพสต์ที่ต้องการให้ระบบเข้าไปดำเนินการ สามารถใส่ได้หลายลิงก์โดยแยกเป็นบรรทัด\n\nการตั้งค่ารูปแบบการปฏิสัมพันธ์\n\nถูกใจ:ติ๊กเครื่องหมายถูกหากต้องการให้ระบบกด Like หรือถูกใจในโพสต์เป้าหมาย\n\nแสดงความคิดเห็น:ติ๊กเครื่องหมายถูกหากต้องการให้ระบบพิมพ์ข้อความตอบกลับ โดยมีการตั้งค่าเพิ่มเติมดังนี้:\n\nความน่าจะเป็น: กำหนดโอกาสในการสุ่มแสดงความคิดเห็น (หน่วยเป็น %)\n\nรายการเนื้อหา: เลือกชุดข้อความหรือเนื้อหาที่ต้องการนำไปใช้ (สามารถคลิกไอคอนดินสอเพื่อแก้ไขเนื้อหาได้)\n\n",
-            "type": "markdown",
-            "images": [
-              "image715.png"
-            ]
-          },
-          {
-            "title": "8.บัฟดูสินค้า",
-            "content": "8.บัฟดูสินค้า\n\n![image](/images/image688.png)\n\nการตั้งค่าปริมาณและเวลา\n\nนับสินค้า:กำหนดจำนวนสินค้าที่ต้องการให้ระบบเข้าไปดู โดยสามารถระบุเป็นช่วง ขั้นต่ำ - สูงสุด (เช่น 1 - 2 ชิ้น) เพื่อให้ระบบทำงานแบบสุ่ม ช่วยให้ดูเป็นธรรมชาติมากขึ้น\n\nเวลาในการหน่วง:กำหนดระยะเวลารอระหว่างการดำเนินการ มีหน่วยเป็น วินาที โดยระบุเป็นช่วง ขั้นต่ำ - สูงสุด (เช่น 1 - 3 วินาที)\n\nการตั้งค่าข้อมูลเป้าหมาย\n\nรายการลิงก์:ช่องสำหรับใส่ URL หรือลิงก์ของสินค้าที่ต้องการเพิ่มยอดการเข้าชม โดยคุณสามารถใส่ได้หลายลิงก์ (บรรทัดละ 1 ลิงก์)\n\nฟังก์ชันบัญชี\n\n",
-            "type": "markdown",
-            "images": [
-              "image688.png"
-            ]
-          },
-          {
-            "title": "1.ทำเงิน",
-            "content": "1.ทำเงิน\n\n![image](/images/image603.png)\n\nการตั้งค่าการเชื่อมต่อ\n\nToken:ระบุ Token สำหรับเชื่อมต่อกับระบบ (เช่น จากweb.traodoituongtac.com) ซึ่งเป็นส่วนสำคัญในการยืนยันตัวตนเพื่อเริ่มงาน\n\nการตั้งค่าเวลาและปริมาณงาน\n\nช่วงเวลาระหว่างงาน (วินาที):กำหนดระยะห่างระหว่างการเริ่มงานแต่ละครั้งแบบสุ่ม (เช่น 5 - 10 วินาที) เพื่อความเป็นธรรมชาติในการใช้งาน\n\nเวลารอทำงาน (วินาที):ระยะเวลาที่ระบบจะรอสั่งการในแต่ละขั้นตอน\n\nจำนวนงานสำเร็จ:กำหนดเป้าหมายจำนวนงานที่ต้องการให้ระบบทำจนเสร็จสิ้น\n\nหยุดเมื่อเกิดความล้มเหลวติดต่อกัน:ระบบจะหยุดทำงานอัตโนมัติหากพบข้อผิดพลาดต่อเนื่องตามจำนวนที่ระบุ (เช่น 5 ครั้ง) เพื่อป้องกันบัญชีถูกระงับ\n\nการตั้งค่าการจำลองพฤติกรรมผู้ใช้\n\nเปิดลิงก์ด้วยการค้นหา:ตัวเลือกสำหรับการเข้าถึงเป้าหมายผ่านการค้นหา แทนการเข้าถึงลิงก์โดยตรง\n\nเลื่อนฟีดข่าวหลังจาก: ตั้งค่าให้มีการเลื่อนดูหน้าฟีดข่าวหลังจากทำงานเสร็จตามจำนวน Jobs ที่กำหนดเพื่อเลียนแบบพฤติกรรมการใช้งานของมนุษย์จริง\n\nประเภทงานที่เลือกได้\n\nTiktok Like:กดถูกใจวิดีโอ\n\nTiktok Follow:กดติดตามบัญชีผู้ใช้\n\nTiktok Comment:การเขียนคอมเมนต์อัตโนมัติ\n\nTiktok View:การเข้าชมวิดีโอ\n\nTiktok Share:การแชร์วิดีโอไปยังช่องทางต่างๆ\n\nTiktok livestream:การเข้าไปมีส่วนร่วมในไลฟ์สด\n\n",
-            "type": "markdown",
-            "images": [
-              "image603.png"
-            ]
-          },
-          {
-            "title": "2.สร้างโพสต์",
-            "content": "2.สร้างโพสต์\n\n![image](/images/image737.png)\n\nข้อมูลพื้นฐานและการตั้งค่าเวลา\n\nเวลารอคอยการโหลดวิดีโอ:กำหนดช่วงเวลา (วินาที) เพื่อให้ระบบรอระหว่างการอัปโหลดไฟล์\n\nโพสต์วิดีโอตามชื่อไฟล์:ตัวเลือกสำหรับสั่งให้ระบบใช้ชื่อไฟล์วิดีโอเป็นชื่อโพสต์โดยอัตโนมัติ\n\nการตั้งค่าการจัดการรูปภาพและสื่อ\n\nภาพ:เลือกไฟล์รูปภาพที่ต้องการใช้งาน\n\nลบภาพที่ใช้แล้ว:เมื่อโพสต์เสร็จ ระบบจะลบไฟล์ต้นฉบับออกจากรายการ\n\nหลายรูปภาพ:สำหรับการโพสต์แบบหลายรูปในโพสต์เดียว\n\nAutoCut:ฟังก์ชันช่วยตัดต่อภาพหรือวิดีโออัตโนมัติ\n\nการตั้งค่าเนื้อหาและข้อความ\n\nรายการเนื้อหาที่แทรกลงในภาพ:เลือกข้อความที่ต้องการให้ระบบนำไปวางซ้อนบนรูปภาพ\n\nรายการเนื้อหาเมื่อโพสต์:ระบุแคปชันหรือข้อความที่จะใช้โพสต์คู่กับสื่อ\n\nแนบชื่อสินค้าร้าน Tiktok:ตัวเลือกสำหรับใส่ลิงก์หรือชื่อสินค้าจาก TikTok Shop พร้อมช่องสำหรับใส่รายละเอียดสินค้าด้านล่าง\n\nการปรับแต่งเพิ่มเติมและเสียงเพลง\n\nแก้ไขตัวกรอง:ปรับเปลี่ยน Filter ของภาพ\n\nเพิ่มเพลงยอดนิยม:ระบบจะดึงเพลงที่เป็นกระแสมาใส่ในโพสต์\n\n",
-            "type": "markdown",
-            "images": [
-              "image737.png"
-            ]
-          },
-          {
-            "title": "การเลือกเพลง/ฟิลเตอร์:",
-            "content": "การเลือกเพลง/ฟิลเตอร์:\n\nRandom:ให้ระบบสุ่มเลือกให้\n\nCustom (List Filter):กำหนดรายการตัวกรองหรือคำค้นหาเฉพาะเจาะจงในช่องด้านล่าง\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "3.อัปเดตอวาตาร์",
-            "content": "3.อัปเดตอวาตาร์\n\n![image](/images/image53.png)\n\nภาพ: ใช้สำหรับเลือกไฟล์ภาพที่ต้องการใช้งาน\n\nไอคอนรูปดินสอ:อยู่ทางด้านขวาของช่องเลือกภาพ ใช้สำหรับแก้ไขภาพที่เลือก\n\nลบภาพที่ใช้แล้ว:หากเลือกไว้ ระบบจะลบภาพที่อัปโหลดไปแล้วออก\n\n",
-            "type": "markdown",
-            "images": [
-              "image53.png"
-            ]
-          },
-          {
-            "title": "4.เปลี่ยนชื่อ",
-            "content": "4.เปลี่ยนชื่อ\n\n![image](/images/image641.png)\n\nตัวเลือก:เลือกรูปแบบการเปลี่ยนชื่อ เช่น สุ่ม, เฉพาะเจาะจง 1, เฉพาะเจาะจง 2\n\nรูปแบบ: สุ่ม\n\nประเภทชื่อ:สามารถเลือกได้ 2 รูปแบบ\n\nตามชื่อเวียดนาม:ระบบจะสุ่มชื่อและนามสกุลตามฐานข้อมูลชื่อเวียดนาม\n\nตามชื่อชาวต่างชาติ: ระบบจะสุ่มชื่อและนามสกุลในรูปแบบสากล/ภาษาอังกฤษ\n\nรูปแบบ: เฉพาะเจาะจง 1\n\nการป้อนข้อมูล:ระบบจะแสดงช่องให้เติม 3 ส่วน (ใส่ 1 รายการต่อ 1 บรรทัด)\n\nป้อนนามสกุล: ระบุนามสกุลที่ต้องการ\n\nป้อนชื่อกลาง: ระบุชื่อกลาง (ถ้ามี)\n\nป้อนชื่อแรก: ระบุชื่อจริงที่ต้องการ\n\nรูปแบบ: เฉพาะเจาะจง 2\n\n",
-            "type": "markdown",
-            "images": [
-              "image641.png"
-            ]
-          },
-          {
-            "title": "การป้อนข้อมูล:",
-            "content": "การป้อนข้อมูล:\n\nป้อนชื่อเต็ม: ให้ระบุชื่อและนามสกุล (หรือชื่อที่ต้องการแสดงผลทั้งหมด) ลงในช่องนี้ โดยพิมพ์ 1 ชื่อเต็มต่อ 1 บรรทัด\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "5.เปลี่ยนประวัติ",
-            "content": "5.เปลี่ยนประวัติ\n\n![image](/images/image42.png)\n\nรายการเนื้อหา:เลือกรายการเนื้อหาที่ต้องการ โดยคลิกที่ลูกศรชี้ลงด้านขวาเพื่อดูตัวเลือกทั้งหมด\n\nปุ่มแก้ไข (ไอคอนดินสอ):ใช้สำหรับเข้าไปแก้ไขรายละเอียดของเนื้อหาที่เลือกหรือจัดการรายการเพิ่มเติม\n\n",
-            "type": "markdown",
-            "images": [
-              "image42.png"
-            ]
-          },
-          {
-            "title": "6.เปิดเผยยอดไลค์",
-            "content": "6.เปิดเผยยอดไลค์\n\n![image](/images/image785.png)\n\nกด \"บันทึก\" เพื่อเริ่มการดำเนินการนี้หากต้องการยกเลิกการดำเนินการนี้ โปรดลบออกจากรายการการดำเนินการ!\n\n",
-            "type": "markdown",
-            "images": [
-              "image785.png"
-            ]
-          },
-          {
-            "title": "7.พักผ่อน",
-            "content": "7.พักผ่อน\n\n![image](/images/image638.png)\n\nการตั้งค่าช่วงเวลาพัก\n\nช่วงเวลาระหว่างงาน (วินาที): กำหนดระยะเวลาที่ต้องการให้ระบบหยุดพัก\n\nช่องแรก: ใส่จำนวนวินาทีเริ่มต้น (เช่น 3 วินาที)\n\nช่องหลัง: ใส่จำนวนวินาทีสิ้นสุด (เช่น 5 วินาที)\n\nหมายเหตุ: ระบบจะทำการสุ่มเวลาพักในช่วงที่คุณกำหนดไว้\n\n",
-            "type": "markdown",
-            "images": [
-              "image638.png"
-            ]
-          },
-          {
-            "title": "8.ลบโพสต์บนกำแพง",
-            "content": "8.ลบโพสต์บนกำแพง\n\n![image](/images/image135.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image135.png"
-            ]
-          },
-          {
-            "title": "จำนวนกระทู้ (Number of Posts):",
-            "content": "จำนวนกระทู้ (Number of Posts):\n\nกำหนดจำนวนโพสต์ที่ต้องการให้ระบบลบ โดยใส่เป็น ช่วงจำนวน (ต่ำสุด - สูงสุด)\n\nจากตัวอย่าง: ระบบจะสุ่มลบโพสต์ตั้งแต่ 1 ถึง 2 โพสต์\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "เวลารอคอย (Delay Time):",
-            "content": "เวลารอคอย (Delay Time):\n\nกำหนดระยะเวลาที่ระบบจะหยุดพักระหว่างการลบแต่ละโพสต์ (หน่วยเป็น วินาที)\n\nการตั้งค่าแบบสุ่มช่วยให้การทำงานดูเป็นธรรมชาติเหมือนมนุษย์ทำมากขึ้น\n\nจากตัวอย่าง: ระบบจะสุ่มรอระหว่าง 3 ถึง 5 วินาที\n\n",
+            "title": "เปลี่ยนข้อมูล (Change Info)",
+            "content": "เปลี่ยนข้อมูล (Change Info)\n\nเปลี่ยนชื่อผู้ใช้\n\nเปลี่ยนรหัสผ่าน\n\nเปลี่ยนรูปโปรไฟล์\n\nเปลี่ยนภาพพื้นหลัง\n\nอัปเดตหมายเลขโทรศัพท์\n\nเปลี่ยนชื่อ, ประวัติ, เว็บไซต์ และ...\n\nสร้างรหัส 2FA\n\nเปิดเผยวันเกิด\n\nอัปเดตอีเมล\n\nราคา 1700 บาท / เดือน\n\n",
             "type": "markdown",
             "images": []
           }
@@ -6399,16 +6524,14 @@ export const manualData: ProgramData[] = [
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "_____________________wbjhj",
-        "name": "โปรแกรมไม่ทำงาน หรือค้าง",
+        "id": "maxreupfacebook_qbul7",
+        "name": "MaxReupFacebook",
         "sections": [
           {
-            "title": "แก้ปัญหา ไม่ทำงานตามสคริปต์ หรือค้าง",
-            "content": "แก้ปัญหา ไม่ทำงานตามสคริปต์ หรือค้าง\n\nไปที่โปรแกรมแพนด้า --> ทำการเลือกมือถือที่ไม่ทำงาน --> กดดับเบิลคลิก เพื่อแสดงหน้าจอควบคุมมือถือ --> เลื่อนแถบเมนูด้านขวา --> มองหาแอป MaxCloud (หรือ ONOX) --> ทำการกดปิดแอป\n\n![image](/images/image691.png)\n\nหลังจากนั้นให้กลับ ไปทำที่ขั้นตอนอีกครั้ง\n\nหากทำแล้วยังใช้งานไม่ได้ ให้ทำการถอนการติดตั้งแอป แล้วติดตั้งใหม่อีกครั้ง หรือแจ้งแอดมินเพื่อรบการซัพพอร์ต\n\n",
+            "title": "โปรแกรมโพสต์คลิป Reels MaxReup",
+            "content": "โปรแกรมโพสต์คลิป Reels MaxReup\n\nโพสต์คลิป Reels อัตโนมัติ\n\nแบบสุ่มวิดีโอ\n\nแบบอิมพอตวิดีโอในแต่ละเพจ\n\nสร้างแคปชันได้ตามใจชอบ\n\nใส่เสียงเพลง\n\nดาวน์โหลดคลิปตามแพลตฟอร์มได้อย่างรวดเร็ว\n\nfacebook\n\nTiktok\n\nInstagram\n\nTwitter\n\nYoutube\n\nDouyin\n\nKuaishou\n\nPinterest\n\nตัดต่อวิดีโอในโปรแกรมได้อย่างรวดเร็ว\n\nเพิ่มแบ็คกราว\n\nเพิ่มข้อความตัวอักษร\n\nเพิ่มรูปภาพหรือโลโก้แบรนด์เนอร์\n\nเพิ่มเสียงเพลงหรือเสียงดนตรี\n\nสามารถใช้ Cookie หรือใช้ Proxy ได้ นำบัญชีเข้าโปรแกรมได้แบบไม่จำกัด ค่าบริการเพียง\n\nเดือนละ 1700 บาท เท่านั้น\n\n",
             "type": "markdown",
-            "images": [
-              "image691.png"
-            ]
+            "images": []
           }
         ],
         "originalProgramName": "โปรแกรมอื่นๆ"
@@ -6417,21 +6540,6 @@ export const manualData: ProgramData[] = [
         "id": "_____________________xoy13",
         "name": "วิธีการใช้งานโปรแกรม",
         "sections": [],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "_____________________8iax9",
-        "name": "อธิบายการตั้งค่าเบื้องต้น",
-        "sections": [
-          {
-            "title": "General configs",
-            "content": "General configs\n\n![image](/images/image4.png)\n\nGeneral configs (การตั้งค่าทั่วไป)\n\nChrome threads:กำหนดจำนวนเธรดสำหรับเปิดหรือทำงาน Chrome พร้อมกัน\n\nCheck info threads:กำหนดจำนวนเธรดสำหรับตรวจสอบข้อมูล\n\nFolder profiles:ตำแหน่งโฟลเดอร์เก็บ Chrome Profile\n\nSync data with MaxCare:ตัวเลือกซิงก์ข้อมูลกับ MaxCare\n\nFolder MaxCare:ตำแหน่งโฟลเดอร์ของ MaxCare\n\nBrowser display settings(การตั้งค่าการแสดงผลของเบราว์เซอร์)\n\nShow image when use browser:แสดงรูปภาพขณะใช้งาน Browser\n\nSort chrome window:จัดเรียงตำแหน่งหน้าต่าง Chrome\n\nDelay Open chrome (s):หน่วงเวลาการเปิด Chrome\n\nUpdate Chromedriver:ปุ่มอัปเดต ChromeDriver\n\nConfigure chrome login (ตั้งค่าการเข้าสู่ระบบ Chrome)\n\nUse chrome profile:ใช้ Chrome Profile ในการล็อกอิน\n\nLogin type:ประเภทการล็อกอิน\n\nLogin website:เลือกเว็บไซต์สำหรับล็อกอิน\n\n",
-            "type": "markdown",
-            "images": [
-              "image4.png"
-            ]
-          }
-        ],
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
