@@ -1,17 +1,15 @@
+
 export interface ManualSection {
   title: string;
-  content: string;
-  type: "text" | "list" | "steps" | "alert" | "image-placeholder" | "markdown";
+  content: string | string[] | { step: string; text: string }[];
+  type: 'text' | 'list' | 'steps' | 'alert' | 'image-placeholder';
   images?: string[];
-  youtubeId?: string;
-  layout?: "full" | "split";
 }
 
 export interface ProgramCategory {
   id: string;
   name: string;
   sections: ManualSection[];
-  subCategories?: ProgramCategory[];
 }
 
 export interface ProgramData {
@@ -31,7 +29,7 @@ export const manualData: ProgramData[] = [
         "sections": [
           {
             "title": "ระบบสำหรับฟาร์มบัญชี มีโปรแกรมให้เลือกใช้งานหลากหลาย",
-            "content": "ระบบสำหรับฟาร์มบัญชี มีโปรแกรมให้เลือกใช้งานหลากหลาย\n\n![image](/images/image529.png)\n\nเตือนภัย มีผู้ประสงค์ร้ายนำโปรแกรม Maxcare นำไป Crack เพื่อขายแบบถาวร การใช้โปรแกรม Crack อาจทำให้คอมพิวเตอร์เกิดความเสียหาย ทาง Minsoft Thailland จะไม่รับผิดชอบใดๆ เกี่ยวกับความเสียหายที่เกิดจากการใช้โปรแกรม Crack ** การนำโปรแกรมไปขายโดยไม่ได้รับอนุญาต ถือเป็นความผิดการละเมิดลิขสิทธิ์ ** Minsoft Thailand เป็นผู้จัดจำหน่ายผลิตภัณฑ์ของ MINSoftware แต่เพียงผู้เดียวในประเทศไทย\n\n",
+            "content": "<p>รวมวิธีการใช้งานโปรแกรม Maxcare</p>",
             "type": "markdown",
             "images": [
               "image529.png"
@@ -51,7 +49,7 @@ export const manualData: ProgramData[] = [
         "sections": [
           {
             "title": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย",
-            "content": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย\n\nเข้าไปยังเว็บไซต์ Minsoft\n\n![image](/images/image321.png)\n\nล็อคอินเข้าใช้งาน\n\n![image](/images/image570.jpg)\n\nไปยังหน้าการจัดการซอร์ฟแวร์\n\n![image](/images/image99.jpg)\n\n2. จากนั้นให้คลิกขวาที่คำว่าดาวน์โหลด และกด Copy link address (คัดลอกที่อยู่ลิ้งก์) ไปวางในแท็บใหม่ กด Enter รอจนกว่าจะดาวน์โหลดสำเร็จ\n\n![image](/images/image550.png)\n\n![image](/images/image206.jpg)\n\nไฟล์อันตราย\n\nหากโปรแกรมขึ้นแบบในรูปภาพข้างบน\n\nให้คลิก เก็บไฟล์อันตรายไว้ >> เก็บเอาไว้ไม่ว่าอย่างไรก็ตาม\n\n![image](/images/image368.jpg)\n\n3. หลังจากดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้คลิกขวาที่ไฟล์ MaxCare.zip ที่โหลดมา จากนั้นสามารถเลือกได้ว่าจะแตกไฟล์แบบไหน\n\n1.Extract files - สามารถเลือกได้ว่าต้องการให้ไปแตกไฟล์ลงที่ไหน\n\n2.Extract to \"MaxReupFacebook\\\" เลือกให้แตกไฟล์ลงที่ Download\n\n![image](/images/image744.png)\n\n4. หลังจากแตกไฟล์เสร็จเรียบร้อยแล้ว เข้าไปยังโฟลเดอร์ MaxCare แล้วกด AutoUpdate รอจนกว่าจะอัพเดตเสร็จ\n\n![image](/images/image128.jpg)\n\n5. เข้าใช้งานโปรแกรม ทำการเข้าระบบให้เรียบร้อย\n\n![image](/images/image778.jpg)\n\n6. เมื่อเข้าระบบเสร็จแล้ว ให้ไปที่ General configs >> Update chromedriver เพื่ออัพเดตโครมไดรเวอร์\n\n![image](/images/image464.png)\n\n",
+            "content": "<p>1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย เข้าไปยังเว็บไซต์ Minsoft ![image](/images/image321.png) ล็อคอินเข้าใช้งาน ![image](/images/image570.jpg) ไปยังหน้าการจัดการซอร์ฟแวร์ ![image](/images/image99.jpg) 2. จากนั้นให้คลิกขวาที่คำว่าดาวน์โหลด และกด Copy link address (คัดลอกที่อยู่ลิ้งก์) ไปวางในแท็บใหม่ กด Enter รอจนกว่าจะดาวน์โหลดสำเร็จ ![image](/images/image550.png) ![image](/images/image206.jpg) ไฟล์อันตราย หากโปรแกรมขึ้นแบบในรูปภาพข้างบน ให้คลิก เก็บไฟล์อันตรายไว้ &gt;&gt; เก็บเอาไว้ไม่ว่าอย่างไรก็ตาม ![image](/images/image368.jpg) 3. หลังจากดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้คลิกขวาที่ไฟล์ MaxCare.zip ที่โหลดมา จากนั้นสามารถเลือกได้ว่าจะแตกไฟล์แบบไหน 1.Extract files - สามารถเลือกได้ว่าต้องการให้ไปแตกไฟล์ลงที่ไหน 2.Extract to \"MaxReupFacebook\\\" เลือกให้แตกไฟล์ลงที่ Download ![image](/images/image744.png) 4. หลังจากแตกไฟล์เสร็จเรียบร้อยแล้ว เข้าไปยังโฟลเดอร์ MaxCare แล้วกด AutoUpdate รอจนกว่าจะอัพเดตเสร็จ ![image](/images/image128.jpg) 5. เข้าใช้งานโปรแกรม ทำการเข้าระบบให้เรียบร้อย ![image](/images/image778.jpg) 6. เมื่อเข้าระบบเสร็จแล้ว ให้ไปที่ General configs &gt;&gt; Update chromedriver เพื่ออัพเดตโครมไดรเวอร์ ![image](/images/image464.png)</p>",
             "type": "markdown",
             "images": [
               "image321.png",
@@ -80,9 +78,17 @@ export const manualData: ProgramData[] = [
         "sections": [
           {
             "title": "รวมวิธีการใช้งานโปรแกรม Maxcare",
-            "content": "รวมวิธีการใช้งานโปรแกรม Maxcare\n\n",
+            "content": "<p>อธิบายรายละเอียดแต่ละฟังก์ชั่น การนำบัญชีเฟสบุ๊คเข้าโปรแกรม Maxcare ![image](/images/image537.png) หลังจากเปิดโปรแกรมมาแล้ว ให้กดที่ Import accounts เพื่อนำเฟสบุ๊คเข้าระบบ ![image](/images/image180.png) ให้ทำการสร้างไฟล์ขึ้นมา โดยใส่ชื่อตามที่ต้องการได้เลยจากนั้นกด Add ![image](/images/image305.png) ใส่ข้อมูลเฟสลงไป ตามแพทเทิน คั่นด้วยเครื่องหมาย | ยกตัวอย่างการเลือก Format ตามแพทเทินเฟสบุ๊คที่จะนำเข้า ![image](/images/image224.png) จากนั้นเลือก format ตามแพทเทินที่เรากรอกเข้าไป แล้วกดติ้กถูกที่ Option เพื่อให้มันเช็คข้อมูล Account ต่างๆด้วย เช่น ชื่อ,เพศ,จำนวนเพื่อน,จำนวนกลุ่ม เป็นต้น ![image](/images/image734.png) ![image](/images/image197.png) ![image](/images/image260.png) เป็นอันเสร็จสิ้นขั้นตอนการนำเข้าเฟสบุ๊ค</p>",
             "type": "markdown",
-            "images": []
+            "images": [
+              "image537.png",
+              "image180.png",
+              "image305.png",
+              "image224.png",
+              "image734.png",
+              "image197.png",
+              "image260.png"
+            ]
           }
         ]
       }
@@ -98,7 +104,7 @@ export const manualData: ProgramData[] = [
         "sections": [
           {
             "title": "อธิบายรายละเอียดแต่ละฟังก์ชั่น",
-            "content": "อธิบายรายละเอียดแต่ละฟังก์ชั่น\n\nการนำบัญชีเฟสบุ๊คเข้าโปรแกรม Maxcare\n\n![image](/images/image537.png)\n\nหลังจากเปิดโปรแกรมมาแล้ว ให้กดที่ Import accounts เพื่อนำเฟสบุ๊คเข้าระบบ\n\n![image](/images/image180.png)\n\nให้ทำการสร้างไฟล์ขึ้นมา โดยใส่ชื่อตามที่ต้องการได้เลยจากนั้นกด Add\n\n![image](/images/image305.png)\n\nใส่ข้อมูลเฟสลงไป ตามแพทเทิน คั่นด้วยเครื่องหมาย |\n\nยกตัวอย่างการเลือก Format ตามแพทเทินเฟสบุ๊คที่จะนำเข้า\n\n![image](/images/image224.png)\n\nจากนั้นเลือก format ตามแพทเทินที่เรากรอกเข้าไป แล้วกดติ้กถูกที่ Option เพื่อให้มันเช็คข้อมูล Account ต่างๆด้วย เช่น ชื่อ,เพศ,จำนวนเพื่อน,จำนวนกลุ่ม เป็นต้น\n\n![image](/images/image734.png)\n\n![image](/images/image197.png)\n\n![image](/images/image260.png)\n\nเป็นอันเสร็จสิ้นขั้นตอนการนำเข้าเฟสบุ๊ค\n\n",
+            "content": "<p>อธิบายรายละเอียดแต่ละฟังก์ชั่น การนำบัญชีเฟสบุ๊คเข้าโปรแกรม Maxcare ![image](/images/image537.png) หลังจากเปิดโปรแกรมมาแล้ว ให้กดที่ Import accounts เพื่อนำเฟสบุ๊คเข้าระบบ ![image](/images/image180.png) ให้ทำการสร้างไฟล์ขึ้นมา โดยใส่ชื่อตามที่ต้องการได้เลยจากนั้นกด Add ![image](/images/image305.png) ใส่ข้อมูลเฟสลงไป ตามแพทเทิน คั่นด้วยเครื่องหมาย | ยกตัวอย่างการเลือก Format ตามแพทเทินเฟสบุ๊คที่จะนำเข้า ![image](/images/image224.png) จากนั้นเลือก format ตามแพทเทินที่เรากรอกเข้าไป แล้วกดติ้กถูกที่ Option เพื่อให้มันเช็คข้อมูล Account ต่างๆด้วย เช่น ชื่อ,เพศ,จำนวนเพื่อน,จำนวนกลุ่ม เป็นต้น ![image](/images/image734.png) ![image](/images/image197.png) ![image](/images/image260.png) เป็นอันเสร็จสิ้นขั้นตอนการนำเข้าเฟสบุ๊ค</p>",
             "type": "markdown",
             "images": [
               "image537.png",
@@ -521,7 +527,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "ตัวเลือกเพิ่มเติมด้านล่าง:",
-            "content": "ตัวเลือกเพิ่มเติมด้านล่าง:\n\nPost anonymously:โพสต์แบบไม่เปิดเผยตัวตน (หากกลุ่มอนุญาต)\n\nPriority posting groups with many members: เน้นโพสต์ลงกลุ่มที่มีจำนวนสมาชิกเยอะก่อน เพื่อเพิ่มการมองเห็น\n\nNo duplicate groups:ป้องกันการโพสต์ซ้ำกลุ่มเดิม\n\nOnly post uncensored group: โพสต์เฉพาะกลุ่มที่ไม่มีระบบกรองคำหรือแอดมินไม่ต้องอนุมัติโพสต์\n\nInteract to group before post:ให้บอทไปกดดูหรือมีปฏิสัมพันธ์กับกลุ่มก่อนโพสต์ เพื่อให้ดูเหมือนคนเล่นจริง\n\nการปฏิสัมพันธ์หลังโพสต์\n\nInteract with posted post:เมื่อโพสต์เสร็จแล้ว ให้บอททำการกดไลก์ หรือคอมเมนต์ใต้โพสต์ของตัวเองทันที เพื่อเป็นการดันโพสต์ (สามารถกดที่ Settings เพื่อตั้งค่าคอมเมนต์ได้)\n\n",
+            "content": "ตัวเลือกเพิ่มเติมด้านล่าง:\n\nPost anonymously:โพสต์แบบไม่เปิดเผยตัวตน (หากกลุ่มอนุญาต)\n\nPriority posting groups with many members: เน้นโพสต์ลงกลุ่มที่มีจำนวนสมาชิกเยอะก่อน เพื่อเพิ่มการมองเห็น\n\nNo duplicate groups:ป้องกันการโพสต์ซ้ำกลุ่มเดิม\n\nOnly post uncensored group: โพสต์เฉพาะกลุ่มที่ไม่มีระบบกรองคำหรือแอดมินไม่ต้องอนุมัติโพสต์\n\nInteract to group before post:ให้บอทไปกดดูหรือมีปฏิสัมพันธ์กับกลุ่มก่อนโพสต์ เพื่อให้ดูเหมือนคนเล่นจริง\n\nการปฏิสัมพันธ์หลังโพสต์\n\nInteract with posted post:เมื่อโพสต์เสร็จแล้ว ให้บอททำการกดไลก์ หรือคอมเมนต์ใต้โพสต์ของตัวเองทันที เพื่อเป็น��ารดันโพสต์ (สามารถกดที่ Settings เพื่อตั้งค่าคอมเมนต์ได้)\n\n",
             "type": "markdown",
             "images": []
           },
@@ -1849,7 +1855,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "11. Leave group (ออกจากกลุ่ม)",
-            "content": "11. Leave group (ออกจากกลุ่ม)\n\n![image](/images/image211.png)\n\nการตั้งค่าพื้นฐาน\n\nCount:จำนวนกลุ่มที่ต้องการให้ออก\n\nBreak (s):ระยะห่างในการพักการทำงาน ระหว่างการออกจากแต่ละกลุ่ม\n\nตัวเลือกการเลือกกลุ่ม\n\nRandom group list:สุ่มรายชื่อกลุ่มที่มีอยู่แล้วกดออกจากกลุ่มทันที\n\nLeave group with conditions:ออกจากกลุ่มตามเงื่อนไขที่กำหนด (หากเลือกข้อนี้ คุณต้องตั้งค่าเงื่อนไขเพิ่มเติมด้านล่าง)\n\nเงื่อนไขการออกจากกลุ่ม\n\nLeave group moderating posts:ออกจากกลุ่มที่มีการคัดกรองโพสต์ (ต้องรออนุมัติโพสต์)\n\nCount of members is less:ออกจากกลุ่มที่มีจำนวนสมาชิก น้อยกว่า จำนวนที่ระบุไว้ในช่องตัวเลข\n\nGroup name contains keywords:ออกจากกลุ่มที่ชื่อกลุ่มมีคำค้นหา (Keywords) ที่กำหนด\n\nวิธีระบุ:พิมพ์คำที่ต้องการในช่อง \"List of keywords\" โดยพิมพ์ 1 คำ ต่อ 1 บรรทัด\n\nList of ID groups to keep: รายการยกเว้น\n\n",
+            "content": "11. Leave group (ออกจากกลุ่ม)\n\n![image](/images/image211.png)\n\nการตั้งค่าพื้นฐาน\n\nCount:จำนวนกลุ่มที่ต้องการให้ออก\n\nBreak (s):ระยะห่างในการพักการทำงาน ระหว่างการออกจากแต่ละกลุ่ม\n\nตัวเลือกการเลือกกลุ่ม\n\nRandom group list:สุ่มรายชื่อกลุ่มที่มีอยู่แล้วกดออกจากกลุ่มทันที\n\nLeave group with conditions:ออกจากกลุ่มตามเงื่อนไขที่กำหนด (หากเลือกข้อนี้ คุณต้องตั้งค่าเงื่อนไขเพิ่มเติมด้านล่าง)\n\nเงื่อนไขการออกจากกลุ่ม\n\nLeave group moderating posts:ออกจากกลุ่มที่มีการคัดกรองโพสต์ (ต้องรออนุมัติโพสต์)\n\nCount of members is less:ออกจากกลุ่มที่มีจำนวนสมาชิก น้อยกว่า จำนวนที่ระบุไว้ในช่องตัวเลข\n\nGroup name contains keywords:ออกจากกลุ่มที่ชื่อกล�����่มมีคำค้นหา (Keywords) ที่กำหนด\n\nวิธีระบุ:พิมพ์คำที่ต้องการในช่อง \"List of keywords\" โดยพิมพ์ 1 คำ ต่อ 1 บรรทัด\n\nList of ID groups to keep: รายการยกเว้น\n\n",
             "type": "markdown",
             "images": [
               "image211.png"
@@ -2416,7 +2422,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "Chrome Configuration",
-            "content": "Chrome Configuration\n\n![image](/images/image637.png)\n\nBrowser options:ประเภทของเบราว์เซอร์\n\nSetup Creation:หากเป็นการใช้งานครั้งแรก หรือต้องการอัปเดตตัวเบราว์เซอร์ ให้กดปุ่ม \"Setup creation\" เพื่อให้โปรแกรมเตรียมไฟล์ระบบให้พร้อม\n\nBrowser path:ที่อยู่ของตัวเบราว์เซอร์หลัก\n\nLogin options:รูปแบบการล็อกอิน\n\nUser|Pass\n\nCookie\n\nPhone|Pass\n\nEmail|Pass\n\nLogin reset pass\n\nLogin page link:ใส่ URL ของหน้าลงชื่อเข้าใช้งาน\n\nCan be left blank:สามารถปล่อยว่างไว้ได้\n\nProfile folder path:ตำแหน่งที่เก็บโปรไฟล์เบราว์เซอร์\n\nAutomatically clear cache records after running:ล้างประวัติและไฟล์ชั่วคราว (Cache) ทันทีหลังจากที่โปรแกรมทำงานเสร็จสิ้นในแต่ละรอบ\n\nAutomatically create Profile at runtime:สั่งให้โปรแกรมสร้างโปรไฟล์เบราว์เซอร์ใหม่ให้โดยอัตโนมัติหากยังไม่มีโปรไฟล์สำหรับบัญชีนั้น ๆ\n\nShow image when opening browser:กำหนดว่าจะให้เบราว์เซอร์แสดงรูปภาพบนหน้าเว็บหรือไม่\n\nAdd Chrome to Form View:เป็นการดึงหน้าต่างเบราว์เซอร์ที่กำลังรันอยู่ เข้ามาแสดงผลภายในตัวโปรแกรมหลัก\n\nSort chrome window:ตั้งค่าการเรียงหน้าต่าง เช่น 5 x 2 เพื่อให้ดูการทำงานได้ง่าย\n\nเลขตัวหน้า (5): คือจำนวน คอลัมน์ (แนวตั้ง) -> จะมีหน้าต่างเรียงกันซ้ายไปขวา 5 จอ\n\nเลขตัวหลัง (2): คือจำนวน แถว (แนวนอน) -> จะมีหน้าต่างเรียงกันบนลงล่าง 2 ชั้น\n\nChrome opening delay:ระยะเวลาหน่วงในการเปิดแต่ละหน้าต่าง\n\nChrome opening delay:ระยะเวลาหน่วงในการปิดแต่ละหน้าต่าง\n\nFull chrome window:หากติ๊กถูก เบราว์เซอร์จะเปิดแบบเต็มจอ\n\nUse the useragent assigned on the Useragent column:หากคุณมีรายการ Useragent (รหัสจำลองเบราว์เซอร์/อุปกรณ์) เฉพาะตัวสำหรับแต่ละบัญชี ให้ติ๊กช่องนี้เพื่อให้โปรแกรมดึงค่ามาใช้โดยตรง\n\nWindow zoom ratio:ปรับขนาดการแสดงผลภายในหน้าต่างเบราว์เซอร์\n\n",
+            "content": "Chrome Configuration\n\n![image](/images/image637.png)\n\nBrowser options:ประเภทของเบราว์เซอร์\n\nSetup Creation:หากเป็นการใช้งานครั้งแรก หรือต้องการอัปเดตตัวเบราว์เซอร์ ให้กดปุ่ม \"Setup creation\" เพื่อให้โปรแกรมเตรียมไฟล์ระบบให้พร้อม\n\nBrowser path:ที่อยู่ของตัวเบราว์เซอร์หลัก\n\nLogin options:รูปแบบการล็อกอิน\n\nUser|Pass\n\nCookie\n\nPhone|Pass\n\nEmail|Pass\n\nLogin reset pass\n\nLogin page link:ใส่ URL ของหน้าลงชื่อเข้าใช้งาน\n\nCan be left blank:สามารถปล่อยว่างไว้ได้\n\nProfile folder path:ตำแหน่งที่เก็บโปรไฟล์เบราว์เซอร์\n\nAutomatically clear cache records after running:ล้างประวัติและไฟล์ชั่วคราว (Cache) ทันทีหลังจากที่โปรแกรมทำงานเสร็จสิ้นในแต่ละรอบ\n\nAutomatically create Profile at runtime:สั่งให้โปรแกรมสร้างโปรไฟล์เบราว์เซอร์ใหม่ให้โดยอัตโนมัติหากยังไม่มีโปรไฟล์สำหรับบัญชีนั้น ๆ\n\nShow image when opening browser:กำหนดว่าจะให้เบราว์เซอร์แสดงรูปภาพบนหน้าเว็บหรือไม่\n\nAdd Chrome to Form View:เป็นการดึงหน้าต่างเบราว์เซอร์ที่กำลังรันอยู่ เข้ามาแสดงผลภายในตัวโปรแกรมหลัก\n\nSort chrome window:ตั้งค่าการเรียงหน้าต่าง เช่น 5 x 2 เพื่อให้ดูการทำงานได้ง่าย\n\nเลขตัวหน้า (5): คือจำนวน คอลัมน์ (แนวตั้ง) -> จะมีหน้าต่างเรียงกันซ้ายไปขวา 5 จอ\n\nเลขตัวหลัง (2): คือจำนวน แถว (แนวนอน) -> จะมีหน้าต่างเรียงกันบนลงล่าง 2 ชั้น\n\nChrome opening delay:ระยะเวลาหน่วงในการเปิดแต่ละหน้าต่าง\n\nChrome opening delay:ระยะเวลาหน่วงในการปิดแต่ละหน้าต่าง\n\nFull chrome window:หากติ๊กถูก เบราว์เซอร์จะเปิดแบบเต็มจอ\n\nUse the useragent assigned on the Useragent column:หากคุณมีราย���าร Useragent (รหัสจำลองเบราว์เซอร์/อุปกรณ์) เฉพาะตัวสำหรับแต่ละบัญชี ให้ติ๊กช่องนี้เพื่อให้โปรแกรมดึงค่ามาใช้โดยตรง\n\nWindow zoom ratio:ปรับขนาดการแสดงผลภายในหน้าต่างเบราว์เซอร์\n\n",
             "type": "markdown",
             "images": [
               "image637.png"
@@ -3295,7 +3301,7 @@ export const manualData: ProgramData[] = [
         "sections": [
           {
             "title": "1.ไปที่ Page category (หมวดหมู่เพจ)",
-            "content": "1.ไปที่ Page category (หมวดหมู่เพจ)\n\n![image](/images/image95.png)\n\n2.คลิกขวาเพิ่มหมวดหมู่ที่ต้องการ (Add categories)\n\n![image](/images/image467.png)\n\n3.ไปที่ไอคอนวิดีโอเพื่อตั้งค่าแต่ละหมวดหมู่\n\n![image](/images/image565.png)\n\n4.การเพิ่มวิดีโอให้แต่ละหมวดหมู่ สามารถเพิ่มได้ 2 แบบ\n\n1.การเพิ่มโดยการเลือกวิดีโอที่ต้องการเพิ่มเข้าได้เลย (Add videos)\n\n![image](/images/image62.png)\n\n2.การเพิ่มโดยการนำวิดีโอที่ต้องการมาไว้ในโฟล์เดอร์ โดยคลิกที่ Go to video folder เพื่อไปยังโฟล์เดอร์\n\n![image](/images/image158.png)\n\n5.เพิ่มเนื้อหาของวิดีโอ\n\n![image](/images/image689.png)\n\n6.เพิ่มข้อความที่ต้องกาแสดงความคิดเห็นในวิดีโอ\n\n![image](/images/image626.png)\n\n7.เพิ่มรูปภาพที่ต้องการแสดงความคิดเห็นในวิดีโอ สามารถเพิ่มได้ 2 แบบ\n\n1.การเพิ่มโดยการเลือกรูปภาพที่ต้องการเพิ่มเข้าได้เลย (Add photos)\n\n![image](/images/image253.png)\n\n2.การเพิ่มโดยการนำรูปภาพที่ต้องการมาไว้ในโฟล์เดอร์ โดยคลิกที่ Go to the photos folder เพื่อไปยังโฟล์เดอร์\n\n![image](/images/image335.png)\n\n8.จากนั้นกด save\n\nเริ่มแรกมาทุกเพจจะอยู่ในหมวดหมู่ Default\n\n![image](/images/image445.png)\n\n9.เลือกเพจที่ต้องการจัดหมวดหมู่\n\nคลิปขาวแล้วเลือก Switch categories\n\n![image](/images/image726.png)\n\n![image](/images/image48.png)\n\n10.เลือกหมวดหมู่ที่ต้องการ =>กด Save\n\n![image](/images/image28.png)\n\n![image](/images/image4.png)\n\n11.ไปที่ Configure post reel\n\n![image](/images/image597.png)\n\n12.ไปที่ Get videos from => เลือกเป็น Separate configuration for each category\n\n![image](/images/image609.png)\n\nกด Save เป็นอันเสร็จขั้นตอน\n\n",
+            "content": "1.ไปที่ Page category (หมวดหมู่เพจ)\n\n![image](/images/image95.png)\n\n2.คลิกขวาเพิ่มหมวดหมู่ที่ต้องการ (Add categories)\n\n![image](/images/image467.png)\n\n3.ไปที่ไอคอนวิดีโอเพื่อตั้งค่าแต่ละหมวดหมู่\n\n![image](/images/image565.png)\n\n4.การเพิ่มวิดีโอให้แต่ละหมวดหมู่ สามารถเพิ่มได้ 2 แบบ\n\n1.การเพิ่มโดยการเลือกวิดีโอที่ต้องการเพิ่มเข้าได้เลย (Add videos)\n\n![image](/images/image62.png)\n\n2.การเพิ่มโดยการนำวิดีโอที่ต้องการมาไว้ในโฟล์เดอร์ โดยคลิกที่ Go to video folder เพื่อไปยังโฟล์เดอร์\n\n![image](/images/image158.png)\n\n5.เพิ่มเนื้อหาของวิดีโอ\n\n![image](/images/image689.png)\n\n6.เพิ่มข้อความที่ต้องกาแสดงความคิดเห็นในวิดีโอ\n\n![image](/images/image626.png)\n\n7.เพิ่มรูปภาพที่ต้องการแสดงความคิดเห็นในวิดีโอ สามารถเพิ่มได้ 2 แบ�������\n\n1.การเพิ่มโดยการเลือกรูปภาพที่ต้องการเพิ่มเข้าได้เลย (Add photos)\n\n![image](/images/image253.png)\n\n2.การเพิ่มโดยการนำรูปภาพที่ต้องการมาไว้ในโฟล์เดอร์ โดยคลิกที่ Go to the photos folder เพื่อไปยังโฟล์เดอร์\n\n![image](/images/image335.png)\n\n8.จากนั้นกด save\n\nเริ่มแรกมาทุกเพจจะอยู่ในหมวดหมู่ Default\n\n![image](/images/image445.png)\n\n9.เลือกเพจที่ต้องการจัดหมวดหมู่\n\nคลิปขาวแล้วเลือก Switch categories\n\n![image](/images/image726.png)\n\n![image](/images/image48.png)\n\n10.เลือกหมวดหมู่ที่ต้องการ =>กด Save\n\n![image](/images/image28.png)\n\n![image](/images/image4.png)\n\n11.ไปที่ Configure post reel\n\n![image](/images/image597.png)\n\n12.ไปที่ Get videos from => เลือกเป็น Separate configuration for each category\n\n![image](/images/image609.png)\n\nกด Save เป็นอันเสร็จขั้นตอน\n\n",
             "type": "markdown",
             "images": [
               "image95.png",
@@ -3725,7 +3731,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "7.Livestream interaction (การโต้ตอบแบบไลฟ์สตรีม)",
-            "content": "7.Livestream interaction (การโต้ตอบแบบไลฟ์สตรีม)\n\n![image](/images/image15.png)\n\nการต้องค่าข้อมูลพื้นฐานและระยะเวลา\n\nLivestream link:วางลิงก์ของไลฟ์สดที่ต้องการให้ระบบเข้าไปทำงาน\n\nLive viewing time:กำหนดระยะเวลาที่จะให้บัญชีอยู่ในไลฟ์ (หน่วยเป็นวินาที)\n\nตัวอย่าง:ตั้งไว้ 30 ถึง 60 วินาที เพื่อให้ระบบสุ่มเวลาในช่วงนี้ ป้องกันการตรวจจับว่าเป็นบอท\n\nการตอบสนองทางอารมณ์และข้อความ\n\nRelease emotions:เลือกประเภทความรู้สึกที่ต้องการส่ง (Like, Love, Care, Haha, Wow, Sad, Angry) สามารถติ๊กเลือกได้หลายแบบเพื่อให้ระบบสุ่มส่ง\n\nText comment:คอมเม้นต์ด้วยข้อความ\n\nContent: ใส่ข้อความที่ต้องการให้คอมเมนต์ (1 บรรทัดต่อ 1 ข้อความ)\n\nDelete used text: หากติ๊กถูก ระบบจะลบข้อความที่ใช้ไปแล้วออกจากรายการ เพื่อไม่ให้ส่งซ้ำ\n\nการแท็กผู้ใช้และการแชร์\n\nComment the uid tag:สำหรับการแท็กเพื่อนหรือกลุ่มเป้าหมายในคอมเมนต์\n\nList of uids: ใส่รายการ ID ผู้ใช้ที่ต้องการแท็ก\n\nOne maximum tag comment: กำหนดว่าจะให้แท็กกี่คนต่อ 1 คอมเมนต์\n\nDelete used uid: ลบ ID ที่ถูกแท็กไปแล้วออกจากรายการ\n\n",
+            "content": "7.Livestream interaction (การโต้ตอบแบบไลฟ์สตรีม)\n\n![image](/images/image15.png)\n\nการต้องค่าข้อมูลพื้นฐานและระยะเวลา\n\nLivestream link:วางลิงก์ของไลฟ์สดที่ต้องการให้ระบบเข้าไปทำงาน\n\nLive viewing time:กำหนดระยะเวลาที่จะให้บัญชีอยู่ในไลฟ์ (หน่วยเป็นวินาที)\n\nตัวอย่าง:ตั้งไว้ 30 ถึง 60 วินาที เพื่อให้ระบบสุ่มเวลาในช่วงนี้ ป้องกันการตรวจจับว่าเป็นบอท\n\n��า��ตอบสนองทางอารมณ์และข้อความ\n\nRelease emotions:เลือกประเภทความรู้สึกที่ต้องการส่ง (Like, Love, Care, Haha, Wow, Sad, Angry) สามารถติ๊กเลือกได้หลายแบบเพื่อให้ระบบสุ่มส่ง\n\nText comment:คอมเม้นต์ด้วยข้อความ\n\nContent: ใส่ข้อความที่ต้องการให้คอมเมนต์ (1 บรรทัดต่อ 1 ข้อความ)\n\nDelete used text: หากติ๊กถูก ระบบจะลบข้อความที่ใช้ไปแล้วออกจากรายการ เพื่อไม่ให้ส่งซ้ำ\n\nการแท็กผู้ใช้แ��ะการแชร์\n\nComment the uid tag:สำหรับการแท็กเพื่อนหรือกลุ่มเป้าหมายในคอมเมนต์\n\nList of uids: ใส่รายการ ID ผู้ใช้ที่ต้องการแท็ก\n\nOne maximum tag comment: กำหนดว่าจะให้แท็กกี่คนต่อ 1 คอมเมนต์\n\nDelete used uid: ลบ ID ที่ถูกแท็กไปแล้วออกจากรายการ\n\n",
             "type": "markdown",
             "images": [
               "image15.png"
@@ -3943,7 +3949,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "4.Spam joined group posts (สแปมเข้าร่วมกลุ่มโพสต์)",
-            "content": "4.Spam joined group posts (สแปมเข้าร่วมกลุ่มโพสต์)\n\n![image](/images/image216.png)\n\nการตั้งค่าขอบเขตและระยะเวลา\n\nA page uses:ตั้งค่าจำนวนเพจที่จะใช้งาน\n\nNumber of posts/group:กำหนดจำนวนโพสต์ที่จะเข้าไปมีส่วนร่วมในแต่ละกลุ่ม\n\nDelay time:ระยะเวลาหน่วงระหว่างการกระทำ เพื่อป้องกันการโดนบล็อก\n\nSkip ... first article:ตัวเลือกข้ามโพสต์แรกๆ ของกลุ่ม (เช่น ข้าม 2 ถึง 3 โพสต์แรก)\n\nShare on wall:ติ๊กถูกหากต้องการให้แชร์โพสต์นั้นลงบนหน้า Wall ของตัวเองด้วย\n\nDo not comment on old posts:ป้องกันการไปคอมเมนต์ในโพสต์ที่เก่าเกินไป\n\nEdit comments:แก้ไขคอมเมนต์\n\nGet the article:รูปแบบการเลือกโพสต์\n\nIn order: ตามลำดับ\n\nUnexpectedly: แบบสุ่ม\n\nการตั้งค่าการแสดงความรู้สึก\n\nRelease emotions:ติ๊กถูกเพื่อเปิดใช้งานการกด Reaction\n\nReaction Icons:สามารถเลือกรูปแบบอารมณ์ที่ต้องการได้ (Like, Love, Care, Haha, Wow, Sad, Angry) โดยโปรแกรมจะสุ่มใช้งานตามที่เลือกไว้\n\nการตั้งค่าความคิดเห็น\n\nText comment:ติ๊กถูกเพื่อเปิดใช้งานการพิมพ์ข้อความ\n\nContent: ช่องสำหรับใส่ข้อความที่ต้องการ\n\nTag [@uid]: รองรับการแท็กผู้ใช้ด้วย ID\n\nSpin Content {a|b|c}: รองรับการหมุนเวียนคำพูดเพื่อไม่ให้ข้อความซ้ำกัน\n\nOption: รูปแบบข้อความ\n\nOne-line content: เนื้อหาบรรทัดเดียว\n\nContent many lines: เนื้อหาหลายบรรทัด\n\nComment photo:ติ๊กถูกหากต้องการคอมเมนต์ด้วยรูปภาพ\n\nPhoto folder: ระบุที่อยู่ไฟล์รูปภาพในคอมพิวเตอร์ (Path) ที่ต้องการให้ระบบดึงไปใช้\n\nExport link:ติ๊กถูกหากต้องการให้ระบบส่งออกลิงก์ของโพสต์ที่ได้ไปคอมเมนต์เสร็จแล้ว เพื่อการตรวจสอบภายหลัง\n\n",
+            "content": "4.Spam joined group posts (สแปมเข้าร่วมกลุ่มโพสต์)\n\n![image](/images/image216.png)\n\nการตั้งค่าขอบเขตและระยะเวลา\n\nA page uses:ตั้งค่���จำนวนเพจที่จะใช้งาน\n\nNumber of posts/group:กำหนดจำนวนโพสต์ที่จะเข้าไปมีส่วนร่วมในแต่ละกลุ่ม\n\nDelay time:ระยะเวลาหน่วงระหว่างการกระทำ เพื่อป้องกันการ��ด��บ��็อก\n\nSkip ... first article:ตัวเลือกข้ามโพสต์แรกๆ ของกลุ่ม (เช่น ข้าม 2 ถึง 3 โพสต์แรก)\n\nShare on wall:ติ๊กถูกหากต้องการให้แชร์โพสต์นั้นลงบนหน้า Wall ของตัวเองด้วย\n\nDo not comment on old posts:ป้องกันการไปคอมเมนต์ในโพสต์ที่เก่าเกินไป\n\nEdit comments:แก้ไขคอมเมนต์\n\nGet the article:รูปแบบการเลือกโพสต์\n\nIn order: ตามลำดับ\n\nUnexpectedly: แบบสุ่ม\n\nการตั้งค่าการแสดงความรู้สึก\n\nRelease emotions:ติ๊กถูกเพื่อเปิดใช้งานการกด Reaction\n\nReaction Icons:สามารถเลือกรูปแบบอารมณ์ที่ต้องการได้ (Like, Love, Care, Haha, Wow, Sad, Angry) โดยโปรแกรมจะสุ่มใช้งานตามที่เลือกไว้\n\nการตั้งค่าความคิดเห็น\n\nText comment:ติ๊กถูกเพื่อเปิดใช้งานการพิมพ์ข้อความ\n\nContent: ช่องสำหรับใส่ข้อความที่ต้องการ\n\nTag [@uid]: รองรับการแท็กผู้ใช้ด้วย ID\n\nSpin Content {a|b|c}: รองรับการหมุนเวียนคำพูดเพื่อไม่ให้ข้อความซ้ำกัน\n\nOption: รูปแบบข้อความ\n\nOne-line content: เนื้อหาบรรทัดเดียว\n\nContent many lines: เนื้อหาหลายบรรทัด\n\nComment photo:ติ๊กถูกหากต้องการคอมเมนต์ด้วยรูปภาพ\n\nPhoto folder: ระบุที่อยู่ไฟล์รูปภาพในคอมพิวเตอร์ (Path) ที่ต้องการให้ระบบดึงไปใช้\n\nExport link:ติ๊กถูกหากต้องการให้ระบบส่งออกลิงก์ของโพสต์ที่ได้ไปคอมเมนต์เสร็จแล้ว เพื่อการตรวจสอบภายหลัง\n\n",
             "type": "markdown",
             "images": [
               "image216.png"
@@ -4975,7 +4981,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "Check Info Acc after running:ตรวจสอบข้อมูลบัญชีหลังรันเสร็จ ซึ่งสามารถเลือกเจาะจงข้อมูลได้ เช่น:",
-            "content": "Check Info Acc after running:ตรวจสอบข้อมูลบัญชีหลังรันเสร็จ ซึ่งสามารถเลือกเจาะจงข้อมูลได้ เช่น:\n\nข้อมูลส่วนตัว: ชื่อ (Name), เพศ (Gender), วันเกิด (Birthday), อีเมล (Email), เบอร์โทร (Phone)\n\nข้อมูลสังคม: เพื่อน (Friend), กลุ่ม (Group), ผู้ติดตาม (Follow), เพจ (Page)\n\nข้อมูลอื่นๆ: วันที่สร้าง (Date create), รูปโปรไฟล์ (Avatar), โฆษณา (Ads), สถานที่ (Location)\n\nPublic info account:ตั้งค่าให้ข้อมูลบัญชีเป็นสาธารณะ\n\nCheck Friend Suggestions:ตรวจสอบการแนะนำเพื่อน\n\nAllow follow:อนุญาตให้มีการกดติดตาม\n\nPrivate friend list:ตั้งค่ารายการเพื่อนเป็นส่วนตัว\n\nHide number of reactions:ซ่อนจำนวนความรู้สึก (Reactions)\n\n",
+            "content": "Check Info Acc after running:ตรวจสอบข้อมูลบัญชีหลังรันเสร็จ ซึ่งสามารถเลือกเจาะจงข้อมูลได้ เช่น:\n\nข้อมูลส่วนตัว: ชื่อ (Name), เพศ (Gender), วันเกิด (Birthday), อีเมล (Email), เบอร์โทร (Phone)\n\nข้อมูลสังคม: เพื่อน (Friend), กลุ่ม (Group), ผู้ติดตาม (Follow), เพจ (Page)\n\nข้อมูลอื่นๆ: วันที่สร้าง (Date create), รูปโปรไฟล์ (Avatar), โฆษณา (Ads), สถานที่ (Location)\n\nPublic info account:ตั้งค่าให้ข้อมูลบัญชีเป็นสาธารณะ\n\nCheck Friend Suggestions:ตรวจสอบการแนะนำเพื่อน\n\nAllow follow:อนุญาตให้มีการกดติดตาม\n\nPrivate friend list:ตั้งค่ารายการเพื่อน��ป็��ส่วนตัว\n\nHide number of reactions:ซ่อนจำนวนความรู้สึก (Reactions)\n\n",
             "type": "markdown",
             "images": []
           }
@@ -4999,7 +5005,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "1.Review Pages(รีวิวเพจ)",
-            "content": "1.Review Pages(รีวิวเพจ)\n\n![image](/images/image16.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nId Page:ช่องสำหรับระบุ ID ของหน้าที่คุณต้องการเข้าไปทำการรีวิว\n\nLike page:ติ๊กเครื่องหมายถูก หากต้องการให้ระบบกด Like เพจนั้น ๆ ไปด้วยในตัว\n\nการตั้งค่าการจัดการเนื้อหา\n\nReview content (0):ช่องสี่เหลี่ยมขนาดใหญ่สำหรับพิมพ์หรือวางข้อความรีวิว โดยตัวเลขในวงเล็บจะแสดงจำนวนเนื้อหาที่มีอยู่\n\n",
+            "content": "1.Review Pages(รีวิวเพจ)\n\n![image](/images/image16.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nId Page:ช่องสำหรับระบุ ID ของหน้าที่คุณต้องการเข้าไปทำการรีวิว\n\nLike page:ติ๊กเครื่องหมายถูก หากต้องการให้ระบบกด Like เพจ���ั้��� ๆ ��ปด้วยในตัว\n\nการตั้งค่าการจัดการเนื้อหา\n\nReview content (0):ช่องสี่เหลี่ยมขนาดใหญ่สำหรับพิมพ์หรือวางข้อความรีวิว โดยตัวเลขในวงเล็บจะแสดงจำนวนเนื้อหาที่มีอยู่\n\n",
             "type": "markdown",
             "images": [
               "image16.png"
@@ -5437,7 +5443,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "12.Create page (สร้างเพจ)",
-            "content": "12.Create page (สร้างเพจ)\n\n![image](/images/image252.png)\n\nการตั้งค่าพื้นฐาน\n\nAmount pages:กำหนดจำนวนเพจที่ต้องการสร้าง\n\nDelay time (s):กำหนดระยะเวลาหน่วง ระหว่างการสร้างแต่ละเพจ\n\nการตั้งค่ารายละเอียดข้อมูลเพจ\n\nPage name (1):ช่องสำหรับกรอกชื่อเพจที่ต้องการสร้าง โดยสามารถระบุชื่อที่ต้องการลงในช่องข้อความ\n\nPage category (1):ช่องสำหรับกำหนดหมวดหมู่ของเพจ เพื่อให้ตรงกับวัตถุประสงค์การใช้งาน\n\nInteractive\n\n",
+            "content": "12.Create page (สร้างเพจ)\n\n![image](/images/image252.png)\n\nการตั้งค่าพื้นฐาน\n\nAmount pages:กำหนดจำนวนเพจที่ต้องการสร้าง\n\nDelay time (s):กำหนดระยะเวลาหน่วง ระหว่างการสร้างแต่ละเพจ\n\nการตั้งค่ารายละเอียดข้อมูลเพจ\n\nPage name (1):ช่องสำหรับกรอกชื่อเพจที��ต้อ��การสร้าง โดยสามารถระบุชื่อที่ต้องการลงในช่องข้อความ\n\nPage category (1):ช่องสำหรับกำหนดหมวดหมู่ของเพจ เพื่อให้ตรงกับวัตถุประสงค์การใช้งาน\n\nInteractive\n\n",
             "type": "markdown",
             "images": [
               "image252.png"
@@ -5445,7 +5451,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "1.Read notification (อ่านข้อความแจ้งเตือน)",
-            "content": "1.Read notification (อ่านข้อความแจ้งเตือน)\n\n![image](/images/image627.png)\n\nQuantity :คือ จำนวน ข้อความแจ้งเตือนที่ต้องการให้อ่านDelay time :คือ ระยะเวลาดีเลย์ของการอ่านแจ้งเตือนแต่ละอัน\n\n",
+            "content": "1.Read notification (อ่านข้อความแจ้งเตือน)\n\n![image](/images/image627.png)\n\nQuantity :คือ จำนวน ข้อความแจ้งเตือนที่ต้องการให้อ่านDelay time :คือ ระยะเวลาดีเลย์ของกา��อ่านแจ้งเตือนแต่ละอัน\n\n",
             "type": "markdown",
             "images": [
               "image627.png"
@@ -5453,7 +5459,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "2. Watch Reels (ดูวีดีโอสั้น)",
-            "content": "2. Watch Reels (ดูวีดีโอสั้น)\n\n![image](/images/image328.png)\n\nการตั้งค่าพื้นฐาน\n\nTime watch:กำหนดช่วงระยะเวลาในการรับชมวิดีโอแต่ละคลิป\n\nการตั้งค่าปฏิสัมพันธ์\n\nLike:กดถูกใจวิดีโออัตโนมัติ\n\nShare Wall:แชร์วิดีโอไปยังหน้าโปรไฟล์ (Wall) ของตนเอง\n\nComment:แสดงความคิดเห็นใต้คลิปวิดีโอ (หากเลือกข้อนี้ จะต้องตั้งค่าในส่วนถัดไป)\n\nการตั้งค่าการจัดการความคิดเห็น\n\nList Comments:กรอกข้อความที่ต้องการใช้คอมเมนต์\n\nOption:ตัวเลือกรูปแบบของเนื้อหา\n\nปุ่ม [?]: ใช้สำหรับดูคำแนะนำเพิ่มเติมเกี่ยวกับวิธีการพิมพ์ข้อความหรือการใช้สัญลักษณ์พิเศษ\n\n",
+            "content": "2. Watch Reels (ดูวีดีโอสั้น)\n\n![image](/images/image328.png)\n\nการตั้งค่าพื้นฐาน\n\nTime watch:กำหนดช่วงระยะเวล���ในกา���รับ���มวิดีโอแต่ละคลิป\n\nการตั้งค่าปฏิสัมพันธ์\n\nLike:กดถูกใจวิดีโออัตโนมัติ\n\nShare Wall:แชร์วิดีโอไปยังหน้าโปรไฟล์ (Wall) ของตนเอง\n\nComment:แสดงความคิดเห็นใต้คลิปวิดีโอ (หากเลือกข้อนี้ จะต้องตั้งค่าในส่วนถัดไป)\n\nการตั้งค่าการจัดการความคิดเห็น\n\nList Comments:กรอกข้อความที่ต้องการใช้คอมเมนต์\n\nOption:ตัวเลือกรูปแบบของเนื้อหา\n\nปุ่ม [?]: ใช้สำหรับดูคำแนะนำเพิ่มเติมเกี่ยวกับวิธีการพิมพ์ข้อความหรือการใช้สัญลักษณ์พิเศษ\n\n",
             "type": "markdown",
             "images": [
               "image328.png"
@@ -6374,7 +6380,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "2.ติดตามจากคีย์เวิร์ด",
-            "content": "2.ติดตามจากคีย์เวิร์ด\n\n![image](/images/image147.png)\n\nการตั้งค่าการจัดการคำสำคัญ\n\nรายการคำสำคัญ:ช่องขนาดใหญ่สำหรับใส่คำค้นหาที่คุณต้องการให้ระบบไปค้นหาและกดติดตาม\n\nคุณสามารถใส่ได้หลายคำโดยแยกเป็นบรรทัด\n\nการตั้งค่าปริมาณและระยะเวลา\n\nนับผู้ใช้:กำหนดช่วงจำนวนผู้ใช้ที่ต้องการให้ระบบกดติดตามต่อรอบ\n\nระบุเป็นช่วง ขั้นต่ำ - สูงสุด (เช่น 1 - 1 user)\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดพักระหว่างการกระทำแต่ละครั้ง\n\nระบุหน่วยเป็น วินาที (เช่น 3 - 5 วินาที)\n\nการตั้งค่าแบบสุ่มช่วงเวลาจะช่วยให้การทำงานดูเหมือนมนุษย์มากขึ้น\n\n",
+            "content": "2.ติดตามจากคีย์เวิร์ด\n\n![image](/images/image147.png)\n\nการตั้งค่าการจัดการคำสำคัญ\n\nรายการคำสำคัญ:ช่องขนาดใหญ่สำหรับใส่คำค้นหาที่คุณต้องการให้ระบบไปค้นหาและกดติดตาม\n\nคุณสามารถใส่ได้หลายคำโด��แยกเ��็นบรรทัด\n\nการตั้งค่าปริมาณและระยะเวลา\n\nนับผู้ใช้:กำหนดช่วงจำนวนผู้ใช้ที่ต้องการให้ระบบกดติดตามต่อรอบ\n\nระบุเป็นช่วง ขั้นต่ำ - สูงสุด (เช่น 1 - 1 user)\n\nเวลาในการหน่วง:กำหนดระยะเวลาหยุดพักระหว่างการกระทำแต่ละครั้ง\n\nระบุหน่วยเป็น วินาที (เช่น 3 - 5 วินาที)\n\nการตั้งค่าแบบสุ่มช่วงเวลาจะช่วยให้การทำงานดูเหมือนมนุษย์มา��ขึ้น\n\n",
             "type": "markdown",
             "images": [
               "image147.png"
@@ -6390,7 +6396,7 @@ export const manualData: ProgramData[] = [
           },
           {
             "title": "นับผู้ใช้ (User Count):",
-            "content": "นับผู้ใช้ (User Count):\n\nใช้สำหรับกำหนดจำนวนผู้ใช้ที่ต้องการให้ระบบดำเนินการ \"ติดตามกลับ\"\n\nสามารถระบุเป็นช่วง (Range) ได้ เช่น ตั้งแต่ 1 ถึง 1 user เพื่อควบคุมปริมาณการทำงานต่อรอบ\n\n",
+            "content": "นับผู้ใช้ (User Count):\n\nใช้สำหรับกำหนดจำนวนผู���ใช้ที่���้องกา���ให้ระบบดำเนินการ \"ติดตามกลับ\"\n\nสามารถระบุเป็นช่วง (Range) ได้ เช่น ตั้งแต่ 1 ถึง 1 user เพื่อควบคุมปริมาณการทำงานต่อรอบ\n\n",
             "type": "markdown",
             "images": []
           },
