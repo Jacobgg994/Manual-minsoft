@@ -40,12 +40,12 @@ export const manualData: ProgramData[] = [
     ]
   },
   {
-    "id": "maxcare______________snu8m",
-    "name": "Maxcare วิธีการดาวน์โหลดและติดตั้งโปรแกรม",
+    "id": "maxcare_suite",
+    "name": "Maxcare",
     "categories": [
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare______________snu8m",
+        "name": "วิธีการดาวน์โหลดและติดตั้งโปรแกรม",
         "sections": [
           {
             "title": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย",
@@ -65,42 +65,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________z2334",
-    "name": "วิธีการใช้งานโปรแกรม",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "รวมวิธีการใช้งานโปรแกรม Maxcare",
-            "content": "<p>อธิบายรายละเอียดแต่ละฟังก์ชั่น การนำบัญชีเฟสบุ๊คเข้าโปรแกรม Maxcare ![image](/images/image537.png) หลังจากเปิดโปรแกรมมาแล้ว ให้กดที่ Import accounts เพื่อนำเฟสบุ๊คเข้าระบบ ![image](/images/image180.png) ให้ทำการสร้างไฟล์ขึ้นมา โดยใส่ชื่อตามที่ต้องการได้เลยจากนั้นกด Add ![image](/images/image305.png) ใส่ข้อมูลเฟสลงไป ตามแพทเทิน คั่นด้วยเครื่องหมาย | ยกตัวอย่างการเลือก Format ตามแพทเทินเฟสบุ๊คที่จะนำเข้า ![image](/images/image224.png) จากนั้นเลือก format ตามแพทเทินที่เรากรอกเข้าไป แล้วกดติ้กถูกที่ Option เพื่อให้มันเช็คข้อมูล Account ต่างๆด้วย เช่น ชื่อ,เพศ,จำนวนเพื่อน,จำนวนกลุ่ม เป็นต้น ![image](/images/image734.png) ![image](/images/image197.png) ![image](/images/image260.png) เป็นอันเสร็จสิ้นขั้นตอนการนำเข้าเฟสบุ๊ค</p>",
-            "type": "markdown",
-            "images": [
-              "image537.png",
-              "image180.png",
-              "image305.png",
-              "image224.png",
-              "image734.png",
-              "image197.png",
-              "image260.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "1____________________c84zf",
-    "name": "1.วิธีการนำบัญชีเฟสบุ๊คเข้าสู่โปรแกรม Maxcare",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "1____________________c84zf",
+        "name": "1.วิธีการนำบัญชีเฟสบุ๊คเข้าสู่โปรแกรม Maxcare",
         "sections": [
           {
             "title": "อธิบายรายละเอียดแต่ละฟังก์ชั่น",
@@ -117,75 +85,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "2____________________ecp2m",
-    "name": "2.อธิบายการตั้งค่าต่างๆเบื้องต้น",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "อธิบายฟังก์ชั่นการใช้งานพื้นฐาน",
-            "content": "อธิบายฟังก์ชั่นการใช้งานพื้นฐาน\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "General configs",
-            "content": "General configs\n\n![image](/images/image408.png)\n\n![image](/images/image527.png)\n\nGeneral configs\n\n1.1 Chrome threads:คือ จำนวนเบราว์เซอร์ที่เปิดพร้อมกัน (หากไม่ได้ใช้ proxy แนะนำให้เปิดไม่เกิน 5)\n\n1.2 Check info threads:คือ จำนวนจอไว้เช็คสถานะของเฟสในการรันโปรแกรม (ให้ตั้งตามจำนวนเบราว์เซอร์ในการรันโปรแกรม)\n\n1.3 Folder profile:คือ ใส่ที่อยู่เก็บรูปภาพ ในโฟลเดอร์ Maxcare เพื่อเก็บรูปภาพและดึงรูปออกมาใช้ในระบบ\n\n![image](/images/image125.png)\n\nChrome configs\n\n1.1 Show image when use browser:ติ๊กถูกเพื่อให้แสดงรูปภาพขณะเปิดเบราว์เซอร์\n\n1.2 Text typing speed:ปรับความเร็วในการพิมพ์ข้อความอัตโนมัติ\n\n1.3 Sort chrome window:ตั้งค่าการเรียงหน้าต่างเบราว์เซอร์\n\n1.4 Delay Open chrome (s):ตั้งค่าหน่วงเวลาก่อนเปิดหน้าต่างถัดไป\n\n1.5 Add Chrome Form View:กำหนดขนาดหน้าต่างเบราว์เซอร์\n\n1.6 Hide chrome:ติ๊กถูกหากต้องการให้เบราว์เซอร์ทำงานเบื้องหลัง\n\n1.7 Update Chromedriver:ปุ่มสำหรับอัปเดตตัวควบคุม Chrome ให้เป็นเวอร์ชันล่าสุดเสมอ\n\n1.8 Path chrome.exe:ใส่ที่อยู่ไฟล์ (Path) ของโปรแกรม Chrome ในเครื่องของคุณ\n\n1.9 Use Gologin:หากใช้บริการ Gologin ให้ติ๊กช่องนี้ และระบุ Path ของ Orbita chrome.exe\n\n1.10 Use GEM Login:สำหรับผู้ใช้งาน GEM Login ให้กรอก API URL\n\n1.11 Use GPM Login:สำหรับผู้ใช้งาน GPM Login ให้เลือกเวอร์ชันเบราว์เซอร์ และสามารถเลือก Disable WebRTC เพื่อป้องกันการหลุดของ IP จริงได้\n\n![image](/images/image674.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image408.png",
-              "image527.png",
-              "image125.png",
-              "image674.png"
-            ]
-          },
-          {
-            "title": "Captcha configs",
-            "content": "Captcha configs\n\n1.1 API Key Omocaptcha:ช่องสำหรับกรอกAPI Keyเพื่อแก้Captchaอัตโนมัติ\n\n![image](/images/image291.png)\n\nEmail configs\n\n1.1 https://generator.email/:สามารถป้อนโดเมน\n\n1.2 https://unlimitmail.com/:กรอก Token สำหรับใช้งาน Unlimitmail\n\n1.3 https://donglaomail.com/:กรอก Token สำหรับใช้งาน Donglaomail\n\n![image](/images/image416.png)\n\nChange IP configs\n\n1.1 Don't Check IP before running:หากติ๊กถูกโปรแกรมจะเริ่มทำงานทันทีโดยไม่ตรวจสอบว่า IP ปัจจุบันคืออะไร\n\n1.2 Delay after change IP:การตั้งเวลา \"รอ\" หลังจากเปลี่ยน IP สำเร็จ\n\n1.3 Change IP:เลือกประเภทการเปลี่ยน IP\n\n![image](/images/image706.png)\n\nOther configs\n\n1.1 Distinguish [Account status]:คือ สามารถเลือกเพื่อแยกแยะสถานะบัญชี\n\n1.2 Save [Description] column data:คือ เลือกเพื่อบันทึกข้อมูลคอลัมน์\n\n1.3 Backup Database selectคือ เลือกสำรองข้อมูลที่เลือก\n\n",
-            "type": "markdown",
-            "images": [
-              "image291.png",
-              "image416.png",
-              "image706.png"
-            ]
-          },
-          {
-            "title": "หากไม่ได้ใช้ Proxy การตั้งค่าด้านขวาไม่ต้องปรับแก้ไขอะไร",
-            "content": "หากไม่ได้ใช้ Proxy การตั้งค่าด้านขวาไม่ต้องปรับแก้ไขอะไร\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "Display configs",
-            "content": "Display configs\n\n![image](/images/image213.png)\n\nเราสามารถกำหนดได้ว่าอยากให้มันแสดงข้อมูลอะไรในโปรแกรม Maxcare เช่น ตัวอย่างตามข้างบน\n\n![image](/images/image709.png)\n\nจะแสดงขึ้นข้อมูล อีเมลล์, ชื่อเฟส, จำนวนเพื่อน, เพศ, รหัสผ่านเฟส, รหัสผ่านอีเมลล์, รหัส2FA, เวลาที่รันโปรแกรมล่าสุด, สถานะเฟส, รายละเอียดแสดงขั้นตอนระหว่างรันโปรแกรม เป็นต้น\n\nในรูปที่ email และ pass mail ว่าง เพราะไม่ได้ import เป็นแพทเทิน uid|pass|email|passmail นั่นเอง\n\nInteractive configs\n\n![image](/images/image665.png)\n\n![image](/images/image311.png)\n\nBasic runningคือ การตั้งค่าก่อนรัน\n\nUse chrome profile:ให้ระบบใช้โปรไฟล์ Chrome ที่ตั้งค่าไว้\n\nClear chrome cache: ล้างไฟล์ขยะและข้อมูลค้างเก่าก่อนเริ่มงานใหม่ ช่วยลดปัญหาเว็บโหลดช้าหรือแสดงผลผิดพลาด\n\nCheck wall account: ตรวจสอบสถานะหน้า Wall หรือความพร้อมของบัญชีก่อนเริ่มทำงาน\n\nShuffle account order: สลับลำดับการทำงานของบัญชีแบบสุ่ม เพื่อความเป็นธรรมชาติและเลี่ยงการโดนตรวจจับ\n\n![image](/images/image483.png)\n\nLoginคือ เลือกวิธีการใช้รหัสล็อกอิน\n\nLogin type: คือ รูปแบบการเข้าสู่ระบบ\n\nUid|Pass: เข้าสู่ระบบด้วย ID ผู้ใช้ และ รหัสผ่าน\n\nEmail|Pass: เข้าสู่ระบบด้วย อีเมล และ รหัสผ่าน\n\nCookie: เข้าสู่ระบบโดยใช้ค่า Cookie\n\nCookie > Pass: โปรแกรมจะพยายามเข้าด้วย Cookie ก่อน หาก Cookie ใช้ไม่ได้ จะเปลี่ยนไปใช้รหัสผ่านโดยอัตโนมัติ\n\n![image](/images/image678.png)\n\nInteraction :เลือก สคริปต์ การวอร์มบช ที่นี่\n\nSelect script: คือ เลือกสคริปต์ที่ต้องการใช้งาน\n\nManage: จัดการสคริปต์ เช่น การเพิ่ม ลบ หรือแก้ไขสคริปต์ในรายการ\n\nLimit run time per account (seconds):จำกัดระยะเวลาการทำงาน ต่อหนึ่งบัญชี\n\nLimit run time per turn (minutes):จำกัดระยะเวลาการทำงาน ต่อหนึ่งรอบ\n\nRerun all accounts after completed: โปรแกรมวนกลับมาทำงานใหม่หลังจากรันครบทุกบัญชีแล้ว\n\nTotal turns: กำหนดจำนวนรอบที่ต้องการให้สคริปต์กลับมาทำงาน\n\nWait for next turn: กำหนดระยะเวลาการพักก่อนจะเริ่มรันรอบถัดไป\n\n![image](/images/image190.png)\n\nAfter interaction:กำหนดให้ระบบดำเนินการอย่างใดอย่างหนึ่งโดยอัตโนมัติ หลังจากที่บัญชีทำงานตามโจทย์หลัก\n\nCheck Info Acc after running: ระบบจะทำการตรวจสอบข้อมูลเฉพาะของบัญชีนั้นๆ\n\nAuto get cookie: คัดลอก Cookie ของบัญชีออกมาโดยอัตโนมัติ\n\nAuto get token: ดึง Token อัตโนมัติ\n\nAllow others to follow: เปิดใช้งานการอนุญาตให้ผู้อื่นกดติดตามบัญชีนี้ได้\n\nCount posts on wall: สั่งให้ระบบนับจำนวนโพสต์ที่มีอยู่บนวอลล์ของบัญชี\n\nCheck create profile: ตรวจสอบการสร้างโปรไฟล์\n\nCheck password: ตรวจสอบว่ารหัสผ่านปัจจุบันยังใช้งานได้ปกติหรือไม่\n\nCheck Meta Verified: ตรวจสอบสถานะการยืนยันตัวตน (เครื่องหมายถูกสีฟ้า)\n\nLogout account: สั่งให้ระบบออกจากระบบทันทีหลังจากทำงานเสร็จ\n\nChange language: เปลี่ยนภาษาของบัญชี\n\nDelete account: สั่งให้ลบบัญชีทิ้งทันทีหลังจากเสร็จสิ้นภารกิจ\n\n",
-            "type": "markdown",
-            "images": [
-              "image213.png",
-              "image709.png",
-              "image665.png",
-              "image311.png",
-              "image483.png",
-              "image678.png",
-              "image190.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "3____________________px543",
-    "name": "3.อธิบายเมนูฟังก์ชั่นการทำงาน interactive (Maxcare)",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "3____________________px543",
+        "name": "3.อธิบายเมนูฟังก์ชั่นการทำงาน interactive (Maxcare)",
         "sections": [
           {
             "title": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย",
@@ -805,16 +708,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "4_maxcare____________xl2pd",
-    "name": "4.MaxCare วิธีการนำบัญชีเฟสบุ๊คเข้าสู่โปรแกรม",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "4_maxcare____________xl2pd",
+        "name": "4.MaxCare วิธีการนำบัญชีเฟสบุ๊คเข้าสู่โปรแกรม",
         "sections": [
           {
             "title": "อธิบายรายละเอียดแต่ละฟังก์ชั่น",
@@ -831,16 +728,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "5___________proxy____yydqy",
-    "name": "5.การใช้งาน Proxy กับ Maxcare",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "5___________proxy____yydqy",
+        "name": "5.การใช้งาน Proxy กับ Maxcare",
         "sections": [
           {
             "title": "ขั้นตอนการนำ  Proxy เข้าใน Maxcare แบบ Import",
@@ -853,16 +744,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare_________chec_rcxwp",
-    "name": "Maxcare วิธีแก้ Checkpoint 282,956",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare_________chec_rcxwp",
+        "name": "วิธีแก้ Checkpoint 282,956",
         "sections": [
           {
             "title": "Maxcare วิธีแก้ Checkpoint 282",
@@ -929,16 +814,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare______________754t3",
-    "name": "Maxcare ดาวน์โหลดโปรแกรมไม่ได้ Maxcare.zip เป็นอันตราย ทำอย่างไร ?",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare______________754t3",
+        "name": "ดาวน์โหลดโปรแกรมไม่ได้ Maxcare.zip เป็นอันตราย ทำอย่างไร ?",
         "sections": [
           {
             "title": "โปรแกรมเป็นบอทฟาร์มเฟสบุ๊ค เครื่องคอมพิวเตอร์จึงคิดว่าเป็นไวรัส แต่จริงๆแล้วไม่ใช่นะคะ",
@@ -951,16 +830,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare_____maxsyste_6o5de",
-    "name": "Maxcare และ MaxSystemCare แตกต่างกันยังไง ?",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare_____maxsyste_6o5de",
+        "name": "และ MaxSystemCare แตกต่างกันยังไง ?",
         "sections": [
           {
             "title": "Maxcare v4.0 จะเป็นการรันผ่าน Chrome Browser ส่วน MaxSystemCare จะรันผ่าน LDplayer Android Emulatorซึ่งจะเป็นตัวโปรแกรมเสริม ใช้ควบคู่กับ Maxcare ซึ่งหลังจากวอมบัญชีจาก Maxcare แล้วนำมาวอมต่อที่ MaxSystemCare หากบัญชีที่วอมรอด จะทำให้บัญชีนั้นแข็งแรงขึ้นมาก ซึ่งฟังก์ชั่นการใช้งานนั้นก็จะคล้ายกันกับ Maxcare",
@@ -972,16 +845,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare____________c_pllzo",
-    "name": "Maxcare แก้ไขปัญหา CPU 100% เมื่อใช้ Chrome",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare____________c_pllzo",
+        "name": "แก้ไขปัญหา CPU 100% เมื่อใช้ Chrome",
         "sections": [
           {
             "title": "1.เข้าไปที่เว็บ",
@@ -1018,16 +885,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare______________m6sv8",
-    "name": "Maxcare ไม่สามารถเปิดใช้งานโปรแกรมได้",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare______________m6sv8",
+        "name": "ไม่สามารถเปิดใช้งานโปรแกรมได้",
         "sections": [
           {
             "title": "โปรแกรมทำงานมาถึงหน้า 2fa แล้วปิดไป !",
@@ -1039,16 +900,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare______________o9tlz",
-    "name": "Maxcare วิธีย้ายข้อมูลจากเครื่องเดิมไปยังเครื่องใหม่",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare______________o9tlz",
+        "name": "วิธีย้ายข้อมูลจากเครื่องเดิมไปยังเครื่องใหม่",
         "sections": [
           {
             "title": "1.วิธี Exprot ข้อมูลจากเครื่องเก่า",
@@ -1069,16 +924,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare______________98k67",
-    "name": "Maxcare วิธีการย้ายเครื่องใช้งานจากเครื่องเก่าไปเครื่องใหม่ทำยังไง ?",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_fv4aq",
-        "name": "",
+        "id": "maxcare______________98k67",
+        "name": "วิธีการย้ายเครื่องใช้งานจากเครื่องเก่าไปเครื่องใหม่ทำยังไง ?",
         "sections": [
           {
             "title": "คัดลอกDevice codeจากเครื่องใหม่ เสร็จแล้วไปที่เว็บไซต์แล้วล็อคอิน",
@@ -1089,16 +938,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare______________5quyz",
-    "name": "Maxcare วิธีดาวน์โหลด Chrome driver และติดตั้ง ?",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_5aa48",
-        "name": "",
+        "id": "maxcare______________5quyz",
+        "name": "วิธีดาวน์โหลด Chrome driver และติดตั้ง ?",
         "sections": [
           {
             "title": "ไปที่มุมขวาบนของโครม กดที่ 3 จุด แล้วเลือกSettings",
@@ -1114,16 +957,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare______________6ldm0",
-    "name": "Maxcare วิธีแก้ปัญหาไม่สามารถเปิดใช้งานโปรแกรมได้ ตามรูป",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_nha2w",
-        "name": "",
+        "id": "maxcare______________6ldm0",
+        "name": "วิธีแก้ปัญหาไม่สามารถเปิดใช้งานโปรแกรมได้ ตามรูป",
         "sections": [
           {
             "title": "ขั้นตอนที่ 1 :แตกไฟล์maxcareใหม่อีกไฟล์",
@@ -1148,16 +985,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare______________q7rdy",
-    "name": "Maxcare ไม่ทำตามสคริปต้องทำอย่างไร",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare______________q7rdy",
+        "name": "ไม่ทำตามสคริปต้องทำอย่างไร",
         "sections": [
           {
             "title": "นำ Useragent ด้านล่างใส่เพิ่มในทุกบัญชี2",
@@ -1191,16 +1022,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare___________ch_dfw7r",
-    "name": "Maxcare การอัพเดต Chorme driver version.115 ขึ้นไป",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxcare___________ch_dfw7r",
+        "name": "การอัพเดต Chorme driver version.115 ขึ้นไป",
         "sections": [
           {
             "title": "1.ให้ทำการเปิดGoogle Chromeจากนั้นคลิกที่จุดสามจุด",
@@ -1277,16 +1102,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare______________caszs",
-    "name": "Maxcare วิธีการตั้งค่ารันบัญชีผ่าน Gologin",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_qsm7y",
-        "name": "",
+        "id": "maxcare______________caszs",
+        "name": "วิธีการตั้งค่ารันบัญชีผ่าน Gologin",
         "sections": [
           {
             "title": "1.ไปที geneal configs",
@@ -1325,16 +1144,1124 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
+      },
+      {
+        "id": "1____________________ao7ol",
+        "name": "1.วิธีการเชื่อมข้อมูลกับ Maxcare",
+        "sections": [
+          {
+            "title": "ตัวอย่างวิธีคัดลอก path folder Maxcare",
+            "content": "ตัวอย่างวิธีคัดลอก path folder Maxcare\n\n![image](/images/image460.png)\n\nหลังจากเปิดโปรแกรมเสร็จแล้ว ให้คลิกเมนูGeneral configsจากนั้น ติ๊กsync data with Maxcareเพื่อเชื่อมข้อมูลเฟสที่อยู่ในMaxcareจากนั้นกดSaveแล้วกดRefresh1 ครั้ง\n\n",
+            "type": "markdown",
+            "images": [
+              "image460.png"
+            ]
+          }
+        ],
+        "subCategories": [
+          {
+            "id": "__image___images_ima_yl5lm_sub",
+            "name": "",
+            "sections": []
+          },
+          {
+            "id": "__image___images_ima_hfhdk_sub",
+            "name": "",
+            "sections": [
+              {
+                "title": "ตัวอย่างวิธีคัดลอก path folder Maxcare",
+                "content": "ตัวอย่างวิธีคัดลอก path folder Maxcare\n\n![image](/images/image460.png)\n\nหลังจากเปิดโปรแกรมเสร็จแล้ว ให้คลิกเมนูGeneral configsจากนั้น ติ๊กsync data with Maxcareเพื่อเชื่อมข้อมูลเฟสที่อยู่ในMaxcareจากนั้นกดSaveแล้วกดRefresh1 ครั้ง\n\n",
+                "type": "markdown",
+                "images": [
+                  "image460.png"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maxcare_page_o6snn",
+        "name": "MaxCare Page",
+        "sections": [
+          {
+            "title": "เครื่องมือที่ช่วยเราบริหารจัดการเพจเฟสบุ๊คจำนวนมาก ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น",
+            "content": "เครื่องมือที่ช่วยเราบริหารจัดการเพจเฟสบุ๊คจำนวนมาก ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น\n\nระบบฟาร์มเพจเฟสบุ๊คอัติโนมัติ ไม่จำกัดจำนวนเฟช ใช้ระบบ Chrome Browser ในการรัน\n\nด้วยฟังชั่นครบครัน ดังนี้\n\n![image](/images/image389.png)\n\nปั๊มยอดผู้ติดตามโปรไฟล์ส่วนตัว\n\nปั๊มไลก์และคอมเมนต์บนโพสต์\n\nปั๊มไลก์และติดตามเพจ\n\nสแปมโพสต์ (กลุ่ม, เพจ, โปรไฟล์)\n\nสแปมโพสต์ตามคีย์เวิร์ด\n\nให้คะแนนรีวิวเพจ\n\nสร้างปฏิสัมพันธ์ในไลฟ์สด\n\nโพสต์บนวอลล์ของเพจอื่น (แจ้งเตือน)\n\nสแปมตอบกลับคอมเมนต์ตามคีย์เวิร์ด\n\nสแปมตอบกลับคอมเมนต์ (กลุ่ม, เพจ...)\n\nสแปมตอบกลับคอมเมนต์ในโพสต์ที่ระบุ\n\nสแปมตอบกลับคอมเมนต์ที่เจาะจง\n\nแก้ไขคอมเมนต์\n\nอ่านประกาศ\n\nปฏิสัมพันธ์กับ Reels\n\nโพสต์\n\nตั้งเวลาหยุดพัก\n\nโพสต์สตอรี่\n\nโพสต์แท็ก UID ที่ระบุ\n\nตอบกลับข้อความแชท\n\nตอบกลับคอมเมนต์\n\nโพสต์แท็กพร้อมปุ่มกด\n\nส่งคำเชิญให้กดไลก์เพจ\n\nคัดลอกเนื้อหาโพสต์ที่ระบุ\n\nคัดลอกโพสต์จากเพจที่ระบุ\n\nโพสต์คลิป Reels\n\nลบโพสต์ในเพจ\n\nเข้ากลุ่มตามคีย์เวิร์ด\n\nแชร์โพสต์ลงกลุ่ม\n\nเข้ากลุ่มที่กำหนดไว้\n\nสแปมโพสต์ในกลุ่มที่เป็นสมาชิก\n\nโพสต์ลงในกลุ่มที่เป็นสมาชิก\n\nโพสต์ลงในกลุ่มที่กำหนดไว้\n\nสแปมตอบกลับคอมเมนต์จากกลุ่มที่มีส่วนร่วม\n\nสร้างกลุ่ม\n\nสร้างกิจกรรม\n\nแชร์โพสต์ไปยังกลุ่มที่กำหนด\n\nอัปเดตรูปโปรไฟล์\n\nอัปเดตรูปหน้าปก\n\nอัปเดตประวัติ/คำแนะนำตัว\n\nอัปเดตชื่อเพจ\n\nอัปเดตข้อมูลทั่วไป\n\nตั้งค่าจำกัดประเทศ\n\nตั้งค่าจำกัดอายุ\n\nบล็อก UID ที่ระบุ\n\nลบหน้าเพจระบุตำแหน่งทั้งหมด\n\n",
+            "type": "markdown",
+            "images": [
+              "image389.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_____________________942pm",
+        "name": "คู่มือดาวน์โหลดและติดตั้งโปรแกรม MaxCare Page",
+        "sections": [
+          {
+            "title": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off",
+            "content": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off\n\n1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย\n\nเข้าไปยังเว็บไซต์ Minsoft\n\n![image](/images/image793.png)\n\nล็อคอินเข้าใช้งาน\n\n![image](/images/image755.png)\n\nไปยังหน้าการจัดการซอร์ฟแวร์\n\n![image](/images/image711.png)\n\n2.จากนั้นไปที่โปรแกรม MaxCarePage ==> กด ดาวน์โหลด\n\n![image](/images/image499.png)\n\nหากขึ้นไม่สามารถดาวน์โหลดได้ ให้กด Ctrl + J\n\n![image](/images/image280.png)\n\nกดที่ จุด 3 จุด\n\n![image](/images/image488.png)\n\nเลือกดาวน์โหลดไฟล์อันตราย\n\n![image](/images/image655.png)\n\n3.หลังจากดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้คลิกขวาที่ไฟล์ MaxCarePage.zip ที่โหลดมา จากนั้นกดแตกไฟล์\n\n![image](/images/image787.png)\n\n4.หลังจากแตกไฟล์เสร็จเรียบร้อยแล้ว เข้าไปยังโฟลเดอร์ MaxCarePage แล้วกด AutoUpdate รอจนกว่าจะอัพเดตเสร็จ\n\n![image](/images/image278.png)\n\n5.เข้าใช้งานโปรแกรม ทำการเข้าระบบให้เรียบร้อย\n\n![image](/images/image357.png)\n\n6.เลือกServer เป็น Thailand\n\n![image](/images/image225.png)\n\nเมื่อเข้าระบบเสร็จแล้ว ให้ไปที่ Utilities >> Update chromedriver เพื่ออัพเดตโครมไดรเวอร์\n\n![image](/images/image154.png)\n\n*เป็นอันเสร็จขั้นตอนการติดตั้งโปรแกรม MaxCare Page***\n\n",
+            "type": "markdown",
+            "images": [
+              "image793.png",
+              "image755.png",
+              "image711.png",
+              "image499.png",
+              "image280.png",
+              "image488.png",
+              "image655.png",
+              "image787.png",
+              "image278.png",
+              "image357.png",
+              "image225.png",
+              "image154.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maxcarepage__________raa5v",
+        "name": "MaxCarePage วิธีเพิ่มบัญชีเฟสบุ๊คโปรแกรม",
+        "sections": [
+          {
+            "title": "1.ไปที่ More account",
+            "content": "1.ไปที่ More account\n\n![image](/images/image613.png)\n\nเพิ่มข้อมูลบัญชีในช่องว่าง\n\nจากนั้นเลือก Import format ให้ตรงกับข้อมูลบัญชี จากนั้กด comfirm\n\n![image](/images/image732.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image613.png",
+              "image732.png"
+            ]
+          },
+          {
+            "title": "รูปแบบข้อมูล",
+            "content": "รูปแบบข้อมูล\n\n![image](/images/image224.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image224.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maxcare_page_________b7hty",
+        "name": "MaxCare Page วิธีการเช็คเพจเช็คและดึงเพจ",
+        "sections": [
+          {
+            "title": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว",
+            "content": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว\n\n1.คลิกขวาไปที่ Page function  ==> Check the list pages ==> Open the browser\n\n![image](/images/image384.png)\n\nConfigure check page (การตั้งค่าหน้าตรวจสอบ)\n\nCheck the location page: ตรวจสอบตำแหน่งที่ตั้งของเพจ\n\nEnable disabled page: เปิดใช้งานเพจที่ถูกปิดใช้งาน\n\nDo not add a page that already exists: ห้ามเพิ่มเพจที่มีอยู่แล้ว\n\n![image](/images/image436.png)\n\n2.หลังจากเช็คเพจเสร็จแล้วคลิกขวา ==> จากนั้น Load page list ==> สามารถเลือกจำนวนเพจที่ต้องการได้\n\n![image](/images/image503.png)\n\nเป็นอันเสร็จขึ้นตอนการเช็คและดึงเพจเพื่อใช้งาน\n\n",
+            "type": "markdown",
+            "images": [
+              "image384.png",
+              "image436.png",
+              "image503.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_____________________vousi",
+        "name": "วิธีการเชื่อมข้อมูลกับ Maxcare",
+        "sections": [
+          {
+            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
+            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image370.png)\n\n2.กลับมาที่โปรแกรม MaxCarePage ไปที่ genneral configuration ==> ไปที่ Data synchronization เลือกเชื่อมต่อกับ maxcare ==> วางที่อยู่โฟลเดอร์ในช่องว่าง ==> กด Save\n\n![image](/images/image309.png)\n\n3.กด Refresh\n\n![image](/images/image604.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
+            "type": "markdown",
+            "images": [
+              "image370.png",
+              "image309.png",
+              "image604.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "___________cpu_100___wsipf",
+        "name": "แก้ไขปัญหา CPU 100% เมื่อใช้ Chrome Page",
+        "sections": [
+          {
+            "title": "Details",
+            "content": "![image](/images/image645.png)\n\nหลังจากนั้น กด Ctrl+F แล้วพิมพ์ตรงช่องค้นหา 123 เลือกดาวน์โหลดตามที่ในกรอบสีแดง รอจนกว่าจะดาวน์โหลดเสร็จ\n\n",
+            "type": "markdown",
+            "images": [
+              "image645.png"
+            ]
+          },
+          {
+            "title": "Details",
+            "content": "![image](/images/image340.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image340.png"
+            ]
+          },
+          {
+            "title": "3.1 ไปที่ app",
+            "content": "3.1 ไปที่ app\n\n![image](/images/image574.png)\n\n3.2 ไปที่ chrome-bin\n\n![image](/images/image497.png)\n\n3.3 จากนั้นพิมพ์\\chrome.exe ในช่องที่อยู่ไฟล์ แล้วคัดลอก\n\n![image](/images/image402.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image574.png",
+              "image497.png",
+              "image402.png"
+            ]
+          },
+          {
+            "title": "ไปที่ general configuration ==> Đường dẫn chrome",
+            "content": "ไปที่ general configuration ==> Đường dẫn chrome\n\n![image](/images/image409.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image409.png"
+            ]
+          },
+          {
+            "title": "รอจนโหลดเสร็จ",
+            "content": "รอจนโหลดเสร็จ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "Details",
+            "content": "![image](/images/image120.png)\n\n6.1 กด Yes\n\n![image](/images/image165.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image120.png",
+              "image165.png"
+            ]
+          },
+          {
+            "title": "Details",
+            "content": "![image](/images/image636.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image636.png"
+            ]
+          },
+          {
+            "title": "หากขึ้นหน้าต่างแบบนี้",
+            "content": "หากขึ้นหน้าต่างแบบนี้\n\n![image](/images/image256.png)\n\nให้ไปที่โปรแกรม MaxCare Page ==> Utilities แล้วกด Kill chromedriver\n\n![image](/images/image116.png)\n\nจากนั้น กด Try Again เป็นอันเสร็จขั้นตอนการแก้ปัญหา\n\n",
+            "type": "markdown",
+            "images": [
+              "image256.png",
+              "image116.png"
+            ]
+          }
+        ],
+        "subCategories": [
+          {
+            "id": "1_______________6bfwl_sub",
+            "name": "1.เข้าไปที่เว็บ",
+            "sections": [
+              {
+                "title": "Details",
+                "content": "![image](/images/image645.png)\n\nหลังจากนั้น กด Ctrl+F แล้วพิมพ์ตรงช่องค้นหา 123 เลือกดาวน์โหลดตามที่ในกรอบสีแดง รอจนกว่าจะดาวน์โหลดเสร็จ\n\n",
+                "type": "markdown",
+                "images": [
+                  "image645.png"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2____________________0bkdv_sub",
+            "name": "2.ติดตั้งไฟล์ที่ดาวน์โหลดมา",
+            "sections": [
+              {
+                "title": "Details",
+                "content": "![image](/images/image340.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image340.png"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "3____________________e1sbd_sub",
+            "name": "3.หลังจากดาวน์โหลดเสร็จ ไปที่อยู่ไฟล์ที่ดาวน์โหลดเสร็จ",
+            "sections": [
+              {
+                "title": "3.1 ไปที่ app",
+                "content": "3.1 ไปที่ app\n\n![image](/images/image574.png)\n\n3.2 ไปที่ chrome-bin\n\n![image](/images/image497.png)\n\n3.3 จากนั้นพิมพ์\\chrome.exe ในช่องที่อยู่ไฟล์ แล้วคัดลอก\n\n![image](/images/image402.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image574.png",
+                  "image497.png",
+                  "image402.png"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4__________________m_n250l_sub",
+            "name": "4.นำไปวางในโปรแกรม MaxCare Page",
+            "sections": [
+              {
+                "title": "ไปที่ general configuration ==> Đường dẫn chrome",
+                "content": "ไปที่ general configuration ==> Đường dẫn chrome\n\n![image](/images/image409.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image409.png"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "5____________________3hba5_sub",
+            "name": "5คัดลอกลิงค์ไปวางในแท็บใหม่",
+            "sections": [
+              {
+                "title": "รอจนโหลดเสร็จ",
+                "content": "รอจนโหลดเสร็จ\n\n",
+                "type": "markdown",
+                "images": []
+              }
+            ]
+          },
+          {
+            "id": "6____________________l3z74_sub",
+            "name": "6.จากนั้นเปลี่ยนชื่อไฟล์ เพิ่ม .zip",
+            "sections": [
+              {
+                "title": "Details",
+                "content": "![image](/images/image120.png)\n\n6.1 กด Yes\n\n![image](/images/image165.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image120.png",
+                  "image165.png"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "7____________________w84v3_sub",
+            "name": "7.หลังจากแตกไฟล์เข้าไปที่ driver > win32 จากนั้นกดคัดลอก chromedriver.exe",
+            "sections": [
+              {
+                "title": "Details",
+                "content": "![image](/images/image636.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image636.png"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "8____________________a85pz_sub",
+            "name": "8.นำไปวางในโฟลเดอร์ MaxCare Page",
+            "sections": [
+              {
+                "title": "หากขึ้นหน้าต่างแบบนี้",
+                "content": "หากขึ้นหน้าต่างแบบนี้\n\n![image](/images/image256.png)\n\nให้ไปที่โปรแกรม MaxCare Page ==> Utilities แล้วกด Kill chromedriver\n\n![image](/images/image116.png)\n\nจากนั้น กด Try Again เป็นอันเสร็จขั้นตอนการแก้ปัญหา\n\n",
+                "type": "markdown",
+                "images": [
+                  "image256.png",
+                  "image116.png"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_____________________hap3e",
+        "name": "วิธีเชื่อมข้อมูลกับ Maxcare",
+        "sections": [
+          {
+            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
+            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image273.png)\n\n2.ไปที่ Configs ==> Sync data with Maxcare ==> จากนั้นวางที่อยู่โฟลเดอร์ Maxcare ลงในช่องว่าง\n\n![image](/images/image136.png)\n\nจากนั้นกด Save\n\n3.กด Refresh\n\n![image](/images/image523.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
+            "type": "markdown",
+            "images": [
+              "image273.png",
+              "image136.png",
+              "image523.png"
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "id": "maxsystemcare_x3lvt",
-    "name": "MaxSystemCare",
+    "id": "maxcloud_suite",
+    "name": "MaxCloud & PhoneFarm",
     "categories": [
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxphonefarm_7v6i9",
+        "name": "MaxPhoneFarm",
+        "sections": [
+          {
+            "title": "Maxphone Farm คือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) ทำให้เปรียบเสมือนเรามีจำนวน โปรไฟล์จริง ที่ใช้รันระบบฟาร์ม",
+            "content": "Maxphone Farm คือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) ทำให้เปรียบเสมือนเรามีจำนวน โปรไฟล์จริง ที่ใช้รันระบบฟาร์ม\n\nMaxphoneคือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ เพื่อให้ตอบสนอง และประสิทธิภาพ ดีขึ้น ระบบฟาร์มบัญชี โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) และพัฒนา Custom Rom ตามฉบับของ Maxcare ทำให้ตัวเครื่อง เปรียบเสมือนจำนวน โปรไฟล์ ที่ใช้รันระบบฟาร์มจุดเด่น maxphone farm\n\nมีฟังชั่นเพิ่มเติมจาก Maxcare และ Maxsystemcare คือ ฟังก์ชั่น Post Reels เนื่องจากปัจจุบันผู้คนหันมาสนใจคลิปสั้นใน Reels มากขึ้นจึงมีฟังก์ชั่นนี้ เพื่อให้ตอบโจทย์ผู้ใช้งาน\n\nมีให้เลือก Buff Like page ทั้ง 2 แบบ เพจทั่วไป และ เพจโปรไฟล์ ที่คนหันมานิยมใช้\n\nลดอัตราการแบนลงอย่างมาก เนื่องจากมีฟังก์ชั่น change device เปลี่ยนข้อมูลอุปกรณ์ ใหม่หมดในทุกครั้งทีมีการเปิดโปรไฟล์ใช้งาน\n\n![image](/images/image170.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image170.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_____________________lwboe",
+        "name": "การใช้งานฟังก์ชั่่น MaxPhoneFarm",
+        "sections": [
+          {
+            "title": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น",
+            "content": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น\n\nSeeding\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "1.Review Pages(รีวิวเพจ)",
+            "content": "1.Review Pages(รีวิวเพจ)\n\n![image](/images/image16.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nId Page:ช่องสำหรับระบุ ID ของหน้าที่คุณต้องการเข้าไปทำการรีวิว\n\nLike page:ติ๊กเครื่องหมายถูก หากต้องการให้ระบบกด Like เพจ���ั้��� ๆ ��ปด้วยในตัว\n\nการตั้งค่าการจัดการเนื้อหา\n\nReview content (0):ช่องสี่เหลี่ยมขนาดใหญ่สำหรับพิมพ์หรือวางข้อความรีวิว โดยตัวเลขในวงเล็บจะแสดงจำนวนเนื้อหาที่มีอยู่\n\n",
+            "type": "markdown",
+            "images": [
+              "image16.png"
+            ]
+          },
+          {
+            "title": "Option: รูปแบบเนื้อหา",
+            "content": "Option: รูปแบบเนื้อหา\n\nContent is only 1 line: เลือกข้อนี้หากต้องการให้ระบบมองว่าเนื้อหา 1 บรรทัด คือ 1 รีวิว\n\nContent has many lines: เลือกข้อนี้หากเนื้อหารีวิวหนึ่งรายการมีความยาวหลายบรรทัด\n\nปุ่ม (?): ปุ่มช่วยเหลือเพื่อดูคำอธิบายเพิ่มเติมเกี่ยวกับรูปแบบการใส่เนื้อหา\n\nการตั้งค่าเพิ่มเติม\n\nAuto Delete used content:หากติ๊กช่องนี้ ระบบจะลบเนื้อหาที่ถูกใช้งานไปแล้วออกจากรายการโดยอัตโนมัติ เพื่อป้องกันการรีวิวซ้ำ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "2.Buff Like Page(การกดไลค์เพจและติดตามเพจ)",
+            "content": "2.Buff Like Page(การกดไลค์เพจและติดตามเพจ)\n\n![image](/images/image233.png)\n\nEnter Id Page :ไอดีเพจ\n\n",
+            "type": "markdown",
+            "images": [
+              "image233.png"
+            ]
+          },
+          {
+            "title": "3.Buff Follow UID(การกดติดตามโปรไฟล์)",
+            "content": "3.Buff Follow UID(การกดติดตามโปรไฟล์)\n\n![image](/images/image431.png)\n\nEnter UID: ID Account ที่ต้องการติดตาม\n\n",
+            "type": "markdown",
+            "images": [
+              "image431.png"
+            ]
+          },
+          {
+            "title": "4.Interact specified posts (โต้ตอบโพสต์ที่ระบุ)",
+            "content": "4.Interact specified posts (โต้ตอบโพสต์ที่ระบุ)\n\n![image](/images/image312.png)\n\nข้อมูลพื้นฐานและการตั้งค่าเวลา\n\nPosts/account:กำหนดจำนวนโพสต์ที่ต้องการให้แต่ละบัญชีเข้าไปมีปฏิสัมพันธ์\n\nBreak (s):ระยะเวลาหยุดพักระหว่างการทำแต่ละโพสต์\n\nRead post:ระยะเวลาที่ระบบจะทำการ \"เปิดอ่าน\" หรือค้างอยู่ที่หน้าโพสต์นั้นๆ\n\n",
+            "type": "markdown",
+            "images": [
+              "image312.png"
+            ]
+          },
+          {
+            "title": "การตั้งค่าข้อมูลเป้าหมาย",
+            "content": "การตั้งค่าข้อมูลเป้าหมาย\n\nList of post links:ช่องสำหรับใส่ URL หรือลิงก์ของโพสต์ที่ต้องการให้ระบบเข้าไปจัดการ โดยตัวเลขในวงเล็บจะแสดงจำนวนลิงก์ที่มีอยู่ในรายการ\n\nการตั้งค่าการแสดงความรู้สึกและแชร์\n\nExpress feelings:ติ๊กถูกเพื่อเลือกการกด Reaction (Like, Love, Care, Haha, Wow, Sad, Angry)\n\nShare wall:ติ๊กถูกหากต้องการให้ระบบแชร์โพสต์นั้นๆ ไปยังหน้า Timeline ของบัญชี\n\nการตั้งค่าความคิดเห็น\n\nComment by text:แสดงความเห็นด้วยข้อความ\n\nList Comments: ช่องสำหรับใส่ข้อความที่ต้องการใช้คอมเมนต์\n\nOption: ตัวเลือกรูปแบบข้อความ\n\nAuto Delete used content: ติ๊กถูกหากต้องการให้ระบบลบข้อความที่ใช้ไปแล้วออกจากรายการอัตโนมัติ\n\nComment by image:แสดงความเห็นด้วยรูปภาพ\n\nImage folder: ช่องสำหรับระบุที่อยู่ของโฟลเดอร์รูปภาพที่ต้องการใช้ในการคอมเมนต์\n\nการตั้งค่าการจัดการวิดีโอ\n\nInteract with videos on posts:ติ๊กถูกหากในโพสต์นั้นเป็นวิดีโอและต้องการให้ระบบดูวิดีโอด้วย\n\nTime watch:กำหนดช่วงเวลาที่จะให้ระบบรับชมวิดีโอ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "5.Interact Posts by Keyword (โต้ตอบโพสต์ด้วยคีย์เวิร์ด)",
+            "content": "5.Interact Posts by Keyword (โต้ตอบโพสต์ด้วยคีย์เวิร์ด)\n\n![image](/images/image319.png)\n\nการตั้งค่าพื้นฐาน\n\nPosts:กำหนดจำนวนโพสต์ที่ต้องการให้ระบบเข้าไปมีปฏิสัมพันธ์\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงานในแต่ละโพสต์\n\nการตั้งการจัดการคีย์เวิร์ด\n\nList of keywords:ใส่คีย์เวิร์ดที่คุณต้องการค้นหา\n\n",
+            "type": "markdown",
+            "images": [
+              "image319.png"
+            ]
+          },
+          {
+            "title": "รูปแบบการกรอก:",
+            "content": "รูปแบบการกรอก:\n\nใส่ 1 คำต่อ 1 บรรทัด\n\nรองรับระบบ Spin content โดยใช้รูปแบบ{คำที่1|คำที่2|คำที่3}เพื่อสุ่มคำในการค้นหา\n\nการตั้งค่าการโต้ตอบด้วยความรู้สึก\n\nExpress feelings:ติ๊กถูกเพื่อเปิดใช้งานการกดความรู้สึก\n\nตัวเลือกความรู้สึก:เลือกกด Like, Love, Care, Haha, Wow, Sad หรือ Angry ได้ตามต้องการ\n\nการตั้งค่าการโต้ตอบด้วยข้อความ\n\nComment by text:ติ๊กถูกเพื่อเปิดใช้งานการคอมเมนต์\n\nList Comments:ใส่ข้อความที่ต้องการคอมเมนต์ (รองรับ Spin content{a|b|c})\n\nOption:ตัวเลือกเสริม\n\nContent is only 1 line: คอมเมนต์เพียง 1 บรรทัด\n\nContent has many lines: คอมเมนต์แบบมีหลายบรรทัด\n\nRandom icon:ปุ่มสำหรับสุ่มไอคอนใส่ในคอมเมนต์\n\nการตั้งค่าการโต้ตอบด้วยรูปภาพ\n\nComment by image:ติ๊กถูกเพื่อเปิดใช้งานการคอมเมนต์ด้วยรูป\n\nImage folder:ระบุตำแหน่งที่เก็บไฟล์รูปภาพในเครื่องคอมพิวเตอร์ของคุณ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "6.Interact Video (ตอบโต้วิดีโอ)",
+            "content": "6.Interact Video (ตอบโต้วิดีโอ)\n\n![image](/images/image575.png)\n\nการตั้งค่าพื้นฐาน\n\nLink video:ใส่ URL หรือลิงก์ของวิดีโอที่ต้องการให้ระบบเข้าไปดำเนินการ\n\nTime watch:ตั้งค่าระยะเวลาในการรับชมวิดีโอ โดยระบุเป็นช่วง ขั้นต่ำ > สูงสุด\n\nการตั้งค่าการแสดงความรู้สึก\n\nExpress feelings:เมื่อติ๊กถูกที่ช่องนี้ คุณสามารถเลือกอิโมจิที่ต้องการให้ระบบกดเลือกได้ เช่น ถูกใจ (Like), รักเลย (Love), ห่วงใย, หัวเราะ, ว้าว, เศร้า หรือ โกรธ\n\nการตั้งค่าความคิดเห็น\n\nList Comments:พิมพ์ข้อความที่ต้องการลงในกล่องข้อความ\n\nเทคนิค:สามารถใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มเลือกข้อความ ลดการโดนตรวจจับว่าเป็นบอท\n\nRandom icon:ระบบสุ่มใส่อิโมจิในคอมเมนต์\n\nComment many times:หากต้องการคอมเมนต์หลายครั้ง ให้ตั้งค่า Delay time (s) เพื่อเว้นช่วงเวลาระยะห่างระหว่างแต่ละคอมเมนต์\n\nAuto Delete used content:ติ๊กหากต้องการให้ระบบลบข้อความที่ใช้ไปแล้วออกจากรายการ\n\nการตั้งค่าการแชร์\n\nShare wall:ติ๊กถูกหากต้องการให้ระบบแชร์วิดีโอนี้ลงไปที่หน้าไทม์ไลน์ (Wall) ของคุณ\n\n",
+            "type": "markdown",
+            "images": [
+              "image575.png"
+            ]
+          },
+          {
+            "title": "7.Invite Friends like Pages (ชวนเพื่อนกดไลค์เพจ)",
+            "content": "7.Invite Friends like Pages (ชวนเพื่อนกดไลค์เพจ)\n\n![image](/images/image474.png)\n\nQuantity :จำนวนเพื่อนที่ต้องการชวน\n\nList of Page IDs :รายการไอดีเพื่อนที่ต้องการกวน\n\n",
+            "type": "markdown",
+            "images": [
+              "image474.png"
+            ]
+          },
+          {
+            "title": "8.Invite friends join group (ชวนเพื่อนเข้าร่วมกลุ่ม)",
+            "content": "8.Invite friends join group (ชวนเพื่อนเข้าร่วมกลุ่ม)\n\n![image](/images/image578.png)\n\nQuantity :จำนวนเพื่อนที่ต้องการชวน\n\nDelay time :ระยะเวลาดีเลย์ในการช่วนเพื่อน\n\nGroup ID :ไอดีกลุ่มที่ต้องการเชิญเพื่อนเข้าร่วม\n\n",
+            "type": "markdown",
+            "images": [
+              "image578.png"
+            ]
+          },
+          {
+            "title": "9.Interact Reels by Link (ตอบโต้เรียลด้วยลิงค์)",
+            "content": "9.Interact Reels by Link (ตอบโต้เรียลด้วยลิงค์)\n\n![image](/images/image356.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nTime watch:ตั้งค่าระยะเวลาในการรับชมคลิป Reels โดยกำหนดเป็นช่วง\n\nการตั้งค่าการโต้ตอบ\n\nLike:ติ๊กถูกเพื่อกดถูกใจคลิปอัตโนมัติ\n\nShare Wall:ติ๊กถูกเพื่อแชร์คลิปลงบนหน้าวอลล์ (Timeline) ของตนเอง\n\nComment:ติ๊กถูกเพื่อเปิดใช้งานการแสดงความคิดเห็นอัตโนมัติ\n\nการจัดการความคิดเห็น\n\nList Comments:ช่องสำหรับใส่ข้อความที่ต้องการนำไปคอมเมนต์\n\nSpin content {a|b|c}:รองรับการสุ่มคำ (Spin Syntax) เพื่อให้แต่ละคอมเมนต์มีความหลากหลาย\n\n",
+            "type": "markdown",
+            "images": [
+              "image356.png"
+            ]
+          },
+          {
+            "title": "Option (รูปแบบเนื้อหา):",
+            "content": "Option (รูปแบบเนื้อหา):\n\nContent is only 1 line:เลือกเมื่อต้องการให้ 1 บรรทัด คือ 1 ข้อความคอมเมนต์\n\nContent has many lines:เลือกเมื่อ 1 ข้อความคอมเมนต์ของคุณมีความยาวหลายบรรทัด\n\nรายการลิงก์เป้าหมาย\n\nList of reel links:ช่องขนาดใหญ่ทางด้านขวา สำหรับวาง URL หรือลิงก์ของคลิป Reels ที่ต้องการให้ระบบเข้าไปทำงาน\n\nตัวเลขในวงเล็บ (0):จะแสดงจำนวนลิงก์ทั้งหมดที่คุณใส่ลงไป\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "10.Interact Reels by keywords (ตอบโต้เรียลด้วยคีย์เวิร์ด)",
+            "content": "10.Interact Reels by keywords (ตอบโต้เรียลด้วยคีย์เวิร์ด)\n\n![image](/images/image443.png)\n\nการตั้งค่าพื้นฐาน\n\nQuantity:กำหนดจำนวนวิดีโอ Reels ที่ต้องการให้ระบบเข้าไปดู โดยระบุเป็นช่วง\n\nTime watch:กำหนดระยะเวลาในการรับชมวิดีโอแต่ละตัว\n\nการตั้งค่ารูปแบบการปฏิสัมพันธ์\n\nLike:กดถูกใจวิดีโอ\n\nShare Wall:แชร์วิดีโอไปยังหน้าโปรไฟล์ (Wall) ของตนเอง\n\nComment:แสดงความคิดเห็นใต้วิดีโอ (หากเลือกช่องนี้ จะต้องไปตั้งค่าในส่วน \"List Comments\" ต่อ)\n\nการตั้งค่าการจัดการความคิดเห็น\n\nList Comments:ช่องสำหรับพิมพ์ข้อความที่ต้องการใช้คอมเมนต์\n\nSpin content {a|b|c}:รองรับการใช้รูปแบบ Spin เพื่อสุ่มคำพูด เช่น{สวัสดี|ทักทาย|เยี่ยมเลย}เพื่อลดการตรวจจับว่าเป็นสแปม\n\nOption:รูปแบบเนื้อหา\n\nContent is only 1 line: 1 บรรทัด คือ 1 ข้อความคอมเมนต์\n\nContent has many lines: ข้อความหนึ่งคอมเมนต์มีหลายบรรทัด\n\nการตั้งค่าการระบุคำค้นหา\n\nEnter keywords:ช่องสี่เหลี่ยมด้านขวาขนาดใหญ่ ให้คุณระบุคีย์เวิร์ด (คำค้นหา) ที่ต้องการให้ระบบใช้ค้นหาวิดีโอ Reels โดยระบุ 1 คำต่อ 1 บรรทัด\n\n",
+            "type": "markdown",
+            "images": [
+              "image443.png"
+            ]
+          },
+          {
+            "title": "11.Sync Contact (ซิงค์ผู้ติดต่อ)",
+            "content": "11.Sync Contact (ซิงค์ผู้ติดต่อ)\n\n![image](/images/image480.png)\n\nการตั้งค่าการนำเข้าข้อมูล\n\nImport list of Phone numbers:ช่องสี่เหลี่ยมขนาดใหญ่สำหรับใส่รายการหมายเลขโทรศัพท์ที่ต้องการซิงค์\n\nรูปแบบการกรอก:ข้อมูลแต่ละรายการต้องอยู่แยกกันบรรทัดละ 1 รายชื่อ (Each content 1 line)\n\nตัวนับจำนวน:มีตัวเลขแสดงจำนวนหมายเลขที่ถูกนำเข้าในวงเล็บหลังหัวข้อ\n\nการตั้งค่าการกำหนดปริมาณและการจัดการหมายเลข\n\nQuantity/device:ตั้งค่าจำนวนหมายเลขที่จะใช้ต่อหนึ่งอุปกรณ์ สามารถกำหนดเป็นช่วง\n\nAuto delete used phone numbers:สั่งให้ระบบลบหมายเลขโทรศัพท์ออกจากรายการโดยอัตโนมัติเมื่อใช้งานเสร็จสิ้นแล้ว\n\nการตั้งค่าการเพิ่มเพื่อน\n\nAmount:กำหนดจำนวนเพื่อนที่จะเพิ่ม\n\nDelay time:กำหนดระยะเวลาหน่วงหรือรอระหว่างการดำเนินการ\n\nChange Info\n\n",
+            "type": "markdown",
+            "images": [
+              "image480.png"
+            ]
+          },
+          {
+            "title": "1.Change password(เปลี่ยนรหัสผ่าน)",
+            "content": "1.Change password(เปลี่ยนรหัสผ่าน)\n\n![image](/images/image339.png)\n\nImport new password :นำเข้ารหัสผ่านใหม่\n\nRandom :แบบสุ่ม\n\nImport password :แบบนำเข้าระหัสผ่าน\n\nImport :นำเข้า\n\nLogout of old devices :ออกจากระบบอุปกรณ์เก่า\n\n",
+            "type": "markdown",
+            "images": [
+              "image339.png"
+            ]
+          },
+          {
+            "title": "2.Up avatar(อัพรูปโปรไฟล์)",
+            "content": "2.Up avatar(อัพรูปโปรไฟล์)\n\n![image](/images/image489.png)\n\nImage folder :เพิ่ม Path Folder ของรูปภาพ เช่น C:\\MaxPhoneFarmPro\\profiles\\img\n\nDelete used images :ลบรูปภาพที่ใช้แล้ว\n\nSkip if already have avatar: ข้ามไปหากมีรูปโปไฟล์อยู่แล้ว\n\n",
+            "type": "markdown",
+            "images": [
+              "image489.png"
+            ]
+          },
+          {
+            "title": "3.Up cover(การอัพรูปภาพหน้าปก)",
+            "content": "3.Up cover(การอัพรูปภาพหน้าปก)\n\n![image](/images/image86.png)\n\nImage folder :ที่อยู่ไฟล์รูปภาพเช่น C:\\MaxPhoneFarmPro\\profiles\\imgDelete used images:ลบรูปภาพที่ใช้แล้ว\n\n",
+            "type": "markdown",
+            "images": [
+              "image86.png"
+            ]
+          },
+          {
+            "title": "4.Remove Phone(การลบหมายเลขโทรศัพท์ออกจาก FB)",
+            "content": "4.Remove Phone(การลบหมายเลขโทรศัพท์ออกจาก FB)\n\n![image](/images/image788.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image788.png"
+            ]
+          },
+          {
+            "title": "5.On - Off 2FA(การเปิด-ปิด 2FA หรือการยืนยันตัวตนแบบสองชั้น)",
+            "content": "5.On - Off 2FA(การเปิด-ปิด 2FA หรือการยืนยันตัวตนแบบสองชั้น)\n\n![image](/images/image131.png)\n\nDisable 2FA :คือ การปิด 2 FA (ปิดการยืนยันตัวตน 2 ชั้น)\n\nEnable 2FA :คือ  การเปิด 2 FA (เปิดการยืนยันตัวตน 2 ชั้น)- If the account already has 2FA :หาก 2 FA เปิดอยู่แล่ว -Don't enable 2FA :ไม่ต้องการเปิดซ้ำ- Add new 2FA :เพิ่ม 2FA ใหม่- Remove 2FA + Add new 2FA :ลบ 2FA เก่าออก เพิ่มใหม่6.Add mail (เพิ่มอีเมล์)\n\n",
+            "type": "markdown",
+            "images": [
+              "image131.png"
+            ]
+          },
+          {
+            "title": "6.Add mail (เพิ่มอีเมล์)",
+            "content": "6.Add mail (เพิ่มอีเมล์)\n\n![image](/images/image434.png)\n\nAdd Mail :เพิ่มอีเมล์\n\nType Mail :ประเภทอีเมลล์\n\nSet new mail to primary mail :ตั้งค่าเมลใหม่เป็นเมลหลัก\n\nRemove second mail :ลบอีเมลล์ที่สอง\n\n",
+            "type": "markdown",
+            "images": [
+              "image434.png"
+            ]
+          },
+          {
+            "title": "7.Change name (เปลี่ยนชื่อ)",
+            "content": "7.Change name (เปลี่ยนชื่อ)\n\n![image](/images/image57.png)\n\nRandom name :สุ่มชื่อ\n\nVN name :ชื่อเวียดนาม\n\nForeign name :ชื่อต่างประเทศ\n\nImport :นำเข้าชื่อ\n\nLname :นามสกุล\n\nMiddle name :ชื่อลาง\n\nFname :ชื่อ\n\n",
+            "type": "markdown",
+            "images": [
+              "image57.png"
+            ]
+          },
+          {
+            "title": "8.Change Info Account (เปลี่ยนข้อมูลบัญชี)",
+            "content": "8.Change Info Account (เปลี่ยนข้อมูลบัญชี)\n\n![image](/images/image156.png)\n\nBio :เรื่องราว\n\nWork :การทำงาน\n\nHigh School :มัธยม\n\nCollege :วิทยาลัย\n\nCurrent City :เมืองปัจจุบัน\n\nHometown :บ้านเกิด\n\nRelationship :ความสัมพันธ์\n\ngender :เพศ\n\nBirthday :วันเกิด\n\nDon't change info if already has :ไม่เปลี่ยนข้อมูลหากมีอยู่แล้ว\n\n",
+            "type": "markdown",
+            "images": [
+              "image156.png"
+            ]
+          },
+          {
+            "title": "9.Logout of old devices (ออกจากระบบอุปกรณ์เก่า)",
+            "content": "9.Logout of old devices (ออกจากระบบอุปกรณ์เก่า)\n\n![image](/images/image652.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image652.png"
+            ]
+          },
+          {
+            "title": "10.Remove Trusted Devices (ลบอุปกรณ์ที่เชื่อถือได้)",
+            "content": "10.Remove Trusted Devices (ลบอุปกรณ์ที่เชื่อถือได้)\n\n![image](/images/image554.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image554.png"
+            ]
+          },
+          {
+            "title": "11.Professional mode (โหมดมืออาชีพ)",
+            "content": "11.Professional mode (โหมดมืออาชีพ)\n\n![image](/images/image733.png)\n\nOption :ตัวเลือก\n\nTurn on :เปิดโหมดมืออาชีพ\n\nTurn off: ปิดโหมดมืออาชีพ\n\n",
+            "type": "markdown",
+            "images": [
+              "image733.png"
+            ]
+          },
+          {
+            "title": "12.Unlock profile (ปลดล็อคโปรไฟล์)",
+            "content": "12.Unlock profile (ปลดล็อคโปรไฟล์)\n\n![image](/images/image302.png)\n\nPost - Share - Spam\n\n",
+            "type": "markdown",
+            "images": [
+              "image302.png"
+            ]
+          },
+          {
+            "title": "1.Post Wall(การโพสต์หน้าไทม์ไลน์)",
+            "content": "1.Post Wall(การโพสต์หน้าไทม์ไลน์)\n\n![image](/images/image454.png)\n\nการตั้งค่าพื้นฐาน\n\nSố lượng bài:กำหนดจำนวนโพสต์ที่ต้องการให้ระบบทำ โดยระบุเป็นช่วง\n\nBreak:กำหนดเวลาหยุดพักระหว่างการโพสต์แต่ละครั้ง\n\nการตั้งค่าการจัดการเนื้อหาข้อความ\n\nList of contents:ช่องสำหรับใส่ข้อความที่ต้องการโพสต์\n\nUse Background:ตัวเลือกสำหรับใช้พื้นหลังสี\n\nAuto delete used content:หากติ๊กช่องนี้ ระบบจะลบข้อความที่โพสต์ไปแล้วออกจากรายการอัตโนมัติ\n\nOption:ตัวเลือกเสริมสำหรับกำหนดรูปแบบข้อความ\n\nการตั้งค่าการจัดการรูปภาพ\n\nImage folder:ช่องสำหรับระบุที่อยู่ของโฟลเดอร์รูปภาพในคอมพิวเตอร์\n\nImages:กำหนดจำนวนรูปภาพที่จะใช้ต่อการโพสต์ 1 ครั้ง\n\nการตั้งค่าการแท็กเพื่อน\n\nAmount:กำหนดจำนวนเพื่อนที่จะแท็กในแต่ละโพสต์\n\n",
+            "type": "markdown",
+            "images": [
+              "image454.png"
+            ]
+          },
+          {
+            "title": "2.Post Groups (โพสต์กลุ่ม)",
+            "content": "2.Post Groups (โพสต์กลุ่ม)\n\n![image](/images/image67.png)\n\nการตั้งค่าพื้นฐาน\n\nAmount groups:กำหนดจำนวนกลุ่มที่จะโพสต์\n\nDelay time:กำหนดเวลาหน่วงระหว่างการโพสต์แต่ละกลุ่ม\n\nการตั้งค่าเนื้อหาการโพสต์\n\n",
+            "type": "markdown",
+            "images": [
+              "image67.png"
+            ]
+          },
+          {
+            "title": "ส่วนข้อความ (Text)",
+            "content": "ส่วนข้อความ (Text)\n\nList of contents:ช่องสำหรับใส่ข้อความที่ต้องการโพสต์\n\nSpin content:รองรับการใช้รูปแบบ{a|b|c}เพื่อสุ่มคำพูด\n\nRandom icon:ปุ่มสำหรับเลือกใส่ไอคอนแบบสุ่ม\n\nUse Background:เลือกโพสต์ข้อความแบบมีพื้นหลัง (Color Background)\n\nAuto delete used content:ลบเนื้อหาที่ใช้แล้วอัตโนมัติ\n\nOption:ตัวเลือกรูปแบบเนื้อหา\n\nContents is only 1 line: 1 ชุดคือ 1 บรรทัด\n\nContents has many lines: เนื้อหา 1 ชุดมีหลายบรรทัด\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ส่วนรูปภาพ (Image)",
+            "content": "ส่วนรูปภาพ (Image)\n\nImage folder:เลือกโฟลเดอร์ที่เก็บรูปภาพในคอมพิวเตอร์\n\nImages/post:กำหนดจำนวนรูปภาพที่จะใช้ต่อ 1 โพสต์\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ส่วนแท็กและกิจกรรม (Tag Event)",
+            "content": "ส่วนแท็กและกิจกรรม (Tag Event)\n\nEvent name:ใส่ชื่อกิจกรรมที่ต้องการแท็ก\n\nExport posted article link:ติ๊กเพื่อให้ระบบส่งออกลิงก์ของโพสต์ที่ทำสำเร็จแล้ว\n\nการตั้งค่าการเลือกกลุ่มเป้าหมาย\n\nRandom group joined:สุ่มจากกลุ่มที่เป็นสมาชิกอยู่แล้ว\n\nเลือกเฉพาะกลุ่มที่ไม่ต้องรออนุมัติ (Uncensored)\n\nให้ความสำคัญกับกลุ่มที่มีสมาชิกจำนวนมาก (Priority many members)\n\nป้องกันการโพสต์กลุ่มซ้ำกับบัญชีอื่น (Don't post same group)\n\nโพสต์เฉพาะกลุ่มที่ระบุไว้ในลิสต์ (Only post groups in the list)\n\nImport Group ID:ใส่ ID ของกลุ่มที่ต้องการโพสต์โดยตรง พร้อมตัวเลือก \"Auto delete used ID\" (ลบ ID ที่โพสต์แล้ว)\n\nCreate new group:ใส่ชื่อกลุ่มเพื่อสร้างกลุ่มใหม่\n\nตัวเลือกเพิ่มเติม\n\nLeave group post approval:ออกจากกลุ่มหากโพสต์นั้นต้องรอการอนุมัติจากแอดมิน\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "3.Post Pages(โพสต์เพจ)",
+            "content": "3.Post Pages(โพสต์เพจ)\n\n![image](/images/image449.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber pages:กำหนดจำนวนเพจที่ต้องการโพสต์\n\nDelay time:กำหนดเวลาหน่วงระหว่างการโพสต์แต่ละครั้ง\n\nการจัดการเนื้อหาข้อความ\n\nList of contents:ช่องสำหรับใส่ข้อความที่ต้องการโพสต์ สามารถรองรับรูปแบบ Spin Content เช่น{a|b|c}เพื่อสุ่มคำได้\n\nOption:รูปแบบเนื้อหา\n\nContent is only 1 line:ถือว่าเนื้อหา 1 บรรทัดคือ 1 โพสต์\n\nContent has many lines:ถือว่าเนื้อหาหลายบรรทัดรวมกันเป็น 1 โพสต์\n\n",
+            "type": "markdown",
+            "images": [
+              "image449.png"
+            ]
+          },
+          {
+            "title": "ฟีเจอร์เพิ่มเติม:",
+            "content": "ฟีเจอร์เพิ่มเติม:\n\nUse Background:เลือกใช้พื้นหลังสีสันต่าง ๆ\n\nAuto delete used content:ลบเนื้อหาที่ใช้แล้วออกจากรายการโดยอัตโนมัติ\n\nRandom icon:สุ่มใส่ไอคอนหรืออีโมจิในข้อความ\n\nการจัดการรูปภาพ\n\nImage folder:ระบุที่อยู่ของโฟลเดอร์ที่เก็บรูปภาพในเครื่องคอมพิวเตอร์\n\nImages/post:กำหนดจำนวนรูปภาพที่จะใช้ต่อ 1 โพสต์\n\nDelete used images:เมื่อโพสต์รูปนั้นไปแล้ว ให้ลบไฟล์รูปออกจากโฟลเดอร์ทันที\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "4.Share(แชร์)",
+            "content": "4.Share(แชร์)\n\n![image](/images/image4.png)\n\nการตั้งค่าพื้นฐาน\n\nDelay time:กำหนดระยะเวลาหน่วงระหว่างการทำงาน\n\nLink to share:ช่องสำหรับใส่ลิงก์ที่ต้องการนำไปแชร์\n\nType link:เลือกประเภทของลิงก์ ได้แก่ Livestream, Post, หรือ Reel\n\n",
+            "type": "markdown",
+            "images": [
+              "image4.png"
+            ]
+          },
+          {
+            "title": "Share content:",
+            "content": "Share content:\n\nList of contents: ใส่ข้อความที่ต้องการแชร์\n\nOption: เลือกรูปแบบเนื้อหา\n\nAuto Delete used content: ติ๊กเพื่อลบข้อความที่ใช้แล้วโดยอัตโนมัติ\n\nการตั้งค่าการปฏิสัมพันธ์ก่อนแชร์\n\nTime watch:ตั้งเวลาในการดูโพสต์ก่อนแชร์\n\nExpress feelings:เลือกกดแสดงความรู้สึก (Like, Love, Care, Haha, Wow, Sad, Angry)\n\nAuto comment:ตั้งค่าการคอมเมนต์อัตโนมัติ\n\nList Comments: ใส่ข้อความคอมเมนต์\n\nComment many times: เลือกหากต้องการให้คอมเมนต์หลายครั้ง\n\nDelay comment: ระยะเวลาหน่วงระหว่างคอมเมนต์แต่ละครั้ง\n\nการตั้งค่าตัวเลือกการแชร์\n\nShare post to wall:แชร์ลงหน้าโปรไฟล์ตนเอง\n\nQuantity: กำหนดจำนวนที่ต้องการแชร์\n\nShare post to group:แชร์ลงกลุ่ม\n\nNumber groups: กำหนดจำนวนกลุ่มที่ต้องการแชร์\n\nAdvanced configs: การตั้งค่าขั้นสูง\n\nOnly share to group uncensored: แชร์เฉพาะกลุ่มที่ไม่ต้องรออนุมัติโพสต์\n\nPriority sharing groups with many members: ให้ความสำคัญกับกลุ่มที่มีสมาชิกจำนวนมากก่อน\n\nDon't share same group with another account: ป้องกันการแชร์ซ้ำในกลุ่มเดียวกันจากหลายบัญชี\n\nUse backed up groups: ใช้รายชื่อกลุ่มที่สำรองไว้\n\nOnly share groups in the list: แชร์เฉพาะกลุ่มที่มีรายชื่ออยู่ในลิสต์ที่กำหนด (ปุ่ม Enter เพื่อจัดการลิสต์)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "5.Spam Newfeed(สแปมฟีดข่าว)",
+            "content": "5.Spam Newfeed(สแปมฟีดข่าว)\n\n![image](/images/image735.png)\n\nการตั้งค่าพื้นฐาน\n\nPosts:กำหนดช่วงจำนวนโพสต์ที่ต้องการให้ระบบเข้าไปจัดการ\n\nBreak:กำหนดระยะเวลาหยุดพักระหว่างการทำงานในแต่ละโพสต์\n\nการแสดงความรู้สึก\n\nCheckbox Express feelings:ติ๊กถูกเพื่อเปิดใช้งานการกดความรู้สึก\n\nEmoji Selection:สามารถเลือกประเภทของความรู้สึกที่ต้องการได้ (Like, Love, Care, Haha, Wow, Sad, Angry)\n\nการตั้งค่าการแสดงความคิดเห็นด้วยข้อความ\n\nComment by text:ติ๊กถูกเพื่อเปิดใช้งานการคอมเมนต์ด้วยข้อความ\n\nList Comments:ช่องว่างสำหรับใส่ข้อความที่ต้องการใช้คอมเมนต์\n\nOption:ตัวเลือกรูปแบบข้อความ\n\nการตั้งค่าการแสดงความคิดเห็นด้วยรูปภาพ\n\nComment by image:ติ๊กถูกเพื่อเปิดใช้งานการคอมเมนต์ด้วยรูปภาพ\n\nImage folder:ช่องสำหรับระบุที่อยู่ของโฟลเดอร์ (Path) ที่เก็บรูปภาพในเครื่องคอมพิวเตอร์\n\n",
+            "type": "markdown",
+            "images": [
+              "image735.png"
+            ]
+          },
+          {
+            "title": "6.Spam Friends (สแปมเพื่อน)",
+            "content": "6.Spam Friends (สแปมเพื่อน)\n\n![image](/images/image293.png)\n\nการตั้งค่าพื้นฐาน\n\nQuantity:จำนวนเพื่อนที่ต้องการดำเนินการ\n\nPosts/Friend:จำนวนโพสต์ต่อเพื่อน 1 คน ที่ต้องการให้ระบบเข้าไปจัดการ\n\nBreak:ระยะเวลาหยุดพักระหว่างการทำงาน\n\nการตั้งค่าการโต้ตอบด้วยความรู้สึก\n\nExpress feelings:สามารถเลือกส่ง Emoji แสดงความรู้สึกไปยังโพสต์ของเพื่อนได้\n\nตัวเลือกที่มี: Like (ถูกใจ), Love (รักเลย), Care (ห่วงใย), Haha (หัวเราะ), Wow (ว้าว), Sad (เศร้า) และ Angry (โกรธ)\n\nการตั้งค่าการแสดงความคิดเห็น\n\nComment by text:คอมเมนต์ด้วยข้อความ\n\nList Comments: ช่องสำหรับพิมพ์ข้อความที่ต้องการใช้คอมเมนต์\n\nOption: รูปแบบการอ่านค่าข้อความ\n\nComment by image:คอมเมนต์ด้วยรูปภาพ\n\nImage folder: ช่องสำหรับระบุที่อยู่ของโฟลเดอร์รูปภาพในเครื่องคอมพิวเตอร์ที่ต้องการนำมาใช้คอมเมนต์\n\n",
+            "type": "markdown",
+            "images": [
+              "image293.png"
+            ]
+          },
+          {
+            "title": "7.Spam Groups (สแปมกลุ่ม)",
+            "content": "7.Spam Groups (สแปมกลุ่ม)\n\n![image](/images/image406.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber groups:จำนวนกลุ่มที่ต้องการให้ระบบทำงาน\n\nPosts/group:จำนวนโพสต์ที่ต้องการดำเนินการต่อ 1 กลุ่ม\n\nBreak:ระยะเวลาหยุดพักระหว่างการทำงาน\n\nการตั้งค่าการตอบสนองด้วยความรู้สึก\n\nExpress feelings:คุณสามารถเลือกส่ง Emoji ต่างๆ ได้\n\nปุ่มเลือก Emoji ประกอบด้วย: ถูกใจ (Like), รัก (Love), ห่วงใย (Care), หัวเราะ (Haha), ว้าว (Wow), เศร้า (Sad) และ โกรธ (Angry)\n\nการแสดงความคิดเห็นด้วยข้อความ (Comment by text)\n\nList Comments:ช่องสำหรับใส่ข้อความที่ต้องการคอมเมนต์\n\nOption:ตัวเลือกรูปแบบเนื้อหา\n\nการแสดงความคิดเห็นด้วยรูปภาพ (Comment by image)\n\nImage folder:ช่องสำหรับระบุที่อยู่ไฟล์ (Path) ของโฟลเดอร์ที่เก็บรูปภาพที่ต้องการใช้\n\n",
+            "type": "markdown",
+            "images": [
+              "image406.png"
+            ]
+          },
+          {
+            "title": "8.Spam Post (สแปมโพสต์)",
+            "content": "8.Spam Post (สแปมโพสต์)\n\n![image](/images/image92.png)\n\nการตั้งค่าพื้นฐาน\n\nIDs/Account:กำหนดจำนวน ID เป้าหมายที่จะให้แต่ละบัญชีเข้าไปจัดการ\n\nAmount posts/ID:จำนวนโพสต์ที่จะให้ลงต่อ 1 ID เป้าหมาย\n\nBreak:ระยะเวลาหยุดพักระหว่างการทำงาน\n\nการตั้งค่าการเลือกเป้าหมาย\n\nObject type:เลือกประเภทของเป้าหมายที่ต้องการโพสต์ ประกอบด้วย\n\nProfile: หน้าโปรไฟล์ส่วนตัว\n\nGroup: กลุ่มต่างๆ\n\nPage: หน้าแฟนเพจ\n\nEnter ID User/Group/Page:ช่องสำหรับใส่หมายเลข ID ของเป้าหมายที่คุณต้องการลงโพสต์\n\nAuto delete used ID:หากติ๊กถูก ระบบจะลบ ID ที่ทำงานเสร็จแล้วออกจากรายการโดยอัตโนมัติ\n\nการตั้งค่ารูปแบบการโต้ตอบ\n\nExpress feelings:ติ๊กถูกหากต้องการให้ระบบกด Reaction โดยสามารถเลือกไอคอนอารมณ์ต่างๆ ได้\n\nComment by text:ติ๊กถูกเพื่อคอมเมนต์ด้วยข้อความ\n\nList Comments: ใส่ข้อความที่ต้องการในช่อง\n\nOption: ตัวเลือกรูปแบบข้อความ\n\nShare wall:ติ๊กถูกหากต้องการให้มีการแชร์ไปยังหน้า Wall ของตนเอง\n\nComment by image:ติ๊กถูกหากต้องการคอมเมนต์ด้วยรูปภาพ โดยเลือกโฟลเดอร์รูปภาพจากเครื่องของคุณ\n\nReel:ติ๊กถูกหากต้องการเน้นการทำงานไปที่ส่วนของ Reels\n\n",
+            "type": "markdown",
+            "images": [
+              "image92.png"
+            ]
+          },
+          {
+            "title": "9.Post Reels (โพสต์เรียล)",
+            "content": "9.Post Reels (โพสต์เรียล)\n\n![image](/images/image390.png)\n\nการตั้งค่าพื้นฐาน\n\nQuantity:กำหนดจำนวนคลิป Reels ที่ต้องการโพสต์\n\nDelay time:กำหนดระยะเวลาหน่วงระหว่างการโพสต์แต่ละคลิป\n\nการจัดการไฟล์วิดีโอ\n\nVideo folder:ช่องระบุที่อยู่ของโฟลเดอร์ (Path) ที่เก็บไฟล์วิดีโอไว้\n\nDelete used video:หากเลือกช่องนี้ ระบบจะลบไฟล์วิดีโอออกจากโฟลเดอร์ทันทีหลังจากโพสต์สำเร็จ\n\nการจัดการเนื้อหาและแฮชแท็ก\n\nDescription:ติ๊กถูกเพื่อเปิดใช้งานการใส่คำบรรยายใต้โพสต์\n\nList of contents: ช่องสำหรับพิมพ์เนื้อหา (รองรับระบบ Spin content{a|b|c}เพื่อสุ่มข้อความ)\n\nRandom icon: ปุ่มสำหรับสุ่มใส่ไอคอนในเนื้อหา\n\nOption: เลือกว่าเนื้อหา 1 บรรทัดคือ 1 โพสต์ (Content is only 1 line) หรือเนื้อหาหลายบรรทัดรวมเป็น 1 โพสต์ (Content has many lines)\n\nAuto delete used content: ลบเนื้อหาที่ใช้แล้วออกจากรายการอัตโนมัติ\n\nHashtag:ติ๊กถูกเพื่อเปิดใช้งานการใส่แฮชแท็ก\n\nList of Hashtag: ช่องสำหรับใส่รายการแฮชแท็กที่ต้องการ\n\nHashtags/content: กำหนดจำนวนแฮชแท็กที่จะสุ่มมาใช้ต่อ 1 โพสต์\n\nการตั้งค่าขั้นสูง\n\nTimeout chờ load video:กำหนดเวลาสูงสุดในการรอโหลดวิดีโอ\n\nNếu timeout thì sẽ tính là:หากเกิดกรณีหมดเวลา (Timeout) จะให้ระบบบันทึกสถานะเป็นอะไร\n\n",
+            "type": "markdown",
+            "images": [
+              "image390.png"
+            ]
+          },
+          {
+            "title": "10.Post Story (โพสต์สตอรี่)",
+            "content": "10.Post Story (โพสต์สตอรี่)\n\n![image](/images/image713.png)\n\nการตั้งค่าข้อมูลพื้นฐานของการทำงาน\n\nAmount stories:กำหนดจำนวนสตอรี่ที่ต้องการโพสต์\n\nการตั้งค่าตัวเลือกรูปแบบเนื้อหา\n\n",
+            "type": "markdown",
+            "images": [
+              "image713.png"
+            ]
+          },
+          {
+            "title": "ข้อความ (Text)",
+            "content": "ข้อความ (Text)\n\nStory content: ช่องสำหรับใส่ข้อความที่ต้องการโพสต์ลงในสตอรี่\n\nUse Background: ติ๊กถูกหากต้องการใช้พื้นหลังสำหรับข้อความ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "รูปภาพหรือวิดีโอ (Post Image/Video)",
+            "content": "รูปภาพหรือวิดีโอ (Post Image/Video)\n\nMedia folder: เลือกโฟลเดอร์ที่เก็บไฟล์ภาพหรือวิดีโอที่ต้องการใช้งาน\n\nDelete used media: ติ๊กถูกหากต้องการให้ระบบลบไฟล์ออกจากโฟลเดอร์หลังจากโพสต์เสร็จแล้ว\n\nAttach link: ติ๊กถูกเพื่อแนบลิงก์ (หมายเหตุ: ใช้ได้เฉพาะบางบัญชีที่มีสิทธิ์เท่านั้น)\n\nList of links: ช่องสำหรับระบุลิงก์ที่ต้องการแนบไปกับโพสต์\n\nการตั้งค่าเพลงประกอบ\n\nSong (Radio Button): เลือกหากต้องการใส่เพลง\n\nRandom song: เลือกเพื่อให้ระบบสุ่มเพลงให้โดยอัตโนมัติ\n\nEnter song: เลือกหากต้องการระบุเพลงเอง\n\nList songs: ช่องสำหรับใส่รายชื่อเพลงที่ต้องการ\n\nUse Background (Song): ติ๊กถูกเพื่อใช้พื้นหลังในขณะที่เล่นเพลง\n\nImage: ติ๊กถูกหากต้องการใส่รูปภาพประกอบกับเพลง\n\nImage folder: เลือกโฟลเดอร์ที่เก็บรูปภาพ\n\nDelete used images: ติ๊กถูกหากต้องการลบรูปภาพที่ใช้งานแล้วออก\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "11.Seeding Events (การดันอีเวนต์)",
+            "content": "11.Seeding Events (การดันอีเวนต์)\n\n![image](/images/image476.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nLink Event:ช่องสำหรับวาง URL หรือลิงก์ของกิจกรรม (Event) ที่คุณต้องการให้ระบบเข้าไปดำเนินการ\n\nการตั้งค่าตัวเลือกการดำเนินการ\n\nInterested:ติ๊กถูกเพื่อให้บัญชีเข้าไปกด \"สนใจ\" กิจกรรม\n\nGoing:ติ๊กถูกเพื่อให้บัญชีเข้าไปกด \"เข้าร่วม\" กิจกรรม\n\nInvite friends:ติ๊กถูกหากต้องการให้บัญชีทำการเชิญเพื่อนมาเข้าร่วมกิจกรรมนี้\n\nการควบคุมปริมาณและเวลา\n\nQuantity:กำหนดจำนวนครั้งหรือจำนวนบัญชีที่จะใช้งาน\n\nDelay:กำหนดเวลาหน่วงในการทำงาน\n\nAdd Friends - Join Groups\n\n",
+            "type": "markdown",
+            "images": [
+              "image476.png"
+            ]
+          },
+          {
+            "title": "1.Add friends by keyword (เพิ่มเพื่อนด้วยคีย์เวิร์ด)",
+            "content": "1.Add friends by keyword (เพิ่มเพื่อนด้วยคีย์เวิร์ด)\n\n![image](/images/image584.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nQuantity:จำนวนเพื่อนทั้งหมดที่ต้องการเพิ่มในรอบนั้นๆ\n\nDelay time:ระยะเวลาการรอ ระหว่างการดำเนินการแต่ละครั้ง\n\nการตั้งค่าคีย์เวิร์ด\n\nList of keywords:ช่องสำหรับใส่คำค้นหาที่คุณต้องการ\n\nกฎการพิมพ์: 1 คีย์เวิร์ด ต่อ 1 บรรทัด\n\nฟีเจอร์ Spin Content: คุณสามารถใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มเลือกคำมาใช้ได้\n\nFriends/keyword:กำหนดจำนวนเพื่อนที่จะเพิ่มต่อหนึ่งคีย์เวิร์ด\n\n",
+            "type": "markdown",
+            "images": [
+              "image584.png"
+            ]
+          },
+          {
+            "title": "2.Add friends by UID (เพิ่มเพื่อนด้วย UID)",
+            "content": "2.Add friends by UID (เพิ่มเพื่อนด้วย UID)\n\n![image](/images/image540.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber friends:กำหนดช่วงจำนวนเพื่อนที่ต้องการเพิ่ม\n\nDelay time:กำหนดระยะเวลาการรอ ระหว่างการส่งคำขอแต่ละครั้ง\n\nการตั้งค่ารายชื่อเป้าหมายและการจัดการ\n\nList Uid to add friends:ช่องสำหรับใส่หมายเลข UID ของผู้ที่ต้องการเพิ่มเป็นเพื่อน\n\nหมายเหตุ:ใส่ 1 UID ต่อ 1 บรรทัดเท่านั้น\n\nAuto delete Uid after sent invitation:หากติ๊กถูก ระบบจะลบ UID ออกจากรายการโดยอัตโนมัติหลังจากส่งคำขอแล้ว\n\nการตั้งค่าการโต้ตอบก่อนเพิ่มเพื่อน\n\nInteract before add friends:ติ๊กถูกที่ช่องนี้เพื่อเปิดใช้งานระบบโต้ตอบก่อนส่งคำขอ\n\nTotal time:กำหนดช่วงเวลาทั้งหมดที่จะใช้ในการโต้ตอบ\n\nLike:ติ๊กเพื่อระบุจำนวนครั้งที่ต้องการกดถูกใจ\n\nComment:ติ๊กเพื่อระบุจำนวนครั้งที่ต้องการแสดงความคิดเห็น\n\nList Comments:ช่องสำหรับใส่ข้อความที่ต้องการคอมเมนต์\n\nหมายเหตุ:ใส่ 1 ข้อความต่อ 1 บรรทัด และรองรับการใช้รูปแบบ Spin Content เช่น{ข้อความA|ข้อความB|ข้อความC}เพื่อสุ่มคำ\n\n",
+            "type": "markdown",
+            "images": [
+              "image540.png"
+            ]
+          },
+          {
+            "title": "3.Add friends by suggestions (เพิ่มเพื่อนตามคำแนะนำ)",
+            "content": "3.Add friends by suggestions (เพิ่มเพื่อนตามคำแนะนำ)\n\n![image](/images/image176.png)\n\nNumber frinds :จำนวนเพื่อน\n\nDelay time :ระยะเวลาดีเลย์\n\n",
+            "type": "markdown",
+            "images": [
+              "image176.png"
+            ]
+          },
+          {
+            "title": "4.Confirm Friend (ยืนยันเพื่อน)",
+            "content": "4.Confirm Friend (ยืนยันเพื่อน)\n\n![image](/images/image177.png)\n\nNumber friends :จำนวนเพื่อน\n\nDelay time :ระยะเวลาดีเลย์\n\n",
+            "type": "markdown",
+            "images": [
+              "image177.png"
+            ]
+          },
+          {
+            "title": "5.Unfriend (เลิกเป็นเพื่อน)",
+            "content": "5.Unfriend (เลิกเป็นเพื่อน)\n\n![image](/images/image201.png)\n\nการตั้งค่าพื้นฐาน\n\nDelay time:ตั้งค่าการหน่วงเวลาระหว่างการลบแต่ละคน\n\nการตั้งค่าตัวเลือกการลบเพื่อน\n\n",
+            "type": "markdown",
+            "images": [
+              "image201.png"
+            ]
+          },
+          {
+            "title": "สุ่มลบเพื่อน (Random friends)",
+            "content": "สุ่มลบเพื่อน (Random friends)\n\nAmount:กำหนดจำนวนเพื่อนที่ต้องการลบ\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "ลบเพื่อนตามรหัส UID (Unfriend by UID)",
+            "content": "ลบเพื่อนตามรหัส UID (Unfriend by UID)\n\nList of Uid to unfriend:ช่องสำหรับใส่รหัส UID ของเพื่อนที่ต้องการลบ\n\nการตั้งค่ารายชื่อที่ต้องการยกเว้น\n\nList of UID friends to keep:ช่องขนาดใหญ่ทางด้านขวา มีไว้สำหรับใส่รหัส UID ของเพื่อนที่ \"ต้องการเก็บไว้\" (ห้ามลบเด็ดขาด)\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "6.Add friends vs group members (เพิ่มเพื่อนในสมาชิกกลุ่ม)",
+            "content": "6.Add friends vs group members (เพิ่มเพื่อนในสมาชิกกลุ่ม)\n\n![image](/images/image399.png)\n\nNumber friends :จำนวนเพื่อน\n\nBreak :ระยะเวลาหยุดพัก\n\nList of group Ids :รายการ ID กลุ่ม\n\n",
+            "type": "markdown",
+            "images": [
+              "image399.png"
+            ]
+          },
+          {
+            "title": "7.Join groups by keyword (เข้าร่วมกลุ่มตามคำสำคัญ)",
+            "content": "7.Join groups by keyword (เข้าร่วมกลุ่มตามคำสำคัญ)\n\n![image](/images/image93.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber groups:กำหนดจำนวนกลุ่มที่ต้องการให้ระบบเข้าร่วม\n\nDelay time:กำหนดระยะเวลาการรอ ระหว่างการดำเนินการแต่ละครั้ง\n\nการตั้งค่าการจัดการคำค้นหา\n\nList of keywords:ช่องสำหรับใส่คำค้นหาที่ต้องการ\n\nใส่คำค้นหา 1 คำต่อ 1 บรรทัด\n\nสามารถใช้รูปแบบการปั่นข้อความ (Spin content) ได้ เช่น{คำที่1|คำที่2|คำที่3}เพื่อให้ระบบสุ่มเลือกคำมาใช้งาน\n\nการตั้งค่าการตอบคำถามอัตโนมัติ\n\nAuto answer questions:ติ๊กถูกที่ช่องนี้หากต้องการให้ระบบตอบคำถามโดยอัตโนมัติ\n\nList of answers:ช่องสำหรับใส่คำตอบที่เตรียมไว้\n\nใส่ 1 คำตอบต่อ 1 บรรทัด\n\nรองรับการใช้งานรูปแบบ Spin content{a|b|c}เช่นเดียวกับคำค้นหา เพื่อให้คำตอบมีความหลากหลาย\n\n",
+            "type": "markdown",
+            "images": [
+              "image93.png"
+            ]
+          },
+          {
+            "title": "8.Join groups by ID",
+            "content": "8.Join groups by ID\n\n![image](/images/image640.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nNumber groups:กำหนดจำนวนกลุ่มที่ต้องการเข้าร่วม\n\nDelay time:ระยะเวลาหน่วง ระหว่างการส่งคำขอเข้าร่วมแต่ละกลุ่ม\n\nการตั้งค่าการจัดการ ID กลุ่ม\n\nList of Id groups to join:ช่องสำหรับใส่ ID หรือ UID ของกลุ่มที่ต้องการเข้าร่วม\n\nกฎการกรอก: ใส่ 1 ID ต่อ 1 บรรทัด (Each Uid 1 line)\n\nAuto delete Id group that sent a join request:หากติ๊กถูกที่ช่องนี้ ระบบจะลบ ID กลุ่มออกจากรายการโดยอัตโนมัติหลังจากส่งคำขอเข้าร่วมสำเร็จ เพื่อป้องกันการส่งซ้ำ\n\nการตั้งค่าระบบตอบคำถามอัตโนมัติ\n\nAuto answer questions:ติ๊กถูกที่หน้าช่องนี้ หากกลุ่มที่คุณจะเข้าร่วมมีการตั้งคำถามก่อนเข้า\n\nList of answers:ช่องสำหรับใส่คำตอบล่วงหน้า\n\nกฎการกรอก: ใส่ 1 คำตอบ ต่อ 1 บรรทัด (Each content 1 line) หากมีหลายคำถาม ระบบจะดึงคำตอบจากรายการนี้ไปตอบตามลำดับ\n\n",
+            "type": "markdown",
+            "images": [
+              "image640.png"
+            ]
+          },
+          {
+            "title": "9.Join suggestion group (เข้าร่วมกลุ่มที่แนะนำ)",
+            "content": "9.Join suggestion group (เข้าร่วมกลุ่มที่แนะนำ)\n\n![image](/images/image362.png)\n\nการตั้งค่าปริมาณและระยะเวลา\n\nNumber groups:ตั้งค่าจำนวนกลุ่มที่ต้องการเข้าร่วม\n\nDelay time:ตั้งค่าระยะเวลารอคอย ระหว่างการเข้ากลุ่มแต่ละกลุ่ม\n\nการตั้งค่าการตอบคำถามอัตโนมัติ\n\nAuto answer questions:ติ๊กถูกที่ช่องนี้หากต้องการให้ระบบตอบคำถามก่อนเข้ากลุ่มโดยอัตโนมัติ\n\nList of answers:ช่องสำหรับกรอกคำตอบที่เตรียมไว้\n\nเงื่อนไขการกรอก: ให้ใส่คำตอบ 1 บรรทัด ต่อ 1 ข้อความ (Each content 1 line)\n\n",
+            "type": "markdown",
+            "images": [
+              "image362.png"
+            ]
+          },
+          {
+            "title": "10.Leave group (ออกจากกลุ่ม)",
+            "content": "10.Leave group (ออกจากกลุ่ม)\n\n![image](/images/image743.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber groups:กำหนดจำนวนกลุ่มที่ต้องการให้ออก\n\nDelay time:ระยะเวลาหน่วง ระหว่างการออกจากแต่ละกลุ่ม\n\nการตั้งค่าตัวเลือกรูปแบบการออกจากกลุ่ม\n\nRandom group list:ระบบจะสุ่มเลือกกลุ่มที่จะออกจากรายชื่อกลุ่มทั้งหมดที่มีอยู่\n\nLeave group with conditions:ออกจากกลุ่มตามเงื่อนไขที่กำหนด\n\nLeave group moderating posts: ออกจากกลุ่มที่เราต้องรอการอนุมัติโพสต์ (Admin ตรวจสอบโพสต์)\n\nNumber of members is less: ออกจากกลุ่มที่มีจำนวนสมาชิกน้อยกว่าค่าที่ระบุ\n\nGroup name contains keywords: ออกจากกลุ่มที่ชื่อกลุ่มมีคำค้นหา (Keywords) ที่เรากำหนด\n\nใส่คำที่ต้องการในช่อง List of keywords (1 คำต่อ 1 บรรทัด)\n\nการตั้งค่ารายชื่อกลุ่มที่ไม่ต้องการออก\n\nList of ID groups to keep:ใส่ ID ของกลุ่ม ที่คุณต้องการเก็บไว้ (ไม่ให้ออกจากกลุ่มเหล่านี้เด็ดขาด) แม้ว่ากลุ่มนั้นจะตรงกับเงื่อนไขการออกก็ตาม\n\n",
+            "type": "markdown",
+            "images": [
+              "image743.png"
+            ]
+          },
+          {
+            "title": "11.Create group (สร้างกลุ่ม)",
+            "content": "11.Create group (สร้างกลุ่ม)\n\n![image](/images/image558.png)\n\nAmount groups :จำนวนกลุ่ม\n\nGroup name :ชื่อกลุ่ม\n\n",
+            "type": "markdown",
+            "images": [
+              "image558.png"
+            ]
+          },
+          {
+            "title": "12.Create page (สร้างเพจ)",
+            "content": "12.Create page (สร้างเพจ)\n\n![image](/images/image252.png)\n\nการตั้งค่าพื้นฐาน\n\nAmount pages:กำหนดจำนวนเพจที่ต้องการสร้าง\n\nDelay time (s):กำหนดระยะเวลาหน่วง ระหว่างการสร้างแต่ละเพจ\n\nการตั้งค่ารายละเอียดข้อมูลเพจ\n\nPage name (1):ช่องสำหรับกรอกชื่อเพจที��ต้อ��การสร้าง โดยสามารถระบุชื่อที่ต้องการลงในช่องข้อความ\n\nPage category (1):ช่องสำหรับกำหนดหมวดหมู่ของเพจ เพื่อให้ตรงกับวัตถุประสงค์การใช้งาน\n\nInteractive\n\n",
+            "type": "markdown",
+            "images": [
+              "image252.png"
+            ]
+          },
+          {
+            "title": "1.Read notification (อ่านข้อความแจ้งเตือน)",
+            "content": "1.Read notification (อ่านข้อความแจ้งเตือน)\n\n![image](/images/image627.png)\n\nQuantity :คือ จำนวน ข้อความแจ้งเตือนที่ต้องการให้อ่านDelay time :คือ ระยะเวลาดีเลย์ของกา��อ่านแจ้งเตือนแต่ละอัน\n\n",
+            "type": "markdown",
+            "images": [
+              "image627.png"
+            ]
+          },
+          {
+            "title": "2. Watch Reels (ดูวีดีโอสั้น)",
+            "content": "2. Watch Reels (ดูวีดีโอสั้น)\n\n![image](/images/image328.png)\n\nการตั้งค่าพื้นฐาน\n\nTime watch:กำหนดช่วงระยะเวล���ในกา���รับ���มวิดีโอแต่ละคลิป\n\nการตั้งค่าปฏิสัมพันธ์\n\nLike:กดถูกใจวิดีโออัตโนมัติ\n\nShare Wall:แชร์วิดีโอไปยังหน้าโปรไฟล์ (Wall) ของตนเอง\n\nComment:แสดงความคิดเห็นใต้คลิปวิดีโอ (หากเลือกข้อนี้ จะต้องตั้งค่าในส่วนถัดไป)\n\nการตั้งค่าการจัดการความคิดเห็น\n\nList Comments:กรอกข้อความที่ต้องการใช้คอมเมนต์\n\nOption:ตัวเลือกรูปแบบของเนื้อหา\n\nปุ่ม [?]: ใช้สำหรับดูคำแนะนำเพิ่มเติมเกี่ยวกับวิธีการพิมพ์ข้อความหรือการใช้สัญลักษณ์พิเศษ\n\n",
+            "type": "markdown",
+            "images": [
+              "image328.png"
+            ]
+          },
+          {
+            "title": "3.Watch Story (ดูสตอรี่)",
+            "content": "3.Watch Story (ดูสตอรี่)\n\n![image](/images/image422.png)\n\nTime watch :ระยะเวลาในการดู\n\nExpress felings :แสดงความรู้สึก\n\nAuto comment :แสดงความคิดเห็น\n\nList Comments :รายการความคิดเห็น\n\n",
+            "type": "markdown",
+            "images": [
+              "image422.png"
+            ]
+          },
+          {
+            "title": "4.Watch video (ดูวีดีโอ)",
+            "content": "4.Watch video (ดูวีดีโอ)\n\n![image](/images/image353.png)\n\nการตั้งค่าเวลา\n\nTime watch:กำหนดช่วงเวลาในการรับชมวิดีโอ\n\nการโต้ตอบอัตโนมัติ\n\nLike:กดถูกใจวิดีโอ\n\nShare Wall:แชร์วิดีโอไปยังหน้าวอลล์ (Timeline)\n\nComment:แสดงความคิดเห็นใต้คลิปวิดีโอ\n\nหมายเหตุ:ช่องตัวเลขด้านหลัง Like, Share, และ Comment (เช่น 1 > 3) ใช้สำหรับกำหนด จำนวนครั้ง หรือ ช่วงการสุ่ม ในการทำกิจกรรมนั้นๆ\n\nการตั้งค่ารายละเอียดความคิดเห็น\n\nList Comments:ช่องสำหรับพิมพ์ข้อความที่ต้องการใช้คอมเมนต์\n\nOption:เมนูเลือกรูปแบบเนื้อหา\n\nปุ่ม ?: ปุ่มช่วยเหลือสำหรับดูคำแนะนำเพิ่มเติมในการใส่ข้อความ\n\n",
+            "type": "markdown",
+            "images": [
+              "image353.png"
+            ]
+          },
+          {
+            "title": "5. Watch Videos by keywords (ดูวีดีโอ ตามคีย์เวิร์ด )",
+            "content": "5. Watch Videos by keywords (ดูวีดีโอ ตามคีย์เวิร์ด )\n\n![image](/images/image512.png)\n\nการตั้งค่าพื้นฐาน\n\nKeywords:ช่องสำหรับใส่คำค้นหาที่ต้องการให้ระบบไปค้นหาวิดีโอ\n\nการตั้งค่าเวลาในการรับชม\n\nTime watch:กำหนดช่วงเวลาเป็น วินาที\n\nการตั้งค่าการโต้ตอบ\n\nLike:กดถูกใจวิดีโอ\n\nShare Wall:แชร์วิดีโอไปยังหน้าโปรไฟล์หรือวอลล์\n\nComment:แสดงความคิดเห็น\n\nหมายเหตุ: ตัวเลขด้านหลัง (เช่น 1 > 3) คือการสุ่มจำนวนครั้งหรือเงื่อนไขการทำงานในแต่ละรอบ\n\nการตั้งค่าการจัดการความคิดเห็น\n\nList Comments:ช่องสำหรับพิมพ์ข้อความที่ต้องการใช้คอมเมนต์\n\nOption:เลือกรูปแบบของเนื้อหา\n\n6Interact Newsfeed (โต้ตอบฟีดข่าว)\n\n![image](/images/image98.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nTime watch:ตั้งค่าช่วงเวลาที่ต้องการให้โปรแกรมหยุดดู (Watch) ในแต่ละโพสต์\n\nการตั้งค่าการเลือกประเภทการปฏิสัมพันธ์\n\nLike:ติ๊กเพื่อสั่งให้กดถูกใจโพสต์ (ระบุจำนวนครั้งที่ต้องการสุ่มกด)\n\nShare Wall:ติ๊กเพื่อสั่งให้แชร์โพสต์ไปยังหน้าวอลล์ของตัวเอง (ระบุจำนวนครั้งที่ต้องการสุ่มแชร์)\n\nComment:ติ๊กเพื่อสั่งให้แสดงความคิดเห็นใต้โพสต์ (ระบุจำนวนครั้งที่ต้องการสุ่มคอมเมนต์)\n\nการจัดการข้อความความคิดเห็น\n\nList Comments:ช่องสำหรับใส่ข้อความที่ต้องการให้โปรแกรมนำไปคอมเมนต์\n\nOption:เมนูเลือกรูปแบบการดึงข้อความไปใช้\n\n7Interact Friends (โต้ตอบกับเพื่อน)\n\n![image](/images/image463.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nNumber friends:กำหนดจำนวนเพื่อนที่ต้องการให้ระบบเข้าไปมีปฏิสัมพันธ์\n\nการตั้งค่ารายละเอียดการปฏิสัมพันธ์\n\nTime watch:ระยะเวลาที่ระบบจะ \"เปิดดู\" หน้าของเพื่อน\n\nLike:ติ๊กถูกเพื่อสั่งให้ระบบกด Like โพสต์ของเพื่อน โดยกำหนดจำนวนครั้งเป็นช่วง\n\nShare Wall:ติ๊กถูกเพื่อสั่งให้ระบบแชร์โพสต์ไปยังหน้า Wall ของเรา โดยกำหนดจำนวนครั้งเป็นช่วง\n\nComment:ติ๊กถูกเพื่อสั่งให้ระบบพิมพ์ข้อความแสดงความคิดเห็น โดยกำหนดจำนวนครั้งเป็นช่วง\n\nการจัดการข้อความคอมเมนต์\n\nList Comments:พื้นที่สีเทาขนาดใหญ่สำหรับใส่เนื้อหาคอมเมนต์ที่ต้องการให้ระบบสุ่มไปใช้งาน\n\nOption:รูปแบบการอ่านค่าข้อความ\n\n",
+            "type": "markdown",
+            "images": [
+              "image512.png",
+              "image98.png",
+              "image463.png"
+            ]
+          },
+          {
+            "title": "8.Interact Groups(การดูและการมีส่วนร่วมกับกลุ่ม)",
+            "content": "8.Interact Groups(การดูและการมีส่วนร่วมกับกลุ่ม)\n\n![image](/images/image21.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber groups:กำหนดจำนวนกลุ่มที่ต้องการให้ระบบเข้าไปดำเนินการ\n\nการตั้งค่าการปฏิสัมพันธ์\n\nTime watch:ระยะเวลาในการรับชมหรืออยู่ในกลุ่ม\n\nLike:ติกถูกเพื่อสั่งให้กดไลก์ และกำหนดจำนวนครั้ง\n\nShare Wall:ติกถูกเพื่อสั่งให้แชร์โพสต์ไปยังหน้าวอลล์ (ไทม์ไลน์) และกำหนดจำนวนครั้ง\n\nComment:ติกถูกเพื่อสั่งให้แสดงความคิดเห็น และกำหนดจำนวนครั้ง\n\nการตั้งค่าการจัดการข้อความความคิดเห็น\n\nList Comments (0):ช่องสำหรับใส่ข้อความที่ต้องการให้ระบบนำไปสุ่มใช้คอมเมนต์ (ใส่ 1 ข้อความต่อ 1 บรรทัด)\n\nOption:ตัวเลือกรูปแบบของเนื้อหา\n\nปุ่ม ? (Help):ปุ่มสำหรับดูคำอธิบายหรือคำแนะนำเพิ่มเติมเกี่ยวกับการใช้ฟีเจอร์คอมเมนต์\n\n9Interact Page (โต้ตอบเพจ)\n\n![image](/images/image17.png)\n\nการตั้งค่าการจัดการเป้าหมาย\n\nNumber pages:กำหนดจำนวนเพจที่ต้องการให้ระบบเข้าไปดำเนินการ\n\nList ID pages (0):ช่องว่างสำหรับใส่รายการ ID ของเพจที่ต้องการให้ระบบเข้าไปปฏิสัมพันธ์\n\nAuto delete Used Id Page:หากเลือกช่องนี้ ระบบจะลบ ID ของเพจทิ้งโดยอัตโนมัติหลังจากที่ทำงานเสร็จแล้ว\n\nการตั้งค่าการปฏิสัมพันธ์\n\nTime watch:กำหนดระยะเวลา ที่จะให้ระบบหยุดดูหรือแช่อยู่ในหน้าเพจนั้น ๆ\n\nLike:ติ๊กถูกเพื่อสั่งให้ระบบกด \"ถูกใจ\" (สามารถกำหนดจำนวนครั้งเป็นช่วงได้)\n\nShare Wall:ติ๊กถูกเพื่อสั่งให้ระบบกด \"แชร์\" ลงบนวอลล์ (สามารถกำหนดจำนวนครั้งเป็นช่วงได้)\n\nComment:ติ๊กถูกเพื่อสั่งให้ระบบทำการ \"คอมเมนต์\"\n\nList Comments (0): ช่องสำหรับระบุข้อความที่จะใช้คอมเมนต์\n\nOption: ตัวเลือกรูปแบบข้อความสำหรับการคอมเมนต์\n\n10.Interact Wall (ตอบโต้หน้าไทม์ไลน์)\n\n![image](/images/image12.png)\n\nการตั้งค่าการกำหนดข้อมูลพื้นฐาน\n\nTime watch:กำหนดช่วงเวลา ในการรับชมโพสต์หรือหน้าวอลล์\n\nการตั้งค่าการเลือกประเภทการโต้ตอบ\n\nLike:คลิกเพื่อเปิดการใช้งานการกดไลก์\n\nShare Wall:คลิกเพื่อเปิดการใช้งานการแชร์โพสต์ไปยังวอลล์\n\nComment:คลิกเพื่อเปิดการใช้งานการแสดงความคิดเห็น\n\nหมายเหตุ:สามารถเลือกเปิด-ปิดฟังก์ชันที่ต้องการได้โดยการทำเครื่องหมายถูกที่ช่องด้านหน้า และกำหนดจำนวนครั้งแบบสุ่ม (Min > Max)\n\n",
+            "type": "markdown",
+            "images": [
+              "image21.png",
+              "image17.png",
+              "image12.png"
+            ]
+          },
+          {
+            "title": "การตั้งค่าการจัดการความคิดเห็น",
+            "content": "การตั้งค่าการจัดการความคิดเห็น\n\nList Comments (0):ช่องสำหรับกรอกข้อความที่ต้องการให้ระบบนำไปคอมเมนต์ โดยตัวเลขในวงเล็บจะบอกจำนวนข้อความที่มีอยู่\n\nOption:เมนูสำหรับตั้งค่ารูปแบบข้อความ\n\nปุ่ม ?:ปุ่มช่วยเหลือหรือคำแนะนำเพิ่มเติมเกี่ยวกับการตั้งค่าคอมเมนต์\n\n11.Breaks (พัก)\n\n![image](/images/image573.png)\n\nDelay time (s): ระยะเวลา (วินาที)\n\n",
+            "type": "markdown",
+            "images": [
+              "image573.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maxcloudphone_vj8q1",
+        "name": "MaxCloudPhone",
+        "sections": [
+          {
+            "title": "MaxCloudPhoneฟังก์ชันหลัก",
+            "content": "MaxCloudPhoneฟังก์ชันหลัก\n\n![image](/images/image192.png)\n\nอ่านการแจ้งเตือน\n\nสุ่มดูวิดีโอ\n\nดูวิดีโอที่ระบุเฉพาะเจาะจง\n\nดูวิดีโอจากคีย์เวิร์ด\n\nดูวิดีโอของผู้ใช้\n\nสุ่มเข้าดูไลฟ์สด\n\nเข้าดูไลฟ์สดที่ระบุเฉพาะเจาะจง\n\nติดตามผู้ใช้งาน\n\nติดตามผู้ใช้งานจากคีย์เวิร์ด\n\nติดตามกลับ\n\nติดตามผู้ใช้งานจากโปรไฟล์\n\nติดตามผู้ใช้งานที่ระบบแนะนำ\n\nส่งข้อความไปยังเป้าหมายที่กำหนด\n\nตอบกลับความคิดเห็นที่ระบุเฉพาะเจาะจง\n\nปั๊มยอดเข้าชมสินค้า\n\nสร้างรายได้\n\nสร้างโพสต์\n\nอัปเดตรูปโปรไฟล์\n\nเปลี่ยนชื่อ\n\nเปลี่ยนคำอธิบายโปรไฟล์\n\nกดไลก์สาธารณะ\n\nโหมดพักการทำงาน\n\nลบโพสต์บนหน้าวอลล์\n\n",
+            "type": "markdown",
+            "images": [
+              "image192.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_______________maxcl_glp6v",
+        "name": "วิธีตั้งค่าแอป MaxCloudPhone หลังจากใส่ Token",
+        "sections": [
+          {
+            "title": "1. เริ่มต้นการตั้งค่าแอป",
+            "content": "1. เริ่มต้นการตั้งค่าแอป\n\nหลังจากใส่ Token เสร็จแล้ว แอปจะพาคุณมายังหน้า ตั้งค่าแอป\n\nกดปุ่ม Start เพื่อเริ่มการตั้งค่า\n\n![image](/images/image686.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image686.png"
+            ]
+          },
+          {
+            "title": "2.อนุญาตการเข้าถึง",
+            "content": "2.อนุญาตการเข้าถึง\n\nให้กด อนุญาต\n\n![image](/images/image425.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image425.png"
+            ]
+          },
+          {
+            "title": "3. แอปจะพาคุณไปยังหน้าตั้งค่าใหม่",
+            "content": "3. แอปจะพาคุณไปยังหน้าตั้งค่าใหม่\n\nรอจนระบบพามายังหน้านี้\n\nให้กลับไปที่แอพ MaxCloudphone\n\n![image](/images/image24.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image24.png"
+            ]
+          },
+          {
+            "title": "4.จากนั้นกดที่ MOBILE DATA",
+            "content": "4.จากนั้นกดที่ MOBILE DATA\n\n![image](/images/image144.png)\n\nทำการตั้งค่า Device assistance app\n\n![image](/images/image153.png)\n\nเลือก MaxCloudPhone\n\n![image](/images/image477.png)\n\nกด OK\n\n![image](/images/image303.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image144.png",
+              "image153.png",
+              "image477.png",
+              "image303.png"
+            ]
+          },
+          {
+            "title": "5.ทำการตั้งค่าคีย์บอร์ด",
+            "content": "5.ทำการตั้งค่าคีย์บอร์ด\n\nกดที่ KEYBOARD\n\n![image](/images/image308.png)\n\nเลือก Maxcloud เป็นคีย์บอร์ดหลัก\n\n![image](/images/image294.png)\n\n![image](/images/image435.png)\n\n✅ เสร็จสิ้นขั้นตอนการติดตั้ง หากหน้าจอการตั้งค่ามือถือของคุณไม่ตรงตามคู่มือนี้ กรุณาติดต่อ แอดมิน เพื่อสอบถามรายละเอียดเพิ่มเติม\n\n",
+            "type": "markdown",
+            "images": [
+              "image308.png",
+              "image294.png",
+              "image435.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maxdata_suite",
+    "name": "MaxData",
+    "categories": [
+      {
+        "id": "maxdata_911ih",
+        "name": "MaxData",
+        "sections": []
+      },
+      {
+        "id": "_____________________wpldc",
+        "name": "คู่มือดาวน์โหลดและติดตั้งโปรแกรม MaxData",
+        "sections": [
+          {
+            "title": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off เป็นอันเสร็จสิ้น",
+            "content": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off เป็นอันเสร็จสิ้น\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย",
+            "content": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย\n\nเข้าไปยังเว็บไซต์ Minsoft\n\n![image](/images/image97.png)\n\nล็อคอินเข้าใช้งาน\n\n![image](/images/image491.png)\n\nไปยังหน้าการจัดการซอร์ฟแวร์\n\n![image](/images/image711.png)\n\n2.จากนั้นไปที่โปรแกรม MaxData ==> กด ดาวน์โหลด\n\n![image](/images/image466.png)\n\n![image](/images/image740.png)\n\n3.หลังจากดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้คลิกขวาที่ไฟล์ MaxData.zip ที่โหลดมา จากนั้นกดแตกไฟล์\n\n![image](/images/image684.png)\n\n4.หลังจากแตกไฟล์เสร็จเรียบร้อยแล้ว เข้าไปยังโฟลเดอร์ MaxData แล้วกด AutoUpdate รอจนกว่าจะอัพเดตเสร็จ\n\n![image](/images/image391.png)\n\n5.เข้าใช้งานโปรแกรม ทำการเข้าระบบให้เรียบร้อย\n\n![image](/images/image682.png)\n\n6.เมื่อเข้าระบบเสร็จแล้ว ให้ไปที่ General configs >> Update chromedriver เพื่ออัพเดตโครมไดรเวอร์\n\n![image](/images/image508.png)\n\nหากติดตั้งเสร็จแล้วรันโปรแกรมแล้วหลังจากรันเสร็จแล้ว CPU ใช้งาน 100% ให้ทำตามลิ้งค์นี้\n\n",
+            "type": "markdown",
+            "images": [
+              "image97.png",
+              "image491.png",
+              "image711.png",
+              "image466.png",
+              "image740.png",
+              "image684.png",
+              "image391.png",
+              "image682.png",
+              "image508.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_____________________4s2ub",
+        "name": "อธิบายเมนูฟังก์ชันการทำงาน MaxData",
+        "sections": [
+          {
+            "title": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย",
+            "content": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย\n\nScan group data\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "1.Scan Group by keyword (สแกนกลุ่มตามคีย์เวิร์ด)",
+            "content": "1.Scan Group by keyword (สแกนกลุ่มตามคีย์เวิร์ด)\n\n![image](/images/image380.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit : count groups/keyword :จำนวนกลุ่ม/คีย์เวิร์ด\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+            "type": "markdown",
+            "images": [
+              "image380.png"
+            ]
+          },
+          {
+            "title": "2.Scan Group information (สแกนข้อมูลกลุ่ม)",
+            "content": "2.Scan Group information (สแกนข้อมูลกลุ่ม)\n\n![image](/images/image96.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of group Id :รายการ Id กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+            "type": "markdown",
+            "images": [
+              "image96.png"
+            ]
+          },
+          {
+            "title": "3.Scan group that user joined (สแกนกลุ่มที่ผู้ใช้เข้าร่วม)",
+            "content": "3.Scan group that user joined (สแกนกลุ่มที่ผู้ใช้เข้าร่วม)\n\n![image](/images/image56.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of user Id :รายการ Id ผู้ใช้\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
+            "type": "markdown",
+            "images": [
+              "image56.png"
+            ]
+          },
+          {
+            "title": "4.Scan group members (สแกนสมาชิกกลุ่ม)",
+            "content": "4.Scan group members (สแกนสมาชิกกลุ่ม)\n\n![image](/images/image220.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of group Id :รายการ Id กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan page data\n\n",
+            "type": "markdown",
+            "images": [
+              "image220.png"
+            ]
+          },
+          {
+            "title": "1.Scan page by keyword (สแกนเพจตามคีย์เวิร์ด)",
+            "content": "1.Scan page by keyword (สแกนเพจตามคีย์เวิร์ด)\n\n![image](/images/image14.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit count groups/keyword :จำกัดจำนวนเพจ/keyword\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan user data\n\n1.Scan user friends (สแกนเพื่อนผู้ใช้)\n\n![image](/images/image723.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of Uid :รายการ Uid\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan post data\n\n1.Scan posts by keyword (สแกนโพสต์ตามคีย์เวิร์ด)\n\n![image](/images/image796.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit count groups/keyword :จำกัดจำนวนกลุ่ม/คีย์เวิร์ด\n\nFilter recent posts :โพสต์ล่าสุด\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n2.Count reactions of posts (นับความรู้สึกของโพสต์)\n\n![image](/images/image58.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n3.Scan user reactions of posts (สแกนผู้ใช้ที่แสดงความรู้สึกโพสต์)\n\n![image](/images/image217.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of post Id :รายการ Id โพสต์\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n4.Scan posts of user in group (สแกนโพสต์ของผู้ใช้ในกลุ่ม)\n\n![image](/images/image347.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of Id_User|Id_Group :รายการ Id_User|Id_Group\n\nLimit number of post/groups :จำกัดจำนวนโพสต์/กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nOther functions\n\n1.Find Facebook Id (ค้นหาไอดี Facebook)\n\n![image](/images/image546.png)\n\nList of Facebook links :รายการลิงค์เฟสบุ๊ค\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n2.ChatGPT\n\n![image](/images/image441.png)\n\nAPI Key :API Key ChatGPT\n\nContent :เนื้อหา\n\nStart :เริ่ม\n\nResult :ผลลัพธ์\n\n3.Check Live Uid (ตรวจสอบสถานะ Uid)\n\n![image](/images/image639.png)\n\nEnter :Uidใส่ Uid\n\nThreads :หัวข้อ\n\nStart :เริ่ม\n\nLIVE :ใช้งานได้\n\nDIE :ถูกจำกัด\n\nCan’t check :ไม่สามารถเช็คได้\n\n",
+            "type": "markdown",
+            "images": [
+              "image14.png",
+              "image723.png",
+              "image796.png",
+              "image58.png",
+              "image217.png",
+              "image347.png",
+              "image546.png",
+              "image441.png",
+              "image639.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "others_suite",
+    "name": "โปรแกรมอื่นๆ",
+    "categories": [
+      {
+        "id": "_____________________z2334",
+        "name": "วิธีการใช้งานโปรแกรม",
+        "sections": [
+          {
+            "title": "รวมวิธีการใช้งานโปรแกรม Maxcare",
+            "content": "<p>อธิบายรายละเอียดแต่ละฟังก์ชั่น การนำบัญชีเฟสบุ๊คเข้าโปรแกรม Maxcare ![image](/images/image537.png) หลังจากเปิดโปรแกรมมาแล้ว ให้กดที่ Import accounts เพื่อนำเฟสบุ๊คเข้าระบบ ![image](/images/image180.png) ให้ทำการสร้างไฟล์ขึ้นมา โดยใส่ชื่อตามที่ต้องการได้เลยจากนั้นกด Add ![image](/images/image305.png) ใส่ข้อมูลเฟสลงไป ตามแพทเทิน คั่นด้วยเครื่องหมาย | ยกตัวอย่างการเลือก Format ตามแพทเทินเฟสบุ๊คที่จะนำเข้า ![image](/images/image224.png) จากนั้นเลือก format ตามแพทเทินที่เรากรอกเข้าไป แล้วกดติ้กถูกที่ Option เพื่อให้มันเช็คข้อมูล Account ต่างๆด้วย เช่น ชื่อ,เพศ,จำนวนเพื่อน,จำนวนกลุ่ม เป็นต้น ![image](/images/image734.png) ![image](/images/image197.png) ![image](/images/image260.png) เป็นอันเสร็จสิ้นขั้นตอนการนำเข้าเฟสบุ๊ค</p>",
+            "type": "markdown",
+            "images": [
+              "image537.png",
+              "image180.png",
+              "image305.png",
+              "image224.png",
+              "image734.png",
+              "image197.png",
+              "image260.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2____________________ecp2m",
+        "name": "2.อธิบายการตั้งค่าต่างๆเบื้องต้น",
+        "sections": [
+          {
+            "title": "อธิบายฟังก์ชั่นการใช้งานพื้นฐาน",
+            "content": "อธิบายฟังก์ชั่นการใช้งานพื้นฐาน\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "General configs",
+            "content": "General configs\n\n![image](/images/image408.png)\n\n![image](/images/image527.png)\n\nGeneral configs\n\n1.1 Chrome threads:คือ จำนวนเบราว์เซอร์ที่เปิดพร้อมกัน (หากไม่ได้ใช้ proxy แนะนำให้เปิดไม่เกิน 5)\n\n1.2 Check info threads:คือ จำนวนจอไว้เช็คสถานะของเฟสในการรันโปรแกรม (ให้ตั้งตามจำนวนเบราว์เซอร์ในการรันโปรแกรม)\n\n1.3 Folder profile:คือ ใส่ที่อยู่เก็บรูปภาพ ในโฟลเดอร์ Maxcare เพื่อเก็บรูปภาพและดึงรูปออกมาใช้ในระบบ\n\n![image](/images/image125.png)\n\nChrome configs\n\n1.1 Show image when use browser:ติ๊กถูกเพื่อให้แสดงรูปภาพขณะเปิดเบราว์เซอร์\n\n1.2 Text typing speed:ปรับความเร็วในการพิมพ์ข้อความอัตโนมัติ\n\n1.3 Sort chrome window:ตั้งค่าการเรียงหน้าต่างเบราว์เซอร์\n\n1.4 Delay Open chrome (s):ตั้งค่าหน่วงเวลาก่อนเปิดหน้าต่างถัดไป\n\n1.5 Add Chrome Form View:กำหนดขนาดหน้าต่างเบราว์เซอร์\n\n1.6 Hide chrome:ติ๊กถูกหากต้องการให้เบราว์เซอร์ทำงานเบื้องหลัง\n\n1.7 Update Chromedriver:ปุ่มสำหรับอัปเดตตัวควบคุม Chrome ให้เป็นเวอร์ชันล่าสุดเสมอ\n\n1.8 Path chrome.exe:ใส่ที่อยู่ไฟล์ (Path) ของโปรแกรม Chrome ในเครื่องของคุณ\n\n1.9 Use Gologin:หากใช้บริการ Gologin ให้ติ๊กช่องนี้ และระบุ Path ของ Orbita chrome.exe\n\n1.10 Use GEM Login:สำหรับผู้ใช้งาน GEM Login ให้กรอก API URL\n\n1.11 Use GPM Login:สำหรับผู้ใช้งาน GPM Login ให้เลือกเวอร์ชันเบราว์เซอร์ และสามารถเลือก Disable WebRTC เพื่อป้องกันการหลุดของ IP จริงได้\n\n![image](/images/image674.png)\n\n",
+            "type": "markdown",
+            "images": [
+              "image408.png",
+              "image527.png",
+              "image125.png",
+              "image674.png"
+            ]
+          },
+          {
+            "title": "Captcha configs",
+            "content": "Captcha configs\n\n1.1 API Key Omocaptcha:ช่องสำหรับกรอกAPI Keyเพื่อแก้Captchaอัตโนมัติ\n\n![image](/images/image291.png)\n\nEmail configs\n\n1.1 https://generator.email/:สามารถป้อนโดเมน\n\n1.2 https://unlimitmail.com/:กรอก Token สำหรับใช้งาน Unlimitmail\n\n1.3 https://donglaomail.com/:กรอก Token สำหรับใช้งาน Donglaomail\n\n![image](/images/image416.png)\n\nChange IP configs\n\n1.1 Don't Check IP before running:หากติ๊กถูกโปรแกรมจะเริ่มทำงานทันทีโดยไม่ตรวจสอบว่า IP ปัจจุบันคืออะไร\n\n1.2 Delay after change IP:การตั้งเวลา \"รอ\" หลังจากเปลี่ยน IP สำเร็จ\n\n1.3 Change IP:เลือกประเภทการเปลี่ยน IP\n\n![image](/images/image706.png)\n\nOther configs\n\n1.1 Distinguish [Account status]:คือ สามารถเลือกเพื่อแยกแยะสถานะบัญชี\n\n1.2 Save [Description] column data:คือ เลือกเพื่อบันทึกข้อมูลคอลัมน์\n\n1.3 Backup Database selectคือ เลือกสำรองข้อมูลที่เลือก\n\n",
+            "type": "markdown",
+            "images": [
+              "image291.png",
+              "image416.png",
+              "image706.png"
+            ]
+          },
+          {
+            "title": "หากไม่ได้ใช้ Proxy การตั้งค่าด้านขวาไม่ต้องปรับแก้ไขอะไร",
+            "content": "หากไม่ได้ใช้ Proxy การตั้งค่าด้านขวาไม่ต้องปรับแก้ไขอะไร\n\n",
+            "type": "markdown",
+            "images": []
+          },
+          {
+            "title": "Display configs",
+            "content": "Display configs\n\n![image](/images/image213.png)\n\nเราสามารถกำหนดได้ว่าอยากให้มันแสดงข้อมูลอะไรในโปรแกรม Maxcare เช่น ตัวอย่างตามข้างบน\n\n![image](/images/image709.png)\n\nจะแสดงขึ้นข้อมูล อีเมลล์, ชื่อเฟส, จำนวนเพื่อน, เพศ, รหัสผ่านเฟส, รหัสผ่านอีเมลล์, รหัส2FA, เวลาที่รันโปรแกรมล่าสุด, สถานะเฟส, รายละเอียดแสดงขั้นตอนระหว่างรันโปรแกรม เป็นต้น\n\nในรูปที่ email และ pass mail ว่าง เพราะไม่ได้ import เป็นแพทเทิน uid|pass|email|passmail นั่นเอง\n\nInteractive configs\n\n![image](/images/image665.png)\n\n![image](/images/image311.png)\n\nBasic runningคือ การตั้งค่าก่อนรัน\n\nUse chrome profile:ให้ระบบใช้โปรไฟล์ Chrome ที่ตั้งค่าไว้\n\nClear chrome cache: ล้างไฟล์ขยะและข้อมูลค้างเก่าก่อนเริ่มงานใหม่ ช่วยลดปัญหาเว็บโหลดช้าหรือแสดงผลผิดพลาด\n\nCheck wall account: ตรวจสอบสถานะหน้า Wall หรือความพร้อมของบัญชีก่อนเริ่มทำงาน\n\nShuffle account order: สลับลำดับการทำงานของบัญชีแบบสุ่ม เพื่อความเป็นธรรมชาติและเลี่ยงการโดนตรวจจับ\n\n![image](/images/image483.png)\n\nLoginคือ เลือกวิธีการใช้รหัสล็อกอิน\n\nLogin type: คือ รูปแบบการเข้าสู่ระบบ\n\nUid|Pass: เข้าสู่ระบบด้วย ID ผู้ใช้ และ รหัสผ่าน\n\nEmail|Pass: เข้าสู่ระบบด้วย อีเมล และ รหัสผ่าน\n\nCookie: เข้าสู่ระบบโดยใช้ค่า Cookie\n\nCookie > Pass: โปรแกรมจะพยายามเข้าด้วย Cookie ก่อน หาก Cookie ใช้ไม่ได้ จะเปลี่ยนไปใช้รหัสผ่านโดยอัตโนมัติ\n\n![image](/images/image678.png)\n\nInteraction :เลือก สคริปต์ การวอร์มบช ที่นี่\n\nSelect script: คือ เลือกสคริปต์ที่ต้องการใช้งาน\n\nManage: จัดการสคริปต์ เช่น การเพิ่ม ลบ หรือแก้ไขสคริปต์ในรายการ\n\nLimit run time per account (seconds):จำกัดระยะเวลาการทำงาน ต่อหนึ่งบัญชี\n\nLimit run time per turn (minutes):จำกัดระยะเวลาการทำงาน ต่อหนึ่งรอบ\n\nRerun all accounts after completed: โปรแกรมวนกลับมาทำงานใหม่หลังจากรันครบทุกบัญชีแล้ว\n\nTotal turns: กำหนดจำนวนรอบที่ต้องการให้สคริปต์กลับมาทำงาน\n\nWait for next turn: กำหนดระยะเวลาการพักก่อนจะเริ่มรันรอบถัดไป\n\n![image](/images/image190.png)\n\nAfter interaction:กำหนดให้ระบบดำเนินการอย่างใดอย่างหนึ่งโดยอัตโนมัติ หลังจากที่บัญชีทำงานตามโจทย์หลัก\n\nCheck Info Acc after running: ระบบจะทำการตรวจสอบข้อมูลเฉพาะของบัญชีนั้นๆ\n\nAuto get cookie: คัดลอก Cookie ของบัญชีออกมาโดยอัตโนมัติ\n\nAuto get token: ดึง Token อัตโนมัติ\n\nAllow others to follow: เปิดใช้งานการอนุญาตให้ผู้อื่นกดติดตามบัญชีนี้ได้\n\nCount posts on wall: สั่งให้ระบบนับจำนวนโพสต์ที่มีอยู่บนวอลล์ของบัญชี\n\nCheck create profile: ตรวจสอบการสร้างโปรไฟล์\n\nCheck password: ตรวจสอบว่ารหัสผ่านปัจจุบันยังใช้งานได้ปกติหรือไม่\n\nCheck Meta Verified: ตรวจสอบสถานะการยืนยันตัวตน (เครื่องหมายถูกสีฟ้า)\n\nLogout account: สั่งให้ระบบออกจากระบบทันทีหลังจากทำงานเสร็จ\n\nChange language: เปลี่ยนภาษาของบัญชี\n\nDelete account: สั่งให้ลบบัญชีทิ้งทันทีหลังจากเสร็จสิ้นภารกิจ\n\n",
+            "type": "markdown",
+            "images": [
+              "image213.png",
+              "image709.png",
+              "image665.png",
+              "image311.png",
+              "image483.png",
+              "image678.png",
+              "image190.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maxsystemcare_x3lvt",
+        "name": "MaxSystemCare",
         "sections": [
           {
             "title": "โปรแกรมตัวเสริมใช้ควบคู่สำหรับMaxcareใช้ระบบLDplayer Android Emulatorในการใช้งาน ทำให้บัญชีที่ผ่านการวอมจากMaxcareแล้ว หากนำมารันบนMaxSystemCareต่อ จะทำให้บัญชีนั้นแข็งแรงขึ้นอย่างมาก",
@@ -1351,16 +2278,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________ibx2z",
-    "name": "คู่มือดาวน์โหลดและติดตั้งโปรแกรม MaxSystemCare",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________________ibx2z",
+        "name": "คู่มือดาวน์โหลดและติดตั้งโปรแกรม MaxSystemCare",
         "sections": [
           {
             "title": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่Windows Security>>Virus & Threat protection>>Virus & Threat protection settingsจากนั้นกดManage settingsจากนั้นปิดReal-time protectionเป็นOff",
@@ -1468,16 +2389,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "__________________2j4qw",
-    "name": "วิธีใช้งานโปรแกรม",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "__________________2j4qw",
+        "name": "วิธีใช้งานโปรแกรม",
         "sections": [
           {
             "title": "รวมวิธีการใช้งานโปรแกรม MaxSystemCare",
@@ -1486,41 +2401,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "1____________________ao7ol",
-    "name": "1.วิธีการเชื่อมข้อมูลกับ Maxcare",
-    "categories": [
-      {
-        "id": "__image___images_ima_yl5lm",
-        "name": "",
-        "sections": []
       },
       {
-        "id": "__image___images_ima_hfhdk",
-        "name": "",
-        "sections": [
-          {
-            "title": "ตัวอย่างวิธีคัดลอก path folder Maxcare",
-            "content": "ตัวอย่างวิธีคัดลอก path folder Maxcare\n\n![image](/images/image460.png)\n\nหลังจากเปิดโปรแกรมเสร็จแล้ว ให้คลิกเมนูGeneral configsจากนั้น ติ๊กsync data with Maxcareเพื่อเชื่อมข้อมูลเฟสที่อยู่ในMaxcareจากนั้นกดSaveแล้วกดRefresh1 ครั้ง\n\n",
-            "type": "markdown",
-            "images": [
-              "image460.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "2___________ldplayer_ak2sb",
-    "name": "2.ดาวน์โหลด LDplayer ที่ถูกตั้งค่าเข้ากับ MaxSystemCare",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "2___________ldplayer_ak2sb",
+        "name": "2.ดาวน์โหลด LDplayer ที่ถูกตั้งค่าเข้ากับ MaxSystemCare",
         "sections": [
           {
             "title": "ต้องใช้โปรแกรม LDplayer ที่ถูกตั้งค่าเข้ากับ MaxSystemCare นี้เท่านั้น โดยสามารถดาวน์โหลดได้ผ่านที่นี่:",
@@ -1532,16 +2416,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "3____________________1ll48",
-    "name": "3. อธิบายการตั้งค่าต่างๆเบื้องต้น",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "3____________________1ll48",
+        "name": "3. อธิบายการตั้งค่าต่างๆเบื้องต้น",
         "sections": [
           {
             "title": "อธิบายฟังก์ชั่นการใช้งานพื้นฐาน",
@@ -1644,16 +2522,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "4____________________sm9qo",
-    "name": "4. อธิบายเมนูฟังก์ชั่นการทำงาน interactive (MaxSystemCare)",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_ogvgh",
-        "name": "",
+        "id": "4____________________sm9qo",
+        "name": "4. อธิบายเมนูฟังก์ชั่นการทำงาน interactive (MaxSystemCare)",
         "sections": [
           {
             "title": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น",
@@ -2197,21 +3069,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________de0a8",
-    "name": "วิธีแก้ไขปัญหาการโหลดล้มเหลวหยุดค้างที่ 94%",
-    "categories": [
-      {
-        "id": "1______________maxsy_bko0z",
-        "name": "1.ปิดซอฟต์แวร์ MaxSystemCare",
-        "sections": []
       },
       {
-        "id": "2____________________t8ral",
-        "name": "2.เข้าไปที่โฟลเดอร์ dnplayer",
+        "id": "_____________________de0a8",
+        "name": "วิธีแก้ไขปัญหาการโหลดล้มเหลวหยุดค้างที่ 94%",
         "sections": [
           {
             "title": "ดูที่อยู่ไฟล์ ไปที่ Genneral configs",
@@ -2220,13 +3081,7 @@ export const manualData: ProgramData[] = [
             "images": [
               "image39.png"
             ]
-          }
-        ]
-      },
-      {
-        "id": "3______________vms___6j3jl",
-        "name": "3.เปิดโฟลเดอร์ vms ลบโฟลเดอร์ทั้งหมดที่ขึ้นต้นด้วย \"leidian...\"",
-        "sections": [
+          },
           {
             "title": "Details",
             "content": "![image](/images/image145.png)\n\n",
@@ -2238,32 +3093,15 @@ export const manualData: ProgramData[] = [
         ]
       },
       {
-        "id": "4______maxsystemcare_xdjyy",
-        "name": "4.เปิด MaxSystemCare อีกครั้งเพื่อใช้งาน",
-        "sections": []
-      }
-    ]
-  },
-  {
-    "id": "____________status___n5q9y",
-    "name": "ล็อคอินแล้ว Status ขึ้น Changed pass แก้ยังไง",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "____________status___n5q9y",
+        "name": "ล็อคอินแล้ว Status ขึ้น Changed pass แก้ยังไง",
         "sections": [
           {
             "title": "กรณีที่ล็อคอินจากด้านนอกแล้วเข้าใช้งานได้ปกติ",
             "content": "กรณีที่ล็อคอินจากด้านนอกแล้วเข้าใช้งานได้ปกติ\n\n",
             "type": "markdown",
             "images": []
-          }
-        ]
-      },
-      {
-        "id": "1____________________dbems",
-        "name": "1.เลือกบัญชีที่ต้องการ",
-        "sections": [
+          },
           {
             "title": "Details",
             "content": "![image](/images/image764.png)\n\n",
@@ -2271,13 +3109,7 @@ export const manualData: ProgramData[] = [
             "images": [
               "image764.png"
             ]
-          }
-        ]
-      },
-      {
-        "id": "2____________________aifjw",
-        "name": "2.คลิกขวา ==> เลือกที่ LDPlayer (swap)==> เลือกที่ Delete profile",
-        "sections": [
+          },
           {
             "title": "Details",
             "content": "![image](/images/image30.png)\n\n",
@@ -2289,19 +3121,8 @@ export const manualData: ProgramData[] = [
         ]
       },
       {
-        "id": "3____________________ceoy7",
-        "name": "3.รันโปรแกรมใช้งานอีกรอบ",
-        "sections": []
-      }
-    ]
-  },
-  {
-    "id": "_____________failed__jd14s",
-    "name": "วิธีแก้ปัญหา failed to load 4.0",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________failed__jd14s",
+        "name": "วิธีแก้ปัญหา failed to load 4.0",
         "sections": [
           {
             "title": "วิธีแก้ปัญหาหลังจากติดตั้งเสร็จรันโปรแกรมแล้วติดปัญหาเหมือนในรูป",
@@ -2313,16 +3134,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "max_twitter_pro_blx4d",
-    "name": "Max Twitter Pro",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "max_twitter_pro_blx4d",
+        "name": "Max Twitter Pro",
         "sections": [
           {
             "title": "โปรแกรมใช้ในการฟาร์มบัญชี twitter อัตโนมัติ",
@@ -2357,16 +3172,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "1____________________4qzuc",
-    "name": "1.วิธีการนำบัญชีเข้าสู่โปรแกรม MaxTwitterPro",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "1____________________4qzuc",
+        "name": "1.วิธีการนำบัญชีเข้าสู่โปรแกรม MaxTwitterPro",
         "sections": [
           {
             "title": "อธิบายรายละเอียดการนำบัญชีเข้าสู่โปรแกรม MaxTwitter",
@@ -2387,16 +3196,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "2____________________61io0",
-    "name": "2.อธิบายการตั้งค่าต่างๆเบื้องต้น",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "2____________________61io0",
+        "name": "2.อธิบายการตั้งค่าต่างๆเบื้องต้น",
         "sections": [
           {
             "title": "อธิบายฟังก์ชั่นการใช้งานพื้นฐาน ของ MaxTwitter",
@@ -2478,16 +3281,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "3____________________e2l3z",
-    "name": "3.อธิบายเมนูฟังก์ชั่นการทำงาน Interactive (Max Twitter Pro)",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_y09yi",
-        "name": "",
+        "id": "3____________________e2l3z",
+        "name": "3.อธิบายเมนูฟังก์ชั่นการทำงาน Interactive (Max Twitter Pro)",
         "sections": [
           {
             "title": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น",
@@ -2957,16 +3754,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "4____________________an4le",
-    "name": "4.วิธีดาวน์โหลดและติดตั้งโปรแกรม Max Twitter Pro",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "4____________________an4le",
+        "name": "4.วิธีดาวน์โหลดและติดตั้งโปรแกรม Max Twitter Pro",
         "sections": [
           {
             "title": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off",
@@ -3012,16 +3803,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "5______________proxy_shhso",
-    "name": "5.วิธีการเพิ่ม proxy โปรแกรม Maxtwitter",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "5______________proxy_shhso",
+        "name": "5.วิธีการเพิ่ม proxy โปรแกรม Maxtwitter",
         "sections": [
           {
             "title": "1.เลือกบัญชีที่ต้องการ ==> คลิกขวา ==>Enter proxy",
@@ -3047,16 +3832,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________jn0yd",
-    "name": "โพสต์รูปภาพไม่ได้แก้ไขอย่างไร",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________________jn0yd",
+        "name": "โพสต์รูปภาพไม่ได้แก้ไขอย่างไร",
         "sections": [
           {
             "title": "1.ไปที่General configs==> เลือกShow image when opening browser",
@@ -3067,16 +3846,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "__________________de_nhavs",
-    "name": "รันโปรแกรมแล้วที่ Description แจ้งว่า An unkown error!",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "__________________de_nhavs",
+        "name": "รันโปรแกรมแล้วที่ Description แจ้งว่า An unkown error!",
         "sections": [
           {
             "title": "1.ไปที่General configs==> เลือกChrome",
@@ -3087,16 +3860,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxreupfacebook_qbul7",
-    "name": "MaxReupFacebook",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxreupfacebook_qbul7",
+        "name": "MaxReupFacebook",
         "sections": [
           {
             "title": "โปรแกรมโพสต์คลิป Reels MaxReup",
@@ -3105,16 +3872,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "1_max_reup___________35dkq",
-    "name": "1.Max Reup วิธีการดาวน์โหลดติดตั้ง",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "1_max_reup___________35dkq",
+        "name": "1.Max Reup วิธีการดาวน์โหลดติดตั้ง",
         "sections": [
           {
             "title": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย",
@@ -3133,16 +3894,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "2_maxreup____________zp4hr",
-    "name": "2.MaxReup การเพิ่มบัญชี",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "2_maxreup____________zp4hr",
+        "name": "2.MaxReup การเพิ่มบัญชี",
         "sections": [
           {
             "title": "1.ไปที่Add account",
@@ -3154,16 +3909,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "3_maxreup____________yvk33",
-    "name": "3.MaxReup วิธีการเช็คเพจเช็คและดึงเพจ",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "3_maxreup____________yvk33",
+        "name": "3.MaxReup วิธีการเช็คเพจเช็คและดึงเพจ",
         "sections": [
           {
             "title": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว",
@@ -3175,16 +3924,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "4____________________fba0p",
-    "name": "4.การตั้งค่าทั่วไปโปรแกรม MaxReup (General configuration)",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_b066v",
-        "name": "",
+        "id": "4____________________fba0p",
+        "name": "4.การตั้งค่าทั่วไปโปรแกรม MaxReup (General configuration)",
         "sections": [
           {
             "title": "การตั้งค่าทั่วไป (General configuration)",
@@ -3203,16 +3946,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "5_________________re_tqyqf",
-    "name": "5.การตั้งค่าโพสต์ reel (Configure post reel)",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_jxu2p",
-        "name": "",
+        "id": "5_________________re_tqyqf",
+        "name": "5.การตั้งค่าโพสต์ reel (Configure post reel)",
         "sections": [
           {
             "title": "การตั้งค่าโพสต์ reel (Configure post reel)",
@@ -3227,16 +3964,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "6_maxreup____________a5vpm",
-    "name": "6.MaxReup การใช้งานฟังก์ชันอื่นๆ",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_63al4",
-        "name": "",
+        "id": "6_maxreup____________a5vpm",
+        "name": "6.MaxReup การใช้งานฟังก์ชันอื่นๆ",
         "sections": [
           {
             "title": "ในฝั่งAccount list คลิกขวาจะมีฟังก์ชันขึ้นมาให้ใช้งาน",
@@ -3262,16 +3993,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "7_maxreup____________hq8rk",
-    "name": "7.MaxReup ตัดต่อวิดีโอ (Edit video)",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "7_maxreup____________hq8rk",
+        "name": "7.MaxReup ตัดต่อวิดีโอ (Edit video)",
         "sections": [
           {
             "title": "ตัดต่อวิดีโอ (Edit video)",
@@ -3288,16 +4013,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "8_max_reup___________e8f1u",
-    "name": "8.Max Reup การจัดหมวดหมู่สำหรับโพสต์วิดีโอให้แต่ละเพจ",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "8_max_reup___________e8f1u",
+        "name": "8.Max Reup การจัดหมวดหมู่สำหรับโพสต์วิดีโอให้แต่ละเพจ",
         "sections": [
           {
             "title": "1.ไปที่ Page category (หมวดหมู่เพจ)",
@@ -3323,16 +4042,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "9_max_reup___________xg9da",
-    "name": "9.Max Reup การใช้งานฟังก์ชันผู้ดูแลเพจ",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "9_max_reup___________xg9da",
+        "name": "9.Max Reup การใช้งานฟังก์ชันผู้ดูแลเพจ",
         "sections": [
           {
             "title": "แชร์สิทธิการดูแลเพจ",
@@ -3371,29 +4084,17 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________3iflg",
-    "name": "ไม่สามารถเปิดใช้งานโปรแกรมได้",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________________3iflg",
+        "name": "ไม่สามารถเปิดใช้งานโปรแกรมได้",
         "sections": [
           {
             "title": "1.โปรแกรมขึ้นว่า Login fail 2.โปรแกรมเริ่มทำงานแล้วไม่ล็อคอินบัญชี",
             "content": "1.โปรแกรมขึ้นว่า Login fail 2.โปรแกรมเริ่มทำงานแล้วไม่ล็อคอินบัญชี\n\n",
             "type": "markdown",
             "images": []
-          }
-        ]
-      },
-      {
-        "id": "______utilities____u_vzxg1",
-        "name": "ไปที่ Utilities >> Update chromrdriver อัพเดต Crome Driver",
-        "sections": [
+          },
           {
             "title": "Details",
             "content": "![image](/images/image398.png)\n\n",
@@ -3403,16 +4104,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________77ofx",
-    "name": "วิธีนำเข้าบัญชีและการเลือก Type login ให้ตรงกับข้อมูลบัญชี",
-    "categories": [
+      },
       {
-        "id": "2_1_________________ige78",
-        "name": "2.1 วิธีนำเข้าบัญชี",
+        "id": "_____________________77ofx",
+        "name": "วิธีนำเข้าบัญชีและการเลือก Type login ให้ตรงกับข้อมูลบัญชี",
         "sections": [
           {
             "title": "1.ไปที่ Add account",
@@ -3422,13 +4117,7 @@ export const manualData: ProgramData[] = [
               "image509.png",
               "image405.png"
             ]
-          }
-        ]
-      },
-      {
-        "id": "2_2__________type_lo_q6ica",
-        "name": "2.2 การเลือก Type login ให้ตรงกับข้อมูล",
-        "sections": [
+          },
           {
             "title": "1.ไปที่ General configuration",
             "content": "1.ไปที่ General configuration\n\n![image](/images/image493.png)\n\n2.เลือก Type login\n\nกรณีที่ข้อมูลบัญชีมี UID หรือ Email และ Pass(รหัสผ่าน) ให้เลือก Login Type เป็น UID | Pass\n\nกรณีที่ข้อมูลบัญชีมี Cookie เพิ่มมาด้วย สามารถเลือก Login Type เป็น Cookie หรือ Cookie > Uid|Pass\n\nจากนั้นกด Save\n\n![image](/images/image13.png)\n\n",
@@ -3439,16 +4128,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "__________proxy____m_7r9vu",
-    "name": "การใช้งาน Proxy ใน MaxReup",
-    "categories": [
+      },
       {
-        "id": "1___________proxy_v183j",
-        "name": "1.การนำเข้า Proxy",
+        "id": "__________proxy____m_7r9vu",
+        "name": "การใช้งาน Proxy ใน MaxReup",
         "sections": [
           {
             "title": "การนำเข้าในแต่ละบัญชี",
@@ -3460,13 +4143,7 @@ export const manualData: ProgramData[] = [
               "image94.png",
               "image324.png"
             ]
-          }
-        ]
-      },
-      {
-        "id": "2__________________p_ji8ny",
-        "name": "2.การตั้งค่าใช้งาน Proxy",
-        "sections": [
+          },
           {
             "title": "1.ไปที่หน้า General configuration",
             "content": "1.ไปที่หน้า General configuration\n\n![image](/images/image493.png)\n\n2.ในช่อง IP change option : เลือก Proxy\n\n![image](/images/image282.png)\n\n3.ตัวเลือกการใช้ Proxy\n\n![image](/images/image376.png)\n\nAssigned to each acccount :ใช้ Proxy ที่อยู่ในแต่ละบัญชี\n\n![image](/images/image544.png)\n\nRandom in the list :แบบสุ่มในรายการ\n\n![image](/images/image202.png)\n\n",
@@ -3480,140 +4157,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare_page_o6snn",
-    "name": "MaxCare Page",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "เครื่องมือที่ช่วยเราบริหารจัดการเพจเฟสบุ๊คจำนวนมาก ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น",
-            "content": "เครื่องมือที่ช่วยเราบริหารจัดการเพจเฟสบุ๊คจำนวนมาก ไปพร้อมๆ กับการใช้งานฟังชั่นที่หลากหลายมากยิ่งขึ้น\n\nระบบฟาร์มเพจเฟสบุ๊คอัติโนมัติ ไม่จำกัดจำนวนเฟช ใช้ระบบ Chrome Browser ในการรัน\n\nด้วยฟังชั่นครบครัน ดังนี้\n\n![image](/images/image389.png)\n\nปั๊มยอดผู้ติดตามโปรไฟล์ส่วนตัว\n\nปั๊มไลก์และคอมเมนต์บนโพสต์\n\nปั๊มไลก์และติดตามเพจ\n\nสแปมโพสต์ (กลุ่ม, เพจ, โปรไฟล์)\n\nสแปมโพสต์ตามคีย์เวิร์ด\n\nให้คะแนนรีวิวเพจ\n\nสร้างปฏิสัมพันธ์ในไลฟ์สด\n\nโพสต์บนวอลล์ของเพจอื่น (แจ้งเตือน)\n\nสแปมตอบกลับคอมเมนต์ตามคีย์เวิร์ด\n\nสแปมตอบกลับคอมเมนต์ (กลุ่ม, เพจ...)\n\nสแปมตอบกลับคอมเมนต์ในโพสต์ที่ระบุ\n\nสแปมตอบกลับคอมเมนต์ที่เจาะจง\n\nแก้ไขคอมเมนต์\n\nอ่านประกาศ\n\nปฏิสัมพันธ์กับ Reels\n\nโพสต์\n\nตั้งเวลาหยุดพัก\n\nโพสต์สตอรี่\n\nโพสต์แท็ก UID ที่ระบุ\n\nตอบกลับข้อความแชท\n\nตอบกลับคอมเมนต์\n\nโพสต์แท็กพร้อมปุ่มกด\n\nส่งคำเชิญให้กดไลก์เพจ\n\nคัดลอกเนื้อหาโพสต์ที่ระบุ\n\nคัดลอกโพสต์จากเพจที่ระบุ\n\nโพสต์คลิป Reels\n\nลบโพสต์ในเพจ\n\nเข้ากลุ่มตามคีย์เวิร์ด\n\nแชร์โพสต์ลงกลุ่ม\n\nเข้ากลุ่มที่กำหนดไว้\n\nสแปมโพสต์ในกลุ่มที่เป็นสมาชิก\n\nโพสต์ลงในกลุ่มที่เป็นสมาชิก\n\nโพสต์ลงในกลุ่มที่กำหนดไว้\n\nสแปมตอบกลับคอมเมนต์จากกลุ่มที่มีส่วนร่วม\n\nสร้างกลุ่ม\n\nสร้างกิจกรรม\n\nแชร์โพสต์ไปยังกลุ่มที่กำหนด\n\nอัปเดตรูปโปรไฟล์\n\nอัปเดตรูปหน้าปก\n\nอัปเดตประวัติ/คำแนะนำตัว\n\nอัปเดตชื่อเพจ\n\nอัปเดตข้อมูลทั่วไป\n\nตั้งค่าจำกัดประเทศ\n\nตั้งค่าจำกัดอายุ\n\nบล็อก UID ที่ระบุ\n\nลบหน้าเพจระบุตำแหน่งทั้งหมด\n\n",
-            "type": "markdown",
-            "images": [
-              "image389.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________942pm",
-    "name": "คู่มือดาวน์โหลดและติดตั้งโปรแกรม MaxCare Page",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off",
-            "content": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off\n\n1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย\n\nเข้าไปยังเว็บไซต์ Minsoft\n\n![image](/images/image793.png)\n\nล็อคอินเข้าใช้งาน\n\n![image](/images/image755.png)\n\nไปยังหน้าการจัดการซอร์ฟแวร์\n\n![image](/images/image711.png)\n\n2.จากนั้นไปที่โปรแกรม MaxCarePage ==> กด ดาวน์โหลด\n\n![image](/images/image499.png)\n\nหากขึ้นไม่สามารถดาวน์โหลดได้ ให้กด Ctrl + J\n\n![image](/images/image280.png)\n\nกดที่ จุด 3 จุด\n\n![image](/images/image488.png)\n\nเลือกดาวน์โหลดไฟล์อันตราย\n\n![image](/images/image655.png)\n\n3.หลังจากดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้คลิกขวาที่ไฟล์ MaxCarePage.zip ที่โหลดมา จากนั้นกดแตกไฟล์\n\n![image](/images/image787.png)\n\n4.หลังจากแตกไฟล์เสร็จเรียบร้อยแล้ว เข้าไปยังโฟลเดอร์ MaxCarePage แล้วกด AutoUpdate รอจนกว่าจะอัพเดตเสร็จ\n\n![image](/images/image278.png)\n\n5.เข้าใช้งานโปรแกรม ทำการเข้าระบบให้เรียบร้อย\n\n![image](/images/image357.png)\n\n6.เลือกServer เป็น Thailand\n\n![image](/images/image225.png)\n\nเมื่อเข้าระบบเสร็จแล้ว ให้ไปที่ Utilities >> Update chromedriver เพื่ออัพเดตโครมไดรเวอร์\n\n![image](/images/image154.png)\n\n*เป็นอันเสร็จขั้นตอนการติดตั้งโปรแกรม MaxCare Page***\n\n",
-            "type": "markdown",
-            "images": [
-              "image793.png",
-              "image755.png",
-              "image711.png",
-              "image499.png",
-              "image280.png",
-              "image488.png",
-              "image655.png",
-              "image787.png",
-              "image278.png",
-              "image357.png",
-              "image225.png",
-              "image154.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "maxcarepage__________raa5v",
-    "name": "MaxCarePage วิธีเพิ่มบัญชีเฟสบุ๊คโปรแกรม",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "1.ไปที่ More account",
-            "content": "1.ไปที่ More account\n\n![image](/images/image613.png)\n\nเพิ่มข้อมูลบัญชีในช่องว่าง\n\nจากนั้นเลือก Import format ให้ตรงกับข้อมูลบัญชี จากนั้กด comfirm\n\n![image](/images/image732.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image613.png",
-              "image732.png"
-            ]
-          },
-          {
-            "title": "รูปแบบข้อมูล",
-            "content": "รูปแบบข้อมูล\n\n![image](/images/image224.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image224.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "maxcare_page_________b7hty",
-    "name": "MaxCare Page วิธีการเช็คเพจเช็คและดึงเพจ",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว",
-            "content": "หลังจากเพิ่มบัญชีเข้าในโปรแกรมแล้ว\n\n1.คลิกขวาไปที่ Page function  ==> Check the list pages ==> Open the browser\n\n![image](/images/image384.png)\n\nConfigure check page (การตั้งค่าหน้าตรวจสอบ)\n\nCheck the location page: ตรวจสอบตำแหน่งที่ตั้งของเพจ\n\nEnable disabled page: เปิดใช้งานเพจที่ถูกปิดใช้งาน\n\nDo not add a page that already exists: ห้ามเพิ่มเพจที่มีอยู่แล้ว\n\n![image](/images/image436.png)\n\n2.หลังจากเช็คเพจเสร็จแล้วคลิกขวา ==> จากนั้น Load page list ==> สามารถเลือกจำนวนเพจที่ต้องการได้\n\n![image](/images/image503.png)\n\nเป็นอันเสร็จขึ้นตอนการเช็คและดึงเพจเพื่อใช้งาน\n\n",
-            "type": "markdown",
-            "images": [
-              "image384.png",
-              "image436.png",
-              "image503.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________vousi",
-    "name": "วิธีการเชื่อมข้อมูลกับ Maxcare",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
-            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image370.png)\n\n2.กลับมาที่โปรแกรม MaxCarePage ไปที่ genneral configuration ==> ไปที่ Data synchronization เลือกเชื่อมต่อกับ maxcare ==> วางที่อยู่โฟลเดอร์ในช่องว่าง ==> กด Save\n\n![image](/images/image309.png)\n\n3.กด Refresh\n\n![image](/images/image604.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
-            "type": "markdown",
-            "images": [
-              "image370.png",
-              "image309.png",
-              "image604.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________ulv5u",
-    "name": "อธิบายการตั้งค่าต่างๆเบื้องต้น",
-    "categories": [
-      {
-        "id": "__image___images_ima_3o574",
-        "name": "",
+        "id": "_____________________ulv5u",
+        "name": "อธิบายการตั้งค่าต่างๆเบื้องต้น",
         "sections": [
           {
             "title": "1.General configuration",
@@ -3643,16 +4190,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________o4in0",
-    "name": "การใช้งานฟังก์ชันอื่นๆ",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________________o4in0",
+        "name": "การใช้งานฟังก์ชันอื่นๆ",
         "sections": [
           {
             "title": "1.ฟังก์ชันคลิกขวาฝั่ง Account list",
@@ -3664,16 +4205,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________6vw49",
-    "name": "อธิบายเมนูฟังก์ชั่นการทำงาน Action list",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_xxn9l",
-        "name": "",
+        "id": "_____________________6vw49",
+        "name": "อธิบายเมนูฟังก์ชั่นการทำงาน Action list",
         "sections": [
           {
             "title": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น",
@@ -4079,156 +4614,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "___________cpu_100___wsipf",
-    "name": "แก้ไขปัญหา CPU 100% เมื่อใช้ Chrome Maxcare Page",
-    "categories": [
-      {
-        "id": "1_______________6bfwl",
-        "name": "1.เข้าไปที่เว็บ",
-        "sections": [
-          {
-            "title": "Details",
-            "content": "![image](/images/image645.png)\n\nหลังจากนั้น กด Ctrl+F แล้วพิมพ์ตรงช่องค้นหา 123 เลือกดาวน์โหลดตามที่ในกรอบสีแดง รอจนกว่าจะดาวน์โหลดเสร็จ\n\n",
-            "type": "markdown",
-            "images": [
-              "image645.png"
-            ]
-          }
-        ]
       },
       {
-        "id": "2____________________0bkdv",
-        "name": "2.ติดตั้งไฟล์ที่ดาวน์โหลดมา",
-        "sections": [
-          {
-            "title": "Details",
-            "content": "![image](/images/image340.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image340.png"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3____________________e1sbd",
-        "name": "3.หลังจากดาวน์โหลดเสร็จ ไปที่อยู่ไฟล์ที่ดาวน์โหลดเสร็จ",
-        "sections": [
-          {
-            "title": "3.1 ไปที่ app",
-            "content": "3.1 ไปที่ app\n\n![image](/images/image574.png)\n\n3.2 ไปที่ chrome-bin\n\n![image](/images/image497.png)\n\n3.3 จากนั้นพิมพ์\\chrome.exe ในช่องที่อยู่ไฟล์ แล้วคัดลอก\n\n![image](/images/image402.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image574.png",
-              "image497.png",
-              "image402.png"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "4__________________m_n250l",
-        "name": "4.นำไปวางในโปรแกรม MaxCare Page",
-        "sections": [
-          {
-            "title": "ไปที่ general configuration ==> Đường dẫn chrome",
-            "content": "ไปที่ general configuration ==> Đường dẫn chrome\n\n![image](/images/image409.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image409.png"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "5____________________3hba5",
-        "name": "5คัดลอกลิงค์ไปวางในแท็บใหม่",
-        "sections": [
-          {
-            "title": "รอจนโหลดเสร็จ",
-            "content": "รอจนโหลดเสร็จ\n\n",
-            "type": "markdown",
-            "images": []
-          }
-        ]
-      },
-      {
-        "id": "6____________________l3z74",
-        "name": "6.จากนั้นเปลี่ยนชื่อไฟล์ เพิ่ม .zip",
-        "sections": [
-          {
-            "title": "Details",
-            "content": "![image](/images/image120.png)\n\n6.1 กด Yes\n\n![image](/images/image165.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image120.png",
-              "image165.png"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "7____________________w84v3",
-        "name": "7.หลังจากแตกไฟล์เข้าไปที่ driver > win32 จากนั้นกดคัดลอก chromedriver.exe",
-        "sections": [
-          {
-            "title": "Details",
-            "content": "![image](/images/image636.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image636.png"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "8____________________a85pz",
-        "name": "8.นำไปวางในโฟลเดอร์ MaxCare Page",
-        "sections": [
-          {
-            "title": "หากขึ้นหน้าต่างแบบนี้",
-            "content": "หากขึ้นหน้าต่างแบบนี้\n\n![image](/images/image256.png)\n\nให้ไปที่โปรแกรม MaxCare Page ==> Utilities แล้วกด Kill chromedriver\n\n![image](/images/image116.png)\n\nจากนั้น กด Try Again เป็นอันเสร็จขั้นตอนการแก้ปัญหา\n\n",
-            "type": "markdown",
-            "images": [
-              "image256.png",
-              "image116.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "maxphonefarm_7v6i9",
-    "name": "MaxPhoneFarm",
-    "categories": [
-      {
-        "id": "maxphone_farm_3gqpf",
-        "name": "Maxphone Farm",
-        "sections": [
-          {
-            "title": "Maxphone Farm คือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) ทำให้เปรียบเสมือนเรามีจำนวน โปรไฟล์จริง ที่ใช้รันระบบฟาร์ม",
-            "content": "Maxphone Farm คือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) ทำให้เปรียบเสมือนเรามีจำนวน โปรไฟล์จริง ที่ใช้รันระบบฟาร์ม\n\nMaxphoneคือ การพัฒนาต่อยอดระบบ ฟาร์มบัญชี ของ Maxcare ด้วยเทคโนโลยี ออกแบบใหม่ เพื่อให้ตอบสนอง และประสิทธิภาพ ดีขึ้น ระบบฟาร์มบัญชี โดยการใช้เครื่อง มือถือ แบบ Physical ( เครื่องจริง ) และพัฒนา Custom Rom ตามฉบับของ Maxcare ทำให้ตัวเครื่อง เปรียบเสมือนจำนวน โปรไฟล์ ที่ใช้รันระบบฟาร์มจุดเด่น maxphone farm\n\nมีฟังชั่นเพิ่มเติมจาก Maxcare และ Maxsystemcare คือ ฟังก์ชั่น Post Reels เนื่องจากปัจจุบันผู้คนหันมาสนใจคลิปสั้นใน Reels มากขึ้นจึงมีฟังก์ชั่นนี้ เพื่อให้ตอบโจทย์ผู้ใช้งาน\n\nมีให้เลือก Buff Like page ทั้ง 2 แบบ เพจทั่วไป และ เพจโปรไฟล์ ที่คนหันมานิยมใช้\n\nลดอัตราการแบนลงอย่างมาก เนื่องจากมีฟังก์ชั่น change device เปลี่ยนข้อมูลอุปกรณ์ ใหม่หมดในทุกครั้งทีมีการเปิดโปรไฟล์ใช้งาน\n\n![image](/images/image170.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image170.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________85j6h",
-    "name": "การดาวน์โหลดและการติดตั้งโปรแกรม Max Phone Farm",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________________85j6h",
+        "name": "การดาวน์โหลดและการติดตั้งโปรแกรม Max Phone Farm",
         "sections": [
           {
             "title": "1.หลังจากดาวน์โหลดโปรแกรม Maxphonefarm เสร็จแล้วตลิกขวาเพื่อแตกไฟล์โปรแกรม",
@@ -4283,16 +4672,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxphone_farm________cfwsm",
-    "name": "MaxPhone Farm ขั้นตอนการลงเฟิร์มแวร์ในมือถือ (สำหรับมือถือที่ไม่ใช่ Boxphone)",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "maxphone_farm________cfwsm",
+        "name": "MaxPhone Farm ขั้นตอนการลงเฟิร์มแวร์ในมือถือ (สำหรับมือถือที่ไม่ใช่ Boxphone)",
         "sections": [
           {
             "title": "ขั้นตอนการลงเฟิร์มแวร์ MaxPhoneFarm ในมือถือ(สำหรับมือถือที่ไม่ใช่ Boxphone)",
@@ -4946,16 +5329,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "max_phone_farm_______ndthg",
-    "name": "Max Phone Farm อธิบายการตั้งค่าต่างๆเบื้องต้น",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "max_phone_farm_______ndthg",
+        "name": "Max Phone Farm อธิบายการตั้งค่าต่างๆเบื้องต้น",
         "sections": [
           {
             "title": "อธิบายการตั้งค่าต่างๆเบื้องต้น general config",
@@ -4986,560 +5363,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________lwboe",
-    "name": "การใช้งานฟังก์ชั่่น MaxPhoneFarm",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_d7xpd",
-        "name": "",
-        "sections": [
-          {
-            "title": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น",
-            "content": "อธิบายแต่ละฟังก์ชั่นโดยละเอียดโดยแยกแต่ละกลุ่มฟังก์ชั่น\n\nSeeding\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.Review Pages(รีวิวเพจ)",
-            "content": "1.Review Pages(รีวิวเพจ)\n\n![image](/images/image16.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nId Page:ช่องสำหรับระบุ ID ของหน้าที่คุณต้องการเข้าไปทำการรีวิว\n\nLike page:ติ๊กเครื่องหมายถูก หากต้องการให้ระบบกด Like เพจ���ั้��� ๆ ��ปด้วยในตัว\n\nการตั้งค่าการจัดการเนื้อหา\n\nReview content (0):ช่องสี่เหลี่ยมขนาดใหญ่สำหรับพิมพ์หรือวางข้อความรีวิว โดยตัวเลขในวงเล็บจะแสดงจำนวนเนื้อหาที่มีอยู่\n\n",
-            "type": "markdown",
-            "images": [
-              "image16.png"
-            ]
-          },
-          {
-            "title": "Option: รูปแบบเนื้อหา",
-            "content": "Option: รูปแบบเนื้อหา\n\nContent is only 1 line: เลือกข้อนี้หากต้องการให้ระบบมองว่าเนื้อหา 1 บรรทัด คือ 1 รีวิว\n\nContent has many lines: เลือกข้อนี้หากเนื้อหารีวิวหนึ่งรายการมีความยาวหลายบรรทัด\n\nปุ่ม (?): ปุ่มช่วยเหลือเพื่อดูคำอธิบายเพิ่มเติมเกี่ยวกับรูปแบบการใส่เนื้อหา\n\nการตั้งค่าเพิ่มเติม\n\nAuto Delete used content:หากติ๊กช่องนี้ ระบบจะลบเนื้อหาที่ถูกใช้งานไปแล้วออกจากรายการโดยอัตโนมัติ เพื่อป้องกันการรีวิวซ้ำ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "2.Buff Like Page(การกดไลค์เพจและติดตามเพจ)",
-            "content": "2.Buff Like Page(การกดไลค์เพจและติดตามเพจ)\n\n![image](/images/image233.png)\n\nEnter Id Page :ไอดีเพจ\n\n",
-            "type": "markdown",
-            "images": [
-              "image233.png"
-            ]
-          },
-          {
-            "title": "3.Buff Follow UID(การกดติดตามโปรไฟล์)",
-            "content": "3.Buff Follow UID(การกดติดตามโปรไฟล์)\n\n![image](/images/image431.png)\n\nEnter UID: ID Account ที่ต้องการติดตาม\n\n",
-            "type": "markdown",
-            "images": [
-              "image431.png"
-            ]
-          },
-          {
-            "title": "4.Interact specified posts (โต้ตอบโพสต์ที่ระบุ)",
-            "content": "4.Interact specified posts (โต้ตอบโพสต์ที่ระบุ)\n\n![image](/images/image312.png)\n\nข้อมูลพื้นฐานและการตั้งค่าเวลา\n\nPosts/account:กำหนดจำนวนโพสต์ที่ต้องการให้แต่ละบัญชีเข้าไปมีปฏิสัมพันธ์\n\nBreak (s):ระยะเวลาหยุดพักระหว่างการทำแต่ละโพสต์\n\nRead post:ระยะเวลาที่ระบบจะทำการ \"เปิดอ่าน\" หรือค้างอยู่ที่หน้าโพสต์นั้นๆ\n\n",
-            "type": "markdown",
-            "images": [
-              "image312.png"
-            ]
-          },
-          {
-            "title": "การตั้งค่าข้อมูลเป้าหมาย",
-            "content": "การตั้งค่าข้อมูลเป้าหมาย\n\nList of post links:ช่องสำหรับใส่ URL หรือลิงก์ของโพสต์ที่ต้องการให้ระบบเข้าไปจัดการ โดยตัวเลขในวงเล็บจะแสดงจำนวนลิงก์ที่มีอยู่ในรายการ\n\nการตั้งค่าการแสดงความรู้สึกและแชร์\n\nExpress feelings:ติ๊กถูกเพื่อเลือกการกด Reaction (Like, Love, Care, Haha, Wow, Sad, Angry)\n\nShare wall:ติ๊กถูกหากต้องการให้ระบบแชร์โพสต์นั้นๆ ไปยังหน้า Timeline ของบัญชี\n\nการตั้งค่าความคิดเห็น\n\nComment by text:แสดงความเห็นด้วยข้อความ\n\nList Comments: ช่องสำหรับใส่ข้อความที่ต้องการใช้คอมเมนต์\n\nOption: ตัวเลือกรูปแบบข้อความ\n\nAuto Delete used content: ติ๊กถูกหากต้องการให้ระบบลบข้อความที่ใช้ไปแล้วออกจากรายการอัตโนมัติ\n\nComment by image:แสดงความเห็นด้วยรูปภาพ\n\nImage folder: ช่องสำหรับระบุที่อยู่ของโฟลเดอร์รูปภาพที่ต้องการใช้ในการคอมเมนต์\n\nการตั้งค่าการจัดการวิดีโอ\n\nInteract with videos on posts:ติ๊กถูกหากในโพสต์นั้นเป็นวิดีโอและต้องการให้ระบบดูวิดีโอด้วย\n\nTime watch:กำหนดช่วงเวลาที่จะให้ระบบรับชมวิดีโอ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "5.Interact Posts by Keyword (โต้ตอบโพสต์ด้วยคีย์เวิร์ด)",
-            "content": "5.Interact Posts by Keyword (โต้ตอบโพสต์ด้วยคีย์เวิร์ด)\n\n![image](/images/image319.png)\n\nการตั้งค่าพื้นฐาน\n\nPosts:กำหนดจำนวนโพสต์ที่ต้องการให้ระบบเข้าไปมีปฏิสัมพันธ์\n\nDelay time:ระยะเวลาหน่วงระหว่างการทำงานในแต่ละโพสต์\n\nการตั้งการจัดการคีย์เวิร์ด\n\nList of keywords:ใส่คีย์เวิร์ดที่คุณต้องการค้นหา\n\n",
-            "type": "markdown",
-            "images": [
-              "image319.png"
-            ]
-          },
-          {
-            "title": "รูปแบบการกรอก:",
-            "content": "รูปแบบการกรอก:\n\nใส่ 1 คำต่อ 1 บรรทัด\n\nรองรับระบบ Spin content โดยใช้รูปแบบ{คำที่1|คำที่2|คำที่3}เพื่อสุ่มคำในการค้นหา\n\nการตั้งค่าการโต้ตอบด้วยความรู้สึก\n\nExpress feelings:ติ๊กถูกเพื่อเปิดใช้งานการกดความรู้สึก\n\nตัวเลือกความรู้สึก:เลือกกด Like, Love, Care, Haha, Wow, Sad หรือ Angry ได้ตามต้องการ\n\nการตั้งค่าการโต้ตอบด้วยข้อความ\n\nComment by text:ติ๊กถูกเพื่อเปิดใช้งานการคอมเมนต์\n\nList Comments:ใส่ข้อความที่ต้องการคอมเมนต์ (รองรับ Spin content{a|b|c})\n\nOption:ตัวเลือกเสริม\n\nContent is only 1 line: คอมเมนต์เพียง 1 บรรทัด\n\nContent has many lines: คอมเมนต์แบบมีหลายบรรทัด\n\nRandom icon:ปุ่มสำหรับสุ่มไอคอนใส่ในคอมเมนต์\n\nการตั้งค่าการโต้ตอบด้วยรูปภาพ\n\nComment by image:ติ๊กถูกเพื่อเปิดใช้งานการคอมเมนต์ด้วยรูป\n\nImage folder:ระบุตำแหน่งที่เก็บไฟล์รูปภาพในเครื่องคอมพิวเตอร์ของคุณ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "6.Interact Video (ตอบโต้วิดีโอ)",
-            "content": "6.Interact Video (ตอบโต้วิดีโอ)\n\n![image](/images/image575.png)\n\nการตั้งค่าพื้นฐาน\n\nLink video:ใส่ URL หรือลิงก์ของวิดีโอที่ต้องการให้ระบบเข้าไปดำเนินการ\n\nTime watch:ตั้งค่าระยะเวลาในการรับชมวิดีโอ โดยระบุเป็นช่วง ขั้นต่ำ > สูงสุด\n\nการตั้งค่าการแสดงความรู้สึก\n\nExpress feelings:เมื่อติ๊กถูกที่ช่องนี้ คุณสามารถเลือกอิโมจิที่ต้องการให้ระบบกดเลือกได้ เช่น ถูกใจ (Like), รักเลย (Love), ห่วงใย, หัวเราะ, ว้าว, เศร้า หรือ โกรธ\n\nการตั้งค่าความคิดเห็น\n\nList Comments:พิมพ์ข้อความที่ต้องการลงในกล่องข้อความ\n\nเทคนิค:สามารถใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มเลือกข้อความ ลดการโดนตรวจจับว่าเป็นบอท\n\nRandom icon:ระบบสุ่มใส่อิโมจิในคอมเมนต์\n\nComment many times:หากต้องการคอมเมนต์หลายครั้ง ให้ตั้งค่า Delay time (s) เพื่อเว้นช่วงเวลาระยะห่างระหว่างแต่ละคอมเมนต์\n\nAuto Delete used content:ติ๊กหากต้องการให้ระบบลบข้อความที่ใช้ไปแล้วออกจากรายการ\n\nการตั้งค่าการแชร์\n\nShare wall:ติ๊กถูกหากต้องการให้ระบบแชร์วิดีโอนี้ลงไปที่หน้าไทม์ไลน์ (Wall) ของคุณ\n\n",
-            "type": "markdown",
-            "images": [
-              "image575.png"
-            ]
-          },
-          {
-            "title": "7.Invite Friends like Pages (ชวนเพื่อนกดไลค์เพจ)",
-            "content": "7.Invite Friends like Pages (ชวนเพื่อนกดไลค์เพจ)\n\n![image](/images/image474.png)\n\nQuantity :จำนวนเพื่อนที่ต้องการชวน\n\nList of Page IDs :รายการไอดีเพื่อนที่ต้องการกวน\n\n",
-            "type": "markdown",
-            "images": [
-              "image474.png"
-            ]
-          },
-          {
-            "title": "8.Invite friends join group (ชวนเพื่อนเข้าร่วมกลุ่ม)",
-            "content": "8.Invite friends join group (ชวนเพื่อนเข้าร่วมกลุ่ม)\n\n![image](/images/image578.png)\n\nQuantity :จำนวนเพื่อนที่ต้องการชวน\n\nDelay time :ระยะเวลาดีเลย์ในการช่วนเพื่อน\n\nGroup ID :ไอดีกลุ่มที่ต้องการเชิญเพื่อนเข้าร่วม\n\n",
-            "type": "markdown",
-            "images": [
-              "image578.png"
-            ]
-          },
-          {
-            "title": "9.Interact Reels by Link (ตอบโต้เรียลด้วยลิงค์)",
-            "content": "9.Interact Reels by Link (ตอบโต้เรียลด้วยลิงค์)\n\n![image](/images/image356.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nTime watch:ตั้งค่าระยะเวลาในการรับชมคลิป Reels โดยกำหนดเป็นช่วง\n\nการตั้งค่าการโต้ตอบ\n\nLike:ติ๊กถูกเพื่อกดถูกใจคลิปอัตโนมัติ\n\nShare Wall:ติ๊กถูกเพื่อแชร์คลิปลงบนหน้าวอลล์ (Timeline) ของตนเอง\n\nComment:ติ๊กถูกเพื่อเปิดใช้งานการแสดงความคิดเห็นอัตโนมัติ\n\nการจัดการความคิดเห็น\n\nList Comments:ช่องสำหรับใส่ข้อความที่ต้องการนำไปคอมเมนต์\n\nSpin content {a|b|c}:รองรับการสุ่มคำ (Spin Syntax) เพื่อให้แต่ละคอมเมนต์มีความหลากหลาย\n\n",
-            "type": "markdown",
-            "images": [
-              "image356.png"
-            ]
-          },
-          {
-            "title": "Option (รูปแบบเนื้อหา):",
-            "content": "Option (รูปแบบเนื้อหา):\n\nContent is only 1 line:เลือกเมื่อต้องการให้ 1 บรรทัด คือ 1 ข้อความคอมเมนต์\n\nContent has many lines:เลือกเมื่อ 1 ข้อความคอมเมนต์ของคุณมีความยาวหลายบรรทัด\n\nรายการลิงก์เป้าหมาย\n\nList of reel links:ช่องขนาดใหญ่ทางด้านขวา สำหรับวาง URL หรือลิงก์ของคลิป Reels ที่ต้องการให้ระบบเข้าไปทำงาน\n\nตัวเลขในวงเล็บ (0):จะแสดงจำนวนลิงก์ทั้งหมดที่คุณใส่ลงไป\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "10.Interact Reels by keywords (ตอบโต้เรียลด้วยคีย์เวิร์ด)",
-            "content": "10.Interact Reels by keywords (ตอบโต้เรียลด้วยคีย์เวิร์ด)\n\n![image](/images/image443.png)\n\nการตั้งค่าพื้นฐาน\n\nQuantity:กำหนดจำนวนวิดีโอ Reels ที่ต้องการให้ระบบเข้าไปดู โดยระบุเป็นช่วง\n\nTime watch:กำหนดระยะเวลาในการรับชมวิดีโอแต่ละตัว\n\nการตั้งค่ารูปแบบการปฏิสัมพันธ์\n\nLike:กดถูกใจวิดีโอ\n\nShare Wall:แชร์วิดีโอไปยังหน้าโปรไฟล์ (Wall) ของตนเอง\n\nComment:แสดงความคิดเห็นใต้วิดีโอ (หากเลือกช่องนี้ จะต้องไปตั้งค่าในส่วน \"List Comments\" ต่อ)\n\nการตั้งค่าการจัดการความคิดเห็น\n\nList Comments:ช่องสำหรับพิมพ์ข้อความที่ต้องการใช้คอมเมนต์\n\nSpin content {a|b|c}:รองรับการใช้รูปแบบ Spin เพื่อสุ่มคำพูด เช่น{สวัสดี|ทักทาย|เยี่ยมเลย}เพื่อลดการตรวจจับว่าเป็นสแปม\n\nOption:รูปแบบเนื้อหา\n\nContent is only 1 line: 1 บรรทัด คือ 1 ข้อความคอมเมนต์\n\nContent has many lines: ข้อความหนึ่งคอมเมนต์มีหลายบรรทัด\n\nการตั้งค่าการระบุคำค้นหา\n\nEnter keywords:ช่องสี่เหลี่ยมด้านขวาขนาดใหญ่ ให้คุณระบุคีย์เวิร์ด (คำค้นหา) ที่ต้องการให้ระบบใช้ค้นหาวิดีโอ Reels โดยระบุ 1 คำต่อ 1 บรรทัด\n\n",
-            "type": "markdown",
-            "images": [
-              "image443.png"
-            ]
-          },
-          {
-            "title": "11.Sync Contact (ซิงค์ผู้ติดต่อ)",
-            "content": "11.Sync Contact (ซิงค์ผู้ติดต่อ)\n\n![image](/images/image480.png)\n\nการตั้งค่าการนำเข้าข้อมูล\n\nImport list of Phone numbers:ช่องสี่เหลี่ยมขนาดใหญ่สำหรับใส่รายการหมายเลขโทรศัพท์ที่ต้องการซิงค์\n\nรูปแบบการกรอก:ข้อมูลแต่ละรายการต้องอยู่แยกกันบรรทัดละ 1 รายชื่อ (Each content 1 line)\n\nตัวนับจำนวน:มีตัวเลขแสดงจำนวนหมายเลขที่ถูกนำเข้าในวงเล็บหลังหัวข้อ\n\nการตั้งค่าการกำหนดปริมาณและการจัดการหมายเลข\n\nQuantity/device:ตั้งค่าจำนวนหมายเลขที่จะใช้ต่อหนึ่งอุปกรณ์ สามารถกำหนดเป็นช่วง\n\nAuto delete used phone numbers:สั่งให้ระบบลบหมายเลขโทรศัพท์ออกจากรายการโดยอัตโนมัติเมื่อใช้งานเสร็จสิ้นแล้ว\n\nการตั้งค่าการเพิ่มเพื่อน\n\nAmount:กำหนดจำนวนเพื่อนที่จะเพิ่ม\n\nDelay time:กำหนดระยะเวลาหน่วงหรือรอระหว่างการดำเนินการ\n\nChange Info\n\n",
-            "type": "markdown",
-            "images": [
-              "image480.png"
-            ]
-          },
-          {
-            "title": "1.Change password(เปลี่ยนรหัสผ่าน)",
-            "content": "1.Change password(เปลี่ยนรหัสผ่าน)\n\n![image](/images/image339.png)\n\nImport new password :นำเข้ารหัสผ่านใหม่\n\nRandom :แบบสุ่ม\n\nImport password :แบบนำเข้าระหัสผ่าน\n\nImport :นำเข้า\n\nLogout of old devices :ออกจากระบบอุปกรณ์เก่า\n\n",
-            "type": "markdown",
-            "images": [
-              "image339.png"
-            ]
-          },
-          {
-            "title": "2.Up avatar(อัพรูปโปรไฟล์)",
-            "content": "2.Up avatar(อัพรูปโปรไฟล์)\n\n![image](/images/image489.png)\n\nImage folder :เพิ่ม Path Folder ของรูปภาพ เช่น C:\\MaxPhoneFarmPro\\profiles\\img\n\nDelete used images :ลบรูปภาพที่ใช้แล้ว\n\nSkip if already have avatar: ข้ามไปหากมีรูปโปไฟล์อยู่แล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image489.png"
-            ]
-          },
-          {
-            "title": "3.Up cover(การอัพรูปภาพหน้าปก)",
-            "content": "3.Up cover(การอัพรูปภาพหน้าปก)\n\n![image](/images/image86.png)\n\nImage folder :ที่อยู่ไฟล์รูปภาพเช่น C:\\MaxPhoneFarmPro\\profiles\\imgDelete used images:ลบรูปภาพที่ใช้แล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image86.png"
-            ]
-          },
-          {
-            "title": "4.Remove Phone(การลบหมายเลขโทรศัพท์ออกจาก FB)",
-            "content": "4.Remove Phone(การลบหมายเลขโทรศัพท์ออกจาก FB)\n\n![image](/images/image788.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image788.png"
-            ]
-          },
-          {
-            "title": "5.On - Off 2FA(การเปิด-ปิด 2FA หรือการยืนยันตัวตนแบบสองชั้น)",
-            "content": "5.On - Off 2FA(การเปิด-ปิด 2FA หรือการยืนยันตัวตนแบบสองชั้น)\n\n![image](/images/image131.png)\n\nDisable 2FA :คือ การปิด 2 FA (ปิดการยืนยันตัวตน 2 ชั้น)\n\nEnable 2FA :คือ  การเปิด 2 FA (เปิดการยืนยันตัวตน 2 ชั้น)- If the account already has 2FA :หาก 2 FA เปิดอยู่แล่ว -Don't enable 2FA :ไม่ต้องการเปิดซ้ำ- Add new 2FA :เพิ่ม 2FA ใหม่- Remove 2FA + Add new 2FA :ลบ 2FA เก่าออก เพิ่มใหม่6.Add mail (เพิ่มอีเมล์)\n\n",
-            "type": "markdown",
-            "images": [
-              "image131.png"
-            ]
-          },
-          {
-            "title": "6.Add mail (เพิ่มอีเมล์)",
-            "content": "6.Add mail (เพิ่มอีเมล์)\n\n![image](/images/image434.png)\n\nAdd Mail :เพิ่มอีเมล์\n\nType Mail :ประเภทอีเมลล์\n\nSet new mail to primary mail :ตั้งค่าเมลใหม่เป็นเมลหลัก\n\nRemove second mail :ลบอีเมลล์ที่สอง\n\n",
-            "type": "markdown",
-            "images": [
-              "image434.png"
-            ]
-          },
-          {
-            "title": "7.Change name (เปลี่ยนชื่อ)",
-            "content": "7.Change name (เปลี่ยนชื่อ)\n\n![image](/images/image57.png)\n\nRandom name :สุ่มชื่อ\n\nVN name :ชื่อเวียดนาม\n\nForeign name :ชื่อต่างประเทศ\n\nImport :นำเข้าชื่อ\n\nLname :นามสกุล\n\nMiddle name :ชื่อลาง\n\nFname :ชื่อ\n\n",
-            "type": "markdown",
-            "images": [
-              "image57.png"
-            ]
-          },
-          {
-            "title": "8.Change Info Account (เปลี่ยนข้อมูลบัญชี)",
-            "content": "8.Change Info Account (เปลี่ยนข้อมูลบัญชี)\n\n![image](/images/image156.png)\n\nBio :เรื่องราว\n\nWork :การทำงาน\n\nHigh School :มัธยม\n\nCollege :วิทยาลัย\n\nCurrent City :เมืองปัจจุบัน\n\nHometown :บ้านเกิด\n\nRelationship :ความสัมพันธ์\n\ngender :เพศ\n\nBirthday :วันเกิด\n\nDon't change info if already has :ไม่เปลี่ยนข้อมูลหากมีอยู่แล้ว\n\n",
-            "type": "markdown",
-            "images": [
-              "image156.png"
-            ]
-          },
-          {
-            "title": "9.Logout of old devices (ออกจากระบบอุปกรณ์เก่า)",
-            "content": "9.Logout of old devices (ออกจากระบบอุปกรณ์เก่า)\n\n![image](/images/image652.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image652.png"
-            ]
-          },
-          {
-            "title": "10.Remove Trusted Devices (ลบอุปกรณ์ที่เชื่อถือได้)",
-            "content": "10.Remove Trusted Devices (ลบอุปกรณ์ที่เชื่อถือได้)\n\n![image](/images/image554.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image554.png"
-            ]
-          },
-          {
-            "title": "11.Professional mode (โหมดมืออาชีพ)",
-            "content": "11.Professional mode (โหมดมืออาชีพ)\n\n![image](/images/image733.png)\n\nOption :ตัวเลือก\n\nTurn on :เปิดโหมดมืออาชีพ\n\nTurn off: ปิดโหมดมืออาชีพ\n\n",
-            "type": "markdown",
-            "images": [
-              "image733.png"
-            ]
-          },
-          {
-            "title": "12.Unlock profile (ปลดล็อคโปรไฟล์)",
-            "content": "12.Unlock profile (ปลดล็อคโปรไฟล์)\n\n![image](/images/image302.png)\n\nPost - Share - Spam\n\n",
-            "type": "markdown",
-            "images": [
-              "image302.png"
-            ]
-          },
-          {
-            "title": "1.Post Wall(การโพสต์หน้าไทม์ไลน์)",
-            "content": "1.Post Wall(การโพสต์หน้าไทม์ไลน์)\n\n![image](/images/image454.png)\n\nการตั้งค่าพื้นฐาน\n\nSố lượng bài:กำหนดจำนวนโพสต์ที่ต้องการให้ระบบทำ โดยระบุเป็นช่วง\n\nBreak:กำหนดเวลาหยุดพักระหว่างการโพสต์แต่ละครั้ง\n\nการตั้งค่าการจัดการเนื้อหาข้อความ\n\nList of contents:ช่องสำหรับใส่ข้อความที่ต้องการโพสต์\n\nUse Background:ตัวเลือกสำหรับใช้พื้นหลังสี\n\nAuto delete used content:หากติ๊กช่องนี้ ระบบจะลบข้อความที่โพสต์ไปแล้วออกจากรายการอัตโนมัติ\n\nOption:ตัวเลือกเสริมสำหรับกำหนดรูปแบบข้อความ\n\nการตั้งค่าการจัดการรูปภาพ\n\nImage folder:ช่องสำหรับระบุที่อยู่ของโฟลเดอร์รูปภาพในคอมพิวเตอร์\n\nImages:กำหนดจำนวนรูปภาพที่จะใช้ต่อการโพสต์ 1 ครั้ง\n\nการตั้งค่าการแท็กเพื่อน\n\nAmount:กำหนดจำนวนเพื่อนที่จะแท็กในแต่ละโพสต์\n\n",
-            "type": "markdown",
-            "images": [
-              "image454.png"
-            ]
-          },
-          {
-            "title": "2.Post Groups (โพสต์กลุ่ม)",
-            "content": "2.Post Groups (โพสต์กลุ่ม)\n\n![image](/images/image67.png)\n\nการตั้งค่าพื้นฐาน\n\nAmount groups:กำหนดจำนวนกลุ่มที่จะโพสต์\n\nDelay time:กำหนดเวลาหน่วงระหว่างการโพสต์แต่ละกลุ่ม\n\nการตั้งค่าเนื้อหาการโพสต์\n\n",
-            "type": "markdown",
-            "images": [
-              "image67.png"
-            ]
-          },
-          {
-            "title": "ส่วนข้อความ (Text)",
-            "content": "ส่วนข้อความ (Text)\n\nList of contents:ช่องสำหรับใส่ข้อความที่ต้องการโพสต์\n\nSpin content:รองรับการใช้รูปแบบ{a|b|c}เพื่อสุ่มคำพูด\n\nRandom icon:ปุ่มสำหรับเลือกใส่ไอคอนแบบสุ่ม\n\nUse Background:เลือกโพสต์ข้อความแบบมีพื้นหลัง (Color Background)\n\nAuto delete used content:ลบเนื้อหาที่ใช้แล้วอัตโนมัติ\n\nOption:ตัวเลือกรูปแบบเนื้อหา\n\nContents is only 1 line: 1 ชุดคือ 1 บรรทัด\n\nContents has many lines: เนื้อหา 1 ชุดมีหลายบรรทัด\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ส่วนรูปภาพ (Image)",
-            "content": "ส่วนรูปภาพ (Image)\n\nImage folder:เลือกโฟลเดอร์ที่เก็บรูปภาพในคอมพิวเตอร์\n\nImages/post:กำหนดจำนวนรูปภาพที่จะใช้ต่อ 1 โพสต์\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ส่วนแท็กและกิจกรรม (Tag Event)",
-            "content": "ส่วนแท็กและกิจกรรม (Tag Event)\n\nEvent name:ใส่ชื่อกิจกรรมที่ต้องการแท็ก\n\nExport posted article link:ติ๊กเพื่อให้ระบบส่งออกลิงก์ของโพสต์ที่ทำสำเร็จแล้ว\n\nการตั้งค่าการเลือกกลุ่มเป้าหมาย\n\nRandom group joined:สุ่มจากกลุ่มที่เป็นสมาชิกอยู่แล้ว\n\nเลือกเฉพาะกลุ่มที่ไม่ต้องรออนุมัติ (Uncensored)\n\nให้ความสำคัญกับกลุ่มที่มีสมาชิกจำนวนมาก (Priority many members)\n\nป้องกันการโพสต์กลุ่มซ้ำกับบัญชีอื่น (Don't post same group)\n\nโพสต์เฉพาะกลุ่มที่ระบุไว้ในลิสต์ (Only post groups in the list)\n\nImport Group ID:ใส่ ID ของกลุ่มที่ต้องการโพสต์โดยตรง พร้อมตัวเลือก \"Auto delete used ID\" (ลบ ID ที่โพสต์แล้ว)\n\nCreate new group:ใส่ชื่อกลุ่มเพื่อสร้างกลุ่มใหม่\n\nตัวเลือกเพิ่มเติม\n\nLeave group post approval:ออกจากกลุ่มหากโพสต์นั้นต้องรอการอนุมัติจากแอดมิน\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "3.Post Pages(โพสต์เพจ)",
-            "content": "3.Post Pages(โพสต์เพจ)\n\n![image](/images/image449.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber pages:กำหนดจำนวนเพจที่ต้องการโพสต์\n\nDelay time:กำหนดเวลาหน่วงระหว่างการโพสต์แต่ละครั้ง\n\nการจัดการเนื้อหาข้อความ\n\nList of contents:ช่องสำหรับใส่ข้อความที่ต้องการโพสต์ สามารถรองรับรูปแบบ Spin Content เช่น{a|b|c}เพื่อสุ่มคำได้\n\nOption:รูปแบบเนื้อหา\n\nContent is only 1 line:ถือว่าเนื้อหา 1 บรรทัดคือ 1 โพสต์\n\nContent has many lines:ถือว่าเนื้อหาหลายบรรทัดรวมกันเป็น 1 โพสต์\n\n",
-            "type": "markdown",
-            "images": [
-              "image449.png"
-            ]
-          },
-          {
-            "title": "ฟีเจอร์เพิ่มเติม:",
-            "content": "ฟีเจอร์เพิ่มเติม:\n\nUse Background:เลือกใช้พื้นหลังสีสันต่าง ๆ\n\nAuto delete used content:ลบเนื้อหาที่ใช้แล้วออกจากรายการโดยอัตโนมัติ\n\nRandom icon:สุ่มใส่ไอคอนหรืออีโมจิในข้อความ\n\nการจัดการรูปภาพ\n\nImage folder:ระบุที่อยู่ของโฟลเดอร์ที่เก็บรูปภาพในเครื่องคอมพิวเตอร์\n\nImages/post:กำหนดจำนวนรูปภาพที่จะใช้ต่อ 1 โพสต์\n\nDelete used images:เมื่อโพสต์รูปนั้นไปแล้ว ให้ลบไฟล์รูปออกจากโฟลเดอร์ทันที\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "4.Share(แชร์)",
-            "content": "4.Share(แชร์)\n\n![image](/images/image4.png)\n\nการตั้งค่าพื้นฐาน\n\nDelay time:กำหนดระยะเวลาหน่วงระหว่างการทำงาน\n\nLink to share:ช่องสำหรับใส่ลิงก์ที่ต้องการนำไปแชร์\n\nType link:เลือกประเภทของลิงก์ ได้แก่ Livestream, Post, หรือ Reel\n\n",
-            "type": "markdown",
-            "images": [
-              "image4.png"
-            ]
-          },
-          {
-            "title": "Share content:",
-            "content": "Share content:\n\nList of contents: ใส่ข้อความที่ต้องการแชร์\n\nOption: เลือกรูปแบบเนื้อหา\n\nAuto Delete used content: ติ๊กเพื่อลบข้อความที่ใช้แล้วโดยอัตโนมัติ\n\nการตั้งค่าการปฏิสัมพันธ์ก่อนแชร์\n\nTime watch:ตั้งเวลาในการดูโพสต์ก่อนแชร์\n\nExpress feelings:เลือกกดแสดงความรู้สึก (Like, Love, Care, Haha, Wow, Sad, Angry)\n\nAuto comment:ตั้งค่าการคอมเมนต์อัตโนมัติ\n\nList Comments: ใส่ข้อความคอมเมนต์\n\nComment many times: เลือกหากต้องการให้คอมเมนต์หลายครั้ง\n\nDelay comment: ระยะเวลาหน่วงระหว่างคอมเมนต์แต่ละครั้ง\n\nการตั้งค่าตัวเลือกการแชร์\n\nShare post to wall:แชร์ลงหน้าโปรไฟล์ตนเอง\n\nQuantity: กำหนดจำนวนที่ต้องการแชร์\n\nShare post to group:แชร์ลงกลุ่ม\n\nNumber groups: กำหนดจำนวนกลุ่มที่ต้องการแชร์\n\nAdvanced configs: การตั้งค่าขั้นสูง\n\nOnly share to group uncensored: แชร์เฉพาะกลุ่มที่ไม่ต้องรออนุมัติโพสต์\n\nPriority sharing groups with many members: ให้ความสำคัญกับกลุ่มที่มีสมาชิกจำนวนมากก่อน\n\nDon't share same group with another account: ป้องกันการแชร์ซ้ำในกลุ่มเดียวกันจากหลายบัญชี\n\nUse backed up groups: ใช้รายชื่อกลุ่มที่สำรองไว้\n\nOnly share groups in the list: แชร์เฉพาะกลุ่มที่มีรายชื่ออยู่ในลิสต์ที่กำหนด (ปุ่ม Enter เพื่อจัดการลิสต์)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "5.Spam Newfeed(สแปมฟีดข่าว)",
-            "content": "5.Spam Newfeed(สแปมฟีดข่าว)\n\n![image](/images/image735.png)\n\nการตั้งค่าพื้นฐาน\n\nPosts:กำหนดช่วงจำนวนโพสต์ที่ต้องการให้ระบบเข้าไปจัดการ\n\nBreak:กำหนดระยะเวลาหยุดพักระหว่างการทำงานในแต่ละโพสต์\n\nการแสดงความรู้สึก\n\nCheckbox Express feelings:ติ๊กถูกเพื่อเปิดใช้งานการกดความรู้สึก\n\nEmoji Selection:สามารถเลือกประเภทของความรู้สึกที่ต้องการได้ (Like, Love, Care, Haha, Wow, Sad, Angry)\n\nการตั้งค่าการแสดงความคิดเห็นด้วยข้อความ\n\nComment by text:ติ๊กถูกเพื่อเปิดใช้งานการคอมเมนต์ด้วยข้อความ\n\nList Comments:ช่องว่างสำหรับใส่ข้อความที่ต้องการใช้คอมเมนต์\n\nOption:ตัวเลือกรูปแบบข้อความ\n\nการตั้งค่าการแสดงความคิดเห็นด้วยรูปภาพ\n\nComment by image:ติ๊กถูกเพื่อเปิดใช้งานการคอมเมนต์ด้วยรูปภาพ\n\nImage folder:ช่องสำหรับระบุที่อยู่ของโฟลเดอร์ (Path) ที่เก็บรูปภาพในเครื่องคอมพิวเตอร์\n\n",
-            "type": "markdown",
-            "images": [
-              "image735.png"
-            ]
-          },
-          {
-            "title": "6.Spam Friends (สแปมเพื่อน)",
-            "content": "6.Spam Friends (สแปมเพื่อน)\n\n![image](/images/image293.png)\n\nการตั้งค่าพื้นฐาน\n\nQuantity:จำนวนเพื่อนที่ต้องการดำเนินการ\n\nPosts/Friend:จำนวนโพสต์ต่อเพื่อน 1 คน ที่ต้องการให้ระบบเข้าไปจัดการ\n\nBreak:ระยะเวลาหยุดพักระหว่างการทำงาน\n\nการตั้งค่าการโต้ตอบด้วยความรู้สึก\n\nExpress feelings:สามารถเลือกส่ง Emoji แสดงความรู้สึกไปยังโพสต์ของเพื่อนได้\n\nตัวเลือกที่มี: Like (ถูกใจ), Love (รักเลย), Care (ห่วงใย), Haha (หัวเราะ), Wow (ว้าว), Sad (เศร้า) และ Angry (โกรธ)\n\nการตั้งค่าการแสดงความคิดเห็น\n\nComment by text:คอมเมนต์ด้วยข้อความ\n\nList Comments: ช่องสำหรับพิมพ์ข้อความที่ต้องการใช้คอมเมนต์\n\nOption: รูปแบบการอ่านค่าข้อความ\n\nComment by image:คอมเมนต์ด้วยรูปภาพ\n\nImage folder: ช่องสำหรับระบุที่อยู่ของโฟลเดอร์รูปภาพในเครื่องคอมพิวเตอร์ที่ต้องการนำมาใช้คอมเมนต์\n\n",
-            "type": "markdown",
-            "images": [
-              "image293.png"
-            ]
-          },
-          {
-            "title": "7.Spam Groups (สแปมกลุ่ม)",
-            "content": "7.Spam Groups (สแปมกลุ่ม)\n\n![image](/images/image406.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber groups:จำนวนกลุ่มที่ต้องการให้ระบบทำงาน\n\nPosts/group:จำนวนโพสต์ที่ต้องการดำเนินการต่อ 1 กลุ่ม\n\nBreak:ระยะเวลาหยุดพักระหว่างการทำงาน\n\nการตั้งค่าการตอบสนองด้วยความรู้สึก\n\nExpress feelings:คุณสามารถเลือกส่ง Emoji ต่างๆ ได้\n\nปุ่มเลือก Emoji ประกอบด้วย: ถูกใจ (Like), รัก (Love), ห่วงใย (Care), หัวเราะ (Haha), ว้าว (Wow), เศร้า (Sad) และ โกรธ (Angry)\n\nการแสดงความคิดเห็นด้วยข้อความ (Comment by text)\n\nList Comments:ช่องสำหรับใส่ข้อความที่ต้องการคอมเมนต์\n\nOption:ตัวเลือกรูปแบบเนื้อหา\n\nการแสดงความคิดเห็นด้วยรูปภาพ (Comment by image)\n\nImage folder:ช่องสำหรับระบุที่อยู่ไฟล์ (Path) ของโฟลเดอร์ที่เก็บรูปภาพที่ต้องการใช้\n\n",
-            "type": "markdown",
-            "images": [
-              "image406.png"
-            ]
-          },
-          {
-            "title": "8.Spam Post (สแปมโพสต์)",
-            "content": "8.Spam Post (สแปมโพสต์)\n\n![image](/images/image92.png)\n\nการตั้งค่าพื้นฐาน\n\nIDs/Account:กำหนดจำนวน ID เป้าหมายที่จะให้แต่ละบัญชีเข้าไปจัดการ\n\nAmount posts/ID:จำนวนโพสต์ที่จะให้ลงต่อ 1 ID เป้าหมาย\n\nBreak:ระยะเวลาหยุดพักระหว่างการทำงาน\n\nการตั้งค่าการเลือกเป้าหมาย\n\nObject type:เลือกประเภทของเป้าหมายที่ต้องการโพสต์ ประกอบด้วย\n\nProfile: หน้าโปรไฟล์ส่วนตัว\n\nGroup: กลุ่มต่างๆ\n\nPage: หน้าแฟนเพจ\n\nEnter ID User/Group/Page:ช่องสำหรับใส่หมายเลข ID ของเป้าหมายที่คุณต้องการลงโพสต์\n\nAuto delete used ID:หากติ๊กถูก ระบบจะลบ ID ที่ทำงานเสร็จแล้วออกจากรายการโดยอัตโนมัติ\n\nการตั้งค่ารูปแบบการโต้ตอบ\n\nExpress feelings:ติ๊กถูกหากต้องการให้ระบบกด Reaction โดยสามารถเลือกไอคอนอารมณ์ต่างๆ ได้\n\nComment by text:ติ๊กถูกเพื่อคอมเมนต์ด้วยข้อความ\n\nList Comments: ใส่ข้อความที่ต้องการในช่อง\n\nOption: ตัวเลือกรูปแบบข้อความ\n\nShare wall:ติ๊กถูกหากต้องการให้มีการแชร์ไปยังหน้า Wall ของตนเอง\n\nComment by image:ติ๊กถูกหากต้องการคอมเมนต์ด้วยรูปภาพ โดยเลือกโฟลเดอร์รูปภาพจากเครื่องของคุณ\n\nReel:ติ๊กถูกหากต้องการเน้นการทำงานไปที่ส่วนของ Reels\n\n",
-            "type": "markdown",
-            "images": [
-              "image92.png"
-            ]
-          },
-          {
-            "title": "9.Post Reels (โพสต์เรียล)",
-            "content": "9.Post Reels (โพสต์เรียล)\n\n![image](/images/image390.png)\n\nการตั้งค่าพื้นฐาน\n\nQuantity:กำหนดจำนวนคลิป Reels ที่ต้องการโพสต์\n\nDelay time:กำหนดระยะเวลาหน่วงระหว่างการโพสต์แต่ละคลิป\n\nการจัดการไฟล์วิดีโอ\n\nVideo folder:ช่องระบุที่อยู่ของโฟลเดอร์ (Path) ที่เก็บไฟล์วิดีโอไว้\n\nDelete used video:หากเลือกช่องนี้ ระบบจะลบไฟล์วิดีโอออกจากโฟลเดอร์ทันทีหลังจากโพสต์สำเร็จ\n\nการจัดการเนื้อหาและแฮชแท็ก\n\nDescription:ติ๊กถูกเพื่อเปิดใช้งานการใส่คำบรรยายใต้โพสต์\n\nList of contents: ช่องสำหรับพิมพ์เนื้อหา (รองรับระบบ Spin content{a|b|c}เพื่อสุ่มข้อความ)\n\nRandom icon: ปุ่มสำหรับสุ่มใส่ไอคอนในเนื้อหา\n\nOption: เลือกว่าเนื้อหา 1 บรรทัดคือ 1 โพสต์ (Content is only 1 line) หรือเนื้อหาหลายบรรทัดรวมเป็น 1 โพสต์ (Content has many lines)\n\nAuto delete used content: ลบเนื้อหาที่ใช้แล้วออกจากรายการอัตโนมัติ\n\nHashtag:ติ๊กถูกเพื่อเปิดใช้งานการใส่แฮชแท็ก\n\nList of Hashtag: ช่องสำหรับใส่รายการแฮชแท็กที่ต้องการ\n\nHashtags/content: กำหนดจำนวนแฮชแท็กที่จะสุ่มมาใช้ต่อ 1 โพสต์\n\nการตั้งค่าขั้นสูง\n\nTimeout chờ load video:กำหนดเวลาสูงสุดในการรอโหลดวิดีโอ\n\nNếu timeout thì sẽ tính là:หากเกิดกรณีหมดเวลา (Timeout) จะให้ระบบบันทึกสถานะเป็นอะไร\n\n",
-            "type": "markdown",
-            "images": [
-              "image390.png"
-            ]
-          },
-          {
-            "title": "10.Post Story (โพสต์สตอรี่)",
-            "content": "10.Post Story (โพสต์สตอรี่)\n\n![image](/images/image713.png)\n\nการตั้งค่าข้อมูลพื้นฐานของการทำงาน\n\nAmount stories:กำหนดจำนวนสตอรี่ที่ต้องการโพสต์\n\nการตั้งค่าตัวเลือกรูปแบบเนื้อหา\n\n",
-            "type": "markdown",
-            "images": [
-              "image713.png"
-            ]
-          },
-          {
-            "title": "ข้อความ (Text)",
-            "content": "ข้อความ (Text)\n\nStory content: ช่องสำหรับใส่ข้อความที่ต้องการโพสต์ลงในสตอรี่\n\nUse Background: ติ๊กถูกหากต้องการใช้พื้นหลังสำหรับข้อความ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "รูปภาพหรือวิดีโอ (Post Image/Video)",
-            "content": "รูปภาพหรือวิดีโอ (Post Image/Video)\n\nMedia folder: เลือกโฟลเดอร์ที่เก็บไฟล์ภาพหรือวิดีโอที่ต้องการใช้งาน\n\nDelete used media: ติ๊กถูกหากต้องการให้ระบบลบไฟล์ออกจากโฟลเดอร์หลังจากโพสต์เสร็จแล้ว\n\nAttach link: ติ๊กถูกเพื่อแนบลิงก์ (หมายเหตุ: ใช้ได้เฉพาะบางบัญชีที่มีสิทธิ์เท่านั้น)\n\nList of links: ช่องสำหรับระบุลิงก์ที่ต้องการแนบไปกับโพสต์\n\nการตั้งค่าเพลงประกอบ\n\nSong (Radio Button): เลือกหากต้องการใส่เพลง\n\nRandom song: เลือกเพื่อให้ระบบสุ่มเพลงให้โดยอัตโนมัติ\n\nEnter song: เลือกหากต้องการระบุเพลงเอง\n\nList songs: ช่องสำหรับใส่รายชื่อเพลงที่ต้องการ\n\nUse Background (Song): ติ๊กถูกเพื่อใช้พื้นหลังในขณะที่เล่นเพลง\n\nImage: ติ๊กถูกหากต้องการใส่รูปภาพประกอบกับเพลง\n\nImage folder: เลือกโฟลเดอร์ที่เก็บรูปภาพ\n\nDelete used images: ติ๊กถูกหากต้องการลบรูปภาพที่ใช้งานแล้วออก\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "11.Seeding Events (การดันอีเวนต์)",
-            "content": "11.Seeding Events (การดันอีเวนต์)\n\n![image](/images/image476.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nLink Event:ช่องสำหรับวาง URL หรือลิงก์ของกิจกรรม (Event) ที่คุณต้องการให้ระบบเข้าไปดำเนินการ\n\nการตั้งค่าตัวเลือกการดำเนินการ\n\nInterested:ติ๊กถูกเพื่อให้บัญชีเข้าไปกด \"สนใจ\" กิจกรรม\n\nGoing:ติ๊กถูกเพื่อให้บัญชีเข้าไปกด \"เข้าร่วม\" กิจกรรม\n\nInvite friends:ติ๊กถูกหากต้องการให้บัญชีทำการเชิญเพื่อนมาเข้าร่วมกิจกรรมนี้\n\nการควบคุมปริมาณและเวลา\n\nQuantity:กำหนดจำนวนครั้งหรือจำนวนบัญชีที่จะใช้งาน\n\nDelay:กำหนดเวลาหน่วงในการทำงาน\n\nAdd Friends - Join Groups\n\n",
-            "type": "markdown",
-            "images": [
-              "image476.png"
-            ]
-          },
-          {
-            "title": "1.Add friends by keyword (เพิ่มเพื่อนด้วยคีย์เวิร์ด)",
-            "content": "1.Add friends by keyword (เพิ่มเพื่อนด้วยคีย์เวิร์ด)\n\n![image](/images/image584.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nQuantity:จำนวนเพื่อนทั้งหมดที่ต้องการเพิ่มในรอบนั้นๆ\n\nDelay time:ระยะเวลาการรอ ระหว่างการดำเนินการแต่ละครั้ง\n\nการตั้งค่าคีย์เวิร์ด\n\nList of keywords:ช่องสำหรับใส่คำค้นหาที่คุณต้องการ\n\nกฎการพิมพ์: 1 คีย์เวิร์ด ต่อ 1 บรรทัด\n\nฟีเจอร์ Spin Content: คุณสามารถใช้รูปแบบ{a|b|c}เพื่อให้ระบบสุ่มเลือกคำมาใช้ได้\n\nFriends/keyword:กำหนดจำนวนเพื่อนที่จะเพิ่มต่อหนึ่งคีย์เวิร์ด\n\n",
-            "type": "markdown",
-            "images": [
-              "image584.png"
-            ]
-          },
-          {
-            "title": "2.Add friends by UID (เพิ่มเพื่อนด้วย UID)",
-            "content": "2.Add friends by UID (เพิ่มเพื่อนด้วย UID)\n\n![image](/images/image540.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber friends:กำหนดช่วงจำนวนเพื่อนที่ต้องการเพิ่ม\n\nDelay time:กำหนดระยะเวลาการรอ ระหว่างการส่งคำขอแต่ละครั้ง\n\nการตั้งค่ารายชื่อเป้าหมายและการจัดการ\n\nList Uid to add friends:ช่องสำหรับใส่หมายเลข UID ของผู้ที่ต้องการเพิ่มเป็นเพื่อน\n\nหมายเหตุ:ใส่ 1 UID ต่อ 1 บรรทัดเท่านั้น\n\nAuto delete Uid after sent invitation:หากติ๊กถูก ระบบจะลบ UID ออกจากรายการโดยอัตโนมัติหลังจากส่งคำขอแล้ว\n\nการตั้งค่าการโต้ตอบก่อนเพิ่มเพื่อน\n\nInteract before add friends:ติ๊กถูกที่ช่องนี้เพื่อเปิดใช้งานระบบโต้ตอบก่อนส่งคำขอ\n\nTotal time:กำหนดช่วงเวลาทั้งหมดที่จะใช้ในการโต้ตอบ\n\nLike:ติ๊กเพื่อระบุจำนวนครั้งที่ต้องการกดถูกใจ\n\nComment:ติ๊กเพื่อระบุจำนวนครั้งที่ต้องการแสดงความคิดเห็น\n\nList Comments:ช่องสำหรับใส่ข้อความที่ต้องการคอมเมนต์\n\nหมายเหตุ:ใส่ 1 ข้อความต่อ 1 บรรทัด และรองรับการใช้รูปแบบ Spin Content เช่น{ข้อความA|ข้อความB|ข้อความC}เพื่อสุ่มคำ\n\n",
-            "type": "markdown",
-            "images": [
-              "image540.png"
-            ]
-          },
-          {
-            "title": "3.Add friends by suggestions (เพิ่มเพื่อนตามคำแนะนำ)",
-            "content": "3.Add friends by suggestions (เพิ่มเพื่อนตามคำแนะนำ)\n\n![image](/images/image176.png)\n\nNumber frinds :จำนวนเพื่อน\n\nDelay time :ระยะเวลาดีเลย์\n\n",
-            "type": "markdown",
-            "images": [
-              "image176.png"
-            ]
-          },
-          {
-            "title": "4.Confirm Friend (ยืนยันเพื่อน)",
-            "content": "4.Confirm Friend (ยืนยันเพื่อน)\n\n![image](/images/image177.png)\n\nNumber friends :จำนวนเพื่อน\n\nDelay time :ระยะเวลาดีเลย์\n\n",
-            "type": "markdown",
-            "images": [
-              "image177.png"
-            ]
-          },
-          {
-            "title": "5.Unfriend (เลิกเป็นเพื่อน)",
-            "content": "5.Unfriend (เลิกเป็นเพื่อน)\n\n![image](/images/image201.png)\n\nการตั้งค่าพื้นฐาน\n\nDelay time:ตั้งค่าการหน่วงเวลาระหว่างการลบแต่ละคน\n\nการตั้งค่าตัวเลือกการลบเพื่อน\n\n",
-            "type": "markdown",
-            "images": [
-              "image201.png"
-            ]
-          },
-          {
-            "title": "สุ่มลบเพื่อน (Random friends)",
-            "content": "สุ่มลบเพื่อน (Random friends)\n\nAmount:กำหนดจำนวนเพื่อนที่ต้องการลบ\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "ลบเพื่อนตามรหัส UID (Unfriend by UID)",
-            "content": "ลบเพื่อนตามรหัส UID (Unfriend by UID)\n\nList of Uid to unfriend:ช่องสำหรับใส่รหัส UID ของเพื่อนที่ต้องการลบ\n\nการตั้งค่ารายชื่อที่ต้องการยกเว้น\n\nList of UID friends to keep:ช่องขนาดใหญ่ทางด้านขวา มีไว้สำหรับใส่รหัส UID ของเพื่อนที่ \"ต้องการเก็บไว้\" (ห้ามลบเด็ดขาด)\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "6.Add friends vs group members (เพิ่มเพื่อนในสมาชิกกลุ่ม)",
-            "content": "6.Add friends vs group members (เพิ่มเพื่อนในสมาชิกกลุ่ม)\n\n![image](/images/image399.png)\n\nNumber friends :จำนวนเพื่อน\n\nBreak :ระยะเวลาหยุดพัก\n\nList of group Ids :รายการ ID กลุ่ม\n\n",
-            "type": "markdown",
-            "images": [
-              "image399.png"
-            ]
-          },
-          {
-            "title": "7.Join groups by keyword (เข้าร่วมกลุ่มตามคำสำคัญ)",
-            "content": "7.Join groups by keyword (เข้าร่วมกลุ่มตามคำสำคัญ)\n\n![image](/images/image93.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber groups:กำหนดจำนวนกลุ่มที่ต้องการให้ระบบเข้าร่วม\n\nDelay time:กำหนดระยะเวลาการรอ ระหว่างการดำเนินการแต่ละครั้ง\n\nการตั้งค่าการจัดการคำค้นหา\n\nList of keywords:ช่องสำหรับใส่คำค้นหาที่ต้องการ\n\nใส่คำค้นหา 1 คำต่อ 1 บรรทัด\n\nสามารถใช้รูปแบบการปั่นข้อความ (Spin content) ได้ เช่น{คำที่1|คำที่2|คำที่3}เพื่อให้ระบบสุ่มเลือกคำมาใช้งาน\n\nการตั้งค่าการตอบคำถามอัตโนมัติ\n\nAuto answer questions:ติ๊กถูกที่ช่องนี้หากต้องการให้ระบบตอบคำถามโดยอัตโนมัติ\n\nList of answers:ช่องสำหรับใส่คำตอบที่เตรียมไว้\n\nใส่ 1 คำตอบต่อ 1 บรรทัด\n\nรองรับการใช้งานรูปแบบ Spin content{a|b|c}เช่นเดียวกับคำค้นหา เพื่อให้คำตอบมีความหลากหลาย\n\n",
-            "type": "markdown",
-            "images": [
-              "image93.png"
-            ]
-          },
-          {
-            "title": "8.Join groups by ID",
-            "content": "8.Join groups by ID\n\n![image](/images/image640.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nNumber groups:กำหนดจำนวนกลุ่มที่ต้องการเข้าร่วม\n\nDelay time:ระยะเวลาหน่วง ระหว่างการส่งคำขอเข้าร่วมแต่ละกลุ่ม\n\nการตั้งค่าการจัดการ ID กลุ่ม\n\nList of Id groups to join:ช่องสำหรับใส่ ID หรือ UID ของกลุ่มที่ต้องการเข้าร่วม\n\nกฎการกรอก: ใส่ 1 ID ต่อ 1 บรรทัด (Each Uid 1 line)\n\nAuto delete Id group that sent a join request:หากติ๊กถูกที่ช่องนี้ ระบบจะลบ ID กลุ่มออกจากรายการโดยอัตโนมัติหลังจากส่งคำขอเข้าร่วมสำเร็จ เพื่อป้องกันการส่งซ้ำ\n\nการตั้งค่าระบบตอบคำถามอัตโนมัติ\n\nAuto answer questions:ติ๊กถูกที่หน้าช่องนี้ หากกลุ่มที่คุณจะเข้าร่วมมีการตั้งคำถามก่อนเข้า\n\nList of answers:ช่องสำหรับใส่คำตอบล่วงหน้า\n\nกฎการกรอก: ใส่ 1 คำตอบ ต่อ 1 บรรทัด (Each content 1 line) หากมีหลายคำถาม ระบบจะดึงคำตอบจากรายการนี้ไปตอบตามลำดับ\n\n",
-            "type": "markdown",
-            "images": [
-              "image640.png"
-            ]
-          },
-          {
-            "title": "9.Join suggestion group (เข้าร่วมกลุ่มที่แนะนำ)",
-            "content": "9.Join suggestion group (เข้าร่วมกลุ่มที่แนะนำ)\n\n![image](/images/image362.png)\n\nการตั้งค่าปริมาณและระยะเวลา\n\nNumber groups:ตั้งค่าจำนวนกลุ่มที่ต้องการเข้าร่วม\n\nDelay time:ตั้งค่าระยะเวลารอคอย ระหว่างการเข้ากลุ่มแต่ละกลุ่ม\n\nการตั้งค่าการตอบคำถามอัตโนมัติ\n\nAuto answer questions:ติ๊กถูกที่ช่องนี้หากต้องการให้ระบบตอบคำถามก่อนเข้ากลุ่มโดยอัตโนมัติ\n\nList of answers:ช่องสำหรับกรอกคำตอบที่เตรียมไว้\n\nเงื่อนไขการกรอก: ให้ใส่คำตอบ 1 บรรทัด ต่อ 1 ข้อความ (Each content 1 line)\n\n",
-            "type": "markdown",
-            "images": [
-              "image362.png"
-            ]
-          },
-          {
-            "title": "10.Leave group (ออกจากกลุ่ม)",
-            "content": "10.Leave group (ออกจากกลุ่ม)\n\n![image](/images/image743.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber groups:กำหนดจำนวนกลุ่มที่ต้องการให้ออก\n\nDelay time:ระยะเวลาหน่วง ระหว่างการออกจากแต่ละกลุ่ม\n\nการตั้งค่าตัวเลือกรูปแบบการออกจากกลุ่ม\n\nRandom group list:ระบบจะสุ่มเลือกกลุ่มที่จะออกจากรายชื่อกลุ่มทั้งหมดที่มีอยู่\n\nLeave group with conditions:ออกจากกลุ่มตามเงื่อนไขที่กำหนด\n\nLeave group moderating posts: ออกจากกลุ่มที่เราต้องรอการอนุมัติโพสต์ (Admin ตรวจสอบโพสต์)\n\nNumber of members is less: ออกจากกลุ่มที่มีจำนวนสมาชิกน้อยกว่าค่าที่ระบุ\n\nGroup name contains keywords: ออกจากกลุ่มที่ชื่อกลุ่มมีคำค้นหา (Keywords) ที่เรากำหนด\n\nใส่คำที่ต้องการในช่อง List of keywords (1 คำต่อ 1 บรรทัด)\n\nการตั้งค่ารายชื่อกลุ่มที่ไม่ต้องการออก\n\nList of ID groups to keep:ใส่ ID ของกลุ่ม ที่คุณต้องการเก็บไว้ (ไม่ให้ออกจากกลุ่มเหล่านี้เด็ดขาด) แม้ว่ากลุ่มนั้นจะตรงกับเงื่อนไขการออกก็ตาม\n\n",
-            "type": "markdown",
-            "images": [
-              "image743.png"
-            ]
-          },
-          {
-            "title": "11.Create group (สร้างกลุ่ม)",
-            "content": "11.Create group (สร้างกลุ่ม)\n\n![image](/images/image558.png)\n\nAmount groups :จำนวนกลุ่ม\n\nGroup name :ชื่อกลุ่ม\n\n",
-            "type": "markdown",
-            "images": [
-              "image558.png"
-            ]
-          },
-          {
-            "title": "12.Create page (สร้างเพจ)",
-            "content": "12.Create page (สร้างเพจ)\n\n![image](/images/image252.png)\n\nการตั้งค่าพื้นฐาน\n\nAmount pages:กำหนดจำนวนเพจที่ต้องการสร้าง\n\nDelay time (s):กำหนดระยะเวลาหน่วง ระหว่างการสร้างแต่ละเพจ\n\nการตั้งค่ารายละเอียดข้อมูลเพจ\n\nPage name (1):ช่องสำหรับกรอกชื่อเพจที��ต้อ��การสร้าง โดยสามารถระบุชื่อที่ต้องการลงในช่องข้อความ\n\nPage category (1):ช่องสำหรับกำหนดหมวดหมู่ของเพจ เพื่อให้ตรงกับวัตถุประสงค์การใช้งาน\n\nInteractive\n\n",
-            "type": "markdown",
-            "images": [
-              "image252.png"
-            ]
-          },
-          {
-            "title": "1.Read notification (อ่านข้อความแจ้งเตือน)",
-            "content": "1.Read notification (อ่านข้อความแจ้งเตือน)\n\n![image](/images/image627.png)\n\nQuantity :คือ จำนวน ข้อความแจ้งเตือนที่ต้องการให้อ่านDelay time :คือ ระยะเวลาดีเลย์ของกา��อ่านแจ้งเตือนแต่ละอัน\n\n",
-            "type": "markdown",
-            "images": [
-              "image627.png"
-            ]
-          },
-          {
-            "title": "2. Watch Reels (ดูวีดีโอสั้น)",
-            "content": "2. Watch Reels (ดูวีดีโอสั้น)\n\n![image](/images/image328.png)\n\nการตั้งค่าพื้นฐาน\n\nTime watch:กำหนดช่วงระยะเวล���ในกา���รับ���มวิดีโอแต่ละคลิป\n\nการตั้งค่าปฏิสัมพันธ์\n\nLike:กดถูกใจวิดีโออัตโนมัติ\n\nShare Wall:แชร์วิดีโอไปยังหน้าโปรไฟล์ (Wall) ของตนเอง\n\nComment:แสดงความคิดเห็นใต้คลิปวิดีโอ (หากเลือกข้อนี้ จะต้องตั้งค่าในส่วนถัดไป)\n\nการตั้งค่าการจัดการความคิดเห็น\n\nList Comments:กรอกข้อความที่ต้องการใช้คอมเมนต์\n\nOption:ตัวเลือกรูปแบบของเนื้อหา\n\nปุ่ม [?]: ใช้สำหรับดูคำแนะนำเพิ่มเติมเกี่ยวกับวิธีการพิมพ์ข้อความหรือการใช้สัญลักษณ์พิเศษ\n\n",
-            "type": "markdown",
-            "images": [
-              "image328.png"
-            ]
-          },
-          {
-            "title": "3.Watch Story (ดูสตอรี่)",
-            "content": "3.Watch Story (ดูสตอรี่)\n\n![image](/images/image422.png)\n\nTime watch :ระยะเวลาในการดู\n\nExpress felings :แสดงความรู้สึก\n\nAuto comment :แสดงความคิดเห็น\n\nList Comments :รายการความคิดเห็น\n\n",
-            "type": "markdown",
-            "images": [
-              "image422.png"
-            ]
-          },
-          {
-            "title": "4.Watch video (ดูวีดีโอ)",
-            "content": "4.Watch video (ดูวีดีโอ)\n\n![image](/images/image353.png)\n\nการตั้งค่าเวลา\n\nTime watch:กำหนดช่วงเวลาในการรับชมวิดีโอ\n\nการโต้ตอบอัตโนมัติ\n\nLike:กดถูกใจวิดีโอ\n\nShare Wall:แชร์วิดีโอไปยังหน้าวอลล์ (Timeline)\n\nComment:แสดงความคิดเห็นใต้คลิปวิดีโอ\n\nหมายเหตุ:ช่องตัวเลขด้านหลัง Like, Share, และ Comment (เช่น 1 > 3) ใช้สำหรับกำหนด จำนวนครั้ง หรือ ช่วงการสุ่ม ในการทำกิจกรรมนั้นๆ\n\nการตั้งค่ารายละเอียดความคิดเห็น\n\nList Comments:ช่องสำหรับพิมพ์ข้อความที่ต้องการใช้คอมเมนต์\n\nOption:เมนูเลือกรูปแบบเนื้อหา\n\nปุ่ม ?: ปุ่มช่วยเหลือสำหรับดูคำแนะนำเพิ่มเติมในการใส่ข้อความ\n\n",
-            "type": "markdown",
-            "images": [
-              "image353.png"
-            ]
-          },
-          {
-            "title": "5. Watch Videos by keywords (ดูวีดีโอ ตามคีย์เวิร์ด )",
-            "content": "5. Watch Videos by keywords (ดูวีดีโอ ตามคีย์เวิร์ด )\n\n![image](/images/image512.png)\n\nการตั้งค่าพื้นฐาน\n\nKeywords:ช่องสำหรับใส่คำค้นหาที่ต้องการให้ระบบไปค้นหาวิดีโอ\n\nการตั้งค่าเวลาในการรับชม\n\nTime watch:กำหนดช่วงเวลาเป็น วินาที\n\nการตั้งค่าการโต้ตอบ\n\nLike:กดถูกใจวิดีโอ\n\nShare Wall:แชร์วิดีโอไปยังหน้าโปรไฟล์หรือวอลล์\n\nComment:แสดงความคิดเห็น\n\nหมายเหตุ: ตัวเลขด้านหลัง (เช่น 1 > 3) คือการสุ่มจำนวนครั้งหรือเงื่อนไขการทำงานในแต่ละรอบ\n\nการตั้งค่าการจัดการความคิดเห็น\n\nList Comments:ช่องสำหรับพิมพ์ข้อความที่ต้องการใช้คอมเมนต์\n\nOption:เลือกรูปแบบของเนื้อหา\n\n6Interact Newsfeed (โต้ตอบฟีดข่าว)\n\n![image](/images/image98.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nTime watch:ตั้งค่าช่วงเวลาที่ต้องการให้โปรแกรมหยุดดู (Watch) ในแต่ละโพสต์\n\nการตั้งค่าการเลือกประเภทการปฏิสัมพันธ์\n\nLike:ติ๊กเพื่อสั่งให้กดถูกใจโพสต์ (ระบุจำนวนครั้งที่ต้องการสุ่มกด)\n\nShare Wall:ติ๊กเพื่อสั่งให้แชร์โพสต์ไปยังหน้าวอลล์ของตัวเอง (ระบุจำนวนครั้งที่ต้องการสุ่มแชร์)\n\nComment:ติ๊กเพื่อสั่งให้แสดงความคิดเห็นใต้โพสต์ (ระบุจำนวนครั้งที่ต้องการสุ่มคอมเมนต์)\n\nการจัดการข้อความความคิดเห็น\n\nList Comments:ช่องสำหรับใส่ข้อความที่ต้องการให้โปรแกรมนำไปคอมเมนต์\n\nOption:เมนูเลือกรูปแบบการดึงข้อความไปใช้\n\n7Interact Friends (โต้ตอบกับเพื่อน)\n\n![image](/images/image463.png)\n\nการตั้งค่าข้อมูลพื้นฐาน\n\nNumber friends:กำหนดจำนวนเพื่อนที่ต้องการให้ระบบเข้าไปมีปฏิสัมพันธ์\n\nการตั้งค่ารายละเอียดการปฏิสัมพันธ์\n\nTime watch:ระยะเวลาที่ระบบจะ \"เปิดดู\" หน้าของเพื่อน\n\nLike:ติ๊กถูกเพื่อสั่งให้ระบบกด Like โพสต์ของเพื่อน โดยกำหนดจำนวนครั้งเป็นช่วง\n\nShare Wall:ติ๊กถูกเพื่อสั่งให้ระบบแชร์โพสต์ไปยังหน้า Wall ของเรา โดยกำหนดจำนวนครั้งเป็นช่วง\n\nComment:ติ๊กถูกเพื่อสั่งให้ระบบพิมพ์ข้อความแสดงความคิดเห็น โดยกำหนดจำนวนครั้งเป็นช่วง\n\nการจัดการข้อความคอมเมนต์\n\nList Comments:พื้นที่สีเทาขนาดใหญ่สำหรับใส่เนื้อหาคอมเมนต์ที่ต้องการให้ระบบสุ่มไปใช้งาน\n\nOption:รูปแบบการอ่านค่าข้อความ\n\n",
-            "type": "markdown",
-            "images": [
-              "image512.png",
-              "image98.png",
-              "image463.png"
-            ]
-          },
-          {
-            "title": "8.Interact Groups(การดูและการมีส่วนร่วมกับกลุ่ม)",
-            "content": "8.Interact Groups(การดูและการมีส่วนร่วมกับกลุ่ม)\n\n![image](/images/image21.png)\n\nการตั้งค่าพื้นฐาน\n\nNumber groups:กำหนดจำนวนกลุ่มที่ต้องการให้ระบบเข้าไปดำเนินการ\n\nการตั้งค่าการปฏิสัมพันธ์\n\nTime watch:ระยะเวลาในการรับชมหรืออยู่ในกลุ่ม\n\nLike:ติกถูกเพื่อสั่งให้กดไลก์ และกำหนดจำนวนครั้ง\n\nShare Wall:ติกถูกเพื่อสั่งให้แชร์โพสต์ไปยังหน้าวอลล์ (ไทม์ไลน์) และกำหนดจำนวนครั้ง\n\nComment:ติกถูกเพื่อสั่งให้แสดงความคิดเห็น และกำหนดจำนวนครั้ง\n\nการตั้งค่าการจัดการข้อความความคิดเห็น\n\nList Comments (0):ช่องสำหรับใส่ข้อความที่ต้องการให้ระบบนำไปสุ่มใช้คอมเมนต์ (ใส่ 1 ข้อความต่อ 1 บรรทัด)\n\nOption:ตัวเลือกรูปแบบของเนื้อหา\n\nปุ่ม ? (Help):ปุ่มสำหรับดูคำอธิบายหรือคำแนะนำเพิ่มเติมเกี่ยวกับการใช้ฟีเจอร์คอมเมนต์\n\n9Interact Page (โต้ตอบเพจ)\n\n![image](/images/image17.png)\n\nการตั้งค่าการจัดการเป้าหมาย\n\nNumber pages:กำหนดจำนวนเพจที่ต้องการให้ระบบเข้าไปดำเนินการ\n\nList ID pages (0):ช่องว่างสำหรับใส่รายการ ID ของเพจที่ต้องการให้ระบบเข้าไปปฏิสัมพันธ์\n\nAuto delete Used Id Page:หากเลือกช่องนี้ ระบบจะลบ ID ของเพจทิ้งโดยอัตโนมัติหลังจากที่ทำงานเสร็จแล้ว\n\nการตั้งค่าการปฏิสัมพันธ์\n\nTime watch:กำหนดระยะเวลา ที่จะให้ระบบหยุดดูหรือแช่อยู่ในหน้าเพจนั้น ๆ\n\nLike:ติ๊กถูกเพื่อสั่งให้ระบบกด \"ถูกใจ\" (สามารถกำหนดจำนวนครั้งเป็นช่วงได้)\n\nShare Wall:ติ๊กถูกเพื่อสั่งให้ระบบกด \"แชร์\" ลงบนวอลล์ (สามารถกำหนดจำนวนครั้งเป็นช่วงได้)\n\nComment:ติ๊กถูกเพื่อสั่งให้ระบบทำการ \"คอมเมนต์\"\n\nList Comments (0): ช่องสำหรับระบุข้อความที่จะใช้คอมเมนต์\n\nOption: ตัวเลือกรูปแบบข้อความสำหรับการคอมเมนต์\n\n10.Interact Wall (ตอบโต้หน้าไทม์ไลน์)\n\n![image](/images/image12.png)\n\nการตั้งค่าการกำหนดข้อมูลพื้นฐาน\n\nTime watch:กำหนดช่วงเวลา ในการรับชมโพสต์หรือหน้าวอลล์\n\nการตั้งค่าการเลือกประเภทการโต้ตอบ\n\nLike:คลิกเพื่อเปิดการใช้งานการกดไลก์\n\nShare Wall:คลิกเพื่อเปิดการใช้งานการแชร์โพสต์ไปยังวอลล์\n\nComment:คลิกเพื่อเปิดการใช้งานการแสดงความคิดเห็น\n\nหมายเหตุ:สามารถเลือกเปิด-ปิดฟังก์ชันที่ต้องการได้โดยการทำเครื่องหมายถูกที่ช่องด้านหน้า และกำหนดจำนวนครั้งแบบสุ่ม (Min > Max)\n\n",
-            "type": "markdown",
-            "images": [
-              "image21.png",
-              "image17.png",
-              "image12.png"
-            ]
-          },
-          {
-            "title": "การตั้งค่าการจัดการความคิดเห็น",
-            "content": "การตั้งค่าการจัดการความคิดเห็น\n\nList Comments (0):ช่องสำหรับกรอกข้อความที่ต้องการให้ระบบนำไปคอมเมนต์ โดยตัวเลขในวงเล็บจะบอกจำนวนข้อความที่มีอยู่\n\nOption:เมนูสำหรับตั้งค่ารูปแบบข้อความ\n\nปุ่ม ?:ปุ่มช่วยเหลือหรือคำแนะนำเพิ่มเติมเกี่ยวกับการตั้งค่าคอมเมนต์\n\n11.Breaks (พัก)\n\n![image](/images/image573.png)\n\nDelay time (s): ระยะเวลา (วินาที)\n\n",
-            "type": "markdown",
-            "images": [
-              "image573.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "maxcloudphone_vj8q1",
-    "name": "MaxCloudPhone",
-    "categories": [
-      {
-        "id": "__image___images_ima_vvlu5",
-        "name": "",
-        "sections": [
-          {
-            "title": "MaxCloudPhoneฟังก์ชันหลัก",
-            "content": "MaxCloudPhoneฟังก์ชันหลัก\n\n![image](/images/image192.png)\n\nอ่านการแจ้งเตือน\n\nสุ่มดูวิดีโอ\n\nดูวิดีโอที่ระบุเฉพาะเจาะจง\n\nดูวิดีโอจากคีย์เวิร์ด\n\nดูวิดีโอของผู้ใช้\n\nสุ่มเข้าดูไลฟ์สด\n\nเข้าดูไลฟ์สดที่ระบุเฉพาะเจาะจง\n\nติดตามผู้ใช้งาน\n\nติดตามผู้ใช้งานจากคีย์เวิร์ด\n\nติดตามกลับ\n\nติดตามผู้ใช้งานจากโปรไฟล์\n\nติดตามผู้ใช้งานที่ระบบแนะนำ\n\nส่งข้อความไปยังเป้าหมายที่กำหนด\n\nตอบกลับความคิดเห็นที่ระบุเฉพาะเจาะจง\n\nปั๊มยอดเข้าชมสินค้า\n\nสร้างรายได้\n\nสร้างโพสต์\n\nอัปเดตรูปโปรไฟล์\n\nเปลี่ยนชื่อ\n\nเปลี่ยนคำอธิบายโปรไฟล์\n\nกดไลก์สาธารณะ\n\nโหมดพักการทำงาน\n\nลบโพสต์บนหน้าวอลล์\n\n",
-            "type": "markdown",
-            "images": [
-              "image192.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "________________inst_ng0aq",
-    "name": "วิธีติดตั้งแอป (Install App)",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "________________inst_ng0aq",
+        "name": "วิธีติดตั้งแอป (Install App)",
         "sections": [
           {
             "title": "MaxCloudPhone วิธีติดตั้งแอป",
@@ -5561,16 +5388,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "________token________uo3lq",
-    "name": "วิธีใส่ Token เพื่อเชื่อมต่อกับมือถือ",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "________token________uo3lq",
+        "name": "วิธีใส่ Token เพื่อเชื่อมต่อกับมือถือ",
         "sections": [
           {
             "title": "1.คัดลอก Token จากเว็บไซต์",
@@ -5592,73 +5413,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_______________maxcl_glp6v",
-    "name": "วิธีตั้งค่าแอป MaxCloudPhone หลังจากใส่ Token",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "1. เริ่มต้นการตั้งค่าแอป",
-            "content": "1. เริ่มต้นการตั้งค่าแอป\n\nหลังจากใส่ Token เสร็จแล้ว แอปจะพาคุณมายังหน้า ตั้งค่าแอป\n\nกดปุ่ม Start เพื่อเริ่มการตั้งค่า\n\n![image](/images/image686.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image686.png"
-            ]
-          },
-          {
-            "title": "2.อนุญาตการเข้าถึง",
-            "content": "2.อนุญาตการเข้าถึง\n\nให้กด อนุญาต\n\n![image](/images/image425.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image425.png"
-            ]
-          },
-          {
-            "title": "3. แอปจะพาคุณไปยังหน้าตั้งค่าใหม่",
-            "content": "3. แอปจะพาคุณไปยังหน้าตั้งค่าใหม่\n\nรอจนระบบพามายังหน้านี้\n\nให้กลับไปที่แอพ MaxCloudphone\n\n![image](/images/image24.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image24.png"
-            ]
-          },
-          {
-            "title": "4.จากนั้นกดที่ MOBILE DATA",
-            "content": "4.จากนั้นกดที่ MOBILE DATA\n\n![image](/images/image144.png)\n\nทำการตั้งค่า Device assistance app\n\n![image](/images/image153.png)\n\nเลือก MaxCloudPhone\n\n![image](/images/image477.png)\n\nกด OK\n\n![image](/images/image303.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image144.png",
-              "image153.png",
-              "image477.png",
-              "image303.png"
-            ]
-          },
-          {
-            "title": "5.ทำการตั้งค่าคีย์บอร์ด",
-            "content": "5.ทำการตั้งค่าคีย์บอร์ด\n\nกดที่ KEYBOARD\n\n![image](/images/image308.png)\n\nเลือก Maxcloud เป็นคีย์บอร์ดหลัก\n\n![image](/images/image294.png)\n\n![image](/images/image435.png)\n\n✅ เสร็จสิ้นขั้นตอนการติดตั้ง หากหน้าจอการตั้งค่ามือถือของคุณไม่ตรงตามคู่มือนี้ กรุณาติดต่อ แอดมิน เพื่อสอบถามรายละเอียดเพิ่มเติม\n\n",
-            "type": "markdown",
-            "images": [
-              "image308.png",
-              "image294.png",
-              "image435.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "__________________ti_g26ye",
-    "name": "วิธีการเพิ่มบัญชี Tiktok",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "__________________ti_g26ye",
+        "name": "วิธีการเพิ่มบัญชี Tiktok",
         "sections": [
           {
             "title": "วิธีการเพิ่มบัญชี Tiktok",
@@ -5697,16 +5455,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_______________tikto_yk2im",
-    "name": "วิธีการลบบัญชี Tiktok",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_______________tikto_yk2im",
+        "name": "วิธีการลบบัญชี Tiktok",
         "sections": [
           {
             "title": "1.เลือกบัญชีที่ต้องการลบ",
@@ -5731,16 +5483,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_______________adb_d_i9lc8",
-    "name": "วิธีเปิดใช้งาน ADB Debug (ในโทรศัพท์ที่มีหน้าจอ)",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_______________adb_d_i9lc8",
+        "name": "วิธีเปิดใช้งาน ADB Debug (ในโทรศัพท์ที่มีหน้าจอ)",
         "sections": [
           {
             "title": "1.เข้าไปที่ตั้งค่า เลื่อนลงมาให้สุด แล้วเลือก About phone",
@@ -5791,16 +5537,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________iay90",
-    "name": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________________iay90",
+        "name": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น",
         "sections": [
           {
             "title": "วิธีกำหนดข้อความสำหรับคอมเม้น และแคปชั่น",
@@ -5844,16 +5584,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_______________2fa_hhc7f",
-    "name": "วิธีเปิดใช้งาน 2FA",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_______________2fa_hhc7f",
+        "name": "วิธีเปิดใช้งาน 2FA",
         "sections": [
           {
             "title": "คำถาม:ทำไมต้องเปิดใช้งาน 2FA?",
@@ -6003,16 +5737,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "___________proxy__ip_g4f8q",
-    "name": "วิธีใช้งาน Proxy (IPv4 เท่านั้น)",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "___________proxy__ip_g4f8q",
+        "name": "วิธีใช้งาน Proxy (IPv4 เท่านั้น)",
         "sections": [
           {
             "title": "วิธีตั้งค่าการใช้งาน Proxy",
@@ -6062,16 +5790,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "__________proxy_ipv4_63fys",
-    "name": "วิธีการลบ Proxy IPv4",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "__________proxy_ipv4_63fys",
+        "name": "วิธีการลบ Proxy IPv4",
         "sections": [
           {
             "title": "1.เลือกบัญชีที่ต้องการลบ Proxy",
@@ -6106,16 +5828,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "___________________ctf0o",
-    "name": "วิธีการตั้งสคริปต์",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "___________________ctf0o",
+        "name": "วิธีการตั้งสคริปต์",
         "sections": [
           {
             "title": "ก่อนที่จะกำหนดสคริปต์ให้กับบัญชี TikTok เราต้องสร้างสคริปต์ก่อน",
@@ -6135,16 +5851,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "____________configur_bkf4p",
-    "name": "วิธีการตั้ง Configure Register",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "____________configur_bkf4p",
+        "name": "วิธีการตั้ง Configure Register",
         "sections": [
           {
             "title": "Configure Register ตั้งค่าข้อมูลการลงทะเบียนบัญชีอัตโนมัติ",
@@ -6153,16 +5863,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________9gj4m",
-    "name": "อธิบายการใช้งานฟังก์ชัน",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_f342k",
-        "name": "",
+        "id": "_____________________9gj4m",
+        "name": "อธิบายการใช้งานฟังก์ชัน",
         "sections": [
           {
             "title": "โต้ตอบ",
@@ -6547,16 +6251,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________wbjhj",
-    "name": "โปรแกรมไม่ทำงาน หรือค้าง",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________________wbjhj",
+        "name": "โปรแกรมไม่ทำงาน หรือค้าง",
         "sections": [
           {
             "title": "แก้ปัญหา ไม่ทำงานตามสคริปต์ หรือค้าง",
@@ -6567,94 +6265,15 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxdata_911ih",
-    "name": "MaxData",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_ef1rq",
-        "name": "",
+        "id": "_____________________xoy13",
+        "name": "วิธีการใช้งานโปรแกรม",
         "sections": []
-      }
-    ]
-  },
-  {
-    "id": "_____________________wpldc",
-    "name": "คู่มือดาวน์โหลดและติดตั้งโปรแกรม MaxData",
-    "categories": [
+      },
       {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off เป็นอันเสร็จสิ้น",
-            "content": "ก่อนทำการดาวน์โหลดให้ปิดแอนตี้ไวรัสก่อน โดยไปที่ Windows Security >> Virus & Threat protection >> Virus & Threat protection settings จากนั้นกด Manage settings จากนั้นปิด Real-time protection เป็น Off เป็นอันเสร็จสิ้น\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย",
-            "content": "1. หลังจากชำระเงินและแอดมินแจ้งแอคทีฟให้เรียบร้อย\n\nเข้าไปยังเว็บไซต์ Minsoft\n\n![image](/images/image97.png)\n\nล็อคอินเข้าใช้งาน\n\n![image](/images/image491.png)\n\nไปยังหน้าการจัดการซอร์ฟแวร์\n\n![image](/images/image711.png)\n\n2.จากนั้นไปที่โปรแกรม MaxData ==> กด ดาวน์โหลด\n\n![image](/images/image466.png)\n\n![image](/images/image740.png)\n\n3.หลังจากดาวน์โหลดเสร็จเรียบร้อยแล้ว ให้คลิกขวาที่ไฟล์ MaxData.zip ที่โหลดมา จากนั้นกดแตกไฟล์\n\n![image](/images/image684.png)\n\n4.หลังจากแตกไฟล์เสร็จเรียบร้อยแล้ว เข้าไปยังโฟลเดอร์ MaxData แล้วกด AutoUpdate รอจนกว่าจะอัพเดตเสร็จ\n\n![image](/images/image391.png)\n\n5.เข้าใช้งานโปรแกรม ทำการเข้าระบบให้เรียบร้อย\n\n![image](/images/image682.png)\n\n6.เมื่อเข้าระบบเสร็จแล้ว ให้ไปที่ General configs >> Update chromedriver เพื่ออัพเดตโครมไดรเวอร์\n\n![image](/images/image508.png)\n\nหากติดตั้งเสร็จแล้วรันโปรแกรมแล้วหลังจากรันเสร็จแล้ว CPU ใช้งาน 100% ให้ทำตามลิ้งค์นี้\n\n",
-            "type": "markdown",
-            "images": [
-              "image97.png",
-              "image491.png",
-              "image711.png",
-              "image466.png",
-              "image740.png",
-              "image684.png",
-              "image391.png",
-              "image682.png",
-              "image508.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________hap3e",
-    "name": "วิธีเชื่อมข้อมูลกับ Maxcare",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": [
-          {
-            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
-            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image273.png)\n\n2.ไปที่ Configs ==> Sync data with Maxcare ==> จากนั้นวางที่อยู่โฟลเดอร์ Maxcare ลงในช่องว่าง\n\n![image](/images/image136.png)\n\nจากนั้นกด Save\n\n3.กด Refresh\n\n![image](/images/image523.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
-            "type": "markdown",
-            "images": [
-              "image273.png",
-              "image136.png",
-              "image523.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________xoy13",
-    "name": "วิธีการใช้งานโปรแกรม",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
-        "sections": []
-      }
-    ]
-  },
-  {
-    "id": "_____________________8iax9",
-    "name": "อธิบายการตั้งค่าเบื้องต้น",
-    "categories": [
-      {
-        "id": "intro",
-        "name": "Introduction",
+        "id": "_____________________8iax9",
+        "name": "อธิบายการตั้งค่าเบื้องต้น",
         "sections": [
           {
             "title": "General configs",
@@ -6665,82 +6284,10 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________4s2ub",
-    "name": "อธิบายเมนูฟังก์ชันการทำงาน MaxData",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_537c8",
-        "name": "",
-        "sections": [
-          {
-            "title": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย",
-            "content": "การใช้โปรแกรมเถื่อนอาจทำให้คอมพิวตอร์เสียหายได้ และมีความผิดทางกฏหมาย\n\nScan group data\n\n",
-            "type": "markdown",
-            "images": []
-          },
-          {
-            "title": "1.Scan Group by keyword (สแกนกลุ่มตามคีย์เวิร์ด)",
-            "content": "1.Scan Group by keyword (สแกนกลุ่มตามคีย์เวิร์ด)\n\n![image](/images/image380.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit : count groups/keyword :จำนวนกลุ่ม/คีย์เวิร์ด\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
-            "type": "markdown",
-            "images": [
-              "image380.png"
-            ]
-          },
-          {
-            "title": "2.Scan Group information (สแกนข้อมูลกลุ่ม)",
-            "content": "2.Scan Group information (สแกนข้อมูลกลุ่ม)\n\n![image](/images/image96.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of group Id :รายการ Id กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
-            "type": "markdown",
-            "images": [
-              "image96.png"
-            ]
-          },
-          {
-            "title": "3.Scan group that user joined (สแกนกลุ่มที่ผู้ใช้เข้าร่วม)",
-            "content": "3.Scan group that user joined (สแกนกลุ่มที่ผู้ใช้เข้าร่วม)\n\n![image](/images/image56.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of user Id :รายการ Id ผู้ใช้\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n",
-            "type": "markdown",
-            "images": [
-              "image56.png"
-            ]
-          },
-          {
-            "title": "4.Scan group members (สแกนสมาชิกกลุ่ม)",
-            "content": "4.Scan group members (สแกนสมาชิกกลุ่ม)\n\n![image](/images/image220.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of group Id :รายการ Id กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan page data\n\n",
-            "type": "markdown",
-            "images": [
-              "image220.png"
-            ]
-          },
-          {
-            "title": "1.Scan page by keyword (สแกนเพจตามคีย์เวิร์ด)",
-            "content": "1.Scan page by keyword (สแกนเพจตามคีย์เวิร์ด)\n\n![image](/images/image14.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit count groups/keyword :จำกัดจำนวนเพจ/keyword\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan user data\n\n1.Scan user friends (สแกนเพื่อนผู้ใช้)\n\n![image](/images/image723.png)\n\nEnter Uid running account :Uid ที่ต้องการใช้งาน\n\nList of Uid :รายการ Uid\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nScan post data\n\n1.Scan posts by keyword (สแกนโพสต์ตามคีย์เวิร์ด)\n\n![image](/images/image796.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of keywords :รายการคีย์เวิร์ด\n\nLimit count groups/keyword :จำกัดจำนวนกลุ่ม/คีย์เวิร์ด\n\nFilter recent posts :โพสต์ล่าสุด\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n2.Count reactions of posts (นับความรู้สึกของโพสต์)\n\n![image](/images/image58.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n3.Scan user reactions of posts (สแกนผู้ใช้ที่แสดงความรู้สึกโพสต์)\n\n![image](/images/image217.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of post Id :รายการ Id โพสต์\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n4.Scan posts of user in group (สแกนโพสต์ของผู้ใช้ในกลุ่ม)\n\n![image](/images/image347.png)\n\nEnter Uid running account Uid :UID ที่ต้องการใช้งาน\n\nList of Id_User|Id_Group :รายการ Id_User|Id_Group\n\nLimit number of post/groups :จำกัดจำนวนโพสต์/กลุ่ม\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\nOther functions\n\n1.Find Facebook Id (ค้นหาไอดี Facebook)\n\n![image](/images/image546.png)\n\nList of Facebook links :รายการลิงค์เฟสบุ๊ค\n\nStart :เริ่ม\n\nExport Excel :ส่งออกเป็น Excel\n\nExport Txt :ส่งออกเป็นไฟล์ Text\n\n2.ChatGPT\n\n![image](/images/image441.png)\n\nAPI Key :API Key ChatGPT\n\nContent :เนื้อหา\n\nStart :เริ่ม\n\nResult :ผลลัพธ์\n\n3.Check Live Uid (ตรวจสอบสถานะ Uid)\n\n![image](/images/image639.png)\n\nEnter :Uidใส่ Uid\n\nThreads :หัวข้อ\n\nStart :เริ่ม\n\nLIVE :ใช้งานได้\n\nDIE :ถูกจำกัด\n\nCan’t check :ไม่สามารถเช็คได้\n\n",
-            "type": "markdown",
-            "images": [
-              "image14.png",
-              "image723.png",
-              "image796.png",
-              "image58.png",
-              "image217.png",
-              "image347.png",
-              "image546.png",
-              "image441.png",
-              "image639.png"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "proxy_pb60m",
-    "name": "Proxy",
-    "categories": [
-      {
-        "id": "_____proxy___________rejwj",
-        "name": "ระบบ Proxy คืออะไร ใช้ทำอะไร แล้วมีวิธีติดตั้งและวิธีใช้ยังไง ?",
+        "id": "proxy_pb60m",
+        "name": "Proxy",
         "sections": [
           {
             "title": "ตัวช่วยในการบริหารจัดการกับ IP เพื่อให้มี IP ใช้ที่ไม่ซ้ำกัน หลีกเลี่่ยงการเกิด Checkpoint เมื่อต้องการรันระบบด้วย IP เดิมๆ ซ้ำ จำนวนหลาย account",
@@ -6752,15 +6299,9 @@ export const manualData: ProgramData[] = [
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "_____________________qwxrn",
-    "name": "ข้อควรระวังในการใช้งานโปรแกรมฟาร์มเฟส!",
-    "categories": [
+      },
       {
-        "id": "_____________________a5nka",
+        "id": "_____________________qwxrn",
         "name": "ข้อควรระวังในการใช้งานโปรแกรมฟาร์มเฟส!",
         "sections": [
           {
@@ -6770,16 +6311,10 @@ export const manualData: ProgramData[] = [
             "images": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "maxsystemcare________wpg3p",
-    "name": "MaxsystemCare แนะนำการเพิ่มเพื่อนอัตโนมัติ",
-    "categories": [
+      },
       {
-        "id": "__image___images_ima_92vz8",
-        "name": "",
+        "id": "maxsystemcare________wpg3p",
+        "name": "MaxsystemCare แนะนำการเพิ่มเพื่อนอัตโนมัติ",
         "sections": [
           {
             "title": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)",
