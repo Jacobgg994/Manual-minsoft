@@ -5652,6 +5652,128 @@ export const manualData: ProgramData[] = [
     ]
   },
   {
+    "id": "minsoftware_techniques_suite",
+    "name": "เทคนิคการใช้งานโปรแกรม Minsoftware",
+    "categories": [
+      {
+        "id": "_____________________qwxrn",
+        "name": "ข้อควรระวังในการใช้งานโปรแกรมฟาร์มเฟส!",
+        "sections": [
+          {
+            "title": "1.สลับ script ในการใช้งานเพื่อไม่ให้จับได้ว่าเป็นบอท",
+            "content": "1.สลับ script ในการใช้งานเพื่อไม่ให้จับได้ว่าเป็นบอท\n\n2.ใช้ proxy หรือ Aircard เน็ต AIS 4G (หากใช้เน็ตบ้านแนะนำให้รันเฟสทีละ 5 ตัว แล้วรีเน็ตใหม่)\n\n3.ขณะรันโปรแกรมห้ามเปิดเฟสข้างนอกไว้\n\n4.วอมอ่อนๆก่อนทุกครั้งในการวอมครั้งแรก\n\n5.หากไม่ได้ใช้ proxy แนะนำให้เปิดรันทีละ 5 จอ เท่านั้น\n\n6.ใช้ควบคู่กับ Maxcare และ MaxSystemCare (หากต้องการทำให้เฟสแข็งแรงขึ้น)\n\n7.หากเฟสยังบินอยู่ให้รีเซ็ตเน็ต หรือ proxy ใหม่อีกครั้ง\n\n",
+            "type": "markdown",
+            "images": []
+          }
+        ],
+        "originalProgramName": "โปรแกรมอื่นๆ"
+      },
+      {
+        "id": "tech_maxsystemcare",
+        "name": "เทคนิคใช้งาน MaxsystemCare",
+        "sections": [],
+        "subCategories": [
+          {
+            "id": "maxsystemcare________wpg3p",
+            "name": "MaxsystemCare แนะนำการเพิ่มเพื่อนอัตโนมัติ",
+            "sections": [
+              {
+                "title": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)",
+                "content": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)\n\nเพิ่มเพื่อนด้วยคีย์เวิร์ด เหมาะสำหรับคนที่ต้องการเพิ่มเพื่อนด้วยคีย์เวิร์ดนั้นๆ เช่น\n\n- ต้องการเพิ่มเพื่อนที่มีชื่อว่า สิริ  ให้พิมพ์ สิริ ลงในช่อว List of keywords\n\n![image](/images/image671.png)\n\n2.Add friends by UID (แอดเพื่อนด้วยไอดี)\n\nเพิ่มเพื่อนด้วย UID เหมาะสำหรับคนที่ต้องการเพิ่มเพื่อนตาม UID ที่มีอยู่\n\n![image](/images/image446.png)\n\n3.Add friends by suggestions(เพิ่มเพื่อนตามคำแนะนำ)\n\nเพิ่มเพื่อนตามคำแนะนำ สำหรับบัญชีใหม่จะยังไม่มีเพื่อนที่แนะนำ อาจจะใช้งานฟังก์ชันที่ 2 3 4 ในช่วงแรกของการฟาร์มบัญชี\n\n![image](/images/image628.png)\n\n",
+                "type": "markdown",
+                "images": [
+                  "image671.png",
+                  "image446.png",
+                  "image628.png"
+                ]
+              }
+            ],
+            "originalProgramName": "โปรแกรมอื่นๆ"
+          },
+          {
+            "id": "tech_msc_post",
+            "name": "MaxsystemCare แนะนำการโพสต์",
+            "sections": []
+          },
+          {
+            "id": "tech_msc_spam",
+            "name": "MaxsystemCare แนะนำการการสแปม",
+            "sections": []
+          },
+          {
+            "id": "tech_msc_respond",
+            "name": "MaxsystemCare แนะนำวิธีการตอบโต้",
+            "sections": []
+          }
+        ]
+      },
+      {
+        "id": "tech_maxcare",
+        "name": "เทคนิคการใช้งานโปรแกรม Maxcare",
+        "sections": [],
+        "subCategories": [
+          {
+            "id": "tech_mc_start",
+            "name": "MaxCare เทคนิคการเริ่มฟาร์มบัญชีเบื้องต้น",
+            "sections": []
+          },
+          {
+            "id": "tech_mc_add_friend",
+            "name": "MaxCare แนะนำการเพิ่มเพื่อนอัตโนมัติ",
+            "sections": []
+          },
+          {
+            "id": "tech_mc_join_group",
+            "name": "MaxCare แนะนำการเข้าร่วมกลุ่มอัตโนมัติ",
+            "sections": []
+          }
+        ]
+      },
+      {
+        "id": "tech_maxcare_page",
+        "name": "เทคนิคใช้งาน MaxCare Page",
+        "sections": [],
+        "subCategories": [
+          {
+            "id": "tech_mcp_change_info",
+            "name": "แนะนำการเปลี่ยนข้อมูลเพจ",
+            "sections": []
+          },
+          {
+            "id": "tech_mcp_join_group",
+            "name": "แนะนำการเข้าร่วมกลุ่มอัตโนมัติ",
+            "sections": []
+          },
+          {
+            "id": "tech_mcp_post_group",
+            "name": "แนะนำการโพสต์ตามกลุ่มอัตโนมัติ",
+            "sections": []
+          },
+          {
+            "id": "tech_mcp_buff",
+            "name": "แนะนำการบัพเพจ",
+            "sections": []
+          },
+          {
+            "id": "tech_mcp_spam",
+            "name": "แนะนำการสแปม",
+            "sections": []
+          }
+        ]
+      },
+      {
+        "id": "tech_find_id",
+        "name": "วิธีการหา ID เฟสบุ๊ค",
+        "sections": []
+      },
+      {
+        "id": "tech_contact",
+        "name": "ช่องทางการติดต่อ และสื่อต่างๆ",
+        "sections": []
+      }
+    ]
+  },
+  {
     "id": "others_suite",
     "name": "โปรแกรมอื่นๆ",
     "categories": [
@@ -6434,23 +6556,6 @@ export const manualData: ProgramData[] = [
         "originalProgramName": "โปรแกรมอื่นๆ"
       },
       {
-        "id": "maxsystemcare________wpg3p",
-        "name": "MaxsystemCare แนะนำการเพิ่มเพื่อนอัตโนมัติ",
-        "sections": [
-          {
-            "title": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)",
-            "content": "1.Add friends by keyword(เพิ่มเพื่อนด้วยคีย์เวิร์ด)\n\nเพิ่มเพื่อนด้วยคีย์เวิร์ด เหมาะสำหรับคนที่ต้องการเพิ่มเพื่อนด้วยคีย์เวิร์ดนั้นๆ เช่น\n\n- ต้องการเพิ่มเพื่อนที่มีชื่อว่า สิริ  ให้พิมพ์ สิริ ลงในช่อว List of keywords\n\n![image](/images/image671.png)\n\n2.Add friends by UID (แอดเพื่อนด้วยไอดี)\n\nเพิ่มเพื่อนด้วย UID เหมาะสำหรับคนที่ต้องการเพิ่มเพื่อนตาม UID ที่มีอยู่\n\n![image](/images/image446.png)\n\n3.Add friends by suggestions(เพิ่มเพื่อนตามคำแนะนำ)\n\nเพิ่มเพื่อนตามคำแนะนำ สำหรับบัญชีใหม่จะยังไม่มีเพื่อนที่แนะนำ อาจจะใช้งานฟังก์ชันที่ 2 3 4 ในช่วงแรกของการฟาร์มบัญชี\n\n![image](/images/image628.png)\n\n",
-            "type": "markdown",
-            "images": [
-              "image671.png",
-              "image446.png",
-              "image628.png"
-            ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
         "id": "_____________________z2334",
         "name": "วิธีการใช้งานโปรแกรม",
         "sections": [
@@ -6554,19 +6659,6 @@ export const manualData: ProgramData[] = [
               "image672.png",
               "image232.png"
             ]
-          }
-        ],
-        "originalProgramName": "โปรแกรมอื่นๆ"
-      },
-      {
-        "id": "_____________________qwxrn",
-        "name": "ข้อควรระวังในการใช้งานโปรแกรมฟาร์มเฟส!",
-        "sections": [
-          {
-            "title": "1.สลับ script ในการใช้งานเพื่อไม่ให้จับได้ว่าเป็นบอท",
-            "content": "1.สลับ script ในการใช้งานเพื่อไม่ให้จับได้ว่าเป็นบอท\n\n2.ใช้ proxy หรือ Aircard เน็ต AIS 4G (หากใช้เน็ตบ้านแนะนำให้รันเฟสทีละ 5 ตัว แล้วรีเน็ตใหม่)\n\n3.ขณะรันโปรแกรมห้ามเปิดเฟสข้างนอกไว้\n\n4.วอมอ่อนๆก่อนทุกครั้งในการวอมครั้งแรก\n\n5.หากไม่ได้ใช้ proxy แนะนำให้เปิดรันทีละ 5 จอ เท่านั้น\n\n6.ใช้ควบคู่กับ Maxcare และ MaxSystemCare (หากต้องการทำให้เฟสแข็งแรงขึ้น)\n\n7.หากเฟสยังบินอยู่ให้รีเซ็ตเน็ต หรือ proxy ใหม่อีกครั้ง\n\n",
-            "type": "markdown",
-            "images": []
           }
         ],
         "originalProgramName": "โปรแกรมอื่นๆ"
