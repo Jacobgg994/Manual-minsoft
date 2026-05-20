@@ -1181,6 +1181,44 @@ export const manualData: ProgramData[] = [
         ]
       },
       {
+        "id": "_____________________vousi",
+        "name": "วิธีการเชื่อมข้อมูลกับ Maxcare",
+        "sections": [
+          {
+            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
+            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image370.png)\n\n2.กลับมาที่โปรแกรม MaxCarePage ไปที่ genneral configuration ==> ไปที่ Data synchronization เลือกเชื่อมต่อกับ maxcare ==> วางที่อยู่โฟลเดอร์ในช่องว่าง ==> กด Save\n\n![image](/images/image309.png)\n\n3.กด Refresh\n\n![image](/images/image604.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
+            "type": "markdown",
+            "images": [
+              "image370.png",
+              "image309.png",
+              "image604.png"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_____________________hap3e",
+        "name": "วิธีเชื่อมข้อมูลกับ Maxcare",
+        "sections": [
+          {
+            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
+            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image273.png)\n\n2.ไปที่ Configs ==> Sync data with Maxcare ==> จากนั้นวางที่อยู่โฟลเดอร์ Maxcare ลงในช่องว่าง\n\n![image](/images/image136.png)\n\nจากนั้นกด Save\n\n3.กด Refresh\n\n![image](/images/image523.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
+            "type": "markdown",
+            "images": [
+              "image273.png",
+              "image136.png",
+              "image523.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maxcare_page_suite",
+    "name": "Maxcare Page",
+    "categories": [
+      {
         "id": "maxcare_page_o6snn",
         "name": "MaxCare Page",
         "sections": [
@@ -1254,22 +1292,6 @@ export const manualData: ProgramData[] = [
               "image384.png",
               "image436.png",
               "image503.png"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "_____________________vousi",
-        "name": "วิธีการเชื่อมข้อมูลกับ Maxcare",
-        "sections": [
-          {
-            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
-            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image370.png)\n\n2.กลับมาที่โปรแกรม MaxCarePage ไปที่ genneral configuration ==> ไปที่ Data synchronization เลือกเชื่อมต่อกับ maxcare ==> วางที่อยู่โฟลเดอร์ในช่องว่าง ==> กด Save\n\n![image](/images/image309.png)\n\n3.กด Refresh\n\n![image](/images/image604.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
-            "type": "markdown",
-            "images": [
-              "image370.png",
-              "image309.png",
-              "image604.png"
             ]
           }
         ]
@@ -1458,22 +1480,6 @@ export const manualData: ProgramData[] = [
                   "image116.png"
                 ]
               }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "_____________________hap3e",
-        "name": "วิธีเชื่อมข้อมูลกับ Maxcare",
-        "sections": [
-          {
-            "title": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare",
-            "content": "1.ไปที่โฟลเดอร์ Maxcare จากนั้นคัดลอกที่อยู่โฟลเดอร์ Maxcare\n\n![image](/images/image273.png)\n\n2.ไปที่ Configs ==> Sync data with Maxcare ==> จากนั้นวางที่อยู่โฟลเดอร์ Maxcare ลงในช่องว่าง\n\n![image](/images/image136.png)\n\nจากนั้นกด Save\n\n3.กด Refresh\n\n![image](/images/image523.png)\n\nเสร็จขั้นตอนการเชื่อมข้อมูลกับ Maxcare\n\n",
-            "type": "markdown",
-            "images": [
-              "image273.png",
-              "image136.png",
-              "image523.png"
             ]
           }
         ]
