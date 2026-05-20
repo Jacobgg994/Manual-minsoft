@@ -205,11 +205,16 @@ h3 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; color: var(--primar
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  background-color: #fcfcfc;
 }
 
 .image-container img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 .insert-divider {
