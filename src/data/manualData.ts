@@ -20507,6 +20507,37 @@ export const manualData: ProgramData[] = [
             "parentProgram": "ข้อควรระวังในการใช้งานโปรแกรมฟาร์มเฟส!"
           }
         ]
+      },
+      {
+        "id": "tech_maxsystemcare",
+        "name": "เทคนิคใช้งาน MaxsystemCare",
+        "sections": [],
+        "subCategories": [
+          {
+            "id": "tech_msc_add_friend",
+            "name": "MaxsystemCare แนะนำการเพิ่มเพื่อนอัตโนมัติ",
+            "sections": [],
+            "subCategories": []
+          },
+          {
+            "id": "tech_msc_post",
+            "name": "MaxsystemCare แนะนำการโพสต์",
+            "sections": [],
+            "subCategories": []
+          },
+          {
+            "id": "tech_msc_spam",
+            "name": "MaxsystemCare แนะนำการการสแปม",
+            "sections": [],
+            "subCategories": []
+          },
+          {
+            "id": "tech_msc_respond",
+            "name": "MaxsystemCare แนะนำวิธีการตอบโต้",
+            "sections": [],
+            "subCategories": []
+          }
+        ]
       }
     ]
   }
