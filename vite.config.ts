@@ -2,6 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import fs from 'fs'
 import path from 'path'
+import { exec } from 'child_process'
+import { promisify } from 'util'
+
+const execAsync = promisify(exec);
 
 // Custom plugin to handle saving manual data
 const manualDataSaver = () => ({
@@ -22,15 +26,18 @@ const manualDataSaver = () => ({
             const fileContent = `
 export interface ManualSection {
   title: string;
-  content: string | string[] | { step: string; text: string }[];
-  type: 'text' | 'list' | 'steps' | 'alert' | 'image-placeholder';
-  images?: string[];
+  content: string;
+  type: "markdown";
+  images: string[];
+  layout?: string;
+  youtubeId?: string;
 }
 
 export interface ProgramCategory {
   id: string;
   name: string;
   sections: ManualSection[];
+  subCategories?: ProgramCategory[];
 }
 
 export interface ProgramData {
@@ -68,6 +75,24 @@ export const manualData: ProgramData[] = ${JSON.stringify(data, null, 2)};
           res.statusCode = 200;
           res.end(JSON.stringify({ message: 'File uploaded successfully', filename }));
         });
+      } else if (req.url === '/api/deploy' && req.method === 'POST') {
+        const runDeploy = async () => {
+          try {
+            await execAsync('git add .');
+            try {
+              await execAsync('git commit -m "update: auto-publish content updates from admin UI"');
+            } catch (commitErr) {
+              // Ignore commit error, it means nothing to commit. We still want to push.
+            }
+            await execAsync('git push origin main');
+            res.statusCode = 200;
+            res.end(JSON.stringify({ message: 'Deployed successfully to GitHub and Vercel' }));
+          } catch (error: any) {
+            res.statusCode = 500;
+            res.end(JSON.stringify({ error: error.message }));
+          }
+        };
+        runDeploy();
       } else {
         next();
       }

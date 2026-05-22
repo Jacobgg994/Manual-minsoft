@@ -1,15 +1,18 @@
 
 export interface ManualSection {
   title: string;
-  content: string | string[] | { step: string; text: string }[];
-  type: 'text' | 'list' | 'steps' | 'alert' | 'image-placeholder';
-  images?: string[];
+  content: string;
+  type: "markdown";
+  images: string[];
+  layout?: string;
+  youtubeId?: string;
 }
 
 export interface ProgramCategory {
   id: string;
   name: string;
   sections: ManualSection[];
+  subCategories?: ProgramCategory[];
 }
 
 export interface ProgramData {

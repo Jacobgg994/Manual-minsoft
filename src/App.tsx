@@ -43,7 +43,8 @@ import {
   ArrowDown,
   Youtube,
   Columns,
-  GripVertical
+  GripVertical,
+  Rocket
 } from 'lucide-react';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
   const [showLogin, setShowLogin] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [lastSaved, setLastSaved] = useState<Date | null>(null);
+  const [isDeploying, setIsDeploying] = useState(false);
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -226,6 +228,24 @@ function App() {
       setIsSaving(false);
     }
   }, []);
+
+  const handleDeploy = async () => {
+    if (!confirm('คุณต้องการอัปเดตข้อมูลขึ้นเว็บไซต์ (Github & Vercel) ใช่หรือไม่?')) return;
+    setIsDeploying(true);
+    try {
+      const response = await fetch('/api/deploy', { method: 'POST' });
+      const result = await response.json();
+      if (response.ok) {
+        alert('อัปเดตขึ้นเว็บไซต์เรียบร้อยแล้ว! (Vercel กำลังทำงาน)');
+      } else {
+        alert('เกิดข้อผิดพลาด: ' + (result.error || 'Unknown error'));
+      }
+    } catch (err) {
+      alert('ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้');
+    } finally {
+      setIsDeploying(false);
+    }
+  };
 
   // Debounced save
   useEffect(() => {
@@ -565,26 +585,46 @@ function App() {
             )}
 
             {isAdmin && (
-              <button 
-                onClick={() => {
-                  setIsAdmin(false);
-                  window.location.hash = '';
-                }}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '8px',
-                  padding: '8px 16px',
-                  borderRadius: '20px',
-                  border: 'none',
-                  backgroundColor: 'var(--primary-red)',
-                  color: 'white',
-                  cursor: 'pointer',
-                  fontWeight: 600
-                }}
-              >
-                <Eye size={18} /> ดูโหมดคู่มือ
-              </button>
+              <>
+                <button 
+                  onClick={handleDeploy}
+                  disabled={isDeploying}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                    padding: '8px 16px',
+                    borderRadius: '20px',
+                    border: 'none',
+                    backgroundColor: isDeploying ? '#ccc' : '#4caf50',
+                    color: 'white',
+                    cursor: isDeploying ? 'not-allowed' : 'pointer',
+                    fontWeight: 600
+                  }}
+                >
+                  <Rocket size={18} /> {isDeploying ? 'กำลังเผยแพร่...' : 'Publish to Website'}
+                </button>
+                <button 
+                  onClick={() => {
+                    setIsAdmin(false);
+                    window.location.hash = '';
+                  }}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                    padding: '8px 16px',
+                    borderRadius: '20px',
+                    border: 'none',
+                    backgroundColor: 'var(--primary-red)',
+                    color: 'white',
+                    cursor: 'pointer',
+                    fontWeight: 600
+                  }}
+                >
+                  <Eye size={18} /> ดูโหมดคู่มือ
+                </button>
+              </>
             )}
 
             {!isAdmin && (
