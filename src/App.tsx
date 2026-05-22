@@ -127,7 +127,7 @@ function App() {
 
     if (activeItem && overParentList && activeParentList) {
       // Remove from old position
-      activeParentList.splice(activeIndex, 1);
+      (activeParentList as ProgramCategory[]).splice(activeIndex, 1);
       
       // If moving within the same list, adjustment might be needed if overIndex changed
       // But splice handles this if we do it carefully.
@@ -135,14 +135,14 @@ function App() {
       if (activeParentList === overParentList) {
         // Re-inserting is handled by arrayMove logic usually, but we already spliced.
         // Let's just use arrayMove for same-list for simplicity
-        activeParentList.splice(activeIndex, 0, activeItem); // put it back
-        const oldIdx = activeParentList.findIndex(c => c.id === activeId);
-        const newIdx = activeParentList.findIndex(c => c.id === overId);
-        const moved = arrayMove(activeParentList, oldIdx, newIdx);
-        activeParentList.splice(0, activeParentList.length, ...moved);
+        (activeParentList as ProgramCategory[]).splice(activeIndex, 0, activeItem); // put it back
+        const oldIdx = (activeParentList as ProgramCategory[]).findIndex(c => c.id === activeId);
+        const newIdx = (activeParentList as ProgramCategory[]).findIndex(c => c.id === overId);
+        const moved = arrayMove(activeParentList as ProgramCategory[], oldIdx, newIdx);
+        (activeParentList as ProgramCategory[]).splice(0, (activeParentList as ProgramCategory[]).length, ...moved);
       } else {
         // Moving to a different parent list
-        overParentList.splice(overIndex, 0, activeItem);
+        (overParentList as ProgramCategory[]).splice(overIndex, 0, activeItem);
       }
       
       setData(newData);
