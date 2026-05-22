@@ -467,9 +467,7 @@ function App() {
       <aside className="sidebar">
         <div className="sidebar-header">
           <div className="sidebar-logo">
-            <div style={{ background: 'var(--primary-purple)', color: 'white', padding: '5px', borderRadius: '4px' }}>
-              <Menu size={20} />
-            </div>
+            <img src="/logo.png" alt="Minsoft Logo" style={{ width: '32px', height: '32px', borderRadius: '6px' }} />
             Minsoft Manual
           </div>
         </div>

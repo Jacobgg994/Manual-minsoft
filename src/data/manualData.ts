@@ -1,17 +1,15 @@
+
 export interface ManualSection {
   title: string;
-  content: string;
-  type: "markdown";
-  images: string[];
-  layout?: string;
-  youtubeId?: string;
+  content: string | string[] | { step: string; text: string }[];
+  type: 'text' | 'list' | 'steps' | 'alert' | 'image-placeholder';
+  images?: string[];
 }
 
 export interface ProgramCategory {
   id: string;
   name: string;
   sections: ManualSection[];
-  subCategories?: ProgramCategory[];
 }
 
 export interface ProgramData {
@@ -1796,7 +1794,7 @@ export const manualData: ProgramData[] = [
               },
               {
                 "title": "การตั้งค่าพื้นฐาน",
-                "content": "Options: เลือกรูปแบบการหยุดการทำงาน\n\nLimit interacting posts: หยุดตามจำนวนโพสต์ที่เข้าไปมีส่วนร่วม\n\nLimit interacting time: หยุดดตามระยะเวลาที่ใช้\n\nCount: กำหนดจำนวนโพสต์ที่จะให้ระบบเข้าไปทำงาน\n\nView post (s): กำหนดระยะเวลาในการ \"หยุดดู\" ต่อ 1 โพสต์\n\n",
+                "content": "Options: เลือกรูปแบบการหยุดการทำงาน\n\nLimit interacting posts: หยุดตามจำนวนโพสต์ที่เข��าไปมีส่วนร่วม\n\nLimit interacting time: หยุดดตามระยะเวลาที่ใช้\n\nCount: กำหนดจำนวนโพสต์ที่จะให้ระบบเข้าไปทำงาน\n\nView post (s): กำหนดระยะเวลาในการ \"หยุดดู\" ต่อ 1 โพสต์\n\n",
                 "type": "markdown",
                 "images": []
               },
@@ -5066,7 +5064,7 @@ export const manualData: ProgramData[] = [
               },
               {
                 "title": "การตั้งค่าการเข้าสู่ระบบ",
-                "content": "Login type: เลือกรูปแบบการเข้ารหัสเข้าใช้งาน (เช่น UID|Pass, Email|Pass, Cookie, หรือสลับจาก Cookie เป็น Uid|Pass หากคุกกี้ใช้ไม่ได้)\n\nWeb login: เลือกเวอร์ชันของเว็บไซต์ที่จะเข้าใช้งาน (www, mbasic, หรือ m.fb)\n\nDelete cookies and re-login when password is wrong (chrome): หากติ๊กถูก โปรแกรมจะลบคุกกี้เก่าและล็อกอินใหม่ด้วยรหัสผ่านเมื่อตรวจพบว่าการเข้าสู่ระบบผิดพลาด (เฉพาะ Chrome)\n\n",
+                "content": "Login type: เลือกรูปแบบการเข้ารหัสเข้าใช้งาน (เช่น UID|Pass, Email|Pass, Cookie, หรือสลับจาก Cookie เป็น Uid|Pass หากคุกกี้ใช้ไม่ได้)\n\nWeb login: เลือกเวอร์ชันของเว็บไซต์ที่จะเข้าใช้งาน (www, mbasic, หรือ m.fb)\n\nDelete cookies and re-login when password is wrong (chrome): หากต���๊กถูก โปรแกรมจะลบคุกกี้เก่าและล็อกอินใหม่ด้วยรหัสผ่านเมื่อตรวจพบว่าการเข้าสู่ระบบผิดพลาด (เฉพาะ Chrome)\n\n",
                 "type": "markdown",
                 "images": []
               },
@@ -5565,7 +5563,7 @@ export const manualData: ProgramData[] = [
               },
               {
                 "title": "การตั้งค่ารายละเอียดการลบ",
-                "content": "Sweep: กำหนดจำนวนรอบในการกวาดหาโพสต์ เพื่อดึงข้อมูล \"latest article\" หรือโพสต์ล่าสุด\n\nNumber of deletions: ระบุจำนวนโพสต์ที่ต้องการลบในแต่ละครั้ง\n\nDistance: เป็นการตั้งค่าการสุ่มเวลาเพื่อไม่ให้ระบบตรวจจับว่าเป็นบอท\n\nDelete options: เมนูสำหรับเลือกว่าจะลบแบบไหน\n\nDelete all posts: ลบโพสต์ทั้งหมด\n\nDelete latest post: ลบโพสต์ล่าสุด\n\nDelete oldest post: ลบโพสต์เก่าที่สุด\n\nDelete posts by date range: ลบโพสต์ตามช่วงวันที่\n\nPage interactions\n\n",
+                "content": "Sweep: กำหนดจำนวนรอบในการกวาดหาโพสต์ เพื่อดึงข้อมูล \"latest article\" หรือโพสต์ล่าสุด\n\nNumber of deletions: ระบุจำนวนโพสต์ที่ต้องการลบใ��แต่ละครั้ง\n\nDistance: เป็นการตั้งค่าการสุ่มเวลาเพื่อไม่ให้ระบบตรวจจับว่าเป็นบอท\n\nDelete options: เมนูสำหรับเลือกว่าจะลบแบบไหน\n\nDelete all posts: ลบโพสต์ทั้งหมด\n\nDelete latest post: ลบโพสต์ล่าสุด\n\nDelete oldest post: ลบโพสต์เก่าที่สุด\n\nDelete posts by date range: ลบโพสต์ตามช่วงวันที่\n\nPage interactions\n\n",
                 "type": "markdown",
                 "images": []
               },
@@ -6233,7 +6231,7 @@ export const manualData: ProgramData[] = [
               },
               {
                 "title": "การตั้งค่าข้อมูลการติดต่อและสื่อสังคมออนไลน์",
-                "content": "Current city: เมืองปัจจุบันที่อาศัยอยู่\n\nHometown: บ้านเกิด\n\nPhone number: หมายเลขโทรศัพท์\n\nEmail: ที่อยู่อีเมล\n\nService area: พื้นที่ให้บริการ (กรณีเป็นบัญชีธุรกิจ)\n\nWebpage: เว็บไซต์ส่วนตัวหรือธุรกิจ\n\nSocial network: บัญชีโซเชียลมีเดียอื่นๆ\n\nFunction related to pagesettings\n\n",
+                "content": "Current city: เมืองปัจจุบันที่อาศัยอยู่\n\nHometown: บ้านเกิด\n\nPhone number: หมายเลขโทรศัพท์\n\nEmail: ที่อยู่อีเมล\n\nService area: พื้นที่ให้บริการ (กรณีเป็นบัญชีธุรกิจ)\n\nWebpage: เว็บไซต์ส่วนตัวหรือธุรกิจ\n\nSocial network: บัญชี��ซเชียลมีเดียอื่นๆ\n\nFunction related to pagesettings\n\n",
                 "type": "markdown",
                 "images": []
               },
